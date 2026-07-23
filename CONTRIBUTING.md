@@ -17,10 +17,10 @@ Don't link personal/temporary URLs; they rot and can be swapped.
 
 ## 2. Create the entry
 
-Scaffold it from the archive with the bundled tool — **`amigapkg.py`** needs only
-**Python 3** (no Swift, no AmigaImager, any OS). It computes the SHA-256 + size for
-you:
+Scaffold it from the archive — the tool computes the SHA-256 + size for you. Use
+**either** front-end; they produce the same entry format:
 
+**Python** (any OS, needs only Python 3 — no Swift, no AmigaImager):
 ```
 python3 amigapkg.py add \
   --archive /path/to/foo.lha \
@@ -29,14 +29,21 @@ python3 amigapkg.py add \
   --out packages/foo.json
 ```
 
+**Swift** (if you have the AmigaImager checkout — e.g. maintainers on macOS), from
+its `AmigaBuildKit/`:
+```
+swift run pkgindex add \
+  --archive /path/to/foo.lha \
+  --id foo --name "Foo" --category "Utilities" --version "1.2" \
+  --url https://aminet.net/.../foo.lha \
+  --out <amiga-pkg>/packages/foo.json
+```
+
 Then open `packages/foo.json` and add anything extra (deps, requirements, a longer
 description). Copying an existing `packages/*.json` and editing by hand works too —
 just follow `schema/entry.schema.json`.
 
-> Maintainers with the AmigaImager checkout can use the equivalent Swift tool,
-> `swift run pkgindex add …` — same entry format.
-
-**Rules** (CI enforces these — run `amigapkg.py validate`):
+**Rules** (CI enforces these — run `amigapkg.py validate` or `pkgindex validate`):
 
 - `id` is unique and lower-case `[a-z0-9._-]`.
 - `name` is set; `category` is a sensible group (e.g. Utilities, Games, Network…).
@@ -50,6 +57,8 @@ just follow `schema/entry.schema.json`.
 
 ```
 python3 amigapkg.py validate packages/foo.json --check-archives
+# or, with the AmigaImager checkout:
+swift run pkgindex validate --path <amiga-pkg>/packages/foo.json --check-archives
 ```
 
 Fix anything it reports.
