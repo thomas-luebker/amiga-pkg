@@ -35,21 +35,24 @@ step also self-verifies against `--public-key`). Then:
 cd <amiga-pkg>
 git add docs/packages.json docs/packages.json.sig packages/
 git commit -m "publish: <what changed>"
-git push          # GitHub Pages serves docs/ at packages.amiga-imager.com
+git push          # GitHub Pages serves docs/ at thomas-luebker.github.io/amiga-pkg
 ```
 
 ## The published index
 
 - Served from `docs/` via **GitHub Pages** (repo Settings → Pages → Source:
-  `main` / `/docs`), behind the custom domain **packages.amiga-imager.com**
-  (`docs/CNAME`; add the DNS `CNAME packages → <user>.github.io`, enable
-  “Enforce HTTPS”).
+  `main` / `/docs`) at **https://thomas-luebker.github.io/amiga-pkg/** — GitHub's
+  `*.github.io` certificate provides HTTPS, so no custom domain or DNS is needed.
 - The AmigaImager app's `PackageRepoSync.defaultBaseURL` points at
-  `https://packages.amiga-imager.com`, fetches `packages.json` + `.sig` over
+  `https://thomas-luebker.github.io/amiga-pkg`, fetches `packages.json` + `.sig` over
   HTTPS, Ed25519-verifies, and seeds the verified index onto images.
 - amipkg on the Amiga never fetches the index (it reads the seeded copy); it only
   fetches **archives** over plain HTTP — which is why archives live on Aminet, not
   here.
+- Want a branded URL later (e.g. `packages.amiga-imager.com`)? Move DNS to a host
+  that supports subdomain CNAMEs (Cloudflare is free), CNAME it to
+  `thomas-luebker.github.io`, set it as the Pages custom domain, and update
+  `defaultBaseURL`. The signature makes the URL swappable without breaking trust.
 
 ## Key hygiene
 

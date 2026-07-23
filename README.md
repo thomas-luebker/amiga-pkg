@@ -6,7 +6,7 @@ holds the package submissions, validates them, and publishes a single **signed**
 index that AmigaImager-built systems trust.
 
 - **Browse / add packages:** `packages/` — one JSON file per package.
-- **The published index:** <https://packages.amiga-imager.com/packages.json>
+- **The published index:** <https://thomas-luebker.github.io/amiga-pkg/packages.json>
   (+ `packages.json.sig`), served from `docs/` via GitHub Pages.
 
 ## How it works
