@@ -5,7 +5,7 @@ name: validate
 
 on:
   pull_request:
-    paths: ["packages/**", "schema/**", "scripts/**"]
+    paths: ["packages/**", "schema/**", "amigapkg.py"]
   push:
     branches: [main]
     paths: ["packages/**"]
@@ -20,7 +20,7 @@ jobs:
           python-version: "3.x"
       # Offline structural checks (schema, ids, capabilities, sha256 format).
       - name: Validate entries (offline)
-        run: python3 scripts/validate.py packages/
+        run: python3 amigapkg.py validate packages/
       # Download each archive and confirm its sha256 matches the entry.
       - name: Verify archives (network)
-        run: python3 scripts/validate.py packages/ --check-archives
+        run: python3 amigapkg.py validate packages/ --check-archives

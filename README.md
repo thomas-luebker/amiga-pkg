@@ -50,17 +50,19 @@ HTTP, which is what `amipkg` on the Amiga needs). CI verifies that the archive a
 ## Contributing
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md). In short: scaffold an entry with
-`pkgindex add`, drop it in `packages/`, run `pkgindex validate`, open a PR. CI
-checks it; a maintainer merges, signs, and publishes.
+`python3 amigapkg.py add …`, drop it in `packages/`, run `amigapkg.py validate`,
+open a PR. CI checks it; a maintainer merges, signs, and publishes. The tooling is
+**pure Python 3** — no Swift or AmigaImager needed, so anyone on any OS can add a
+package.
 
 ## Layout
 
 ```
+amigapkg.py          the standalone Python tool: `add` (scaffold) + `validate`
 packages/            submissions — one <id>.json Entry per package
-docs/                the PUBLISHED site (GitHub Pages): packages.json + .sig + CNAME
+docs/                the PUBLISHED site (GitHub Pages): packages.json + .sig
 schema/              entry.schema.json — the Entry shape + rules
-scripts/validate.py  self-contained CI validator (mirrors `pkgindex validate`)
-.github/workflows/   validate.yml — runs on every PR
+.github/workflows/   validate.yml — runs amigapkg.py on every PR
 ```
 
 ## License
