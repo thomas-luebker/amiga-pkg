@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AmigaPKG — amipkg package repository</title>
+<style>
+  :root{color-scheme:light dark}
+  body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       background:#f6f7f9;color:#1c2330}
+  @media (prefers-color-scheme:dark){body{background:#0f1420;color:#e7ecf3}}
+  .wrap{max-width:720px;margin:0 auto;padding:48px 20px 80px}
+  h1{font-size:30px;margin:0 0 6px}
+  .tag{color:#5b6577}
+  @media (prefers-color-scheme:dark){.tag{color:#9aa6b8}}
+  a{color:#3b67a2}@media (prefers-color-scheme:dark){a{color:#6d9bd8}}
+  code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.9em;background:#3b67a220;padding:.1em .4em;border-radius:5px}
+  .card{background:#fff;border:1px solid #e2e6ec;border-radius:14px;padding:18px 22px;margin:22px 0}
+  @media (prefers-color-scheme:dark){.card{background:#161d2b;border-color:#26304180}}
+  .mark{width:64px;height:56px;vertical-align:middle;margin-right:14px}
+  ul{padding-left:20px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div>
+    <svg class="mark" viewBox="0 0 46 40" shape-rendering="crispEdges" aria-hidden="true">
+      <rect width="46" height="40" fill="#959595"/><rect x="9" y="7" width="28" height="27" fill="#fff"/>
+      <rect x="20" y="7" width="6" height="27" fill="#3b67a2"/><rect x="9" y="15" width="28" height="6" fill="#3b67a2"/>
+      <rect x="19" y="7" width="1" height="27"/><rect x="26" y="7" width="1" height="27"/>
+      <rect x="9" y="14" width="28" height="1"/><rect x="9" y="21" width="28" height="1"/>
+      <rect x="9" y="7" width="28" height="1"/><rect x="9" y="33" width="28" height="1"/>
+      <rect x="9" y="7" width="1" height="27"/><rect x="36" y="7" width="1" height="27"/>
+    </svg>
+    <span style="font-size:30px;font-weight:700;vertical-align:middle">AmigaPKG</span>
+  </div>
+  <p class="tag">The signed package index for <b>amipkg</b>, the on-Amiga package manager for
+  AmigaImager-built systems.</p>
+
+  <div class="card">
+    <b>The index</b>
+    <ul>
+      <li><a href="packages.json">packages.json</a> — the catalog</li>
+      <li><a href="packages.json.sig">packages.json.sig</a> — detached Ed25519 signature</li>
+    </ul>
+    <p style="margin:8px 0 0;color:#5b6577">The signature makes the host untrusted: clients verify these bytes
+    against a baked-in public key, so it doesn't matter where they're served from.</p>
+  </div>
+
+  <p>Software is added by pull request and reviewed + signed by a maintainer — see the
+  <a href="https://github.com/">repository</a> for how to contribute. Package archives are hosted on
+  <a href="https://aminet.net">Aminet</a>; this index only describes and links them.</p>
+
+  <p class="tag" style="font-size:14px">Part of <a href="https://amiga-imager.com">AmigaImager</a>.</p>
+</div>
+</body>
+</html>

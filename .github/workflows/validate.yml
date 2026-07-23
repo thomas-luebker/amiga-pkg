@@ -1,0 +1,26 @@
+name: validate
+
+# Validate package submissions on every PR and push. No signing here — the key
+# is offline; a maintainer signs approved packages locally (see MAINTAINERS.md).
+
+on:
+  pull_request:
+    paths: ["packages/**", "schema/**", "scripts/**"]
+  push:
+    branches: [main]
+    paths: ["packages/**"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      # Offline structural checks (schema, ids, capabilities, sha256 format).
+      - name: Validate entries (offline)
+        run: python3 scripts/validate.py packages/
+      # Download each archive and confirm its sha256 matches the entry.
+      - name: Verify archives (network)
+        run: python3 scripts/validate.py packages/ --check-archives

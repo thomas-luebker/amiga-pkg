@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://packages.amiga-imager.com/schema/entry.schema.json",
+  "title": "AmigaPKG package entry",
+  "description": "One package in the amipkg index (PackageIndex.Entry). The Swift Codable type in AmigaPackageKit is authoritative; this mirrors it for editors and CI.",
+  "type": "object",
+  "required": ["id", "name"],
+  "additionalProperties": false,
+  "properties": {
+    "id":          { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$", "description": "Unique, lower-case." },
+    "version":     { "type": "string", "description": "Display version; '-' if unknown." },
+    "sortVersion": { "type": "string", "description": "Optional override for version ordering." },
+    "name":        { "type": "string", "minLength": 1 },
+    "category":    { "type": "string", "description": "e.g. Utilities, Games, Network, Graphics." },
+    "description": { "type": "string" },
+    "requirements": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "minKS":     { "type": "string" },
+        "minCPU":    { "type": "string" },
+        "chipRAMKB": { "type": "integer" },
+        "network":   { "type": "boolean" },
+        "amiSSL":    { "type": "boolean" }
+      }
+    },
+    "deps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id"],
+        "additionalProperties": false,
+        "properties": { "id": { "type": "string" }, "min": { "type": "string" } }
+      }
+    },
+    "conflicts": { "type": "array", "items": { "type": "string" } },
+    "provides":  { "type": "array", "items": { "type": "string" } },
+    "archive": {
+      "type": "object",
+      "required": ["url"],
+      "additionalProperties": false,
+      "properties": {
+        "url":       { "type": "string", "description": "Where the .lha is hosted (Aminet preferred)." },
+        "mirrors":   { "type": "array", "items": { "type": "string" } },
+        "sha256":    { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "sizeBytes": { "type": "integer" }
+      }
+    },
+    "recipe": {
+      "description": "Portable install ops (Tier-A) so amipkg can install on-Amiga. Optional — fetch works without it.",
+      "type": "object"
+    },
+    "requiredCapabilities": {
+      "type": "array",
+      "description": "Capabilities a client needs to install this package.",
+      "items": {
+        "enum": [
+          "copy-glob-v1", "strip-junk-v1", "merge-nested-v1", "set-exec-v1",
+          "script-inject-v1", "tooltype-edit-v1", "make-assign-v1", "place-file-v1",
+          "icon-patch-v1", "adf-unwrap-v1", "installer-script-v1", "host-builtin-v1"
+        ]
+      }
+    },
+    "tier":    { "type": "string", "enum": ["A", "B", "C"], "description": "A = portable/on-Amiga installable." },
+    "install": { "type": "object", "description": "Host-catalog fields (used by the build engine); usually absent for community entries." }
+  }
+}
