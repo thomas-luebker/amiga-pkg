@@ -14,9 +14,31 @@ touches this repo or CI.**
    reviewing a shell script.
 3. Merge to `main`.
 
-## Publishing (offline, after merge)
+## One-shot: refresh every package + re-sign + publish
 
-From the AmigaImager checkout's `AmigaBuildKit/` (which has the base catalog):
+Most Aminet URLs are unversioned, so when a batch of upstream versions moves you
+don't edit entries by hand — run the whole repo through one command:
+
+```
+scripts/refresh-and-publish.sh --check-only   # report which upstreams changed
+scripts/refresh-and-publish.sh                # refresh entries + re-sign locally
+scripts/refresh-and-publish.sh --push         # + git commit & push docs/
+```
+
+It re-downloads each archive, updates changed `sha256`/`sizeBytes`/`version`,
+validates, regenerates + Ed25519-signs the index, and (with `--push`) publishes.
+The private key never leaves disk (only its `privateKey:` line is copied to a
+temp file, used, and deleted on exit). Paths default to the standard checkout;
+override with `--key` / `--kit` or `AMIPKG_SIGNING_KEY` / `AMIGABUILDKIT_DIR`.
+
+On-Amiga, users then run `amipkg update` (pulls the new signed index),
+`amipkg check` (lists what's outdated), and `amipkg upgrade` (reinstalls the
+newer versions — removing each old version's files first).
+
+## Publishing manually (offline, after merge)
+
+For a single reviewed submission, sign directly from the AmigaImager checkout's
+`AmigaBuildKit/` (which has the base catalog):
 
 ```
 swift run pkgindex generate \
