@@ -3,7 +3,7 @@
     "mirrors": [],
     "sha256": "0042c23a95c347acd398cb363549bfe67694b8936651128a08731f7ef00ddcaa",
     "sizeBytes": 37441,
-    "url": "https://aminet.net/util/misc/xxd.lha"
+    "url": "http://aminet.net/util/misc/xxd.lha"
   },
   "category": "Utilities",
   "conflicts": [],

@@ -3,7 +3,7 @@
     "mirrors": [],
     "sha256": "5713ccb7a17dcd4129f21d22c0489c2cdabbdda0ae69d2b7a3c459720625016f",
     "sizeBytes": 138598,
-    "url": "https://aminet.net/comm/net/DropBox-Handler.lha"
+    "url": "http://aminet.net/comm/net/DropBox-Handler.lha"
   },
   "category": "Internet",
   "conflicts": [],

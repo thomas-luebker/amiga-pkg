@@ -3,7 +3,7 @@
     "mirrors": [],
     "sha256": "78a6276c4ba795c5ddbc57058fd95fde973a404e49ef64fc665f6600d7ecfac7",
     "sizeBytes": 161419,
-    "url": "https://aminet.net/dev/c/AmiBlocksIDE.lha"
+    "url": "http://aminet.net/dev/c/AmiBlocksIDE.lha"
   },
   "category": "Development",
   "conflicts": [],

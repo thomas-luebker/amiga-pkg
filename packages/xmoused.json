@@ -3,7 +3,7 @@
     "mirrors": [],
     "sha256": "d5b75f4f9488b9d44d7ae3f752772d2a32572d6ffa1b55430162d2c7863a27cd",
     "sizeBytes": 17598,
-    "url": "https://aminet.net/driver/input/XMouseD.lha"
+    "url": "http://aminet.net/driver/input/XMouseD.lha"
   },
   "category": "Utilities",
   "conflicts": [],

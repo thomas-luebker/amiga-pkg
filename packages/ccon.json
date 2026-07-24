@@ -3,7 +3,7 @@
     "mirrors": [],
     "sha256": "5cf1d3a02625be19384431c76abded36b7cc3c38a72a159d1600adca67e2ad9e",
     "sizeBytes": 47880,
-    "url": "https://aminet.net/util/shell/ltx-cc123.lha"
+    "url": "http://aminet.net/util/shell/ltx-cc123.lha"
   },
   "category": "Utilities",
   "conflicts": [],

@@ -3,7 +3,7 @@
     "mirrors": [],
     "sha256": "95d38d4e6c7a9046147bfc1c88615b95be9fb0b2a62ae42d0b40318802f5232f",
     "sizeBytes": 4704106,
-    "url": "https://aminet.net/comm/tcp/curl-8.22.0-DEV-210726.lha"
+    "url": "http://aminet.net/comm/tcp/curl-8.22.0-DEV-210726.lha"
   },
   "category": "Internet",
   "conflicts": [],

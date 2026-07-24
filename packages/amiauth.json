@@ -3,7 +3,7 @@
     "mirrors": [],
     "sha256": "c7105ee02dfaa69ec4422e067647ed8a6461678eef5cb86f120ef632a3ea77b2",
     "sizeBytes": 115787,
-    "url": "https://aminet.net/util/crypt/AmiAuth.lha"
+    "url": "http://aminet.net/util/crypt/AmiAuth.lha"
   },
   "category": "Utilities",
   "conflicts": [],

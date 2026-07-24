@@ -3,7 +3,7 @@
     "mirrors": [],
     "sha256": "7eab2c868814dec738323b6d1e8c1debd42e05b421dfda5b713c7b9d24aff6c0",
     "sizeBytes": 156769,
-    "url": "https://aminet.net/util/boot/BoingKick.lha"
+    "url": "http://aminet.net/util/boot/BoingKick.lha"
   },
   "category": "Utilities",
   "conflicts": [],

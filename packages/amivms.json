@@ -3,7 +3,7 @@
     "mirrors": [],
     "sha256": "ba4bd5bdfe3a85b842a93c17ccc75e68bd20ef400b72d8f525ce26c0eb921d28",
     "sizeBytes": 4120279,
-    "url": "https://aminet.net/misc/emu/AmiVms.lha"
+    "url": "http://aminet.net/misc/emu/AmiVms.lha"
   },
   "category": "Emulation",
   "conflicts": [],

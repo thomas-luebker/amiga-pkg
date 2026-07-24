@@ -3,7 +3,7 @@
     "mirrors": [],
     "sha256": "863ce264f6c3d7dd5507c9e18d912c5f86748137713ce0cce3b1cea0e19bb475",
     "sizeBytes": 11115826,
-    "url": "https://aminet.net/misc/emu/AmiArcadia.lha"
+    "url": "http://aminet.net/misc/emu/AmiArcadia.lha"
   },
   "category": "Emulation",
   "conflicts": [],
