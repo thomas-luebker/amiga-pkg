@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "4a166ad016ee7d2326e09658fb9d7dcbcfc45267e963666e74a5909159099978",
+    "sizeBytes": 109787,
+    "url": "http://aminet.net/util/mouse/FreeWheel.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Use WheelMice/trackballs/3-button mice",
+  "id": "freewheel",
+  "name": "FreeWheel",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "2.2.2"
+}

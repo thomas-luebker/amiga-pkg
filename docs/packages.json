@@ -1567,6 +1567,34 @@
         "mirrors" : [
 
         ],
+        "sha256" : "8068a777b0589c11354bc9d7959ba9d135ccdd57d7be4d3ef0ca8477ded2754c",
+        "sizeBytes" : 39547,
+        "url" : "http://aminet.net/mus/play/DeliTracker234.lha"
+      },
+      "category" : "Audio",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "module player, minor update",
+      "id" : "delitracker",
+      "name" : "DeliTracker",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "2.34"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "bef5c644ffdaa33a19fe869d97c03f0d12afa2d6ede45230df46b03521fd2d43",
         "sizeBytes" : 66949,
         "url" : "http://aminet.net/game/jump/Diver.lha"
@@ -1797,6 +1825,34 @@
         "mirrors" : [
 
         ],
+        "sha256" : "20e11a13c2528d6ce864c02b1170872f10f52517ddcd82f4839e46f228c9bfb3",
+        "sizeBytes" : 3092246,
+        "url" : "http://aminet.net/mus/play/Eagleplayer.lha"
+      },
+      "category" : "Audio",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "V2.06, comprehensive sound replayer",
+      "id" : "eagleplayer",
+      "name" : "EaglePlayer",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "2.06"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "41a54aa0dae4d109e6de1037a6957e0c7598cdde81e9cf99acc06938b8f7b370",
         "sizeBytes" : 1217033,
         "url" : "http://aminet.net/util/misc/Executive.lha"
@@ -1819,6 +1875,34 @@
       ],
       "tier" : "A",
       "version" : "2.10"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "3ea6f07377be8607ee7d6a57f2b857928dfb0f6bc4b83dde455d33457c44cc96",
+        "sizeBytes" : 60906,
+        "url" : "http://aminet.net/util/dir/FileMaster2.2.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Powerful file manager, free version",
+      "id" : "filemaster",
+      "name" : "FileMaster",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "2.2"
     },
     {
       "archive" : {
@@ -1908,6 +1992,34 @@
       ],
       "tier" : "A",
       "version" : "0.9.1.01"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "4a166ad016ee7d2326e09658fb9d7dcbcfc45267e963666e74a5909159099978",
+        "sizeBytes" : 109787,
+        "url" : "http://aminet.net/util/mouse/FreeWheel.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Use WheelMice/trackballs/3-button mice",
+      "id" : "freewheel",
+      "name" : "FreeWheel",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "2.2.2"
     },
     {
       "archive" : {
@@ -2824,6 +2936,34 @@
         "mirrors" : [
 
         ],
+        "sha256" : "7d9e23b35c22a4f87b589ecbe546523eea2ff43162d33c30de62cd0e0bc67d11",
+        "sizeBytes" : 130740,
+        "url" : "http://aminet.net/util/shell/KingCON_1.3.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Replaces CON: (Review, menus, TAB-exp...)",
+      "id" : "kingcon",
+      "name" : "KingCON",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "-"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "60907c57f94b0d836803552e207f4c382182039ff31bd2cca11ace5b3cc59b09",
         "sizeBytes" : 330017,
         "url" : "https://www.amigaworld.de/software/lumiftp/LumiFTP_1.1.lha"
@@ -3090,6 +3230,34 @@
       ],
       "tier" : "B",
       "version" : "-"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "9f2649d6e651f306ff3fe9984ca5bba4411b34f22de3931da8b9a90ce2da1f0b",
+        "sizeBytes" : 96877,
+        "url" : "http://aminet.net/util/wb/MagicMenu_2.35.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Final MagicMenu release (Beta, 03/2002)",
+      "id" : "magicmenu",
+      "name" : "MagicMenu",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "2.35"
     },
     {
       "archive" : {

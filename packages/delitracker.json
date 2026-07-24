@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "8068a777b0589c11354bc9d7959ba9d135ccdd57d7be4d3ef0ca8477ded2754c",
+    "sizeBytes": 39547,
+    "url": "http://aminet.net/mus/play/DeliTracker234.lha"
+  },
+  "category": "Audio",
+  "conflicts": [],
+  "deps": [],
+  "description": "module player, minor update",
+  "id": "delitracker",
+  "name": "DeliTracker",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "2.34"
+}

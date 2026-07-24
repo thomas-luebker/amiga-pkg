@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "9f2649d6e651f306ff3fe9984ca5bba4411b34f22de3931da8b9a90ce2da1f0b",
+    "sizeBytes": 96877,
+    "url": "http://aminet.net/util/wb/MagicMenu_2.35.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Final MagicMenu release (Beta, 03/2002)",
+  "id": "magicmenu",
+  "name": "MagicMenu",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "2.35"
+}

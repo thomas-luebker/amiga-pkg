@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "3ea6f07377be8607ee7d6a57f2b857928dfb0f6bc4b83dde455d33457c44cc96",
+    "sizeBytes": 60906,
+    "url": "http://aminet.net/util/dir/FileMaster2.2.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Powerful file manager, free version",
+  "id": "filemaster",
+  "name": "FileMaster",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "2.2"
+}

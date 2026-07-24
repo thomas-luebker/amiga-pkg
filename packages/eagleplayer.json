@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "20e11a13c2528d6ce864c02b1170872f10f52517ddcd82f4839e46f228c9bfb3",
+    "sizeBytes": 3092246,
+    "url": "http://aminet.net/mus/play/Eagleplayer.lha"
+  },
+  "category": "Audio",
+  "conflicts": [],
+  "deps": [],
+  "description": "V2.06, comprehensive sound replayer",
+  "id": "eagleplayer",
+  "name": "EaglePlayer",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "2.06"
+}
