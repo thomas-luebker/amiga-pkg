@@ -37,7 +37,7 @@
         ],
         "sha256" : "eed8202c5f2b5e6ee71b7aa47cd43040e27b05beb92234e2c11f105d415bd029",
         "sizeBytes" : 308725,
-        "url" : ""
+        "url" : "http://aminet.net/driver/audio/ahiusr_4.18.lha"
       },
       "category" : "Multimedia",
       "conflicts" : [
@@ -207,7 +207,7 @@
         ],
         "sha256" : "1688c8913cb7eb2b7546ec1dd2aaaa85089a5b8c41b1190347c847aee941d88d",
         "sizeBytes" : 76528,
-        "url" : ""
+        "url" : "http://aminet.net/util/dtype/akGIF-dt.lha"
       },
       "category" : "Datatypes",
       "conflicts" : [
@@ -320,7 +320,7 @@
         ],
         "sha256" : "6981badff7b792548ed72431078a15ae79cc2558b92c4ada18366676c3ccf3dd",
         "sizeBytes" : 129274,
-        "url" : ""
+        "url" : "http://aminet.net/util/dtype/akJFIF-dt.lha"
       },
       "category" : "Datatypes",
       "conflicts" : [
@@ -433,7 +433,7 @@
         ],
         "sha256" : "0fa61eac5f969683de2ebf9cb7cd3511b8b0f0ede95e518b9eedb351561246a9",
         "sizeBytes" : 133887,
-        "url" : ""
+        "url" : "http://aminet.net/util/dtype/akPNG-dt.lha"
       },
       "category" : "Datatypes",
       "conflicts" : [
@@ -700,7 +700,7 @@
         ],
         "sha256" : "cad37d708603a05f813a94e2f5ca059b4e03e20da5ec675e13efe6543b997bf1",
         "sizeBytes" : 413247,
-        "url" : "https://www.amigaamp.de/Binaries/AmigaAMP3-68k.lha"
+        "url" : "http://aminet.net/mus/play/AmigaAMP3-68k.lha"
       },
       "category" : "Multimedia",
       "conflicts" : [
@@ -811,7 +811,7 @@
         ],
         "sha256" : "91eaa0b51b8efc1d0cb35b10aeecd2ba22d773948c89ceb9fbce17b802421d07",
         "sizeBytes" : 53496,
-        "url" : ""
+        "url" : "http://aminet.net/dev/c/AsyncIO.lha"
       },
       "category" : "Libraries",
       "conflicts" : [
@@ -971,7 +971,7 @@
         ],
         "sha256" : "dcba694a5600c5cf0144b7d8f00089fde57aea1cd3a6f644ddeeceae8e006319",
         "sizeBytes" : 324015,
-        "url" : ""
+        "url" : "http://aminet.net/dev/mui/MCC_BetterString-11.36.lha"
       },
       "category" : "Libraries",
       "conflicts" : [
@@ -1079,6 +1079,12 @@
       "version" : "-"
     },
     {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "url" : "http://aminet.net/dev/mui/MCC_BetterString_68k.lha"
+      },
       "category" : "Libraries",
       "conflicts" : [
 
@@ -1331,7 +1337,7 @@
         ],
         "sha256" : "3e8aa8083c3517653ee9480c5ee1436e8a6820e5d2f7312ef010686114df3099",
         "sizeBytes" : 8495,
-        "url" : ""
+        "url" : "http://aminet.net/util/wb/CopyIcon44.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -1434,7 +1440,7 @@
         ],
         "sha256" : "536f5c394aa5c807e65defd2ae73e53a76a773e64ef311647364d3a4a974aefb",
         "sizeBytes" : 37392,
-        "url" : ""
+        "url" : "http://aminet.net/util/boot/CpuBlit.lha"
       },
       "category" : "System",
       "conflicts" : [
@@ -1625,7 +1631,7 @@
         ],
         "sha256" : "4e4ee907e6b2f18b9d8be234888413b2da662e52a07dd51b15156329d5eb2c5a",
         "sizeBytes" : 894119,
-        "url" : ""
+        "url" : "http://aminet.net/util/dopus/DOpus416JRbin.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -2028,7 +2034,7 @@
         ],
         "sha256" : "b7dba0ed4f5a8deccc5c978ae5d86b2c269e129563bb3ff10cc22e55b299aeb0",
         "sizeBytes" : 51937,
-        "url" : ""
+        "url" : "http://aminet.net/util/wb/GoVD.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -2065,7 +2071,7 @@
         ],
         "sha256" : "c0be7adafd0595c094856a0434b34b7411c66daa7cb866d7b4c8c2da4cba3d35",
         "sizeBytes" : 263251,
-        "url" : ""
+        "url" : "http://aminet.net/dev/misc/guigfxlib.lha"
       },
       "category" : "Libraries",
       "conflicts" : [
@@ -2171,6 +2177,12 @@
       "version" : "-"
     },
     {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "url" : "http://aminet.net/dev/mui/MCC_Guigfx.lha"
+      },
       "category" : "Libraries",
       "conflicts" : [
 
@@ -2379,7 +2391,7 @@
         ],
         "sha256" : "837913afd07a68168ee8f6451896268e762cc3542fb28b7e041e70841f53b387",
         "sizeBytes" : 704230,
-        "url" : ""
+        "url" : "http://aminet.net/mus/play/hippoplayer.lha"
       },
       "category" : "Multimedia",
       "conflicts" : [
@@ -2572,7 +2584,7 @@
         ],
         "sha256" : "428b48959867d02da04d4cb8154d4d15c0ec053d5c5d0e4d437782bb4e136d37",
         "sizeBytes" : 2212853,
-        "url" : ""
+        "url" : "http://aminet.net/util/libs/IconLib_46.4.lha"
       },
       "category" : "Libraries",
       "conflicts" : [
@@ -2675,7 +2687,7 @@
         ],
         "sha256" : "964462bf7c431c86122288634c16464f1ea34cbdfa9d9439328db4f27ba83421",
         "sizeBytes" : 481756,
-        "url" : ""
+        "url" : "http://aminet.net/util/misc/iGame.lha"
       },
       "category" : "Games",
       "conflicts" : [
@@ -2801,7 +2813,7 @@
         ],
         "sha256" : "a48a3735ecba05c2a4f20a2b136ba41a582ae18e8c5c1ef37f146d7701c89aad",
         "sizeBytes" : 55660,
-        "url" : ""
+        "url" : "http://aminet.net/mus/play/imp3.lha"
       },
       "category" : "Multimedia",
       "conflicts" : [
@@ -2966,7 +2978,7 @@
         ],
         "sha256" : "60907c57f94b0d836803552e207f4c382182039ff31bd2cca11ace5b3cc59b09",
         "sizeBytes" : 330017,
-        "url" : "https://www.amigaworld.de/software/lumiftp/LumiFTP_1.1.lha"
+        "url" : "http://aminet.net/comm/tcp/LumiFTP_1.1.lha"
       },
       "category" : "Network",
       "conflicts" : [
@@ -3357,7 +3369,7 @@
         ],
         "sha256" : "4bf8cc22fe88ce20f85fe400ec670e08e1ef5fc85ae136a04384c0eb72abcc03",
         "sizeBytes" : 354678,
-        "url" : ""
+        "url" : "http://aminet.net/util/libs/mpega_library.lha"
       },
       "category" : "Libraries",
       "conflicts" : [
@@ -3394,7 +3406,7 @@
         ],
         "sha256" : "f3acb2fe98f74c025daf10ae7df92d08abe787332124963771e2c21a869cca5b",
         "sizeBytes" : 1033392,
-        "url" : ""
+        "url" : "http://aminet.net/util/libs/mui38usr.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -3511,7 +3523,7 @@
         ],
         "sha256" : "8728931bcc0b2e8f7e894184502d955c87cf60b5265a13f6c7c247ad58fee28e",
         "sizeBytes" : 28542,
-        "url" : ""
+        "url" : "http://aminet.net/util/wb/newmeter.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -3621,7 +3633,7 @@
         ],
         "sha256" : "639e54660e1c8a83f3c030e2b383b575534a155c9087909b59300177e8adb0e7",
         "sizeBytes" : 2087426,
-        "url" : ""
+        "url" : "http://aminet.net/dev/mui/MCC_NList-0.128.lha"
       },
       "category" : "Libraries",
       "conflicts" : [
@@ -3726,6 +3738,12 @@
       "version" : "-"
     },
     {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "url" : "http://aminet.net/dev/mui/MCC_NList-0.102_68k.lha"
+      },
       "category" : "Libraries",
       "conflicts" : [
 
@@ -3832,7 +3850,7 @@
         ],
         "sha256" : "33e169799a322bfffe7bc3ff0985428798ea30a8cf50793b1057aae728c72d63",
         "sizeBytes" : 7915,
-        "url" : ""
+        "url" : "http://aminet.net/disk/misc/NoClick.lha"
       },
       "category" : "System",
       "conflicts" : [
@@ -3996,7 +4014,7 @@
         ],
         "sha256" : "a3b11d98f5df75a95b7984a1c642abaca551aed440ac5dc17e35ca13bbcd12a1",
         "sizeBytes" : 19037,
-        "url" : ""
+        "url" : "http://aminet.net/util/boot/PatchRAM.lha"
       },
       "category" : "System",
       "conflicts" : [
@@ -4105,6 +4123,12 @@
       "version" : "-"
     },
     {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "url" : "http://aminet.net/driver/video/Picasso96.lha"
+      },
       "category" : "Libraries",
       "conflicts" : [
 
@@ -4232,7 +4256,7 @@
         ],
         "sha256" : "2b9030b932754d7916224e55310a8f81f2b8ceeb2d14947dcea5123c013d5be6",
         "sizeBytes" : 432725,
-        "url" : ""
+        "url" : "http://aminet.net/driver/other/PoseidonMain.lha"
       },
       "category" : "Libraries",
       "conflicts" : [
@@ -4423,7 +4447,7 @@
         ],
         "sha256" : "bab8e39149f5b51edad8b21f9a4396519991fd2729bb87652c4f8833b4c767db",
         "sizeBytes" : 110986,
-        "url" : ""
+        "url" : "http://aminet.net/comm/tcp/rc-ftpd.lha"
       },
       "category" : "Network",
       "conflicts" : [
@@ -4460,7 +4484,7 @@
         ],
         "sha256" : "be7134d1ee5d5ed0e2ed38d595d04f1b70a5bedbe17d8295535409292f3f2ddc",
         "sizeBytes" : 5609,
-        "url" : ""
+        "url" : "http://aminet.net/dev/debug/RemLib.lha"
       },
       "category" : "System",
       "conflicts" : [
@@ -4575,7 +4599,7 @@
         ],
         "sha256" : "15a9af6f81deb0d44ce5e7115bd5fa42505f05fd5cfd80b49d39cb8b5a4b72e1",
         "sizeBytes" : 201959,
-        "url" : ""
+        "url" : "http://aminet.net/dev/misc/renderlib.lha"
       },
       "category" : "Libraries",
       "conflicts" : [
@@ -4715,7 +4739,7 @@
         ],
         "sha256" : "0436f0c77ca1657dc85eb09d316f8fb65b57cfd9ac94f172eb1489991ae80cda",
         "sizeBytes" : 244510,
-        "url" : ""
+        "url" : "http://aminet.net/gfx/show/RiVA-0.54.lha"
       },
       "category" : "Multimedia",
       "conflicts" : [
@@ -4754,7 +4778,7 @@
         ],
         "sha256" : "44af5ef15b6fab4c6071f888a3307f8a0a150aa331c4e77f98020e7ff30f3fbc",
         "sizeBytes" : 55973,
-        "url" : ""
+        "url" : "http://aminet.net/comm/net/Roadie.lha"
       },
       "category" : "Network",
       "conflicts" : [
@@ -5032,7 +5056,7 @@
         ],
         "sha256" : "9246547eb1e3af15598d6a1a3a27652d3eac355757d39e136c3c10a27379da1c",
         "sizeBytes" : 59414047,
-        "url" : ""
+        "url" : "http://aminet.net/game/misc/ScummVM_RTG_060.lha"
       },
       "category" : "Games",
       "conflicts" : [
@@ -5135,7 +5159,7 @@
         ],
         "sha256" : "2574f8751d04adecd2cc9303781da8d2eb17467b0f7aac9fa08c02570cdf080a",
         "sizeBytes" : 7492,
-        "url" : ""
+        "url" : "http://aminet.net/util/boot/StackAttack2.lha"
       },
       "category" : "System",
       "conflicts" : [
@@ -5237,7 +5261,7 @@
         ],
         "sha256" : "9b86be2368b1b0f62977fba9341f8c0c17267a01ffd1ce9acb22707f6908272b",
         "sizeBytes" : 55323,
-        "url" : ""
+        "url" : "http://aminet.net/util/moni/SysInfo.lha"
       },
       "category" : "System",
       "conflicts" : [
@@ -5346,7 +5370,7 @@
         ],
         "sha256" : "d768f89bbda4d0af3076148e0e42007ec10d97e629b4f7352275a48698f5c13f",
         "sizeBytes" : 14898,
-        "url" : ""
+        "url" : "http://aminet.net/driver/input/TankMouse.lha"
       },
       "category" : "Input",
       "conflicts" : [
@@ -5488,7 +5512,7 @@
         ],
         "sha256" : "d239a8324684233c09999354399f25595996c7ba52b2f44627263eb9676abfe9",
         "sizeBytes" : 895948,
-        "url" : ""
+        "url" : "http://aminet.net/dev/mui/MCC_TextEditor-15.56.lha"
       },
       "category" : "Libraries",
       "conflicts" : [
@@ -5591,6 +5615,12 @@
       "version" : "-"
     },
     {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "url" : "http://aminet.net/dev/mui/MCC_TextEditor_68k.lha"
+      },
       "category" : "Libraries",
       "conflicts" : [
 
@@ -5782,7 +5812,7 @@
         ],
         "sha256" : "32e8944006f1e655e11b9223afcf57752b49b4d2b77d38281a426408b0d360da",
         "sizeBytes" : 89558,
-        "url" : ""
+        "url" : "http://aminet.net/util/boot/ToolsDaemon21a.lha"
       },
       "category" : "System",
       "conflicts" : [
@@ -5902,7 +5932,7 @@
         ],
         "sha256" : "587a9594db959de1319e50a4289490ca2cbf2e9ac05291482a4370bc8bdf869b",
         "sizeBytes" : 55061,
-        "url" : ""
+        "url" : "http://aminet.net/util/misc/UHCTools.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -6005,6 +6035,12 @@
       "version" : "-"
     },
     {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "url" : "http://aminet.net/dev/mui/MCC_Urltext.lha"
+      },
       "category" : "Libraries",
       "conflicts" : [
 
@@ -6304,7 +6340,7 @@
         ],
         "sha256" : "23a4e6829e2ed5477b84e4bd36a4e69a8eedce821063c4e7b31056c3eae54c90",
         "sizeBytes" : 270412,
-        "url" : ""
+        "url" : "http://aminet.net/util/arc/xadmaster020.lha"
       },
       "category" : "Libraries",
       "conflicts" : [
