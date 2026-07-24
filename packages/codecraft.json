@@ -1,8 +1,8 @@
 {
   "archive": {
     "mirrors": [],
-    "sha256": "55b81e9194b0445eea001f02e04f05ff97a71c8e29f2bba29a8052b501ece355",
-    "sizeBytes": 5962,
+    "sha256": "f283a0d651002101bfc257cf35a6ebe999ed19e0a5152a94c0b4eb0be2dbb9e9",
+    "sizeBytes": 5961,
     "url": "http://aminet.net/dev/misc/Codecraft.lha"
   },
   "category": "Development",

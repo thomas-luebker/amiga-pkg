@@ -37,6 +37,28 @@ ID_RE = re.compile(r"^[a-z0-9][a-z0-9._-]*$")
 SHA_RE = re.compile(r"^[0-9a-f]{64}$")
 
 
+def _fetch(url, timeout=180):
+    """Download url via curl (system CA; works for http and https)."""
+    import subprocess
+    p = subprocess.run(["/usr/bin/curl", "-sL", "--max-time", str(timeout), url],
+                       capture_output=True)
+    if p.returncode != 0 or not p.stdout:
+        raise RuntimeError("curl rc=%d" % p.returncode)
+    return p.stdout
+
+
+def _readme_version(archive_url):
+    """For an Aminet .lha URL, read the current Version: from the sibling .readme."""
+    if not archive_url.endswith(".lha"):
+        return None
+    try:
+        text = _fetch(archive_url[:-4] + ".readme", 30).decode("latin-1", "replace")
+    except Exception:
+        return None
+    m = re.search(r"(?im)^Version:\s*(.+?)\s*$", text)
+    return m.group(1).strip()[:24] if m else None
+
+
 # --------------------------------------------------------------------------- add
 def cmd_add(a):
     if not os.path.isfile(a.archive):
@@ -72,6 +94,53 @@ def cmd_add(a):
     print("Set the real archive url (and any deps/recipe), then validate + open a PR.")
     if "REPLACE-ME" in url:
         sys.stderr.write(f"amigapkg: note: archive url is a placeholder — set --url or edit {out}\n")
+
+
+# ------------------------------------------------------------------------ refresh
+def cmd_refresh(a):
+    """Re-scan each entry's archive: recompute sha256/size, read the current
+    Aminet version, and update the entry when the upstream file changed (a new
+    upload). Most Aminet URLs are unversioned, so this both catches new versions
+    AND keeps the sha256 valid (else `amipkg fetch` would fail after an update).
+    A maintainer then re-signs. `--check-only` reports without writing."""
+    changed = updated_files = 0
+    for path in (a.paths or ["packages"]):
+        for fp in _collect(path):
+            try:
+                entry = json.load(open(fp, encoding="utf-8"))
+            except Exception as e:  # noqa: BLE001
+                print(f"skip {fp}: bad JSON ({e})")
+                continue
+            arch = entry.get("archive") or {}
+            url = arch.get("url", "")
+            pid = entry.get("id", os.path.basename(fp))
+            if not url or "REPLACE-ME" in url:
+                continue
+            try:
+                data = _fetch(url)
+            except Exception as e:  # noqa: BLE001
+                print(f"WARN {pid}: fetch failed ({e})")
+                continue
+            new_sha = hashlib.sha256(data).hexdigest()
+            if new_sha == arch.get("sha256"):
+                print(f"ok      {pid} (unchanged)")
+                continue
+            new_ver = _readme_version(url) or entry.get("version", "-")
+            old_ver = entry.get("version", "-")
+            print(f"UPDATED {pid}: {old_ver} -> {new_ver}  sha {str(arch.get('sha256'))[:8]}->{new_sha[:8]}")
+            changed += 1
+            if not a.check_only:
+                arch["sha256"] = new_sha
+                arch["sizeBytes"] = len(data)
+                entry["version"] = new_ver
+                entry["archive"] = arch
+                with open(fp, "w", encoding="utf-8") as fh:
+                    json.dump(entry, fh, sort_keys=True, indent=2)
+                    fh.write("\n")
+                updated_files += 1
+    verb = "would update" if a.check_only else "updated"
+    print(f"\nrefresh: {changed} upstream change(s); {verb} {updated_files if not a.check_only else changed} entr(y/ies)."
+          + (" Re-sign + publish." if changed and not a.check_only else ""))
 
 
 # ---------------------------------------------------------------------- validate
@@ -165,6 +234,11 @@ def main():
     pa.add_argument("--desc", default="", help="short description")
     pa.add_argument("--out", default="", help="output JSON path (default <id>.json)")
     pa.set_defaults(func=cmd_add)
+
+    pr = sub.add_parser("refresh", help="re-scan Aminet: update sha256/size/version when the upstream file changed")
+    pr.add_argument("paths", nargs="*", help="files or dirs (default: packages/)")
+    pr.add_argument("--check-only", action="store_true", help="report changes without writing")
+    pr.set_defaults(func=cmd_refresh)
 
     pv = sub.add_parser("validate", help="validate entries (schema, ids, capabilities, sha256)")
     pv.add_argument("paths", nargs="*", help="files or dirs (default: packages/)")
