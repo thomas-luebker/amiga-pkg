@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "20c3dfb76f418791513403993ee72448906959116e8eff96dbe12a08246272dd",
+    "sizeBytes": 901120,
+    "url": "http://aminet.net/dev/misc/Codecraft.adf"
+  },
+  "category": "Development",
+  "conflicts": [],
+  "deps": [],
+  "description": "Integrated Development Environment",
+  "id": "codecraft",
+  "name": "Codecraft",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.16"
+}

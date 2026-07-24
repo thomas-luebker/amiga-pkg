@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "b64e94d2c4d18ae938d011f01e04f84c7f373c927c45731caf799870c7c9b187",
+    "sizeBytes": 501284,
+    "url": "http://aminet.net/util/wb/ToolManager2_1bin.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "ToolManager 2.1 (Binaries and Docs)",
+  "id": "toolmanager",
+  "name": "ToolManager",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "2.1"
+}

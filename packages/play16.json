@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "56c034462d011924c6a7a9bc670beff24c0491912d8f0c0fa8761aed89e4346f",
+    "sizeBytes": 116773,
+    "url": "http://aminet.net/mus/play/Play16.lha"
+  },
+  "category": "Audio",
+  "conflicts": [],
+  "deps": [],
+  "description": "Multi format sound player, supports AHI",
+  "id": "play16",
+  "name": "Play16",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.10"
+}

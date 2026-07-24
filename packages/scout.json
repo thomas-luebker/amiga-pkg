@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "ac0e6af5a28987c3c1136d380f93b07aa628065316dd368d23af05bfa055958e",
+    "sizeBytes": 966982,
+    "url": "http://aminet.net/util/moni/Scout_os3.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "System monitor (MUI & TCP/IP stack optional)",
+  "id": "scout",
+  "name": "Scout",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "3.6"
+}

@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "b0ad482cda442aca6dd7e8433c366fd325931802149a694d1314933015971aea",
+    "sizeBytes": 225319,
+    "url": "http://aminet.net/util/cdity/Yak212.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Yak 2.12 - multi-purpose commodity",
+  "id": "yak",
+  "name": "Yak",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "-"
+}

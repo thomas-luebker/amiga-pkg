@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "41a54aa0dae4d109e6de1037a6957e0c7598cdde81e9cf99acc06938b8f7b370",
+    "sizeBytes": 1217033,
+    "url": "http://aminet.net/util/misc/Executive.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "UNIX-like process scheduler (V2.10)",
+  "id": "executive",
+  "name": "Executive",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "2.10"
+}

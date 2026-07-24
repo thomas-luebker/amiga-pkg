@@ -1273,6 +1273,34 @@
         "mirrors" : [
 
         ],
+        "sha256" : "20c3dfb76f418791513403993ee72448906959116e8eff96dbe12a08246272dd",
+        "sizeBytes" : 901120,
+        "url" : "http://aminet.net/dev/misc/Codecraft.adf"
+      },
+      "category" : "Development",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Integrated Development Environment",
+      "id" : "codecraft",
+      "name" : "Codecraft",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.16"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "cfdf74a4eab0cc5a4e3faa785506ffff9285a5fc0e5f0a87dd351e9ea0d9ae64",
         "sizeBytes" : 40060,
         "url" : "http://aminet.net/text/misc/convertmojo.lha"
@@ -1763,6 +1791,34 @@
       ],
       "tier" : "A",
       "version" : "0.96.4.06"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "41a54aa0dae4d109e6de1037a6957e0c7598cdde81e9cf99acc06938b8f7b370",
+        "sizeBytes" : 1217033,
+        "url" : "http://aminet.net/util/misc/Executive.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "UNIX-like process scheduler (V2.10)",
+      "id" : "executive",
+      "name" : "Executive",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "2.10"
     },
     {
       "archive" : {
@@ -3947,6 +4003,34 @@
         "mirrors" : [
 
         ],
+        "sha256" : "56c034462d011924c6a7a9bc670beff24c0491912d8f0c0fa8761aed89e4346f",
+        "sizeBytes" : 116773,
+        "url" : "http://aminet.net/mus/play/Play16.lha"
+      },
+      "category" : "Audio",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Multi format sound player, supports AHI",
+      "id" : "play16",
+      "name" : "Play16",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.10"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "c9645ab7e75b68e8b2425895ab4f6969617103fd60d6babe1fb8c98fd9344645",
         "sizeBytes" : 747392,
         "url" : "http://aminet.net/game/strat/Polanie-RTG-amiga.lha"
@@ -4132,6 +4216,34 @@
         "merge-nested-v1",
         "set-exec-v1",
         "strip-junk-v1"
+      ],
+      "tier" : "A",
+      "version" : "-"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "4cce57a2ff87dbd66f26bb06220eb7594e4224e746199c6d6f178c8b6bba17b5",
+        "sizeBytes" : 55428,
+        "url" : "http://aminet.net/util/cdity/PowerSnap22a.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Snap and paste anywhere using the mouse.",
+      "id" : "powersnap",
+      "name" : "PowerSnap",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
       ],
       "tier" : "A",
       "version" : "-"
@@ -4405,9 +4517,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "0bc0104d4a24320ddf77ff3d02bec28e481565a8deb4150dfe2fdd1ddc3a061f",
-        "sizeBytes" : 44635,
-        "url" : ""
+        "sha256" : "0a70c72f709a6d6487f45d8a937b69ac7030b560dc34f76a9a365683058f86e3",
+        "sizeBytes" : 171301,
+        "url" : "http://aminet.net/util/libs/ReqToolsUsr.lha"
       },
       "category" : "Libraries",
       "conflicts" : [
@@ -4416,93 +4528,14 @@
       "deps" : [
 
       ],
-      "description" : "Requester toolkit library",
+      "description" : "ReqTools 2.9a - the requester toolkit (user)",
       "id" : "reqtools",
-      "install" : {
-        "alternateMD5" : [
-
-        ],
-        "aminetPath" : "util/libs/Reqtools-Wide.lha",
-        "md5" : "7b146009ce6b99623d73a244a89b8c2a",
-        "sourceType" : "aminet",
-        "userDefined" : false,
-        "userVisible" : true
-      },
       "name" : "ReqTools",
       "provides" : [
 
       ],
-      "recipe" : {
-        "ops" : [
-          {
-            "dest" : "Libs",
-            "op" : "copyGlob",
-            "src" : "reqtools.library"
-          },
-          {
-            "dest" : "Libs",
-            "op" : "copyGlob",
-            "src" : "ReqTools/reqtools.library"
-          },
-          {
-            "op" : "stripJunk"
-          },
-          {
-            "op" : "mergeNested"
-          },
-          {
-            "depth" : 0,
-            "op" : "setExec",
-            "scope" : "C"
-          },
-          {
-            "depth" : 0,
-            "op" : "setExec",
-            "scope" : "L"
-          },
-          {
-            "depth" : 0,
-            "op" : "setExec",
-            "scope" : "S"
-          },
-          {
-            "depth" : 0,
-            "op" : "setExec",
-            "scope" : "Devs"
-          },
-          {
-            "depth" : 0,
-            "op" : "setExec",
-            "scope" : "Prefs"
-          },
-          {
-            "depth" : 0,
-            "op" : "setExec",
-            "scope" : "Tools"
-          },
-          {
-            "depth" : 0,
-            "op" : "setExec",
-            "scope" : "System"
-          },
-          {
-            "depth" : 0,
-            "op" : "setExec",
-            "scope" : "Classes"
-          },
-          {
-            "depth" : 2,
-            "op" : "setExec",
-            "scope" : "Programs"
-          }
-        ],
-        "recipeSchema" : 1
-      },
       "requiredCapabilities" : [
-        "copy-glob-v1",
-        "merge-nested-v1",
-        "set-exec-v1",
-        "strip-junk-v1"
+
       ],
       "tier" : "A",
       "version" : "-"
@@ -4801,6 +4834,34 @@
         "mirrors" : [
 
         ],
+        "sha256" : "ac0e6af5a28987c3c1136d380f93b07aa628065316dd368d23af05bfa055958e",
+        "sizeBytes" : 966982,
+        "url" : "http://aminet.net/util/moni/Scout_os3.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "System monitor (MUI & TCP/IP stack optional)",
+      "id" : "scout",
+      "name" : "Scout",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "3.6"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "9246547eb1e3af15598d6a1a3a27652d3eac355757d39e136c3c10a27379da1c",
         "sizeBytes" : 59414047,
         "url" : ""
@@ -4832,6 +4893,34 @@
       ],
       "tier" : "B",
       "version" : "-"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "0fb51361fe82b125971b190b78a81cb43c0a631c9d075a37b0110a0617612aba",
+        "sizeBytes" : 137323,
+        "url" : "http://aminet.net/util/moni/SnoopDos.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "SnoopDos, the well known system monitor",
+      "id" : "snoopdos",
+      "name" : "SnoopDos",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "3.11"
     },
     {
       "archive" : {
@@ -5495,6 +5584,34 @@
         "mirrors" : [
 
         ],
+        "sha256" : "b64e94d2c4d18ae938d011f01e04f84c7f373c927c45731caf799870c7c9b187",
+        "sizeBytes" : 501284,
+        "url" : "http://aminet.net/util/wb/ToolManager2_1bin.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "ToolManager 2.1 (Binaries and Docs)",
+      "id" : "toolmanager",
+      "name" : "ToolManager",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "2.1"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "32e8944006f1e655e11b9223afcf57752b49b4d2b77d38281a426408b0d360da",
         "sizeBytes" : 89558,
         "url" : ""
@@ -5818,6 +5935,34 @@
       ],
       "tier" : "A",
       "version" : "-"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "bb120276d6560974553eb568459c6fa17ab04a25118626e1c14219254150e61a",
+        "sizeBytes" : 481552,
+        "url" : "http://aminet.net/util/wb/VisualPrefs.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Configure the look of the Amiga GUI!",
+      "id" : "visualprefs",
+      "name" : "VisualPrefs",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.5k"
     },
     {
       "archive" : {
@@ -6154,6 +6299,34 @@
       ],
       "tier" : "A",
       "version" : "2026-06-16"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "b0ad482cda442aca6dd7e8433c366fd325931802149a694d1314933015971aea",
+        "sizeBytes" : 225319,
+        "url" : "http://aminet.net/util/cdity/Yak212.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Yak 2.12 - multi-purpose commodity",
+      "id" : "yak",
+      "name" : "Yak",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "-"
     },
     {
       "archive" : {

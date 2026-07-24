@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "0a70c72f709a6d6487f45d8a937b69ac7030b560dc34f76a9a365683058f86e3",
+    "sizeBytes": 171301,
+    "url": "http://aminet.net/util/libs/ReqToolsUsr.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "ReqTools 2.9a - the requester toolkit (user)",
+  "id": "reqtools",
+  "name": "ReqTools",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "-"
+}
