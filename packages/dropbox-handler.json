@@ -7,12 +7,21 @@
   },
   "category": "Internet",
   "conflicts": [],
-  "deps": [],
+  "deps": [
+    {
+      "id": "mui38"
+    }
+  ],
   "description": "Mount Dropbox as an Amiga volume (DBOX:)",
   "id": "dropbox-handler",
   "name": "DropBox Handler",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "amiSSL": true,
+    "minKS": "3.0",
+    "network": true
+  },
   "tier": "A",
   "version": "1.0"
 }

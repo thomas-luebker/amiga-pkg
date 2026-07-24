@@ -13,6 +13,10 @@
   "name": "PlasmaWB",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68020",
+    "minKS": "3.1"
+  },
   "tier": "A",
   "version": "1.21"
 }

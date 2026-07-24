@@ -13,6 +13,9 @@
   "name": "MASWaver",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "network": true
+  },
   "tier": "A",
   "version": "1.3"
 }

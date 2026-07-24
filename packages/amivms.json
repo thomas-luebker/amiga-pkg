@@ -13,6 +13,9 @@
   "name": "AmiVms",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68020"
+  },
   "tier": "A",
   "version": "-"
 }

@@ -13,6 +13,10 @@
   "name": "Telegram Amiga",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68020",
+    "network": true
+  },
   "tier": "A",
   "version": "0.0.6a"
 }

@@ -13,6 +13,9 @@
   "name": "Fitz",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "network": true
+  },
   "tier": "A",
   "version": "1.20"
 }

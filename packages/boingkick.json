@@ -13,6 +13,9 @@
   "name": "BoingKick",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "1.3"
+  },
   "tier": "A",
   "version": "1.0"
 }

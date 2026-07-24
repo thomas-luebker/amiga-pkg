@@ -13,6 +13,9 @@
   "name": "AmiBlocks IDE",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68020"
+  },
   "tier": "A",
   "version": "1.0.0 RC2"
 }

@@ -13,6 +13,10 @@
   "name": "Amico8 (PICO-8)",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68020",
+    "minKS": "2.0"
+  },
   "tier": "A",
   "version": "0.9.2"
 }

@@ -13,6 +13,9 @@
   "name": "Amelinium",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "network": true
+  },
   "tier": "A",
   "version": "0.8.7"
 }

@@ -13,6 +13,9 @@
   "name": "Polanie (RTG)",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68030"
+  },
   "tier": "A",
-  "version": "0.4 (build 83)"
+  "version": "0.4"
 }

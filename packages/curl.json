@@ -13,6 +13,10 @@
   "name": "curl",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "amiSSL": true,
+    "network": true
+  },
   "tier": "A",
   "version": "8.22-DEV-210726"
 }

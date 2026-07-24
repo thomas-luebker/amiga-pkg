@@ -8,7 +8,7 @@
   "category": "Utilities",
   "conflicts": [],
   "deps": [],
-  "description": "CCon v1.2.3 - Ultimate CON Replacement",
+  "description": "Ultimate CON: console-handler replacement",
   "id": "ccon",
   "name": "CCon",
   "provides": [],

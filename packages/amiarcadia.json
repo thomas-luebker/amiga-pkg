@@ -13,6 +13,10 @@
   "name": "AmiArcadia",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68020",
+    "minKS": "3.2"
+  },
   "tier": "A",
   "version": "36.52"
 }

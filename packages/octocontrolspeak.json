@@ -7,12 +7,19 @@
   },
   "category": "Internet",
   "conflicts": [],
-  "deps": [],
+  "deps": [
+    {
+      "id": "mui38"
+    }
+  ],
   "description": "Speaking MUI client for OctoPrint",
   "id": "octocontrolspeak",
   "name": "OctoControlSpeak",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "network": true
+  },
   "tier": "A",
   "version": "0.4"
 }
