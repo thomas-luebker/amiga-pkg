@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "40a47de2bd15c92feab84607d1063cc8cbcef5fd3f04a52ff93bd41d1987e7e1",
+    "sizeBytes": 374425,
+    "url": "https://aminet.net/game/board/CFish.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Strong UCI chess engine",
+  "id": "cfish",
+  "name": "CFish",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "150726"
+}

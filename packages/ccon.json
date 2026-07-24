@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "5cf1d3a02625be19384431c76abded36b7cc3c38a72a159d1600adca67e2ad9e",
+    "sizeBytes": 47880,
+    "url": "https://aminet.net/util/shell/ltx-cc123.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "CCon v1.2.3 - Ultimate CON Replacement",
+  "id": "ccon",
+  "name": "CCon",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.2.3"
+}

@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "c9645ab7e75b68e8b2425895ab4f6969617103fd60d6babe1fb8c98fd9344645",
+    "sizeBytes": 747392,
+    "url": "https://aminet.net/game/strat/Polanie-RTG-amiga.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Polanie (1996) Amiga RTG PORT",
+  "id": "polanie",
+  "name": "Polanie (RTG)",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "0.4 (build 83)"
+}

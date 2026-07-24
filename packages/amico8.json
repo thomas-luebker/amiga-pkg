@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "61e00be7194d37190a5d66ca01029677453ea77fd9db2738f8ca23b429330d31",
+    "sizeBytes": 488275,
+    "url": "https://aminet.net/misc/emu/Amico8.lha"
+  },
+  "category": "Emulation",
+  "conflicts": [],
+  "deps": [],
+  "description": "PICO-8 fantasy console emulator",
+  "id": "amico8",
+  "name": "Amico8 (PICO-8)",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "0.9.2"
+}

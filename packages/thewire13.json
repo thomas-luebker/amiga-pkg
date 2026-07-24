@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "483e17e7a4aca49c3e674a0766061be1fb902acfc837aa08ff20cb6dc7e36f09",
+    "sizeBytes": 143776,
+    "url": "https://aminet.net/comm/tcp/TheWire13.lha"
+  },
+  "category": "Internet",
+  "conflicts": [],
+  "deps": [],
+  "description": "lightweight TCP/IP stack",
+  "id": "thewire13",
+  "name": "TheWire13",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.7.3"
+}

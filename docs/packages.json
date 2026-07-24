@@ -7,6 +7,34 @@
         "mirrors" : [
 
         ],
+        "sha256" : "2328828d980db369669d4adda99ed5162203bb65f4379cd52c6146457006ef26",
+        "sizeBytes" : 260285,
+        "url" : "https://aminet.net/game/text/ADL.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Adventure Definition Language (+sources)",
+      "id" : "adl",
+      "name" : "ADL (Adventure Definition Language)",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "-"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "eed8202c5f2b5e6ee71b7aa47cd43040e27b05beb92234e2c11f105d415bd029",
         "sizeBytes" : 308725,
         "url" : ""
@@ -544,6 +572,62 @@
         "mirrors" : [
 
         ],
+        "sha256" : "863ce264f6c3d7dd5507c9e18d912c5f86748137713ce0cce3b1cea0e19bb475",
+        "sizeBytes" : 11115826,
+        "url" : "https://aminet.net/misc/emu/AmiArcadia.lha"
+      },
+      "category" : "Emulation",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Signetics-based machines emulator",
+      "id" : "amiarcadia",
+      "name" : "AmiArcadia",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "36.52"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "c7105ee02dfaa69ec4422e067647ed8a6461678eef5cb86f120ef632a3ea77b2",
+        "sizeBytes" : 115787,
+        "url" : "https://aminet.net/util/crypt/AmiAuth.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "TOTP/HOTP two-factor authenticator",
+      "id" : "amiauth",
+      "name" : "AmiAuth",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.0"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "78a6276c4ba795c5ddbc57058fd95fde973a404e49ef64fc665f6600d7ecfac7",
         "sizeBytes" : 161419,
         "url" : "https://aminet.net/dev/c/AmiBlocksIDE.lha"
@@ -566,6 +650,34 @@
       ],
       "tier" : "A",
       "version" : "1.0.0 RC2"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "61e00be7194d37190a5d66ca01029677453ea77fd9db2738f8ca23b429330d31",
+        "sizeBytes" : 488275,
+        "url" : "https://aminet.net/misc/emu/Amico8.lha"
+      },
+      "category" : "Emulation",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "PICO-8 fantasy console emulator",
+      "id" : "amico8",
+      "name" : "Amico8 (PICO-8)",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "0.9.2"
     },
     {
       "archive" : {
@@ -776,6 +888,34 @@
       ],
       "tier" : "A",
       "version" : "-"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "d08b53ad81f3a53b936296ab7284310e7ee85c51277c664c3bb911501169cb2e",
+        "sizeBytes" : 72321,
+        "url" : "https://aminet.net/util/wb/BaseConv.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Convert numbers between bin/oct/dec/hex",
+      "id" : "baseconv",
+      "name" : "BaseConv",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.3"
     },
     {
       "category" : "Games",
@@ -1029,6 +1169,90 @@
         "mirrors" : [
 
         ],
+        "sha256" : "7eab2c868814dec738323b6d1e8c1debd42e05b421dfda5b713c7b9d24aff6c0",
+        "sizeBytes" : 156769,
+        "url" : "https://aminet.net/util/boot/BoingKick.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Boing ball boot screen for Kickstart 1.3",
+      "id" : "boingkick",
+      "name" : "BoingKick",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.0"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "5cf1d3a02625be19384431c76abded36b7cc3c38a72a159d1600adca67e2ad9e",
+        "sizeBytes" : 47880,
+        "url" : "https://aminet.net/util/shell/ltx-cc123.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "CCon v1.2.3 - Ultimate CON Replacement",
+      "id" : "ccon",
+      "name" : "CCon",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.2.3"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "40a47de2bd15c92feab84607d1063cc8cbcef5fd3f04a52ff93bd41d1987e7e1",
+        "sizeBytes" : 374425,
+        "url" : "https://aminet.net/game/board/CFish.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Strong UCI chess engine",
+      "id" : "cfish",
+      "name" : "CFish",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "150726"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "55b81e9194b0445eea001f02e04f05ff97a71c8e29f2bba29a8052b501ece355",
         "sizeBytes" : 5962,
         "url" : "https://aminet.net/dev/misc/Codecraft.lha"
@@ -1051,6 +1275,34 @@
       ],
       "tier" : "A",
       "version" : "1.16"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "cfdf74a4eab0cc5a4e3faa785506ffff9285a5fc0e5f0a87dd351e9ea0d9ae64",
+        "sizeBytes" : 40060,
+        "url" : "https://aminet.net/text/misc/convertmojo.lha"
+      },
+      "category" : "Text",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Convert files to txt,rtf,pdf",
+      "id" : "convertmojo",
+      "name" : "ConvertMojo",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "0.9.57"
     },
     {
       "archive" : {
@@ -1291,6 +1543,34 @@
         "mirrors" : [
 
         ],
+        "sha256" : "bef5c644ffdaa33a19fe869d97c03f0d12afa2d6ede45230df46b03521fd2d43",
+        "sizeBytes" : 66949,
+        "url" : "https://aminet.net/game/jump/Diver.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Simple collect-em-up game. Nice graphics",
+      "id" : "diver",
+      "name" : "Diver",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.0"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "4e4ee907e6b2f18b9d8be234888413b2da662e52a07dd51b15156329d5eb2c5a",
         "sizeBytes" : 894119,
         "url" : ""
@@ -1480,6 +1760,34 @@
       ],
       "tier" : "A",
       "version" : "0.96.4.06"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "1dee400576c79ddc2061e7900fbdc1690dae5925883f189cc67248633d092289",
+        "sizeBytes" : 293730,
+        "url" : "https://aminet.net/comm/tcp/Fitz.lha"
+      },
+      "category" : "Internet",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Light TCP/IP file server and mounter",
+      "id" : "fitz",
+      "name" : "Fitz",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.20"
     },
     {
       "category" : "Games",
@@ -2060,6 +2368,34 @@
         "mirrors" : [
 
         ],
+        "sha256" : "cfd53385c18390a8f6afd71548bce138390d8b7d34c30553f820d0953fbcf173",
+        "sizeBytes" : 9449,
+        "url" : "https://aminet.net/util/app/IconAction.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "View Extract LHA ADF Edit by icon",
+      "id" : "iconaction",
+      "name" : "IconAction",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "0.2"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "428b48959867d02da04d4cb8154d4d15c0ec053d5c5d0e4d437782bb4e136d37",
         "sizeBytes" : 2212853,
         "url" : ""
@@ -2398,6 +2734,34 @@
         "mirrors" : [
 
         ],
+        "sha256" : "f30d884fc623841f793df9aa301d17c79ac48b7a3c62de201f9bdbd315adae86",
+        "sizeBytes" : 153804,
+        "url" : "https://aminet.net/game/text/intruder.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Cyberpunk interactive fiction,FR+EN, AGA",
+      "id" : "intruder",
+      "name" : "Intruder",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.0"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "60907c57f94b0d836803552e207f4c382182039ff31bd2cca11ace5b3cc59b09",
         "sizeBytes" : 330017,
         "url" : "https://www.amigaworld.de/software/lumiftp/LumiFTP_1.1.lha"
@@ -2664,6 +3028,34 @@
       ],
       "tier" : "B",
       "version" : "-"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "d6af6e10f94002e4fa4f707884e93f23ea8ad1315ae3f6117ca2b570b8325310",
+        "sizeBytes" : 156995,
+        "url" : "https://aminet.net/misc/emu/make.lha"
+      },
+      "category" : "Emulation",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Fantasy 8 bit style retro machine",
+      "id" : "make",
+      "name" : "MAKE (fantasy console)",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "2.59"
     },
     {
       "archive" : {
@@ -3304,6 +3696,34 @@
         "mirrors" : [
 
         ],
+        "sha256" : "ec805fccaed53c9c54c37cdc31d1938162797818190c6ed1220a88071dc5d552",
+        "sizeBytes" : 45228,
+        "url" : "https://aminet.net/comm/misc/OctoControlSpeak.lha"
+      },
+      "category" : "Internet",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Speaking MUI client for OctoPrint",
+      "id" : "octocontrolspeak",
+      "name" : "OctoControlSpeak",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "0.4"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "879e687862d1cd9a8bf7ff85150349857a33592d464d39d1049af4eede242c53",
         "sizeBytes" : 2705341,
         "url" : "https://aminet.net/dev/cross/oscar64.lha"
@@ -3471,6 +3891,62 @@
       ],
       "tier" : "B",
       "version" : "-"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "911ac5ad325f31113a197f60bda32fe7c277771bc2cb596d86edb43d0419cd47",
+        "sizeBytes" : 153114,
+        "url" : "https://aminet.net/gfx/misc/PlasmaWB.lha"
+      },
+      "category" : "Graphics",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Mouse/autonomous Workbench plasma",
+      "id" : "plasmawb",
+      "name" : "PlasmaWB",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.21"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "c9645ab7e75b68e8b2425895ab4f6969617103fd60d6babe1fb8c98fd9344645",
+        "sizeBytes" : 747392,
+        "url" : "https://aminet.net/game/strat/Polanie-RTG-amiga.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Polanie (1996) Amiga RTG PORT",
+      "id" : "polanie",
+      "name" : "Polanie (RTG)",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "0.4 (build 83)"
     },
     {
       "archive" : {
@@ -4159,6 +4635,34 @@
       ],
       "tier" : "A",
       "version" : "-"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "f75313c69012854d3acad05044f02df889d384df4cdefb3c46b5736d7c87d632",
+        "sizeBytes" : 11930,
+        "url" : "https://aminet.net/game/misc/Robbo.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Robbo Clone for Amiga",
+      "id" : "robbo",
+      "name" : "Robbo",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.0"
     },
     {
       "archive" : {
@@ -4903,6 +5407,62 @@
         "mirrors" : [
 
         ],
+        "sha256" : "483e17e7a4aca49c3e674a0766061be1fb902acfc837aa08ff20cb6dc7e36f09",
+        "sizeBytes" : 143776,
+        "url" : "https://aminet.net/comm/tcp/TheWire13.lha"
+      },
+      "category" : "Internet",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "lightweight TCP/IP stack",
+      "id" : "thewire13",
+      "name" : "TheWire13",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.7.3"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "8c492fa5a6300f0454ae7d2da4e692d42f1751dcf1ce6cde48968f0d641cb687",
+        "sizeBytes" : 684458,
+        "url" : "https://aminet.net/text/edit/tinyedit_aos.lha"
+      },
+      "category" : "Text",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Lightweight text editor",
+      "id" : "tinyedit",
+      "name" : "TinyEdit",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.3.5"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
         "sha256" : "32e8944006f1e655e11b9223afcf57752b49b4d2b77d38281a426408b0d360da",
         "sizeBytes" : 89558,
         "url" : ""
@@ -5506,6 +6066,34 @@
       ],
       "tier" : "A",
       "version" : "-"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "d5b75f4f9488b9d44d7ae3f752772d2a32572d6ffa1b55430162d2c7863a27cd",
+        "sizeBytes" : 17598,
+        "url" : "https://aminet.net/driver/input/XMouseD.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Mouse wheel&buttons 4/5 driver f. Apollo",
+      "id" : "xmoused",
+      "name" : "XMouseD",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.0"
     },
     {
       "archive" : {

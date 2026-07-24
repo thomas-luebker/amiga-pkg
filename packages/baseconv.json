@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "d08b53ad81f3a53b936296ab7284310e7ee85c51277c664c3bb911501169cb2e",
+    "sizeBytes": 72321,
+    "url": "https://aminet.net/util/wb/BaseConv.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Convert numbers between bin/oct/dec/hex",
+  "id": "baseconv",
+  "name": "BaseConv",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.3"
+}

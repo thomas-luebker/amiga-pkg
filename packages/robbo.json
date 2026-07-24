@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "f75313c69012854d3acad05044f02df889d384df4cdefb3c46b5736d7c87d632",
+    "sizeBytes": 11930,
+    "url": "https://aminet.net/game/misc/Robbo.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Robbo Clone for Amiga",
+  "id": "robbo",
+  "name": "Robbo",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.0"
+}

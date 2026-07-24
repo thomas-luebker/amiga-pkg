@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "1dee400576c79ddc2061e7900fbdc1690dae5925883f189cc67248633d092289",
+    "sizeBytes": 293730,
+    "url": "https://aminet.net/comm/tcp/Fitz.lha"
+  },
+  "category": "Internet",
+  "conflicts": [],
+  "deps": [],
+  "description": "Light TCP/IP file server and mounter",
+  "id": "fitz",
+  "name": "Fitz",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.20"
+}

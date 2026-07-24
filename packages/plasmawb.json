@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "911ac5ad325f31113a197f60bda32fe7c277771bc2cb596d86edb43d0419cd47",
+    "sizeBytes": 153114,
+    "url": "https://aminet.net/gfx/misc/PlasmaWB.lha"
+  },
+  "category": "Graphics",
+  "conflicts": [],
+  "deps": [],
+  "description": "Mouse/autonomous Workbench plasma",
+  "id": "plasmawb",
+  "name": "PlasmaWB",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.21"
+}

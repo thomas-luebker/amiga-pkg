@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "8c492fa5a6300f0454ae7d2da4e692d42f1751dcf1ce6cde48968f0d641cb687",
+    "sizeBytes": 684458,
+    "url": "https://aminet.net/text/edit/tinyedit_aos.lha"
+  },
+  "category": "Text",
+  "conflicts": [],
+  "deps": [],
+  "description": "Lightweight text editor",
+  "id": "tinyedit",
+  "name": "TinyEdit",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.3.5"
+}
