@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "879e687862d1cd9a8bf7ff85150349857a33592d464d39d1049af4eede242c53",
+    "sizeBytes": 2705341,
+    "url": "https://aminet.net/dev/cross/oscar64.lha"
+  },
+  "category": "Development",
+  "conflicts": [],
+  "deps": [],
+  "description": "C/C++ Cross Compiler Assembler + Runtime",
+  "id": "oscar64",
+  "name": "oscar64",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.32.272 (fixed)"
+}

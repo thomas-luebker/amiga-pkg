@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "55b81e9194b0445eea001f02e04f05ff97a71c8e29f2bba29a8052b501ece355",
+    "sizeBytes": 5962,
+    "url": "https://aminet.net/dev/misc/Codecraft.lha"
+  },
+  "category": "Development",
+  "conflicts": [],
+  "deps": [],
+  "description": "Integrated Development Environment",
+  "id": "codecraft",
+  "name": "Codecraft",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.16"
+}

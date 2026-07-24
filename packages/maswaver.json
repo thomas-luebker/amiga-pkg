@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "04722dd5440793108deffcfdc1a6b39fda11774bff4ca2672f1b42dcb3471660",
+    "sizeBytes": 54886,
+    "url": "https://aminet.net/mus/play/MASWaver.lha"
+  },
+  "category": "Audio",
+  "conflicts": [],
+  "deps": [],
+  "description": "MP3 Streamer for MAS Player or MHI",
+  "id": "maswaver",
+  "name": "MASWaver",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.3"
+}

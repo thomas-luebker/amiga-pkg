@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "88d6a1d8f01e3c236331991de9420386ab2ce906839e14668418b33886f160bf",
+    "sizeBytes": 269660,
+    "url": "https://aminet.net/comm/tcp/TelegramAmiga.lha"
+  },
+  "category": "Internet",
+  "conflicts": [],
+  "deps": [],
+  "description": "Native MTProto Telegram chat client",
+  "id": "telegramamiga",
+  "name": "Telegram Amiga",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "0.0.6a"
+}

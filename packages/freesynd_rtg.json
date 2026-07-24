@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "e693d72bcfae80db37758a30f793c1df8127fb3d9e2f22f6d17a6fea96310d88",
+    "sizeBytes": 3969949,
+    "url": "https://aminet.net/game/strat/FreeSynd_RTG.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Amiga port of Syndicate (FreeSynd)",
+  "id": "freesynd_rtg",
+  "name": "FreeSynd (RTG)",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "0.9.1.01"
+}

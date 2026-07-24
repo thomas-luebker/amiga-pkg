@@ -1,0 +1,18 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "34e832b72288cd32302f748f417040179d6f9a190274fb48e66f0751632bc3f1",
+    "sizeBytes": 2661884,
+    "url": "https://aminet.net/util/misc/ZZSpeech.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Speech service for ZZ9000/XACP",
+  "id": "zzspeech",
+  "name": "ZZSpeech",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.0"
+}
