@@ -1273,34 +1273,6 @@
         "mirrors" : [
 
         ],
-        "sha256" : "f283a0d651002101bfc257cf35a6ebe999ed19e0a5152a94c0b4eb0be2dbb9e9",
-        "sizeBytes" : 5961,
-        "url" : "http://aminet.net/dev/misc/Codecraft.lha"
-      },
-      "category" : "Development",
-      "conflicts" : [
-
-      ],
-      "deps" : [
-
-      ],
-      "description" : "Integrated Development Environment",
-      "id" : "codecraft",
-      "name" : "Codecraft",
-      "provides" : [
-
-      ],
-      "requiredCapabilities" : [
-
-      ],
-      "tier" : "A",
-      "version" : "1.16"
-    },
-    {
-      "archive" : {
-        "mirrors" : [
-
-        ],
         "sha256" : "cfdf74a4eab0cc5a4e3faa785506ffff9285a5fc0e5f0a87dd351e9ea0d9ae64",
         "sizeBytes" : 40060,
         "url" : "http://aminet.net/text/misc/convertmojo.lha"
