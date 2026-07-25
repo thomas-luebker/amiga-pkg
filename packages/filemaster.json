@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/dir/FileMaster2.2.lha",
+      "http://se.aminet.net/util/dir/FileMaster2.2.lha"
+    ],
     "sha256": "3ea6f07377be8607ee7d6a57f2b857928dfb0f6bc4b83dde455d33457c44cc96",
     "sizeBytes": 60906,
     "url": "http://aminet.net/util/dir/FileMaster2.2.lha"

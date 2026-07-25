@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/wb/MagicMenu_2.35.lha",
+      "http://se.aminet.net/util/wb/MagicMenu_2.35.lha"
+    ],
     "sha256": "9f2649d6e651f306ff3fe9984ca5bba4411b34f22de3931da8b9a90ce2da1f0b",
     "sizeBytes": 96877,
     "url": "http://aminet.net/util/wb/MagicMenu_2.35.lha"

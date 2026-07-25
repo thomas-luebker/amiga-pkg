@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/comm/tcp/TheWire13.lha",
+      "http://se.aminet.net/comm/tcp/TheWire13.lha"
+    ],
     "sha256": "483e17e7a4aca49c3e674a0766061be1fb902acfc837aa08ff20cb6dc7e36f09",
     "sizeBytes": 143776,
     "url": "http://aminet.net/comm/tcp/TheWire13.lha"

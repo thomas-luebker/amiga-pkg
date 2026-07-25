@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/mus/play/Play16.lha",
+      "http://se.aminet.net/mus/play/Play16.lha"
+    ],
     "sha256": "56c034462d011924c6a7a9bc670beff24c0491912d8f0c0fa8761aed89e4346f",
     "sizeBytes": 116773,
     "url": "http://aminet.net/mus/play/Play16.lha"

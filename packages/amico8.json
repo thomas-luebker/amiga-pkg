@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/misc/emu/Amico8.lha",
+      "http://se.aminet.net/misc/emu/Amico8.lha"
+    ],
     "sha256": "61e00be7194d37190a5d66ca01029677453ea77fd9db2738f8ca23b429330d31",
     "sizeBytes": 488275,
     "url": "http://aminet.net/misc/emu/Amico8.lha"

@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/game/text/ADL.lha",
+      "http://se.aminet.net/game/text/ADL.lha"
+    ],
     "sha256": "2328828d980db369669d4adda99ed5162203bb65f4379cd52c6146457006ef26",
     "sizeBytes": 260285,
     "url": "http://aminet.net/game/text/ADL.lha"

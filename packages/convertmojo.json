@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/text/misc/convertmojo.lha",
+      "http://se.aminet.net/text/misc/convertmojo.lha"
+    ],
     "sha256": "cfdf74a4eab0cc5a4e3faa785506ffff9285a5fc0e5f0a87dd351e9ea0d9ae64",
     "sizeBytes": 40060,
     "url": "http://aminet.net/text/misc/convertmojo.lha"

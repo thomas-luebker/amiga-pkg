@@ -1,0 +1,19 @@
+{
+  "added": "2026-07-26",
+  "archive": {
+    "mirrors": [],
+    "sha256": "5bfa09f0cf0c6176faf58803cab9746de5772a2ba33bf493962b4fda06021f67",
+    "sizeBytes": 77850,
+    "url": "https://www.amigaworld.de/software/lumireg/LumiReg_1.1.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "Registration tool for Lumi suite (LumiFTP, LumiPass) [download needs AmiSSL - https host]",
+  "id": "lumireg",
+  "name": "LumiReg",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "-"
+}

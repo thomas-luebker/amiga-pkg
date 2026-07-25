@@ -1,0 +1,19 @@
+{
+  "added": "2026-07-26",
+  "archive": {
+    "mirrors": [],
+    "sha256": "f985d8f36d06a5e7e162c30752f43ce92c3ea87c6e8263cf36d5abb7a255b392",
+    "sizeBytes": 397793,
+    "url": "https://www.amigaworld.de/software/lumiweather/LumiWeather_1.0.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "Weather display app for AmigaOS [download needs AmiSSL - https host]",
+  "id": "lumiweather",
+  "name": "LumiWeather",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "-"
+}

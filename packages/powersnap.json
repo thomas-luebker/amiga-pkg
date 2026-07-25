@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/cdity/PowerSnap22a.lha",
+      "http://se.aminet.net/util/cdity/PowerSnap22a.lha"
+    ],
     "sha256": "4cce57a2ff87dbd66f26bb06220eb7594e4224e746199c6d6f178c8b6bba17b5",
     "sizeBytes": 55428,
     "url": "http://aminet.net/util/cdity/PowerSnap22a.lha"

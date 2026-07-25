@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/comm/misc/OctoControlSpeak.lha",
+      "http://se.aminet.net/comm/misc/OctoControlSpeak.lha"
+    ],
     "sha256": "ec805fccaed53c9c54c37cdc31d1938162797818190c6ed1220a88071dc5d552",
     "sizeBytes": 45228,
     "url": "http://aminet.net/comm/misc/OctoControlSpeak.lha"

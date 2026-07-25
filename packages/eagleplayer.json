@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/mus/play/Eagleplayer.lha",
+      "http://se.aminet.net/mus/play/Eagleplayer.lha"
+    ],
     "sha256": "20e11a13c2528d6ce864c02b1170872f10f52517ddcd82f4839e46f228c9bfb3",
     "sizeBytes": 3092246,
     "url": "http://aminet.net/mus/play/Eagleplayer.lha"

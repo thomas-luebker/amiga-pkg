@@ -1,7 +1,10 @@
 {
   "added": "2026-07-25",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/comm/tcp/TwinVNC0.8beta.lha",
+      "http://se.aminet.net/comm/tcp/TwinVNC0.8beta.lha"
+    ],
     "sha256": "53f40e27d9fb74dfab6a6abda41c220ec33644ed4e95a5cb1ad065e43e8fcaa4",
     "sizeBytes": 839270,
     "url": "http://aminet.net/comm/tcp/TwinVNC0.8beta.lha"

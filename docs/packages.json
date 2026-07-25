@@ -6,7 +6,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/game/text/ADL.lha",
+          "http://se.aminet.net/game/text/ADL.lha"
         ],
         "sha256" : "2328828d980db369669d4adda99ed5162203bb65f4379cd52c6146457006ef26",
         "sizeBytes" : 260285,
@@ -544,7 +545,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/comm/www/Amelinium.lha",
+          "http://se.aminet.net/comm/www/Amelinium.lha"
         ],
         "sha256" : "18c46ed1cac9f66636d235f382a45200857752259cbd0bb807fa4fdee2560de5",
         "sizeBytes" : 3627088,
@@ -576,7 +578,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/misc/emu/AmiArcadia.lha",
+          "http://se.aminet.net/misc/emu/AmiArcadia.lha"
         ],
         "sha256" : "863ce264f6c3d7dd5507c9e18d912c5f86748137713ce0cce3b1cea0e19bb475",
         "sizeBytes" : 11115826,
@@ -609,7 +612,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/crypt/AmiAuth.lha",
+          "http://se.aminet.net/util/crypt/AmiAuth.lha"
         ],
         "sha256" : "c7105ee02dfaa69ec4422e067647ed8a6461678eef5cb86f120ef632a3ea77b2",
         "sizeBytes" : 115787,
@@ -638,7 +642,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/dev/c/AmiBlocksIDE.lha",
+          "http://se.aminet.net/dev/c/AmiBlocksIDE.lha"
         ],
         "sha256" : "78a6276c4ba795c5ddbc57058fd95fde973a404e49ef64fc665f6600d7ecfac7",
         "sizeBytes" : 161419,
@@ -670,7 +675,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/misc/emu/Amico8.lha",
+          "http://se.aminet.net/misc/emu/Amico8.lha"
         ],
         "sha256" : "61e00be7194d37190a5d66ca01029677453ea77fd9db2738f8ca23b429330d31",
         "sizeBytes" : 488275,
@@ -781,6 +787,21 @@
             "dest" : "Tools",
             "op" : "placeFile",
             "src" : "amipkg-gui.info"
+          },
+          {
+            "dest" : "Tools",
+            "op" : "placeFile",
+            "src" : "amipkg-mui"
+          },
+          {
+            "dest" : "Tools",
+            "op" : "placeFile",
+            "src" : "amipkg-mui.info"
+          },
+          {
+            "dest" : "Tools/AmigaImager",
+            "op" : "placeFile",
+            "src" : "amipkg.guide"
           }
         ],
         "recipeSchema" : 1
@@ -835,7 +856,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/misc/emu/AmiVms.lha",
+          "http://se.aminet.net/misc/emu/AmiVms.lha"
         ],
         "sha256" : "ba4bd5bdfe3a85b842a93c17ccc75e68bd20ef400b72d8f525ce26c0eb921d28",
         "sizeBytes" : 4120279,
@@ -969,7 +991,8 @@
       "added" : "2026-07-25",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/arc/avalanche.lha",
+          "http://se.aminet.net/util/arc/avalanche.lha"
         ],
         "sha256" : "626af4cee72dd302486de181ea10cee9104b7e54dc98bcd144c823229d3ab35e",
         "sizeBytes" : 147159,
@@ -1003,7 +1026,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/wb/BaseConv.lha",
+          "http://se.aminet.net/util/wb/BaseConv.lha"
         ],
         "sha256" : "d08b53ad81f3a53b936296ab7284310e7ee85c51277c664c3bb911501169cb2e",
         "sizeBytes" : 72321,
@@ -1285,7 +1309,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/boot/BoingKick.lha",
+          "http://se.aminet.net/util/boot/BoingKick.lha"
         ],
         "sha256" : "7eab2c868814dec738323b6d1e8c1debd42e05b421dfda5b713c7b9d24aff6c0",
         "sizeBytes" : 156769,
@@ -1317,7 +1342,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/shell/ltx-cc123.lha",
+          "http://se.aminet.net/util/shell/ltx-cc123.lha"
         ],
         "sha256" : "5cf1d3a02625be19384431c76abded36b7cc3c38a72a159d1600adca67e2ad9e",
         "sizeBytes" : 47880,
@@ -1346,7 +1372,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/game/board/CFish.lha",
+          "http://se.aminet.net/game/board/CFish.lha"
         ],
         "sha256" : "40a47de2bd15c92feab84607d1063cc8cbcef5fd3f04a52ff93bd41d1987e7e1",
         "sizeBytes" : 374425,
@@ -1375,7 +1402,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/dev/misc/Codecraft.adf",
+          "http://se.aminet.net/dev/misc/Codecraft.adf"
         ],
         "sha256" : "20c3dfb76f418791513403993ee72448906959116e8eff96dbe12a08246272dd",
         "sizeBytes" : 901120,
@@ -1404,7 +1432,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/text/misc/convertmojo.lha",
+          "http://se.aminet.net/text/misc/convertmojo.lha"
         ],
         "sha256" : "cfdf74a4eab0cc5a4e3faa785506ffff9285a5fc0e5f0a87dd351e9ea0d9ae64",
         "sizeBytes" : 40060,
@@ -1639,7 +1668,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/comm/tcp/curl-8.22.0-DEV-210726.lha",
+          "http://se.aminet.net/comm/tcp/curl-8.22.0-DEV-210726.lha"
         ],
         "sha256" : "95d38d4e6c7a9046147bfc1c88615b95be9fb0b2a62ae42d0b40318802f5232f",
         "sizeBytes" : 4704106,
@@ -1672,7 +1702,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/mus/play/DeliTracker234.lha",
+          "http://se.aminet.net/mus/play/DeliTracker234.lha"
         ],
         "sha256" : "8068a777b0589c11354bc9d7959ba9d135ccdd57d7be4d3ef0ca8477ded2754c",
         "sizeBytes" : 39547,
@@ -1701,7 +1732,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/game/jump/Diver.lha",
+          "http://se.aminet.net/game/jump/Diver.lha"
         ],
         "sha256" : "bef5c644ffdaa33a19fe869d97c03f0d12afa2d6ede45230df46b03521fd2d43",
         "sizeBytes" : 66949,
@@ -1869,7 +1901,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/comm/net/DropBox-Handler.lha",
+          "http://se.aminet.net/comm/net/DropBox-Handler.lha"
         ],
         "sha256" : "5713ccb7a17dcd4129f21d22c0489c2cdabbdda0ae69d2b7a3c459720625016f",
         "sizeBytes" : 138598,
@@ -1905,7 +1938,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/game/strat/DuneLegacy_RTG.lha",
+          "http://se.aminet.net/game/strat/DuneLegacy_RTG.lha"
         ],
         "sha256" : "3ad813d480229cf236d1c074e162ade2c1ba900d667fc13d351409bad4ae32aa",
         "sizeBytes" : 14746510,
@@ -1934,7 +1968,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/mus/play/Eagleplayer.lha",
+          "http://se.aminet.net/mus/play/Eagleplayer.lha"
         ],
         "sha256" : "20e11a13c2528d6ce864c02b1170872f10f52517ddcd82f4839e46f228c9bfb3",
         "sizeBytes" : 3092246,
@@ -1963,7 +1998,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/misc/Executive.lha",
+          "http://se.aminet.net/util/misc/Executive.lha"
         ],
         "sha256" : "41a54aa0dae4d109e6de1037a6957e0c7598cdde81e9cf99acc06938b8f7b370",
         "sizeBytes" : 1217033,
@@ -1992,7 +2028,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/dir/FileMaster2.2.lha",
+          "http://se.aminet.net/util/dir/FileMaster2.2.lha"
         ],
         "sha256" : "3ea6f07377be8607ee7d6a57f2b857928dfb0f6bc4b83dde455d33457c44cc96",
         "sizeBytes" : 60906,
@@ -2021,7 +2058,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/comm/tcp/Fitz.lha",
+          "http://se.aminet.net/comm/tcp/Fitz.lha"
         ],
         "sha256" : "1dee400576c79ddc2061e7900fbdc1690dae5925883f189cc67248633d092289",
         "sizeBytes" : 293730,
@@ -2083,7 +2121,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/game/strat/FreeSynd_RTG.lha",
+          "http://se.aminet.net/game/strat/FreeSynd_RTG.lha"
         ],
         "sha256" : "e693d72bcfae80db37758a30f793c1df8127fb3d9e2f22f6d17a6fea96310d88",
         "sizeBytes" : 3969949,
@@ -2112,7 +2151,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/mouse/FreeWheel.lha",
+          "http://se.aminet.net/util/mouse/FreeWheel.lha"
         ],
         "sha256" : "4a166ad016ee7d2326e09658fb9d7dcbcfc45267e963666e74a5909159099978",
         "sizeBytes" : 109787,
@@ -2141,7 +2181,8 @@
       "added" : "2026-07-25",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/wb/FullPalette22.lha",
+          "http://se.aminet.net/util/wb/FullPalette22.lha"
         ],
         "sha256" : "4543eda6aca9e1a10ec986bc987c6e56c105ec26184254137d484b00ad358f32",
         "sizeBytes" : 37869,
@@ -2692,7 +2733,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/app/IconAction.lha",
+          "http://se.aminet.net/util/app/IconAction.lha"
         ],
         "sha256" : "cfd53385c18390a8f6afd71548bce138390d8b7d34c30553f820d0953fbcf173",
         "sizeBytes" : 9449,
@@ -3059,7 +3101,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/game/text/intruder.lha",
+          "http://se.aminet.net/game/text/intruder.lha"
         ],
         "sha256" : "f30d884fc623841f793df9aa301d17c79ac48b7a3c62de201f9bdbd315adae86",
         "sizeBytes" : 153804,
@@ -3088,7 +3131,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/shell/KingCON_1.3.lha",
+          "http://se.aminet.net/util/shell/KingCON_1.3.lha"
         ],
         "sha256" : "7d9e23b35c22a4f87b589ecbe546523eea2ff43162d33c30de62cd0e0bc67d11",
         "sizeBytes" : 130740,
@@ -3244,6 +3288,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-26",
       "archive" : {
         "mirrors" : [
 
@@ -3259,28 +3304,20 @@
       "deps" : [
 
       ],
-      "description" : "Native password manager with ChaCha20 encryption and KeePass import/export (MUI 3.8)",
+      "description" : "Native password manager with ChaCha20 encryption and KeePass import/export (MUI 3.8) [download needs AmiSSL - https host]",
       "id" : "lumipass",
-      "install" : {
-        "alternateMD5" : [
-
-        ],
-        "directURL" : "https://www.amigaworld.de/software/lumipass/LumiPass_1.1.lha",
-        "sourceType" : "direct",
-        "userDefined" : false,
-        "userVisible" : true
-      },
       "name" : "LumiPass",
       "provides" : [
 
       ],
       "requiredCapabilities" : [
-        "host-builtin-v1"
+
       ],
-      "tier" : "B",
+      "tier" : "A",
       "version" : "-"
     },
     {
+      "added" : "2026-07-26",
       "archive" : {
         "mirrors" : [
 
@@ -3296,28 +3333,20 @@
       "deps" : [
 
       ],
-      "description" : "Registration tool for Lumi suite (LumiFTP, LumiPass)",
+      "description" : "Registration tool for Lumi suite (LumiFTP, LumiPass) [download needs AmiSSL - https host]",
       "id" : "lumireg",
-      "install" : {
-        "alternateMD5" : [
-
-        ],
-        "directURL" : "https://www.amigaworld.de/software/lumireg/LumiReg_1.1.lha",
-        "sourceType" : "direct",
-        "userDefined" : false,
-        "userVisible" : true
-      },
       "name" : "LumiReg",
       "provides" : [
 
       ],
       "requiredCapabilities" : [
-        "host-builtin-v1"
+
       ],
-      "tier" : "B",
+      "tier" : "A",
       "version" : "-"
     },
     {
+      "added" : "2026-07-26",
       "archive" : {
         "mirrors" : [
 
@@ -3333,26 +3362,16 @@
       "deps" : [
 
       ],
-      "description" : "Weather display app for AmigaOS",
+      "description" : "Weather display app for AmigaOS [download needs AmiSSL - https host]",
       "id" : "lumiweather",
-      "install" : {
-        "alternateMD5" : [
-
-        ],
-        "directURL" : "https://www.amigaworld.de/software/lumiweather/LumiWeather_1.0.lha",
-        "networkStack" : "roadshowDemo",
-        "sourceType" : "direct",
-        "userDefined" : false,
-        "userVisible" : true
-      },
       "name" : "LumiWeather",
       "provides" : [
 
       ],
       "requiredCapabilities" : [
-        "host-builtin-v1"
+
       ],
-      "tier" : "B",
+      "tier" : "A",
       "version" : "-"
     },
     {
@@ -3389,7 +3408,8 @@
       "added" : "2026-07-25",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/blank/Madhouse260.lha",
+          "http://se.aminet.net/util/blank/Madhouse260.lha"
         ],
         "sha256" : "d4d486f899cb454f29197878f64f7358213fc72216211fbba8cd2fa4e94408f2",
         "sizeBytes" : 588173,
@@ -3423,7 +3443,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/wb/MagicMenu_2.35.lha",
+          "http://se.aminet.net/util/wb/MagicMenu_2.35.lha"
         ],
         "sha256" : "9f2649d6e651f306ff3fe9984ca5bba4411b34f22de3931da8b9a90ce2da1f0b",
         "sizeBytes" : 96877,
@@ -3452,7 +3473,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/misc/emu/make.lha",
+          "http://se.aminet.net/misc/emu/make.lha"
         ],
         "sha256" : "d6af6e10f94002e4fa4f707884e93f23ea8ad1315ae3f6117ca2b570b8325310",
         "sizeBytes" : 156995,
@@ -3481,7 +3503,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/mus/play/MASWaver.lha",
+          "http://se.aminet.net/mus/play/MASWaver.lha"
         ],
         "sha256" : "04722dd5440793108deffcfdc1a6b39fda11774bff4ca2672f1b42dcb3471660",
         "sizeBytes" : 54886,
@@ -3513,7 +3536,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/comm/tcp/MiniFTP.lha",
+          "http://se.aminet.net/comm/tcp/MiniFTP.lha"
         ],
         "sha256" : "7c62bdb34a382c8bb905c446ddc272cbd3d08003a3baf5b61d4d5c9ec8a844dd",
         "sizeBytes" : 25355,
@@ -3810,7 +3834,8 @@
       "added" : "2026-07-25",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/cdity/NewMode_V39.lha",
+          "http://se.aminet.net/util/cdity/NewMode_V39.lha"
         ],
         "sha256" : "1556a5f69e5408ec3840a17b0f18e2bd9828f85ec551954c15f9bb56ba95fb6c",
         "sizeBytes" : 64352,
@@ -4159,7 +4184,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/comm/misc/OctoControlSpeak.lha",
+          "http://se.aminet.net/comm/misc/OctoControlSpeak.lha"
         ],
         "sha256" : "ec805fccaed53c9c54c37cdc31d1938162797818190c6ed1220a88071dc5d552",
         "sizeBytes" : 45228,
@@ -4193,7 +4219,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/dev/cross/oscar64.lha",
+          "http://se.aminet.net/dev/cross/oscar64.lha"
         ],
         "sha256" : "879e687862d1cd9a8bf7ff85150349857a33592d464d39d1049af4eede242c53",
         "sizeBytes" : 2705341,
@@ -4373,7 +4400,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/gfx/misc/PlasmaWB.lha",
+          "http://se.aminet.net/gfx/misc/PlasmaWB.lha"
         ],
         "sha256" : "911ac5ad325f31113a197f60bda32fe7c277771bc2cb596d86edb43d0419cd47",
         "sizeBytes" : 153114,
@@ -4406,7 +4434,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/mus/play/Play16.lha",
+          "http://se.aminet.net/mus/play/Play16.lha"
         ],
         "sha256" : "56c034462d011924c6a7a9bc670beff24c0491912d8f0c0fa8761aed89e4346f",
         "sizeBytes" : 116773,
@@ -4435,7 +4464,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/game/strat/Polanie-RTG-amiga.lha",
+          "http://se.aminet.net/game/strat/Polanie-RTG-amiga.lha"
         ],
         "sha256" : "c9645ab7e75b68e8b2425895ab4f6969617103fd60d6babe1fb8c98fd9344645",
         "sizeBytes" : 747392,
@@ -4630,7 +4660,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/cdity/PowerSnap22a.lha",
+          "http://se.aminet.net/util/cdity/PowerSnap22a.lha"
         ],
         "sha256" : "4cce57a2ff87dbd66f26bb06220eb7594e4224e746199c6d6f178c8b6bba17b5",
         "sizeBytes" : 55428,
@@ -4923,7 +4954,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/libs/ReqToolsUsr.lha",
+          "http://se.aminet.net/util/libs/ReqToolsUsr.lha"
         ],
         "sha256" : "0a70c72f709a6d6487f45d8a937b69ac7030b560dc34f76a9a365683058f86e3",
         "sizeBytes" : 171301,
@@ -5106,7 +5138,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/game/misc/Robbo.lha",
+          "http://se.aminet.net/game/misc/Robbo.lha"
         ],
         "sha256" : "f75313c69012854d3acad05044f02df889d384df4cdefb3c46b5736d7c87d632",
         "sizeBytes" : 11930,
@@ -5242,7 +5275,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/moni/Scout_os3.lha",
+          "http://se.aminet.net/util/moni/Scout_os3.lha"
         ],
         "sha256" : "ac0e6af5a28987c3c1136d380f93b07aa628065316dd368d23af05bfa055958e",
         "sizeBytes" : 966982,
@@ -5308,7 +5342,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/moni/SnoopDos.lha",
+          "http://se.aminet.net/util/moni/SnoopDos.lha"
         ],
         "sha256" : "0fb51361fe82b125971b190b78a81cb43c0a631c9d075a37b0110a0617612aba",
         "sizeBytes" : 137323,
@@ -5696,7 +5731,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/comm/tcp/TelegramAmiga.lha",
+          "http://se.aminet.net/comm/tcp/TelegramAmiga.lha"
         ],
         "sha256" : "88d6a1d8f01e3c236331991de9420386ab2ce906839e14668418b33886f160bf",
         "sizeBytes" : 269660,
@@ -5942,7 +5978,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/comm/tcp/TheWire13.lha",
+          "http://se.aminet.net/comm/tcp/TheWire13.lha"
         ],
         "sha256" : "483e17e7a4aca49c3e674a0766061be1fb902acfc837aa08ff20cb6dc7e36f09",
         "sizeBytes" : 143776,
@@ -5971,7 +6008,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/text/edit/tinyedit_aos.lha",
+          "http://se.aminet.net/text/edit/tinyedit_aos.lha"
         ],
         "sha256" : "8c492fa5a6300f0454ae7d2da4e692d42f1751dcf1ce6cde48968f0d641cb687",
         "sizeBytes" : 684458,
@@ -6003,7 +6041,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/wb/ToolManager2_1bin.lha",
+          "http://se.aminet.net/util/wb/ToolManager2_1bin.lha"
         ],
         "sha256" : "b64e94d2c4d18ae938d011f01e04f84c7f373c927c45731caf799870c7c9b187",
         "sizeBytes" : 501284,
@@ -6152,7 +6191,8 @@
       "added" : "2026-07-25",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/comm/tcp/TwinVNC0.8beta.lha",
+          "http://se.aminet.net/comm/tcp/TwinVNC0.8beta.lha"
         ],
         "sha256" : "53f40e27d9fb74dfab6a6abda41c220ec33644ed4e95a5cb1ad065e43e8fcaa4",
         "sizeBytes" : 839270,
@@ -6399,7 +6439,8 @@
       "added" : "2026-07-25",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/gfx/show/Visage.lha",
+          "http://se.aminet.net/gfx/show/Visage.lha"
         ],
         "sha256" : "e8089d1a94f4d8d6e10368c861c0abba794a646868711d93e3c263ea3d5e3420",
         "sizeBytes" : 296108,
@@ -6428,7 +6469,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/wb/VisualPrefs.lha",
+          "http://se.aminet.net/util/wb/VisualPrefs.lha"
         ],
         "sha256" : "bb120276d6560974553eb568459c6fa17ab04a25118626e1c14219254150e61a",
         "sizeBytes" : 481552,
@@ -6454,6 +6496,7 @@
       "version" : "1.5k"
     },
     {
+      "added" : "2026-07-26",
       "archive" : {
         "mirrors" : [
 
@@ -6469,25 +6512,16 @@
       "deps" : [
 
       ],
-      "description" : "Workbench dock launcher",
+      "description" : "Workbench dock launcher [download needs AmiSSL - https host]",
       "id" : "wbdock",
-      "install" : {
-        "alternateMD5" : [
-
-        ],
-        "directURL" : "https://thomas-rapp.hier-im-netz.de/amiga/wbdock2.lha",
-        "sourceType" : "direct",
-        "userDefined" : false,
-        "userVisible" : true
-      },
       "name" : "WBDock 2",
       "provides" : [
 
       ],
       "requiredCapabilities" : [
-        "host-builtin-v1"
+
       ],
-      "tier" : "B",
+      "tier" : "A",
       "version" : "2"
     },
     {
@@ -6737,7 +6771,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/driver/input/XMouseD.lha",
+          "http://se.aminet.net/driver/input/XMouseD.lha"
         ],
         "sha256" : "d5b75f4f9488b9d44d7ae3f752772d2a32572d6ffa1b55430162d2c7863a27cd",
         "sizeBytes" : 17598,
@@ -6766,7 +6801,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/misc/xxd.lha",
+          "http://se.aminet.net/util/misc/xxd.lha"
         ],
         "sha256" : "0042c23a95c347acd398cb363549bfe67694b8936651128a08731f7ef00ddcaa",
         "sizeBytes" : 37441,
@@ -6795,7 +6831,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/cdity/Yak212.lha",
+          "http://se.aminet.net/util/cdity/Yak212.lha"
         ],
         "sha256" : "b0ad482cda442aca6dd7e8433c366fd325931802149a694d1314933015971aea",
         "sizeBytes" : 225319,
@@ -6824,7 +6861,8 @@
       "added" : "2026-07-25",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/disk/moni/Zaphod.lha",
+          "http://se.aminet.net/disk/moni/Zaphod.lha"
         ],
         "sha256" : "d31cd8a89bbb26abbae00c29184f618313bfc708de59775a80059a01e179112f",
         "sizeBytes" : 236650,
@@ -6853,7 +6891,8 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-
+          "http://us.aminet.net/util/misc/ZZSpeech.lha",
+          "http://se.aminet.net/util/misc/ZZSpeech.lha"
         ],
         "sha256" : "34e832b72288cd32302f748f417040179d6f9a190274fb48e66f0751632bc3f1",
         "sizeBytes" : 2661884,

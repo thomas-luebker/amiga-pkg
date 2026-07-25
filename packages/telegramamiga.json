@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/comm/tcp/TelegramAmiga.lha",
+      "http://se.aminet.net/comm/tcp/TelegramAmiga.lha"
+    ],
     "sha256": "88d6a1d8f01e3c236331991de9420386ab2ce906839e14668418b33886f160bf",
     "sizeBytes": 269660,
     "url": "http://aminet.net/comm/tcp/TelegramAmiga.lha"

@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/cdity/Yak212.lha",
+      "http://se.aminet.net/util/cdity/Yak212.lha"
+    ],
     "sha256": "b0ad482cda442aca6dd7e8433c366fd325931802149a694d1314933015971aea",
     "sizeBytes": 225319,
     "url": "http://aminet.net/util/cdity/Yak212.lha"

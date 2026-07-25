@@ -1,0 +1,19 @@
+{
+  "added": "2026-07-26",
+  "archive": {
+    "mirrors": [],
+    "sha256": "311c7128e58f211edf8d6e929b74ad13a653f4d891f12ad32bf738b0830d8252",
+    "sizeBytes": 6155131,
+    "url": "https://www.amigaworld.de/software/lumipass/LumiPass_1.1.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Native password manager with ChaCha20 encryption and KeePass import/export (MUI 3.8) [download needs AmiSSL - https host]",
+  "id": "lumipass",
+  "name": "LumiPass",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "-"
+}

@@ -1,7 +1,10 @@
 {
   "added": "2026-07-25",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/disk/moni/Zaphod.lha",
+      "http://se.aminet.net/disk/moni/Zaphod.lha"
+    ],
     "sha256": "d31cd8a89bbb26abbae00c29184f618313bfc708de59775a80059a01e179112f",
     "sizeBytes": 236650,
     "url": "http://aminet.net/disk/moni/Zaphod.lha"

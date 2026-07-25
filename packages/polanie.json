@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/game/strat/Polanie-RTG-amiga.lha",
+      "http://se.aminet.net/game/strat/Polanie-RTG-amiga.lha"
+    ],
     "sha256": "c9645ab7e75b68e8b2425895ab4f6969617103fd60d6babe1fb8c98fd9344645",
     "sizeBytes": 747392,
     "url": "http://aminet.net/game/strat/Polanie-RTG-amiga.lha"

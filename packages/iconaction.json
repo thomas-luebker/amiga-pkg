@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/app/IconAction.lha",
+      "http://se.aminet.net/util/app/IconAction.lha"
+    ],
     "sha256": "cfd53385c18390a8f6afd71548bce138390d8b7d34c30553f820d0953fbcf173",
     "sizeBytes": 9449,
     "url": "http://aminet.net/util/app/IconAction.lha"

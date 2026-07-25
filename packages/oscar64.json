@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/dev/cross/oscar64.lha",
+      "http://se.aminet.net/dev/cross/oscar64.lha"
+    ],
     "sha256": "879e687862d1cd9a8bf7ff85150349857a33592d464d39d1049af4eede242c53",
     "sizeBytes": 2705341,
     "url": "http://aminet.net/dev/cross/oscar64.lha"

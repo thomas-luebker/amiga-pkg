@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/game/strat/FreeSynd_RTG.lha",
+      "http://se.aminet.net/game/strat/FreeSynd_RTG.lha"
+    ],
     "sha256": "e693d72bcfae80db37758a30f793c1df8127fb3d9e2f22f6d17a6fea96310d88",
     "sizeBytes": 3969949,
     "url": "http://aminet.net/game/strat/FreeSynd_RTG.lha"

@@ -1,7 +1,10 @@
 {
   "added": "2026-07-25",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/cdity/NewMode_V39.lha",
+      "http://se.aminet.net/util/cdity/NewMode_V39.lha"
+    ],
     "sha256": "1556a5f69e5408ec3840a17b0f18e2bd9828f85ec551954c15f9bb56ba95fb6c",
     "sizeBytes": 64352,
     "url": "http://aminet.net/util/cdity/NewMode_V39.lha"

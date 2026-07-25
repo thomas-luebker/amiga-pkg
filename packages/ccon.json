@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/shell/ltx-cc123.lha",
+      "http://se.aminet.net/util/shell/ltx-cc123.lha"
+    ],
     "sha256": "5cf1d3a02625be19384431c76abded36b7cc3c38a72a159d1600adca67e2ad9e",
     "sizeBytes": 47880,
     "url": "http://aminet.net/util/shell/ltx-cc123.lha"

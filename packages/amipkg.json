@@ -29,6 +29,21 @@
         "dest": "Tools",
         "op": "placeFile",
         "src": "amipkg-gui.info"
+      },
+      {
+        "dest": "Tools",
+        "op": "placeFile",
+        "src": "amipkg-mui"
+      },
+      {
+        "dest": "Tools",
+        "op": "placeFile",
+        "src": "amipkg-mui.info"
+      },
+      {
+        "dest": "Tools/AmigaImager",
+        "op": "placeFile",
+        "src": "amipkg.guide"
       }
     ],
     "recipeSchema": 1

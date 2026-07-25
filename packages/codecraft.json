@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/dev/misc/Codecraft.adf",
+      "http://se.aminet.net/dev/misc/Codecraft.adf"
+    ],
     "sha256": "20c3dfb76f418791513403993ee72448906959116e8eff96dbe12a08246272dd",
     "sizeBytes": 901120,
     "url": "http://aminet.net/dev/misc/Codecraft.adf"

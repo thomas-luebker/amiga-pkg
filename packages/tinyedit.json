@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/text/edit/tinyedit_aos.lha",
+      "http://se.aminet.net/text/edit/tinyedit_aos.lha"
+    ],
     "sha256": "8c492fa5a6300f0454ae7d2da4e692d42f1751dcf1ce6cde48968f0d641cb687",
     "sizeBytes": 684458,
     "url": "http://aminet.net/text/edit/tinyedit_aos.lha"

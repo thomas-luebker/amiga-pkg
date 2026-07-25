@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/shell/KingCON_1.3.lha",
+      "http://se.aminet.net/util/shell/KingCON_1.3.lha"
+    ],
     "sha256": "7d9e23b35c22a4f87b589ecbe546523eea2ff43162d33c30de62cd0e0bc67d11",
     "sizeBytes": 130740,
     "url": "http://aminet.net/util/shell/KingCON_1.3.lha"

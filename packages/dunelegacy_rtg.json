@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/game/strat/DuneLegacy_RTG.lha",
+      "http://se.aminet.net/game/strat/DuneLegacy_RTG.lha"
+    ],
     "sha256": "3ad813d480229cf236d1c074e162ade2c1ba900d667fc13d351409bad4ae32aa",
     "sizeBytes": 14746510,
     "url": "http://aminet.net/game/strat/DuneLegacy_RTG.lha"

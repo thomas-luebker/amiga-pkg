@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/mus/play/MASWaver.lha",
+      "http://se.aminet.net/mus/play/MASWaver.lha"
+    ],
     "sha256": "04722dd5440793108deffcfdc1a6b39fda11774bff4ca2672f1b42dcb3471660",
     "sizeBytes": 54886,
     "url": "http://aminet.net/mus/play/MASWaver.lha"

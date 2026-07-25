@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/misc/emu/AmiVms.lha",
+      "http://se.aminet.net/misc/emu/AmiVms.lha"
+    ],
     "sha256": "ba4bd5bdfe3a85b842a93c17ccc75e68bd20ef400b72d8f525ce26c0eb921d28",
     "sizeBytes": 4120279,
     "url": "http://aminet.net/misc/emu/AmiVms.lha"

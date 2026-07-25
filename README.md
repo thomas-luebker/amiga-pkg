@@ -9,6 +9,8 @@ index that amipkg and AmigaImager-built systems trust.
   [Releases](https://github.com/thomas-luebker/amiga-pkg/releases) —
   download `amipkg.lha`, extract, double-click **Install**.
 - **Browse / add packages:** `packages/` — one JSON file per package.
+  **Want yours in the catalog? [PACKAGING.md](PACKAGING.md) — 5 minutes, pure
+  Python, no Amiga needed.**
 - **The published index** (what `amipkg update` fetches):
   <http://amiga-imager.org/packages/packages.json> (+ `packages.json.sig`) —
   plain HTTP, because classic Amigas have no TLS without AmiSSL; the signature

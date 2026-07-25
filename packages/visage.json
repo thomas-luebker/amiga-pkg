@@ -1,7 +1,10 @@
 {
   "added": "2026-07-25",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/gfx/show/Visage.lha",
+      "http://se.aminet.net/gfx/show/Visage.lha"
+    ],
     "sha256": "e8089d1a94f4d8d6e10368c861c0abba794a646868711d93e3c263ea3d5e3420",
     "sizeBytes": 296108,
     "url": "http://aminet.net/gfx/show/Visage.lha"

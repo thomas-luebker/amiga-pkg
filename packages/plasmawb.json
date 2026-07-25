@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/gfx/misc/PlasmaWB.lha",
+      "http://se.aminet.net/gfx/misc/PlasmaWB.lha"
+    ],
     "sha256": "911ac5ad325f31113a197f60bda32fe7c277771bc2cb596d86edb43d0419cd47",
     "sizeBytes": 153114,
     "url": "http://aminet.net/gfx/misc/PlasmaWB.lha"

@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/comm/tcp/MiniFTP.lha",
+      "http://se.aminet.net/comm/tcp/MiniFTP.lha"
+    ],
     "sha256": "7c62bdb34a382c8bb905c446ddc272cbd3d08003a3baf5b61d4d5c9ec8a844dd",
     "sizeBytes": 25355,
     "url": "http://aminet.net/comm/tcp/MiniFTP.lha"

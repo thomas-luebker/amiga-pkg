@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/crypt/AmiAuth.lha",
+      "http://se.aminet.net/util/crypt/AmiAuth.lha"
+    ],
     "sha256": "c7105ee02dfaa69ec4422e067647ed8a6461678eef5cb86f120ef632a3ea77b2",
     "sizeBytes": 115787,
     "url": "http://aminet.net/util/crypt/AmiAuth.lha"

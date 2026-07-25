@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/comm/tcp/Fitz.lha",
+      "http://se.aminet.net/comm/tcp/Fitz.lha"
+    ],
     "sha256": "1dee400576c79ddc2061e7900fbdc1690dae5925883f189cc67248633d092289",
     "sizeBytes": 293730,
     "url": "http://aminet.net/comm/tcp/Fitz.lha"

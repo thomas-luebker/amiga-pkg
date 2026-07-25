@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/moni/SnoopDos.lha",
+      "http://se.aminet.net/util/moni/SnoopDos.lha"
+    ],
     "sha256": "0fb51361fe82b125971b190b78a81cb43c0a631c9d075a37b0110a0617612aba",
     "sizeBytes": 137323,
     "url": "http://aminet.net/util/moni/SnoopDos.lha"

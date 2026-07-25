@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/comm/net/DropBox-Handler.lha",
+      "http://se.aminet.net/comm/net/DropBox-Handler.lha"
+    ],
     "sha256": "5713ccb7a17dcd4129f21d22c0489c2cdabbdda0ae69d2b7a3c459720625016f",
     "sizeBytes": 138598,
     "url": "http://aminet.net/comm/net/DropBox-Handler.lha"

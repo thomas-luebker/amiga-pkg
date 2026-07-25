@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/game/board/CFish.lha",
+      "http://se.aminet.net/game/board/CFish.lha"
+    ],
     "sha256": "40a47de2bd15c92feab84607d1063cc8cbcef5fd3f04a52ff93bd41d1987e7e1",
     "sizeBytes": 374425,
     "url": "http://aminet.net/game/board/CFish.lha"

@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/misc/xxd.lha",
+      "http://se.aminet.net/util/misc/xxd.lha"
+    ],
     "sha256": "0042c23a95c347acd398cb363549bfe67694b8936651128a08731f7ef00ddcaa",
     "sizeBytes": 37441,
     "url": "http://aminet.net/util/misc/xxd.lha"

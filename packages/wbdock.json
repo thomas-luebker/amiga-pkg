@@ -1,0 +1,19 @@
+{
+  "added": "2026-07-26",
+  "archive": {
+    "mirrors": [],
+    "sha256": "c2f894e39f677e1e658b8c626e634c7335bf90662114dca18dc48856708c238a",
+    "sizeBytes": 385752,
+    "url": "https://thomas-rapp.hier-im-netz.de/amiga/wbdock2.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Workbench dock launcher [download needs AmiSSL - https host]",
+  "id": "wbdock",
+  "name": "WBDock 2",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "2"
+}

@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/wb/VisualPrefs.lha",
+      "http://se.aminet.net/util/wb/VisualPrefs.lha"
+    ],
     "sha256": "bb120276d6560974553eb568459c6fa17ab04a25118626e1c14219254150e61a",
     "sizeBytes": 481552,
     "url": "http://aminet.net/util/wb/VisualPrefs.lha"

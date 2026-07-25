@@ -1,7 +1,10 @@
 {
   "added": "2026-07-25",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/wb/FullPalette22.lha",
+      "http://se.aminet.net/util/wb/FullPalette22.lha"
+    ],
     "sha256": "4543eda6aca9e1a10ec986bc987c6e56c105ec26184254137d484b00ad358f32",
     "sizeBytes": 37869,
     "url": "http://aminet.net/util/wb/FullPalette22.lha"

@@ -1,7 +1,10 @@
 {
   "added": "2026-07-24",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/libs/ReqToolsUsr.lha",
+      "http://se.aminet.net/util/libs/ReqToolsUsr.lha"
+    ],
     "sha256": "0a70c72f709a6d6487f45d8a937b69ac7030b560dc34f76a9a365683058f86e3",
     "sizeBytes": 171301,
     "url": "http://aminet.net/util/libs/ReqToolsUsr.lha"

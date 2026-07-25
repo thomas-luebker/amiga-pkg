@@ -1,7 +1,10 @@
 {
   "added": "2026-07-25",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://us.aminet.net/util/arc/avalanche.lha",
+      "http://se.aminet.net/util/arc/avalanche.lha"
+    ],
     "sha256": "626af4cee72dd302486de181ea10cee9104b7e54dc98bcd144c823229d3ab35e",
     "sizeBytes": 147159,
     "url": "http://aminet.net/util/arc/avalanche.lha"
