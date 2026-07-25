@@ -1,0 +1,26 @@
+{
+  "added": "2026-07-25",
+  "archive": {
+    "mirrors": [],
+    "sha256": "626af4cee72dd302486de181ea10cee9104b7e54dc98bcd144c823229d3ab35e",
+    "sizeBytes": 147159,
+    "url": "http://aminet.net/util/arc/avalanche.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "xadmaster"
+    }
+  ],
+  "description": "ReAction unarchive GUI for xfd/xadmaster (needs OS 3.2)",
+  "id": "avalanche",
+  "name": "Avalanche",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.2"
+  },
+  "tier": "A",
+  "version": "3.3"
+}
