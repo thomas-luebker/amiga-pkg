@@ -3,6 +3,7 @@
   "indexVersion" : 1,
   "packages" : [
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -540,6 +541,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -571,6 +573,7 @@
       "version" : "0.8.7"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -603,6 +606,7 @@
       "version" : "36.52"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -631,6 +635,7 @@
       "version" : "1.0"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -662,6 +667,7 @@
       "version" : "1.0.0 RC2"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -737,6 +743,58 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-25",
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "5ce231c1d0c8ccb81f3573a06c86673bfe03232b9708ac4c66991b2d6f9e6e45",
+        "sizeBytes" : 285138,
+        "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/latest/download/amipkg-client.lha"
+      },
+      "category" : "System",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "The AmigaPKG package manager itself (CLI + GadTools GUI) - self-update via 'amipkg upgrade amipkg'. Download needs AmiSSL (GitHub is https-only).",
+      "id" : "amipkg",
+      "name" : "amipkg",
+      "provides" : [
+
+      ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "C",
+            "op" : "placeFile",
+            "src" : "amipkg"
+          },
+          {
+            "dest" : "Tools",
+            "op" : "placeFile",
+            "src" : "amipkg-gui"
+          },
+          {
+            "dest" : "Tools",
+            "op" : "placeFile",
+            "src" : "amipkg-gui.info"
+          }
+        ],
+        "recipeSchema" : 1
+      },
+      "requiredCapabilities" : [
+        "place-file-v1"
+      ],
+      "requirements" : {
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "0.2"
+    },
+    {
       "archive" : {
         "mirrors" : [
 
@@ -774,6 +832,7 @@
       "version" : "5.27"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -907,6 +966,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1188,6 +1248,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1219,6 +1280,7 @@
       "version" : "1.0"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1247,6 +1309,7 @@
       "version" : "1.2.3"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1275,6 +1338,7 @@
       "version" : "150726"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1303,6 +1367,7 @@
       "version" : "1.16"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1537,6 +1602,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1569,6 +1635,7 @@
       "version" : "8.22-DEV-210726"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1597,6 +1664,7 @@
       "version" : "2.34"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1764,6 +1832,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1799,6 +1868,7 @@
       "version" : "1.0"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1827,6 +1897,7 @@
       "version" : "0.96.4.06"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1855,6 +1926,7 @@
       "version" : "2.06"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1883,6 +1955,7 @@
       "version" : "2.10"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1911,6 +1984,7 @@
       "version" : "2.2"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -1972,6 +2046,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -2000,6 +2075,7 @@
       "version" : "0.9.1.01"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -2550,6 +2626,7 @@
       "version" : "3.0a"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -2916,6 +2993,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -2944,6 +3022,7 @@
       "version" : "1.0"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -3244,6 +3323,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -3272,6 +3352,7 @@
       "version" : "2.35"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -3300,6 +3381,7 @@
       "version" : "2.59"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -3331,6 +3413,7 @@
       "version" : "1.3"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -3947,6 +4030,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -3980,6 +4064,7 @@
       "version" : "0.4"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -4159,6 +4244,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -4191,6 +4277,7 @@
       "version" : "1.21"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -4219,6 +4306,7 @@
       "version" : "1.10"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -4413,6 +4501,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -4705,6 +4794,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -4887,6 +4977,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -5022,6 +5113,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -5087,6 +5179,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -5474,6 +5567,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -5719,6 +5813,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -5747,6 +5842,7 @@
       "version" : "1.7.3"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -5778,6 +5874,7 @@
       "version" : "1.3.5"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -6141,6 +6238,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -6449,6 +6547,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -6477,6 +6576,7 @@
       "version" : "1.0"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -6505,6 +6605,7 @@
       "version" : "2026-06-16"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 
@@ -6533,6 +6634,7 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
 

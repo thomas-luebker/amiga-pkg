@@ -1,0 +1,44 @@
+{
+  "added": "2026-07-25",
+  "archive": {
+    "mirrors": [],
+    "sha256": "5ce231c1d0c8ccb81f3573a06c86673bfe03232b9708ac4c66991b2d6f9e6e45",
+    "sizeBytes": 285138,
+    "url": "https://github.com/thomas-luebker/amiga-pkg/releases/latest/download/amipkg-client.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [],
+  "description": "The AmigaPKG package manager itself (CLI + GadTools GUI) - self-update via 'amipkg upgrade amipkg'. Download needs AmiSSL (GitHub is https-only).",
+  "id": "amipkg",
+  "name": "amipkg",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "C",
+        "op": "placeFile",
+        "src": "amipkg"
+      },
+      {
+        "dest": "Tools",
+        "op": "placeFile",
+        "src": "amipkg-gui"
+      },
+      {
+        "dest": "Tools",
+        "op": "placeFile",
+        "src": "amipkg-gui.info"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "place-file-v1"
+  ],
+  "requirements": {
+    "network": true
+  },
+  "tier": "A",
+  "version": "0.2"
+}

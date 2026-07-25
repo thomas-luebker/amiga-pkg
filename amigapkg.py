@@ -24,6 +24,7 @@ import json
 import re
 import hashlib
 import argparse
+import datetime
 import urllib.request
 
 # Capability vocabulary (mirror of PackageIndex.RecipeCapability). Tier-A =
@@ -85,6 +86,8 @@ def cmd_add(a):
         "archive": {"url": url, "mirrors": [], "sha256": sha, "sizeBytes": size},
         "requiredCapabilities": [],
         "tier": "A",
+        # Repo-added date: drives "newest first" sorting in the clients.
+        "added": datetime.date.today().isoformat(),
     }
     out = a.out or f"{a.id}.json"
     with open(out, "w", encoding="utf-8") as fh:

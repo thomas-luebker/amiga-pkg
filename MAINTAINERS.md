@@ -89,3 +89,6 @@ git push          # updates BOTH endpoints: GitHub Pages + the amiga-imager.org 
   Never commit it, never put it in an Actions secret. A leaked key = a forgeable
   index; rotating means baking a new public key into the app (a release).
 - The public key (`tqZX…`) is baked into the app and safe to share.
+
+- After a client release: `cp` the new `amipkg.lha` to `docs/amipkg.lha` too — the
+  Pages landing page offers it as a direct download.
