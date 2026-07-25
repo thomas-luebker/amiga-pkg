@@ -33,6 +33,7 @@ KNOWN_CAPS = {
     "copy-glob-v1", "strip-junk-v1", "merge-nested-v1", "set-exec-v1",
     "script-inject-v1", "tooltype-edit-v1", "make-assign-v1", "place-file-v1",
     "icon-patch-v1", "adf-unwrap-v1", "installer-script-v1", "host-builtin-v1",
+    "pre-post-script-v1",
 }
 ID_RE = re.compile(r"^[a-z0-9][a-z0-9._-]*$")
 SHA_RE = re.compile(r"^[0-9a-f]{64}$")
@@ -193,6 +194,8 @@ def cmd_validate(a):
                         err(pid, f"unknown capability '{c}'")
                 if "installer-script-v1" in e.get("requiredCapabilities", []):
                     warn(pid, "declares installer-script (arbitrary native code) — needs careful review")
+                if "pre-post-script-v1" in e.get("requiredCapabilities", []):
+                    warn(pid, "declares pre/post-install AmigaDOS lines — review each line")
                 arch = e.get("archive")
                 if not arch:
                     warn(pid, "no archive — not fetch-able by amipkg")
