@@ -1,0 +1,22 @@
+{
+  "added": "2026-07-25",
+  "archive": {
+    "mirrors": [],
+    "sha256": "53f40e27d9fb74dfab6a6abda41c220ec33644ed4e95a5cb1ad065e43e8fcaa4",
+    "sizeBytes": 839270,
+    "url": "http://aminet.net/comm/tcp/TwinVNC0.8beta.lha"
+  },
+  "category": "Internet",
+  "conflicts": [],
+  "deps": [],
+  "description": "VNC Client for OS 3/4 + MOS (RTG or Not)",
+  "id": "twinvnc",
+  "name": "TwinVNC",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "network": true
+  },
+  "tier": "A",
+  "version": "0.8beta"
+}
