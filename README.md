@@ -3,11 +3,19 @@
 This repo is the **gateway** for the software catalog that
 [`amipkg`](https://amiga-imager.com) — the on-Amiga package manager — reads. It
 holds the package submissions, validates them, and publishes a single **signed**
-index that AmigaImager-built systems trust.
+index that amipkg and AmigaImager-built systems trust.
 
+- **Get amipkg** (any AmigaOS 3.x system, no Amiga Imager needed):
+  [Releases](https://github.com/thomas-luebker/amiga-pkg/releases) —
+  download `amipkg.lha`, extract, double-click **Install**.
 - **Browse / add packages:** `packages/` — one JSON file per package.
-- **The published index:** <https://thomas-luebker.github.io/amiga-pkg/packages.json>
-  (+ `packages.json.sig`), served from `docs/` via GitHub Pages.
+- **The published index** (what `amipkg update` fetches):
+  <http://amiga-imager.org/packages/packages.json> (+ `packages.json.sig`) —
+  plain HTTP, because classic Amigas have no TLS without AmiSSL; the signature
+  makes that safe. The same files are also served over HTTPS at
+  <https://thomas-luebker.github.io/amiga-pkg/packages.json> (GitHub Pages from
+  `docs/`), which is what the AmigaImager app uses and what amiga-imager.org
+  mirrors live — push here and both endpoints update together.
 
 ## How it works
 
@@ -15,12 +23,12 @@ index that AmigaImager-built systems trust.
  packages/<id>.json  ──►  pkgindex generate --extra  ──►  docs/packages.json
    (submissions)            (+ built-in base catalog)        + docs/packages.json.sig
                                     │                              │
-                                    │ signed offline               │ served via
-                                    ▼ (project Ed25519 key)        ▼ GitHub Pages
-                          the AmigaImager app verifies the signature, then
-                          seeds the verified index onto every built image;
-                          amipkg verifies each downloaded archive by SHA-256
-                          against that trusted seeded index.
+                                    │ signed offline               │ GitHub Pages (https)
+                                    ▼ (project Ed25519 key)        ▼ + amiga-imager.org (http mirror)
+                          amipkg (`amipkg update`) and the AmigaImager app
+                          verify the Ed25519 signature; amipkg then verifies
+                          each downloaded archive by SHA-256 against that
+                          trusted index.
 ```
 
 **The serving host is untrusted.** The app and `amipkg` verify the Ed25519

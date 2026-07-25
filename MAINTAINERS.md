@@ -57,24 +57,31 @@ step also self-verifies against `--public-key`). Then:
 cd <amiga-pkg>
 git add docs/packages.json docs/packages.json.sig packages/
 git commit -m "publish: <what changed>"
-git push          # GitHub Pages serves docs/ at thomas-luebker.github.io/amiga-pkg
+git push          # updates BOTH endpoints: GitHub Pages + the amiga-imager.org mirror
 ```
 
-## The published index
+## The published index (two endpoints, one push)
 
-- Served from `docs/` via **GitHub Pages** (repo Settings → Pages → Source:
-  `main` / `/docs`) at **https://thomas-luebker.github.io/amiga-pkg/** — GitHub's
-  `*.github.io` certificate provides HTTPS, so no custom domain or DNS is needed.
-- The AmigaImager app's `PackageRepoSync.defaultBaseURL` points at
-  `https://thomas-luebker.github.io/amiga-pkg`, fetches `packages.json` + `.sig` over
-  HTTPS, Ed25519-verifies, and seeds the verified index onto images.
-- amipkg on the Amiga never fetches the index (it reads the seeded copy); it only
-  fetches **archives** over plain HTTP — which is why archives live on Aminet, not
-  here.
-- Want a branded URL later (e.g. `packages.amiga-imager.com`)? Move DNS to a host
-  that supports subdomain CNAMEs (Cloudflare is free), CNAME it to
-  `thomas-luebker.github.io`, set it as the Pages custom domain, and update
-  `defaultBaseURL`. The signature makes the URL swappable without breaking trust.
+- **Canonical for on-Amiga clients:** **http://amiga-imager.org/packages/**
+  (`packages.json` + `.sig`) — plain HTTP, because `amipkg update` runs on
+  machines without TLS (AmiSSL optional). The amiga-imager.org WordPress
+  host-router plugin PROXIES these two files live from GitHub Pages
+  (server-side HTTPS, ~5-minute cache) — no separate deploy step, no secrets.
+- **HTTPS endpoint / backend:** `docs/` via **GitHub Pages** (repo Settings →
+  Pages → Source: `main` / `/docs`) at
+  **https://thomas-luebker.github.io/amiga-pkg/**. The AmigaImager app's
+  `PackageRepoSync.defaultBaseURL` fetches from here, Ed25519-verifies, and
+  seeds the verified index onto built images.
+- So: one `git push` to `main` publishes everywhere. The host is untrusted
+  either way — clients verify the signature, not the transport.
+- amipkg fetches the index from the .org mirror and **archives** from their
+  hosts (Aminet over plain HTTP; https hosts like GitHub only with AmiSSL
+  installed).
+- Client downloads (`amipkg.lha` tester bundle + `amipkg-client.lha`
+  self-update asset) live on **GitHub Releases**:
+  https://github.com/thomas-luebker/amiga-pkg/releases — the catalog's
+  `amipkg` entry pins the client asset's sha256, so re-pin + re-sign whenever
+  the release binaries change (`amipkg/dist/make-bundle.sh` prints the sha).
 
 ## Key hygiene
 
