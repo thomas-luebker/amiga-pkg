@@ -2104,6 +2104,35 @@
       "version" : "2.2.2"
     },
     {
+      "added" : "2026-07-25",
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "4543eda6aca9e1a10ec986bc987c6e56c105ec26184254137d484b00ad358f32",
+        "sizeBytes" : 37869,
+        "url" : "http://aminet.net/util/wb/FullPalette22.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Define, save & lock ALL Workbench colors!",
+      "id" : "fullpalette",
+      "name" : "FullPalette",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "40.22"
+    },
+    {
       "archive" : {
         "mirrors" : [
 
@@ -6238,6 +6267,35 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-25",
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "e8089d1a94f4d8d6e10368c861c0abba794a646868711d93e3c263ea3d5e3420",
+        "sizeBytes" : 296108,
+        "url" : "http://aminet.net/gfx/show/Visage.lha"
+      },
+      "category" : "Graphics",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Picture viewer for OS 3.0+. V39.22",
+      "id" : "visage",
+      "name" : "Visage",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "39.22"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -6632,6 +6690,35 @@
       ],
       "tier" : "A",
       "version" : "-"
+    },
+    {
+      "added" : "2026-07-25",
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "d31cd8a89bbb26abbae00c29184f618313bfc708de59775a80059a01e179112f",
+        "sizeBytes" : 236650,
+        "url" : "http://aminet.net/disk/moni/Zaphod.lha"
+      },
+      "category" : "Development",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Zaphod Binary File Editor",
+      "id" : "zaphod",
+      "name" : "Zaphod",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "tier" : "A",
+      "version" : "1.3"
     },
     {
       "added" : "2026-07-24",

@@ -1,0 +1,19 @@
+{
+  "added": "2026-07-25",
+  "archive": {
+    "mirrors": [],
+    "sha256": "d31cd8a89bbb26abbae00c29184f618313bfc708de59775a80059a01e179112f",
+    "sizeBytes": 236650,
+    "url": "http://aminet.net/disk/moni/Zaphod.lha"
+  },
+  "category": "Development",
+  "conflicts": [],
+  "deps": [],
+  "description": "Zaphod Binary File Editor",
+  "id": "zaphod",
+  "name": "Zaphod",
+  "provides": [],
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.3"
+}
