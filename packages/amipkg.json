@@ -2,58 +2,71 @@
   "added": "2026-07-25",
   "archive": {
     "mirrors": [],
-    "sha256": "4b24f4ee8618d5a8ff73ef5856e29f295399ddb50591ee6215ff6b727361a233",
-    "sizeBytes": 290694,
+    "sha256": "0f2e0dbd7ef7e7c739b219ac8ded5a215a874edb4b2484fecfda7af41c1ea2c5",
+    "sizeBytes": 409650,
     "url": "https://github.com/thomas-luebker/amiga-pkg/releases/latest/download/amipkg-client.lha"
   },
   "category": "System",
   "conflicts": [],
   "deps": [],
-  "description": "The AmigaPKG package manager itself (CLI + GadTools GUI) - self-update via 'amipkg upgrade amipkg'. Download needs AmiSSL (GitHub is https-only).",
+  "description": "The AmigaPKG package manager itself (CLI + GadTools GUI + MUI GUI) - self-update via 'amipkg upgrade amipkg'. Lives in its AMIPKG: home drawer. Download needs AmiSSL (GitHub is https-only).",
   "id": "amipkg",
   "name": "amipkg",
   "provides": [],
   "recipe": {
     "ops": [
       {
-        "dest": "C",
+        "lines": [
+          "If Exists C:amipkg",
+          "Version >NIL: C:amipkg 0 4",
+          "If Warn",
+          "Echo \"This update needs amipkg 0.4+ - please re-download amipkg.lha once (it now lives in its own drawer).\"",
+          "Quit 20",
+          "EndIf",
+          "EndIf"
+        ],
+        "op": "preScript"
+      },
+      {
+        "dest": "AMIPKG:",
         "op": "placeFile",
         "src": "amipkg"
       },
       {
-        "dest": "Tools",
+        "dest": "AMIPKG:",
         "op": "placeFile",
         "src": "amipkg-gui"
       },
       {
-        "dest": "Tools",
+        "dest": "AMIPKG:",
         "op": "placeFile",
         "src": "amipkg-gui.info"
       },
       {
-        "dest": "Tools",
+        "dest": "AMIPKG:",
         "op": "placeFile",
         "src": "amipkg-mui"
       },
       {
-        "dest": "Tools",
+        "dest": "AMIPKG:",
         "op": "placeFile",
         "src": "amipkg-mui.info"
       },
       {
-        "dest": "Tools/AmigaImager",
+        "dest": "AMIPKG:",
         "op": "placeFile",
         "src": "amipkg.guide"
       }
     ],
-    "recipeSchema": 1
+    "recipeSchema": 2
   },
   "requiredCapabilities": [
-    "place-file-v1"
+    "place-file-v1",
+    "pre-post-script-v1"
   ],
   "requirements": {
     "network": true
   },
   "tier": "A",
-  "version": "0.3"
+  "version": "0.4"
 }
