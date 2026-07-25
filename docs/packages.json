@@ -3352,6 +3352,40 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-25",
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "d4d486f899cb454f29197878f64f7358213fc72216211fbba8cd2fa4e94408f2",
+        "sizeBytes" : 588173,
+        "url" : "http://aminet.net/util/blank/Madhouse260.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "mui38"
+        }
+      ],
+      "description" : "Modular screen blanker with many animated blankers (needs MUI)",
+      "id" : "madhouse",
+      "name" : "Madhouse",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.04"
+      },
+      "tier" : "A",
+      "version" : "2.6"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
