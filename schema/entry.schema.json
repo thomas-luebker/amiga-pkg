@@ -47,7 +47,7 @@
       }
     },
     "recipe": {
-      "description": "Portable install ops (Tier-A) so amipkg can install on-Amiga. Optional — fetch works without it.",
+      "description": "Portable install ops (Tier-A) so amipkg can install on-Amiga. Optional — fetch works without it. Op vocabulary: copyGlob, stripJunk, mergeNested, setExec, scriptInject, tooltypeEdit, makeAssign, placeFile, and the curated inline-AmigaDOS ops preScript / postScript / removeScript ({\"op\":\"postScript\",\"lines\":[\"...\"]}; reviewed line-by-line, capability pre-post-script-v1).",
       "type": "object"
     },
     "requiredCapabilities": {
@@ -57,11 +57,13 @@
         "enum": [
           "copy-glob-v1", "strip-junk-v1", "merge-nested-v1", "set-exec-v1",
           "script-inject-v1", "tooltype-edit-v1", "make-assign-v1", "place-file-v1",
-          "icon-patch-v1", "adf-unwrap-v1", "installer-script-v1", "host-builtin-v1"
+          "icon-patch-v1", "adf-unwrap-v1", "installer-script-v1", "host-builtin-v1",
+          "pre-post-script-v1"
         ]
       }
     },
     "tier":    { "type": "string", "enum": ["A", "B", "C"], "description": "A = portable/on-Amiga installable." },
-    "install": { "type": "object", "description": "Host-catalog fields (used by the build engine); usually absent for community entries." }
+    "install": { "type": "object", "description": "Host-catalog fields (used by the build engine); usually absent for community entries." },
+    "added":   { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$", "description": "Repo-added date (YYYY-MM-DD); drives newest-first sorting. amigapkg.py add stamps it." }
   }
 }
