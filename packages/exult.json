@@ -1,0 +1,30 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/role/Exult_RTG.lha",
+      "http://se.aminet.net/game/role/Exult_RTG.lha"
+    ],
+    "sha256": "7feb09b84070f2bf6375b6db5570060c27452128127f9eba1b4a0c903393ecd3",
+    "sizeBytes": 80565733,
+    "url": "http://aminet.net/game/role/Exult_RTG.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "ahi"
+    }
+  ],
+  "description": "Ultima VII engine (Exult 1.12.1) by NovaCoder. Needs an RTG Amiga, 68060+ (PiStorm/Vampire ideal), AHI, and your original U7 game data files. 80 MB download.",
+  "id": "exult",
+  "name": "Exult RTG",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68060",
+    "minKS": "3.1"
+  },
+  "tier": "A",
+  "version": "1.12.1.01"
+}
