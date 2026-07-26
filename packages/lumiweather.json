@@ -2,9 +2,9 @@
   "added": "2026-07-26",
   "archive": {
     "mirrors": [],
-    "sha256": "f985d8f36d06a5e7e162c30752f43ce92c3ea87c6e8263cf36d5abb7a255b392",
-    "sizeBytes": 397793,
-    "url": "https://www.amigaworld.de/software/lumiweather/LumiWeather_1.0.lha"
+    "sha256": "70d3169a31fd4826036bbae6c429198d49ac0a10d58b8e04eca94ab73526147f",
+    "sizeBytes": 423821,
+    "url": "https://www.amigaworld.de/software/lumiweather/LumiWeather_1.1.lha"
   },
   "category": "Network",
   "conflicts": [],
@@ -15,5 +15,5 @@
   "provides": [],
   "requiredCapabilities": [],
   "tier": "A",
-  "version": "-"
+  "version": "1.1"
 }
