@@ -3215,9 +3215,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "311c7128e58f211edf8d6e929b74ad13a653f4d891f12ad32bf738b0830d8252",
-        "sizeBytes" : 6155131,
-        "url" : "https://www.amigaworld.de/software/lumipass/LumiPass_1.1.lha"
+        "sha256" : "adf4605d73e2c56eef5e214fc7273b4824d0fbad555a085d0edc156a9f5e7e6c",
+        "sizeBytes" : 6324636,
+        "url" : "https://www.amigaworld.de/software/lumipass/LumiPass_1.3.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -3236,7 +3236,7 @@
 
       ],
       "tier" : "A",
-      "version" : "1.1"
+      "version" : "1.3"
     },
     {
       "added" : "2026-07-26",
@@ -3273,9 +3273,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "f985d8f36d06a5e7e162c30752f43ce92c3ea87c6e8263cf36d5abb7a255b392",
-        "sizeBytes" : 397793,
-        "url" : "https://www.amigaworld.de/software/lumiweather/LumiWeather_1.0.lha"
+        "sha256" : "70d3169a31fd4826036bbae6c429198d49ac0a10d58b8e04eca94ab73526147f",
+        "sizeBytes" : 423821,
+        "url" : "https://www.amigaworld.de/software/lumiweather/LumiWeather_1.1.lha"
       },
       "category" : "Network",
       "conflicts" : [
@@ -3294,7 +3294,7 @@
 
       ],
       "tier" : "A",
-      "version" : "1.0"
+      "version" : "1.1"
     },
     {
       "category" : "Games",
