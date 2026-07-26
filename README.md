@@ -1,13 +1,15 @@
 # AmigaPKG — the package repository for AmigaImager / amipkg
 
 This repo is the **gateway** for the software catalog that
-[`amipkg`](https://amiga-imager.com) — the on-Amiga package manager — reads. It
+[`amipkg`](https://github.com/thomas-luebker/amipkg) — the on-Amiga package
+manager — reads. It
 holds the package submissions, validates them, and publishes a single **signed**
 index that amipkg and AmigaImager-built systems trust.
 
 - **Get amipkg** (any AmigaOS 3.x system, no Amiga Imager needed):
-  [Releases](https://github.com/thomas-luebker/amiga-pkg/releases) —
-  download `amipkg.lha` and extract it into a drawer of your choice.
+  download [`amipkg.lha`](https://thomas-luebker.github.io/amiga-pkg/amipkg.lha)
+  and extract it into a drawer of your choice — step-by-step guide:
+  [INSTALL.md](https://github.com/thomas-luebker/amipkg/blob/main/INSTALL.md).
   amipkg **lives in that drawer** (binaries, signed catalog, receipt DB —
   like `MUI:`). Then double-click **Install** (self-contained: nothing
   outside the drawer is ever touched; uninstall = delete the drawer) or
