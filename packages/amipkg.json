@@ -1,7 +1,9 @@
 {
   "added": "2026-07-25",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "http://amiga-imager.org/packages/amipkg-client.lha"
+    ],
     "sha256": "b3026f6dd486361db7fcf0fb7f42c57db8f48c4e27b9b0bb2f512d047bb2006a",
     "sizeBytes": 538655,
     "url": "https://github.com/thomas-luebker/amiga-pkg/releases/latest/download/amipkg-client.lha"
