@@ -60,8 +60,11 @@ awk '/privateKey:/ {print $2}' "$KEY" > "$KEYTMP"
     --out docs/packages.json
 rm -f "$KEYTMP"
 
-# 5. publish only when something actually changed
-if git diff --quiet; then
+# 5. publish only when CONTENT changed. Ed25519 signatures here are
+# RANDOMIZED (CryptoKit/swift-crypto both), so the .sig differs on every
+# run - a sig-only diff means "nothing happened tonight".
+if git diff --quiet -- packages/ versions.json docs/packages.json; then
+    git checkout -q -- docs/packages.json.sig 2>/dev/null || true
     echo "no changes tonight"
     exit 0
 fi
