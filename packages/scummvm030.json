@@ -1,0 +1,30 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/misc/ScummVM_RTG_030.lha",
+      "http://se.aminet.net/game/misc/ScummVM_RTG_030.lha"
+    ],
+    "sha256": "b6e6913add828ca9cb7c83e28438a9c5d309660fc073905be85d70334d6bfdcf",
+    "sizeBytes": 7047934,
+    "url": "http://aminet.net/game/misc/ScummVM_RTG_030.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "ahi"
+    }
+  ],
+  "description": "ScummVM 1.6 by NovaCoder for RTG Amigas from a 68020 up (no FPU needed) - the classic point-and-click engine for machines below the 68060 class. Needs AHI (v4.18 recommended) and your original game data.",
+  "id": "scummvm030",
+  "name": "ScummVM RTG (68020+)",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68020",
+    "minKS": "3.1"
+  },
+  "tier": "A",
+  "version": "1.6.0.04"
+}

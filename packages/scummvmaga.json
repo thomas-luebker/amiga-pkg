@@ -1,0 +1,30 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/misc/ScummVM_AGA_060.lha",
+      "http://se.aminet.net/game/misc/ScummVM_AGA_060.lha"
+    ],
+    "sha256": "fb31b39a6fe62a53208bbf9de74873503de0f52caa0266206c67ac7b9ae5e163",
+    "sizeBytes": 58563848,
+    "url": "http://aminet.net/game/misc/ScummVM_AGA_060.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "ahi"
+    }
+  ],
+  "description": "ScummVM 2.5.1 by NovaCoder for AGA Amigas (PAL) with a 68060+ (PiStorm/Vampire ideal) - no RTG card needed. Needs AHI (v4.18 recommended) and your original game data. 56 MB download.",
+  "id": "scummvmaga",
+  "name": "ScummVM AGA (68060)",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68060",
+    "minKS": "3.1"
+  },
+  "tier": "A",
+  "version": "2.5.1.33"
+}

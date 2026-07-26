@@ -1,5 +1,5 @@
 {
-  "added": "2026-07-24",
+  "added": "2026-07-27",
   "archive": {
     "mirrors": [
       "http://us.aminet.net/misc/emu/make.lha",
@@ -12,11 +12,14 @@
   "category": "Emulation",
   "conflicts": [],
   "deps": [],
-  "description": "Fantasy 8 bit style retro machine",
+  "description": "MAKE - a fantasy 8-bit style retro machine: build and play little games on a virtual console, right on your Amiga.",
   "id": "make",
-  "name": "MAKE (fantasy console)",
+  "name": "MAKE",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.04"
+  },
   "tier": "A",
-  "version": "2.59"
+  "version": "2.61"
 }

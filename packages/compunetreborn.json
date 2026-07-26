@@ -1,0 +1,26 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/comm/tcp/CompunetReborn.lha",
+      "http://se.aminet.net/comm/tcp/CompunetReborn.lha"
+    ],
+    "sha256": "c3bd937b560948f2b5e4da62f47529b04a1de0aa1f2f6eeeed8722eafec46f99",
+    "sizeBytes": 123299,
+    "url": "http://aminet.net/comm/tcp/CompunetReborn.lha"
+  },
+  "category": "Internet",
+  "conflicts": [],
+  "deps": [],
+  "description": "Client for the Compunet Reborn service - the legendary 80s UK online community, revived. Needs a bsdsocket TCP/IP stack.",
+  "id": "compunetreborn",
+  "name": "Compunet Reborn",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.1",
+    "network": true
+  },
+  "tier": "A",
+  "version": "1.1.0"
+}

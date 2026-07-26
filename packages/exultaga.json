@@ -1,0 +1,30 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/role/Exult_AGA.lha",
+      "http://se.aminet.net/game/role/Exult_AGA.lha"
+    ],
+    "sha256": "93737f8b99df6fb689630c11f412ea03c218eea593c3ac6e9308b63bd0475e90",
+    "sizeBytes": 51934704,
+    "url": "http://aminet.net/game/role/Exult_AGA.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "ahi"
+    }
+  ],
+  "description": "Ultima VII engine (Exult 1.6) by NovaCoder - the AGA variant for big-box Amigas without RTG. Needs 68060+, AHI, and your original U7 game data files. 50 MB download.",
+  "id": "exultaga",
+  "name": "Exult AGA",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68060",
+    "minKS": "3.1"
+  },
+  "tier": "A",
+  "version": "1.6.0.09"
+}

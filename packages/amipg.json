@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/mus/midi/AmiPG_CLI.lha",
+      "http://se.aminet.net/mus/midi/AmiPG_CLI.lha"
+    ],
+    "sha256": "8efeaf9d760a204360b9c7e39c4915db15b47b041a2da7c7475460bbdb92d645",
+    "sizeBytes": 27154,
+    "url": "http://aminet.net/mus/midi/AmiPG_CLI.lha"
+  },
+  "category": "Audio",
+  "conflicts": [],
+  "deps": [],
+  "description": "Roland Alpha Juno / MKS-50 editor and librarian (CLI). Needs a MIDI interface on serial.device.",
+  "id": "amipg",
+  "name": "AmiPG",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "4.5.0"
+}
