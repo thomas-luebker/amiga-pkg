@@ -113,6 +113,29 @@ def cmd_add(a):
 
 
 # ------------------------------------------------------------------------ refresh
+def _probe_newer(url):
+    """For version-baked URLs (Name_1.1.lha) on hosts with directory
+    listings (amigaworld.de style): scan the parent listing for the
+    highest-versioned sibling. Returns (new_url, new_version) or (None, None)."""
+    m = re.match(r"^(.*/)([A-Za-z0-9]+_)v?([0-9.]+)(\.lha)$", url)
+    if not m:
+        return None, None
+    base, stem, cur, ext = m.groups()
+    try:
+        listing = _fetch(base, 30).decode("latin-1", "replace")
+    except Exception:
+        return None, None
+    def vkey(v):
+        return [int(x) for x in v.strip(".").split(".") if x.isdigit()]
+    found = set(re.findall(re.escape(stem) + r"v?([0-9.]+?)" + re.escape(ext), listing))
+    if not found:
+        return None, None
+    best = max(found, key=vkey)
+    if vkey(best) <= vkey(cur):
+        return None, None
+    return f"{base}{stem}{best}{ext}", best
+
+
 def cmd_refresh(a):
     """Re-scan each entry's archive: recompute sha256/size, read the current
     Aminet version, and update the entry when the upstream file changed (a new
@@ -132,6 +155,12 @@ def cmd_refresh(a):
             pid = entry.get("id", os.path.basename(fp))
             if not url or "REPLACE-ME" in url:
                 continue
+            newer_url, newer_ver = _probe_newer(url)
+            if newer_url:
+                print(f"NEWER upstream release: {pid}: {url.rsplit('/',1)[-1]} -> {newer_url.rsplit('/',1)[-1]}")
+                url = newer_url
+                arch["url"] = newer_url
+                entry["version"] = newer_ver
             try:
                 data = _fetch(url)
             except Exception as e:  # noqa: BLE001
@@ -141,7 +170,8 @@ def cmd_refresh(a):
             if new_sha == arch.get("sha256"):
                 print(f"ok      {pid} (unchanged)")
                 continue
-            new_ver = _readme_version(url) or entry.get("version", "-")
+            new_ver = (newer_ver or _readme_version(url)
+                       or entry.get("version", "-"))
             old_ver = entry.get("version", "-")
             print(f"UPDATED {pid}: {old_ver} -> {new_ver}  sha {str(arch.get('sha256'))[:8]}->{new_sha[:8]}")
             changed += 1
