@@ -22,7 +22,10 @@ notify() {  # best-effort push via the Pi (no secret -> just logs)
 [ -f "$KEY" ] || { echo "signing key missing at $KEY - aborting"; notify "FAILED: signing key missing on the Trashcan"; exit 1; }
 
 cd "$REPO"
-git pull --rebase --quiet
+# Machine-owned working copy: self-heal against ANY stray local state
+# (a stray scp once aborted the whole night on 'unstaged changes').
+git fetch -q origin
+git reset -q --hard origin/main
 
 # 1. upstream drift: recompute sha/size/version for curated entries
 python3 amigapkg.py refresh || { notify "FAILED: refresh"; exit 1; }
