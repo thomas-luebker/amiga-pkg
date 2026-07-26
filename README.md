@@ -7,7 +7,13 @@ index that amipkg and AmigaImager-built systems trust.
 
 - **Get amipkg** (any AmigaOS 3.x system, no Amiga Imager needed):
   [Releases](https://github.com/thomas-luebker/amiga-pkg/releases) —
-  download `amipkg.lha`, extract, double-click **Install**.
+  download `amipkg.lha` and extract it into a drawer of your choice.
+  amipkg **lives in that drawer** (binaries, signed catalog, receipt DB —
+  like `MUI:`). Then double-click **Install** (self-contained: nothing
+  outside the drawer is ever touched; uninstall = delete the drawer) or
+  **Install-System** (additionally adds the `AMIPKG:` assign + Shell path
+  to `S:User-Startup` as one marked, removable block, so `amipkg` works
+  in every Shell after a reboot).
 - **Browse / add packages:** `packages/` — one JSON file per package.
   **Want yours in the catalog? [PACKAGING.md](PACKAGING.md) — 5 minutes, pure
   Python, no Amiga needed.**
