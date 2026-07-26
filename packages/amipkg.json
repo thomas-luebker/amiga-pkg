@@ -2,8 +2,8 @@
   "added": "2026-07-25",
   "archive": {
     "mirrors": [],
-    "sha256": "33a193b4c09c165d027d93ba9d566af5f93b248358aec11d02df8f40fb87e7cf",
-    "sizeBytes": 537931,
+    "sha256": "876e6d0cca5c91f1ff58d8c8fac1bd1ae94ab6daa9f68d12b786e5fc2087641f",
+    "sizeBytes": 538599,
     "url": "https://github.com/thomas-luebker/amiga-pkg/releases/latest/download/amipkg-client.lha"
   },
   "category": "System",
@@ -68,5 +68,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "0.4.7"
+  "version": "0.4.8"
 }
