@@ -752,7 +752,7 @@
       "added" : "2026-07-25",
       "archive" : {
         "mirrors" : [
-
+          "http://amiga-imager.org/packages/amipkg-client.lha"
         ],
         "sha256" : "b3026f6dd486361db7fcf0fb7f42c57db8f48c4e27b9b0bb2f512d047bb2006a",
         "sizeBytes" : 538655,
@@ -2139,8 +2139,8 @@
           "http://us.aminet.net/game/strat/FreeSynd_RTG.lha",
           "http://se.aminet.net/game/strat/FreeSynd_RTG.lha"
         ],
-        "sha256" : "e693d72bcfae80db37758a30f793c1df8127fb3d9e2f22f6d17a6fea96310d88",
-        "sizeBytes" : 3969949,
+        "sha256" : "04624cb206d1e89e5285a31b8ebaa2fda89054d0c373d3afb7e7f8e7df67c8af",
+        "sizeBytes" : 3970255,
         "url" : "http://aminet.net/game/strat/FreeSynd_RTG.lha"
       },
       "category" : "Games",
@@ -2160,7 +2160,7 @@
 
       ],
       "tier" : "A",
-      "version" : "0.9.1.01"
+      "version" : "0.9.1.03"
     },
     {
       "added" : "2026-07-24",
@@ -3398,8 +3398,8 @@
           "http://us.aminet.net/misc/emu/make.lha",
           "http://se.aminet.net/misc/emu/make.lha"
         ],
-        "sha256" : "d6af6e10f94002e4fa4f707884e93f23ea8ad1315ae3f6117ca2b570b8325310",
-        "sizeBytes" : 156995,
+        "sha256" : "6d1bac5bd1f286876f4e5497070ab56e1d5a461c7eaa3aae5419a457e7673a64",
+        "sizeBytes" : 157012,
         "url" : "http://aminet.net/misc/emu/make.lha"
       },
       "category" : "Emulation",
@@ -5695,8 +5695,8 @@
           "http://us.aminet.net/comm/tcp/TelegramAmiga.lha",
           "http://se.aminet.net/comm/tcp/TelegramAmiga.lha"
         ],
-        "sha256" : "7a1362cb452fea97f22e6dc931fe47787debbecdd28e2955bbfe7aaaa5f9077b",
-        "sizeBytes" : 396536,
+        "sha256" : "4f1e2f481518c5a497b464b78f2a0a37dca7aa4de18f6567895c7df15a5c25fb",
+        "sizeBytes" : 283526,
         "url" : "http://aminet.net/comm/tcp/TelegramAmiga.lha"
       },
       "category" : "Internet",
@@ -5720,7 +5720,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.0.7"
+      "version" : "0.0.7a"
     },
     {
       "archive" : {
@@ -5974,8 +5974,8 @@
           "http://us.aminet.net/text/edit/tinyedit_aos.lha",
           "http://se.aminet.net/text/edit/tinyedit_aos.lha"
         ],
-        "sha256" : "8c492fa5a6300f0454ae7d2da4e692d42f1751dcf1ce6cde48968f0d641cb687",
-        "sizeBytes" : 684458,
+        "sha256" : "7ba0f12095df0ebf6c7618f0baf1b1c0ec53989da0bc743f0cf7e50852cf8126",
+        "sizeBytes" : 733112,
         "url" : "http://aminet.net/text/edit/tinyedit_aos.lha"
       },
       "category" : "Text",
