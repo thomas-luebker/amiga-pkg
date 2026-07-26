@@ -47,6 +47,6 @@ Anyone can PR a package, but nothing reaches users unsigned:
 
 Open a GitHub issue for non-sensitive problems. For anything sensitive
 (signing, verification bypass, catalog integrity), email the maintainer:
-**thomas.luebker@mac.com** — please include steps to reproduce. You'll get a
+**thomas@amiga-imager.com** — please include steps to reproduce. You'll get a
 response as fast as a hobby project allows, and credit in the fix notes
 unless you prefer otherwise.
