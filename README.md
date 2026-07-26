@@ -27,6 +27,15 @@ index that amipkg and AmigaImager-built systems trust.
   `docs/`), which is what the AmigaImager app uses and what amiga-imager.org
   mirrors live — push here and both endpoints update together.
 
+## Nightly freshness
+
+A scheduled Action re-scans all upstream archives every night and opens a
+review PR when Aminet (or any host) shipped a new version. **CI never
+signs**: the maintainer merges, then signs + publishes locally
+(`scripts/refresh-and-publish.sh`) - the Ed25519 key stays offline, so a
+compromised runner can propose catalog changes but never deliver them to
+an Amiga.
+
 ## How it works
 
 ```

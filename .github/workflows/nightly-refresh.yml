@@ -1,0 +1,54 @@
+# Nightly upstream-drift watch.
+#
+# Re-scans every catalog entry against its upstream archive (sha256/size/
+# version) plus the Aminet version overlay, and opens a REVIEW PR when
+# anything moved. Deliberately UNSIGNED: the Ed25519 signing key stays
+# offline with the maintainer — merge the PR, then run
+# scripts/refresh-and-publish.sh locally to sign + publish. A compromised
+# runner can therefore propose changes but never ship them to clients.
+name: nightly-refresh
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Re-scan upstream archives + versions
+        run: |
+          python3 amigapkg.py refresh
+          python3 amigapkg.py versions --index docs/packages.json --out versions.json
+
+      - name: Open review PR on drift
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet; then
+            echo "no upstream drift tonight"
+            exit 0
+          fi
+          git config user.name  "amipkg-nightly"
+          git config user.email "actions@github.com"
+          BRANCH="nightly-refresh-$(date -u +%Y%m%d)"
+          git checkout -b "$BRANCH"
+          git add packages/ versions.json
+          git commit -m "nightly: upstream drift (sha/size/version re-scan)"
+          git push -u origin "$BRANCH" --force
+          gh pr create --fill \
+            --title "nightly: upstream drift $(date -u +%Y-%m-%d)" \
+            --body "Automated re-scan found upstream changes (new sha256/size/version on Aminet or other hosts).
+
+**Review the diff, merge, then sign + publish locally:**
+\`\`\`
+scripts/refresh-and-publish.sh --push
+\`\`\`
+The index stays UNSIGNED until that local run - the signing key never touches CI." \
+            || echo "PR already open - branch updated"
