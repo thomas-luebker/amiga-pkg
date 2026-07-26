@@ -44,11 +44,5 @@ jobs:
           git push -u origin "$BRANCH" --force
           gh pr create --fill \
             --title "nightly: upstream drift $(date -u +%Y-%m-%d)" \
-            --body "Automated re-scan found upstream changes (new sha256/size/version on Aminet or other hosts).
-
-**Review the diff, merge, then sign + publish locally:**
-\`\`\`
-scripts/refresh-and-publish.sh --push
-\`\`\`
-The index stays UNSIGNED until that local run - the signing key never touches CI." \
+            --body "Automated re-scan found upstream changes. Review the diff, merge, then sign + publish (Trashcan nightly does this automatically; manual: scripts/refresh-and-publish.sh --push). The index stays UNSIGNED until a signing run - the key never touches CI." \
             || echo "PR already open - branch updated"
