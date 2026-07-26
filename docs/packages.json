@@ -754,8 +754,8 @@
         "mirrors" : [
 
         ],
-        "sha256" : "3ee9e0945e820390b7a20af8ea105f06a09ea6d0b617b825905d73de7108774b",
-        "sizeBytes" : 537227,
+        "sha256" : "33a193b4c09c165d027d93ba9d566af5f93b248358aec11d02df8f40fb87e7cf",
+        "sizeBytes" : 537931,
         "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/latest/download/amipkg-client.lha"
       },
       "category" : "System",
@@ -826,7 +826,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.4.6"
+      "version" : "0.4.7"
     },
     {
       "archive" : {
