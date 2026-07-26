@@ -56,10 +56,16 @@ echo "==> Regenerating + signing the index…"
 KEYTMP="$(mktemp)"
 trap 'rm -f "$KEYTMP"' EXIT INT TERM
 grep '^privateKey:' "$KEY" | sed 's/^privateKey:[[:space:]]*//' > "$KEYTMP"
+# Fill missing versions (base-catalog entries have none) from Aminet
+# readmes / filenames into the overlay, then bake it into the index.
+python3 "$REPO/amigapkg.py" versions --index "$REPO/docs/packages.json" \
+    --out "$REPO/versions.json" || true
+
 ( cd "$KIT" && swift run pkgindex generate \
     --rules      "$RULES" \
     --extra      "$REPO/packages/" \
     --archives   "$ARCHIVES" \
+    --versions   "$REPO/versions.json" \
     --sign       "@$KEYTMP" \
     --public-key "$PUBKEY" \
     --out        "$REPO/docs/packages.json" )

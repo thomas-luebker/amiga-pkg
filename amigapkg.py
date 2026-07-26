@@ -58,7 +58,19 @@ def _readme_version(archive_url):
     except Exception:
         return None
     m = re.search(r"(?im)^Version:\s*(.+?)\s*$", text)
-    return m.group(1).strip()[:24] if m else None
+    if m:
+        return m.group(1).strip()[:24]
+    # No Version: header (it is optional on Aminet) - many readmes carry the
+    # version in the Short: line instead ("Short: V2.45, module player").
+    m = re.search(r"(?im)^Short:\s*(.+)$", text)
+    if m:
+        v = re.search(r"[Vv]\.?\s?(\d+(?:\.\d+)+[a-z]?)", m.group(1)) \
+            or re.search(r"\b(\d+\.\d+(?:\.\d+)?[a-z]?)\b", m.group(1))
+        if v:
+            return v.group(1)[:24]
+    # Last resort: a version baked into the archive filename (KingCON_1.3).
+    v = re.search(r"[_-][Vv]?(\d+\.\d+[a-z]?)\.lha$", archive_url)
+    return v.group(1)[:24] if v else None
 
 
 # --------------------------------------------------------------------------- add
@@ -226,6 +238,44 @@ def cmd_validate(a):
 
 
 # --------------------------------------------------------------------------- cli
+def cmd_versions(args):
+    """Scrape Aminet .readme Version: fields for every index entry that has
+    none, writing an id->version overlay for `pkgindex generate --versions`.
+    Covers the ~50 base-catalog (CSV-derived) entries the curated packages/
+    files never touch — after this, the GUIs' Version column is filled."""
+    import json as _json
+    idx = _json.load(open(args.index))
+    try:
+        overlay = _json.load(open(args.out))
+    except Exception:
+        overlay = {}
+    misses, hits = [], 0
+    for e in idx.get("packages", []):
+        ver = e.get("version") or "-"
+        if ver not in ("-", ""):
+            continue
+        url = (e.get("archive") or {}).get("url", "")
+        if not url.endswith(".lha"):
+            misses.append(e["id"]); continue
+        if "aminet" in url:
+            v = _readme_version(url)
+        else:
+            # Non-Aminet host: no readme convention - a version baked into
+            # the filename (LumiPass_1.1.lha) is still better than "-".
+            m = re.search(r"[_-][Vv]?(\d+(?:\.\d+)+[a-z]?)\.lha$", url)
+            v = m.group(1) if m else None
+        if v:
+            overlay[e["id"]] = v; hits += 1
+            print("  %-20s %s" % (e["id"], v))
+        else:
+            misses.append(e["id"])
+    _json.dump(dict(sorted(overlay.items())), open(args.out, "w"), indent=2)
+    open(args.out, "a").write("\n")
+    print("versions: %d filled -> %s; %d without source: %s"
+          % (hits, args.out, len(misses), ", ".join(misses) or "-"))
+    return 0
+
+
 def main():
     p = argparse.ArgumentParser(prog="amigapkg", description="Author + validate AmigaPKG package entries.")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -245,6 +295,11 @@ def main():
     pr.add_argument("paths", nargs="*", help="files or dirs (default: packages/)")
     pr.add_argument("--check-only", action="store_true", help="report changes without writing")
     pr.set_defaults(func=cmd_refresh)
+
+    pw = sub.add_parser("versions", help="fill missing versions from Aminet .readme files (overlay for pkgindex generate --versions)")
+    pw.add_argument("--index", default="docs/packages.json", help="index to scan for version-less entries")
+    pw.add_argument("--out", default="versions.json", help="overlay file to write/update")
+    pw.set_defaults(func=cmd_versions)
 
     pv = sub.add_parser("validate", help="validate entries (schema, ids, capabilities, sha256)")
     pv.add_argument("paths", nargs="*", help="files or dirs (default: packages/)")
