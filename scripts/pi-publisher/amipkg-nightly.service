@@ -1,0 +1,7 @@
+[Unit]
+Description=amipkg catalog nightly refresh + sign + publish
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh /home/loki/amipkg-publisher/nightly-publish.sh

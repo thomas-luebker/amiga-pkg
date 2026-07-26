@@ -1,0 +1,9 @@
+[Unit]
+Description=amipkg nightly at 03:10
+
+[Timer]
+OnCalendar=*-*-* 03:10:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

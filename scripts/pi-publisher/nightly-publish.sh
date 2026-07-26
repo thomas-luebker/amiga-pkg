@@ -1,6 +1,7 @@
 #!/bin/sh
 # nightly-publish.sh — the FULLY AUTOMATED catalog refresh + sign + publish.
-# Runs on the Trashcan (loki@192.168.178.177) via launchd at 03:10 nightly.
+# Runs on the Pi 5 (loki@192.168.178.91, always-on) via a systemd user
+# timer at 03:10 nightly.
 # The signing key lives ONLY here and on the offline Desktop copy — never
 # in any cloud. GitHub is just the git remote.
 set -eu
@@ -13,7 +14,7 @@ exec >>"$LOG" 2>&1
 echo "=== nightly $(date) ==="
 
 notify() {  # best-effort push via the Pi (no secret -> just logs)
-    curl -s --max-time 10 -X POST http://192.168.178.91:9092/notify \
+    curl -s --max-time 10 -X POST http://127.0.0.1:9092/notify \
         -H 'Content-Type: application/json' \
         -d "{\"title\":\"amipkg nightly\",\"body\":\"$1\"}" >/dev/null 2>&1 || true
 }
