@@ -5,9 +5,9 @@
       "http://us.aminet.net/util/shell/ltx-cc123.lha",
       "http://se.aminet.net/util/shell/ltx-cc123.lha"
     ],
-    "sha256": "5cf1d3a02625be19384431c76abded36b7cc3c38a72a159d1600adca67e2ad9e",
-    "sizeBytes": 47880,
-    "url": "http://aminet.net/util/shell/ltx-cc123.lha"
+    "sha256": "ebd580d369487eba6d86950567d1e17ea74c121614ac3e17157e1cf16de552aa",
+    "sizeBytes": 51462,
+    "url": "http://aminet.net/util/shell/ltx-cc125.lha"
   },
   "category": "Utilities",
   "conflicts": [],
@@ -18,5 +18,5 @@
   "provides": [],
   "requiredCapabilities": [],
   "tier": "A",
-  "version": "1.2.3"
+  "version": "1.2.5"
 }
