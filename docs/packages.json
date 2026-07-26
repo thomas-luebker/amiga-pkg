@@ -200,7 +200,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "4.18"
     },
     {
       "archive" : {
@@ -313,7 +313,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "45.95"
     },
     {
       "archive" : {
@@ -426,7 +426,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "45.95"
     },
     {
       "archive" : {
@@ -539,7 +539,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "45.95"
     },
     {
       "added" : "2026-07-24",
@@ -746,7 +746,7 @@
         "host-builtin-v1"
       ],
       "tier" : "B",
-      "version" : "-"
+      "version" : "3.33"
     },
     {
       "added" : "2026-07-25",
@@ -754,8 +754,8 @@
         "mirrors" : [
 
         ],
-        "sha256" : "4b24f4ee8618d5a8ff73ef5856e29f295399ddb50591ee6215ff6b727361a233",
-        "sizeBytes" : 290694,
+        "sha256" : "3ee9e0945e820390b7a20af8ea105f06a09ea6d0b617b825905d73de7108774b",
+        "sizeBytes" : 537227,
         "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/latest/download/amipkg-client.lha"
       },
       "category" : "System",
@@ -765,7 +765,7 @@
       "deps" : [
 
       ],
-      "description" : "The AmigaPKG package manager itself (CLI + GadTools GUI) - self-update via 'amipkg upgrade amipkg'. Download needs AmiSSL (GitHub is https-only).",
+      "description" : "The AmigaPKG package manager itself (CLI + GadTools GUI + MUI GUI) - self-update via 'amipkg upgrade amipkg'. Lives in its AMIPKG: home drawer. Download needs AmiSSL (GitHub is https-only).",
       "id" : "amipkg",
       "name" : "amipkg",
       "provides" : [
@@ -774,46 +774,59 @@
       "recipe" : {
         "ops" : [
           {
-            "dest" : "C",
+            "lines" : [
+              "If Exists C:amipkg",
+              "Version >NIL: C:amipkg 0 4",
+              "If Warn",
+              "Echo \"This update needs amipkg 0.4+ - please re-download amipkg.lha once (it now lives in its own drawer).\"",
+              "Quit 20",
+              "EndIf",
+              "EndIf"
+            ],
+            "op" : "preScript"
+          },
+          {
+            "dest" : "AMIPKG:",
             "op" : "placeFile",
             "src" : "amipkg"
           },
           {
-            "dest" : "Tools",
+            "dest" : "AMIPKG:",
             "op" : "placeFile",
             "src" : "amipkg-gui"
           },
           {
-            "dest" : "Tools",
+            "dest" : "AMIPKG:",
             "op" : "placeFile",
             "src" : "amipkg-gui.info"
           },
           {
-            "dest" : "Tools",
+            "dest" : "AMIPKG:",
             "op" : "placeFile",
             "src" : "amipkg-mui"
           },
           {
-            "dest" : "Tools",
+            "dest" : "AMIPKG:",
             "op" : "placeFile",
             "src" : "amipkg-mui.info"
           },
           {
-            "dest" : "Tools/AmigaImager",
+            "dest" : "AMIPKG:",
             "op" : "placeFile",
             "src" : "amipkg.guide"
           }
         ],
-        "recipeSchema" : 1
+        "recipeSchema" : 2
       },
       "requiredCapabilities" : [
-        "place-file-v1"
+        "place-file-v1",
+        "pre-post-script-v1"
       ],
       "requirements" : {
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.3"
+      "version" : "0.4.6"
     },
     {
       "archive" : {
@@ -985,7 +998,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "39.2a"
     },
     {
       "added" : "2026-07-25",
@@ -1194,13 +1207,15 @@
         "minCPU" : "68020"
       },
       "tier" : "A",
-      "version" : "-"
+      "version" : "11.36"
     },
     {
       "archive" : {
         "mirrors" : [
 
         ],
+        "sha256" : "2f5b032d6494cbf0af684e4dacf82785108bc1210c8fa624ba28d09d0f0aa6b4",
+        "sizeBytes" : 68264,
         "url" : "http://aminet.net/dev/mui/MCC_BetterString_68k.lha"
       },
       "category" : "Libraries",
@@ -1303,7 +1318,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "11.16"
     },
     {
       "added" : "2026-07-24",
@@ -1662,7 +1677,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "1.0"
     },
     {
       "added" : "2026-07-24",
@@ -2242,7 +2257,7 @@
         "host-builtin-v1"
       ],
       "tier" : "B",
-      "version" : "-"
+      "version" : "3.1"
     },
     {
       "archive" : {
@@ -2354,13 +2369,15 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "20.1"
     },
     {
       "archive" : {
         "mirrors" : [
 
         ],
+        "sha256" : "dcc3e277cbceee70e4f9f22b6d67fbb0120ff09f173e01e5918b67cd7bd0ba24",
+        "sizeBytes" : 176511,
         "url" : "http://aminet.net/dev/mui/MCC_Guigfx.lha"
       },
       "category" : "Libraries",
@@ -2454,13 +2471,15 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "19.2"
     },
     {
       "archive" : {
         "mirrors" : [
 
         ],
+        "sha256" : "5137002597f6e37a20f0907c13b3ae78fe0b0cbd5dc7a4956d7c9bff7926c190",
+        "sizeBytes" : 4018,
         "url" : "https://raw.githubusercontent.com/EmberHeavyIndustries/HID2AMI/master/Firmware/Hid2Ami.lha"
       },
       "category" : "Input",
@@ -2688,7 +2707,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "2.45"
     },
     {
       "archive" : {
@@ -2986,7 +3005,7 @@
         "strip-junk-v1"
       ],
       "tier" : "B",
-      "version" : "-"
+      "version" : "v2.6.1"
     },
     {
       "archive" : {
@@ -3095,7 +3114,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "3.461"
     },
     {
       "added" : "2026-07-24",
@@ -3155,7 +3174,7 @@
 
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "1.3"
     },
     {
       "archive" : {
@@ -3285,7 +3304,7 @@
         "strip-junk-v1"
       ],
       "tier" : "B",
-      "version" : "-"
+      "version" : "1.1"
     },
     {
       "added" : "2026-07-26",
@@ -3314,7 +3333,7 @@
 
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "1.1"
     },
     {
       "added" : "2026-07-26",
@@ -3343,7 +3362,7 @@
 
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "1.1"
     },
     {
       "added" : "2026-07-26",
@@ -3372,7 +3391,7 @@
 
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "1.0"
     },
     {
       "category" : "Games",
@@ -3601,7 +3620,7 @@
         "host-builtin-v1"
       ],
       "tier" : "B",
-      "version" : "-"
+      "version" : "2.4"
     },
     {
       "archive" : {
@@ -3828,7 +3847,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "1.361"
     },
     {
       "added" : "2026-07-25",
@@ -3969,13 +3988,15 @@
         "minCPU" : "68020"
       },
       "tier" : "A",
-      "version" : "-"
+      "version" : "0.128"
     },
     {
       "archive" : {
         "mirrors" : [
 
         ],
+        "sha256" : "8930299d503dcaa49ffab03245b6659b253b6031d69a20b17c66789755eb0d62",
+        "sizeBytes" : 314069,
         "url" : "http://aminet.net/dev/mui/MCC_NList-0.102_68k.lha"
       },
       "category" : "Libraries",
@@ -4075,7 +4096,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "0.102"
     },
     {
       "archive" : {
@@ -4178,7 +4199,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "2.0"
     },
     {
       "added" : "2026-07-24",
@@ -4358,13 +4379,15 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "2.01"
     },
     {
       "archive" : {
         "mirrors" : [
 
         ],
+        "sha256" : "0146d4a2aaadb82ec454dde6ca4fb33a3f646ca4c0daa46e569c025f4d9728af",
+        "sizeBytes" : 596111,
         "url" : "http://aminet.net/driver/video/Picasso96.lha"
       },
       "category" : "Libraries",
@@ -4394,7 +4417,7 @@
         "host-builtin-v1"
       ],
       "tier" : "B",
-      "version" : "-"
+      "version" : "2.0"
     },
     {
       "added" : "2026-07-24",
@@ -4654,7 +4677,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "2.2 (30-Dec-03)"
     },
     {
       "added" : "2026-07-24",
@@ -4684,7 +4707,7 @@
 
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "2.2a"
     },
     {
       "archive" : {
@@ -4721,7 +4744,7 @@
         "host-builtin-v1"
       ],
       "tier" : "B",
-      "version" : "-"
+      "version" : "2.74"
     },
     {
       "archive" : {
@@ -4836,7 +4859,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "1.2"
     },
     {
       "archive" : {
@@ -4948,7 +4971,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "40.8"
     },
     {
       "added" : "2026-07-24",
@@ -4978,7 +5001,7 @@
 
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "2.9a"
     },
     {
       "archive" : {
@@ -5017,7 +5040,7 @@
         "host-builtin-v1"
       ],
       "tier" : "B",
-      "version" : "-"
+      "version" : "0.54"
     },
     {
       "archive" : {
@@ -5132,7 +5155,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "1.3.9"
     },
     {
       "added" : "2026-07-24",
@@ -5169,6 +5192,8 @@
         "mirrors" : [
 
         ],
+        "sha256" : "e934ac1907439d992648e1b6f3c6e283b97817545ac060ce28a161c30b23f745",
+        "sizeBytes" : 74148,
         "url" : "https://www.7-bit.pl/download/RysMKII/RysWheel_Installer_v0.14.2.lha"
       },
       "category" : "Input",
@@ -5269,7 +5294,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "0.14.2"
     },
     {
       "added" : "2026-07-24",
@@ -5336,7 +5361,7 @@
         "host-builtin-v1"
       ],
       "tier" : "B",
-      "version" : "-"
+      "version" : "2.5.1.34"
     },
     {
       "added" : "2026-07-24",
@@ -5506,7 +5531,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "2.9"
     },
     {
       "archive" : {
@@ -5615,7 +5640,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "4.4"
     },
     {
       "archive" : {
@@ -5725,7 +5750,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "0.3"
     },
     {
       "added" : "2026-07-24",
@@ -5868,13 +5893,15 @@
         "minCPU" : "68020"
       },
       "tier" : "A",
-      "version" : "-"
+      "version" : "15.56"
     },
     {
       "archive" : {
         "mirrors" : [
 
         ],
+        "sha256" : "eadf34bb2384c7c8cbfd7ef873d98cb9f8d595419711996a00d5c54ec91dd4eb",
+        "sizeBytes" : 130439,
         "url" : "http://aminet.net/dev/mui/MCC_TextEditor_68k.lha"
       },
       "category" : "Libraries",
@@ -5972,7 +5999,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "15.28"
     },
     {
       "added" : "2026-07-24",
@@ -6185,7 +6212,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "2.1a"
     },
     {
       "added" : "2026-07-25",
@@ -6327,13 +6354,15 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "2.2"
     },
     {
       "archive" : {
         "mirrors" : [
 
         ],
+        "sha256" : "164af2cdbbe92fa144f48144be4e8fc7a8d8b0f5d875e4bd6a0cda88659eb711",
+        "sizeBytes" : 34306,
         "url" : "http://aminet.net/dev/mui/MCC_Urltext.lha"
       },
       "category" : "Libraries",
@@ -6433,7 +6462,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "19.7"
     },
     {
       "added" : "2026-07-25",
@@ -6765,7 +6794,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "12.1a"
     },
     {
       "added" : "2026-07-24",
@@ -6855,7 +6884,7 @@
 
       ],
       "tier" : "A",
-      "version" : "-"
+      "version" : "2.12"
     },
     {
       "added" : "2026-07-25",
