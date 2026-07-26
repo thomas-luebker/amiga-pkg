@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-26",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/dir/MCAmigaXPE.lha",
+      "http://se.aminet.net/util/dir/MCAmigaXPE.lha"
+    ],
+    "sha256": "785067e7e37471148773a03d8b8a446bbbe5d1ed7b0fe96ce5d80af3a1f66d78",
+    "sizeBytes": 2630509,
+    "url": "http://aminet.net/util/dir/MCAmigaXPE.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Norton/Midnight Commander style dual-pane file manager, keyboard-driven",
+  "id": "mcamigaxpe",
+  "name": "MCAmiga XPE",
+  "provides": [],
+  "requirements": {
+    "minCPU": "68000"
+  },
+  "requiredCapabilities": [],
+  "tier": "A",
+  "version": "1.1"
+}
