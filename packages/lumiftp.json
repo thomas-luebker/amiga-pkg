@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-26",
+  "archive": {
+    "mirrors": [
+      "http://aminet.net/comm/tcp/LumiFTP_1.1.lha",
+      "http://us.aminet.net/comm/tcp/LumiFTP_1.1.lha"
+    ],
+    "sha256": "60907c57f94b0d836803552e207f4c382182039ff31bd2cca11ace5b3cc59b09",
+    "sizeBytes": 330017,
+    "url": "https://www.amigaworld.de/software/lumiftp/LumiFTP_1.1.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "MUI FTP client by DJBase. Primary: amigaworld.de (freshest releases; needs AmiSSL) - falls back to the Aminet http mirror automatically.",
+  "id": "lumiftp",
+  "name": "LumiFTP",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "1.1"
+}
