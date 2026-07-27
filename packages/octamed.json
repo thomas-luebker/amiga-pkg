@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/mus/edit/OctaMEDv4.lha",
+      "http://se.aminet.net/mus/edit/OctaMEDv4.lha"
+    ],
+    "sha256": "cf961328a435b3d17dc2436d7deadc2919eae4e907867611bce16e39c958dd24",
+    "sizeBytes": 305822,
+    "url": "http://aminet.net/mus/edit/OctaMEDv4.lha"
+  },
+  "category": "Audio",
+  "conflicts": [],
+  "deps": [],
+  "description": "OctaMED 4 - the legendary 8-voice music editor/tracker, officially released as freeware. A piece of Amiga music history, ready to run.",
+  "id": "octamed",
+  "name": "OctaMED",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "4.00"
+}
