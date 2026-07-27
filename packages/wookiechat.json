@@ -1,0 +1,30 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [],
+    "sha256": "c8e863fdb7f5887b257cb6b10137ebbc68944c707989410c5f1eca59d28f8b3d",
+    "sizeBytes": 1196063,
+    "url": "https://wookiechat.amigaworld.de/release/WookieChat2.11_OS3.lha"
+  },
+  "category": "Internet",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "amissl"
+    },
+    {
+      "id": "mui38"
+    }
+  ],
+  "description": "IRC client by James Carroll, hosted on DJBase's amigaworld.de. MUI-based; SSL channels via AmiSSL (both install automatically - AmiSSL also enables this download).",
+  "id": "wookiechat",
+  "name": "WookieChat",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0",
+    "network": true
+  },
+  "tier": "A",
+  "version": "2.11"
+}

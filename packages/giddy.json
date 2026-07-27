@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/jump/Giddy.lha",
+      "http://se.aminet.net/game/jump/Giddy.lha"
+    ],
+    "sha256": "8ae879c61529b299462631adc29caf51d8f0c363732e408738def689f4594034",
+    "sizeBytes": 181826,
+    "url": "http://aminet.net/game/jump/Giddy.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Dizzy-style puzzle platformer - charming freeware adventure.",
+  "id": "giddy",
+  "name": "Giddy",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "-"
+}

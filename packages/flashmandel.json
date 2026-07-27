@@ -1,0 +1,26 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/gfx/fract/FlashMandel.lha",
+      "http://se.aminet.net/gfx/fract/FlashMandel.lha"
+    ],
+    "sha256": "687f81824e726f0e3a36ffcee2564914ec1ab820ab4d79737a91a4c8a948c8e1",
+    "sizeBytes": 4312775,
+    "url": "http://aminet.net/gfx/fract/FlashMandel.lha"
+  },
+  "category": "Graphics",
+  "conflicts": [],
+  "deps": [],
+  "description": "Classic Mandelbrot/Julia fractal renderer. Needs 68020+ WITH FPU (68881/882) and KS 3.0.",
+  "id": "flashmandel",
+  "name": "FlashMandel",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68020",
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "2.0"
+}

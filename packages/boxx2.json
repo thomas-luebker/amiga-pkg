@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/jump/Boxx2HDD.lha",
+      "http://se.aminet.net/game/jump/Boxx2HDD.lha"
+    ],
+    "sha256": "3a04bd2673fac85a9742ccc06365fbbbb64a81e3369b876c1e3a0a6c7564d4aa",
+    "sizeBytes": 274990,
+    "url": "http://aminet.net/game/jump/Boxx2HDD.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Boxx 2 by Lemming880 - polished freeware platformer (HD install version).",
+  "id": "boxx2",
+  "name": "Boxx 2",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "1.2"
+}

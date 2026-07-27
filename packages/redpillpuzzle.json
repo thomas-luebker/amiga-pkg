@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/think/RedpillPuzzleHD.lha",
+      "http://se.aminet.net/game/think/RedpillPuzzleHD.lha"
+    ],
+    "sha256": "fa55c8cddfe6fab5a5b093b3bbaf26938b5e4b6c61227c3d494fdc2f0328373d",
+    "sizeBytes": 163822,
+    "url": "http://aminet.net/game/think/RedpillPuzzleHD.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Puzzle game built with the REDPILL Game Creator (HD install).",
+  "id": "redpillpuzzle",
+  "name": "Redpill Puzzle",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "1.0"
+}

@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/dev/misc/REDPILLGameCreator.lha",
+      "http://se.aminet.net/dev/misc/REDPILLGameCreator.lha"
+    ],
+    "sha256": "f327ee46b9e6d1834c0d00cdb77573207c77a8a57c318e252c8b64c2c7f54e81",
+    "sizeBytes": 9127292,
+    "url": "http://aminet.net/dev/misc/REDPILLGameCreator.lha"
+  },
+  "category": "Development",
+  "conflicts": [],
+  "deps": [],
+  "description": "Visual game creator with AGA support by Zener - actively developed; build real Amiga games without coding.",
+  "id": "redpill",
+  "name": "REDPILL Game Creator",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "0.9.71"
+}

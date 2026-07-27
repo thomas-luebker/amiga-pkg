@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/board/nuclearchess_68k.lha",
+      "http://se.aminet.net/game/board/nuclearchess_68k.lha"
+    ],
+    "sha256": "7422c2851794127d044e9ad5eecdf580147cd997cb34553cac9757d900a75e93",
+    "sizeBytes": 1626746,
+    "url": "http://aminet.net/game/board/nuclearchess_68k.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Chess variant where captures explode the neighborhood - quick, chaotic fun for two.",
+  "id": "nuclearchess",
+  "name": "NuclearChess",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "1.0.0"
+}

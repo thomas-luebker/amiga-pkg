@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/jump/Giddy_2.lha",
+      "http://se.aminet.net/game/jump/Giddy_2.lha"
+    ],
+    "sha256": "59183decca8bdfbd0bf3570b7c317a8001fd40292ded3a7b742d1c4a9042827e",
+    "sizeBytes": 288472,
+    "url": "http://aminet.net/game/jump/Giddy_2.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Giddy 2: Hero in an Egg Shell - the sequel. Note: launches via WHDLoad (install it via Amiga Imager or from whdload.de).",
+  "id": "giddy2",
+  "name": "Giddy 2",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "-"
+}

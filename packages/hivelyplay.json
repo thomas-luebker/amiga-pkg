@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/mus/play/hivelyplay.lha",
+      "http://se.aminet.net/mus/play/hivelyplay.lha"
+    ],
+    "sha256": "465bbeec8469853cccd9a3f0ffb3c9b22a3e9b18372d67d61c46fe8d9b66cbbd",
+    "sizeBytes": 185258,
+    "url": "http://aminet.net/mus/play/hivelyplay.lha"
+  },
+  "category": "Audio",
+  "conflicts": [],
+  "deps": [],
+  "description": "Hively/AHX replayer library plus AmiNetRadio plugin - chiptune playback for the tracker scene.",
+  "id": "hivelyplay",
+  "name": "Hively Player",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.04"
+  },
+  "tier": "A",
+  "version": "1.3"
+}

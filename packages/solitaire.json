@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/board/AmigaSolitaire.lha",
+      "http://se.aminet.net/game/board/AmigaSolitaire.lha"
+    ],
+    "sha256": "a00292b4133d0abee3b734504458b6df29347fd5138825c7b267d26debb9aa96",
+    "sizeBytes": 35072,
+    "url": "http://aminet.net/game/board/AmigaSolitaire.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Klondike Solitaire - the coffee-break classic, 35 KB.",
+  "id": "solitaire",
+  "name": "Amiga Solitaire",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "-"
+}

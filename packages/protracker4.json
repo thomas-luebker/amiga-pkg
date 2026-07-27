@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/mus/edit/PT4_Beta2.lha",
+      "http://se.aminet.net/mus/edit/PT4_Beta2.lha"
+    ],
+    "sha256": "a2287d3d9992ca1ca25c17b003c49bb317e3eec68eff66653ce546f7177fafdd",
+    "sizeBytes": 150529,
+    "url": "http://aminet.net/mus/edit/PT4_Beta2.lha"
+  },
+  "category": "Audio",
+  "conflicts": [],
+  "deps": [],
+  "description": "ProTracker 4.0 Beta 2 - the continuation of THE Amiga tracker. Pairs nicely with OctaMED from this catalog.",
+  "id": "protracker4",
+  "name": "ProTracker 4",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "4.0b2"
+}
