@@ -1097,8 +1097,8 @@
         "mirrors" : [
           "http://amiga-imager.org/packages/amipkg-client.lha"
         ],
-        "sha256" : "466097ddbd30883ccc76dcc7f1f901d4c8f6b90de726c185543f471522db4fd9",
-        "sizeBytes" : 540088,
+        "sha256" : "76758f6b9b1582d77b1def23d28ad8da5aefe91a338b861136af44c88eb4e571",
+        "sizeBytes" : 540456,
         "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/latest/download/amipkg-client.lha"
       },
       "category" : "System",
@@ -1169,7 +1169,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.5.0"
+      "version" : "0.5.1"
     },
     {
       "added" : "2026-07-27",
@@ -3033,11 +3033,11 @@
       "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
-
+          "https://www.amigaworld.de/software/fallout1/Fallout-CE.lha"
         ],
         "sha256" : "6dff9007b1ce7ceb54016d68e265cbebfb3e68a74b4b57ed6f3714170363ad83",
         "sizeBytes" : 844098,
-        "url" : "https://www.amigaworld.de/software/fallout1/Fallout-CE.lha"
+        "url" : "http://www.amigaworld.de/software/fallout1/Fallout-CE.lha"
       },
       "category" : "Games",
       "conflicts" : [
@@ -3068,11 +3068,11 @@
       "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
-
+          "https://www.amigaworld.de/software/fallout2/Fallout2-CE.lha"
         ],
         "sha256" : "abf84da5e0dd4ce4912b0589071e2f5b223b3db8589e9353a537053162aee9ba",
         "sizeBytes" : 1290252,
-        "url" : "https://www.amigaworld.de/software/fallout2/Fallout2-CE.lha"
+        "url" : "http://www.amigaworld.de/software/fallout2/Fallout2-CE.lha"
       },
       "category" : "Games",
       "conflicts" : [
@@ -8409,8 +8409,8 @@
           "http://us.aminet.net/text/edit/tinyedit_aos.lha",
           "http://se.aminet.net/text/edit/tinyedit_aos.lha"
         ],
-        "sha256" : "7ba0f12095df0ebf6c7618f0baf1b1c0ec53989da0bc743f0cf7e50852cf8126",
-        "sizeBytes" : 733112,
+        "sha256" : "3aa6571bf4b672353b90d5b528ebcd8721740c694f974fa260b35b980826c8d8",
+        "sizeBytes" : 283,
         "url" : "http://aminet.net/text/edit/tinyedit_aos.lha"
       },
       "category" : "Text",
@@ -9310,11 +9310,11 @@
       "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
-
+          "https://wookiechat.amigaworld.de/release/WookieChat2.11_OS3.lha"
         ],
         "sha256" : "c8e863fdb7f5887b257cb6b10137ebbc68944c707989410c5f1eca59d28f8b3d",
         "sizeBytes" : 1196063,
-        "url" : "https://wookiechat.amigaworld.de/release/WookieChat2.11_OS3.lha"
+        "url" : "http://wookiechat.amigaworld.de/release/WookieChat2.11_OS3.lha"
       },
       "category" : "Internet",
       "conflicts" : [
@@ -9328,7 +9328,7 @@
           "id" : "mui38"
         }
       ],
-      "description" : "IRC client by James Carroll, hosted on DJBase's amigaworld.de. MUI-based; SSL channels via AmiSSL (both install automatically - AmiSSL also enables this download).",
+      "description" : "IRC client by James Carroll, hosted on DJBase's amigaworld.de. MUI-based; SSL channels via AmiSSL (installs automatically). Downloads over plain HTTP - no AmiSSL needed to install.",
       "id" : "wookiechat",
       "name" : "WookieChat",
       "provides" : [
