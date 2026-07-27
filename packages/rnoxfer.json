@@ -1,0 +1,42 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/comm/tcp/RNOXfer_68k.lha",
+      "http://se.aminet.net/comm/tcp/RNOXfer_68k.lha"
+    ],
+    "sha256": "32e317d6b616fa187b2ac2bc857d9c0611f457711c07e199dfb23d274a2c8f24",
+    "sizeBytes": 2988297,
+    "url": "http://aminet.net/comm/tcp/RNOXfer_68k.lha"
+  },
+  "category": "Internet",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "mui38"
+    },
+    {
+      "id": "amissl"
+    },
+    {
+      "id": "codesetslib"
+    },
+    {
+      "id": "guigfxlib"
+    },
+    {
+      "id": "renderlib"
+    }
+  ],
+  "description": "Graphical FTP/FTPS/SFTP client by jPV (actively maintained). MUI, AmiSSL, codesets, guigfx and render libraries install automatically.",
+  "id": "rnoxfer",
+  "name": "RNOXfer",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0",
+    "network": true
+  },
+  "tier": "A",
+  "version": "1.4"
+}

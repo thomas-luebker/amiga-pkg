@@ -1,0 +1,35 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/gfx/edit/RNOEffects_68k.lha",
+      "http://se.aminet.net/gfx/edit/RNOEffects_68k.lha"
+    ],
+    "sha256": "dfa8ce0ca9c0104c40c7df2d69edf7e0963cab20bbb8f683216252478179a4af",
+    "sizeBytes": 6289748,
+    "url": "http://aminet.net/gfx/edit/RNOEffects_68k.lha"
+  },
+  "category": "Graphics",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "mui38"
+    },
+    {
+      "id": "texteditormcc"
+    },
+    {
+      "id": "codesetslib"
+    }
+  ],
+  "description": "Image processing program by jPV with batch conversion and 30+ effects (actively maintained). MUI, TextEditor.mcc and codesets install automatically.",
+  "id": "rnoeffects",
+  "name": "RNOEffects",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "2.1"
+}

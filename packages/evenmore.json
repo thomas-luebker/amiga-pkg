@@ -1,0 +1,32 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/text/show/EvenMore.lha",
+      "http://se.aminet.net/text/show/EvenMore.lha"
+    ],
+    "sha256": "35b1f1c5815fc1f918b9ac6ad20984f30928ae9dfe8200b04279623027c9d76c",
+    "sizeBytes": 357837,
+    "url": "http://aminet.net/text/show/EvenMore.lha"
+  },
+  "category": "Text",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "mui38"
+    },
+    {
+      "id": "betterstringmcc"
+    }
+  ],
+  "description": "Freeware text viewer with plugins - the modern More. Needs MUI and BetterString (installed automatically).",
+  "id": "evenmore",
+  "name": "EvenMore",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "0.94"
+}

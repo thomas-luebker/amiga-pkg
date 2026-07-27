@@ -1,0 +1,26 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/comm/net/AmiSpeedTest.lha",
+      "http://se.aminet.net/comm/net/AmiSpeedTest.lha"
+    ],
+    "sha256": "a4803716e2ee67c76fae872bca4be8047f78aace54df41bbf842402f2c83cb5a",
+    "sizeBytes": 78947,
+    "url": "http://aminet.net/comm/net/AmiSpeedTest.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "Network speed test for your Amiga's TCP/IP stack - settle the 'how fast is the ENC28J60 really' debates.",
+  "id": "amispeedtest",
+  "name": "AmiSpeedTest",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.04",
+    "network": true
+  },
+  "tier": "A",
+  "version": "0.8"
+}

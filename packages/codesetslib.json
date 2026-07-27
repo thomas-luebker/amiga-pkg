@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/libs/codesets-6.22.lha",
+      "http://se.aminet.net/util/libs/codesets-6.22.lha"
+    ],
+    "sha256": "029d3bf9dd8b85bef6f0ccb58c0b4123d16cc5042a1c13519698016f6966750c",
+    "sizeBytes": 654713,
+    "url": "http://aminet.net/util/libs/codesets-6.22.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "Character-set conversion library (jens-maus) - required by the RNO apps, YAM and friends.",
+  "id": "codesetslib",
+  "name": "codesets.library",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "6.22"
+}

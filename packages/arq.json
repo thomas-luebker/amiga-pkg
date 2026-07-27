@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/cdity/Arq1_83.lha",
+      "http://se.aminet.net/util/cdity/Arq1_83.lha"
+    ],
+    "sha256": "fcad7008246fa59eddb02fbfd278c055ef4db2ccd5172faf7698b3c3c08e1f21",
+    "sizeBytes": 43834,
+    "url": "http://aminet.net/util/cdity/Arq1_83.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "The requester improver - animated, keyboard-friendly system requesters. A tiny classic that changes the feel of the whole OS.",
+  "id": "arq",
+  "name": "ARQ",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.04"
+  },
+  "tier": "A",
+  "version": "1.83"
+}

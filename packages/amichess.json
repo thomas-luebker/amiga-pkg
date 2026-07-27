@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/board/AmiChess.lha",
+      "http://se.aminet.net/game/board/AmiChess.lha"
+    ],
+    "sha256": "6fbabb9c16e48e2d199e44b0dd550cee7931641b3f50d743d7d5bdf7868bf11c",
+    "sizeBytes": 2107704,
+    "url": "http://aminet.net/game/board/AmiChess.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Chess with the GNUChess 5 engine - a real opponent on real hardware. Needs OS 3.5+.",
+  "id": "amichess",
+  "name": "AmiChess",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.5"
+  },
+  "tier": "A",
+  "version": "2.0"
+}

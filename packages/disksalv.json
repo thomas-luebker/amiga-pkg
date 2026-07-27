@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/disk/salv/DiskSalv.lha",
+      "http://se.aminet.net/disk/salv/DiskSalv.lha"
+    ],
+    "sha256": "a1cb9aa36583bcca69fb86b87b7efc23917bd679f23ffebc581504eb1025e742",
+    "sizeBytes": 376211,
+    "url": "http://aminet.net/disk/salv/DiskSalv.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [],
+  "description": "Dave Haynie's legendary disk recovery, repair and undelete tool - the thing you want BEFORE you need it.",
+  "id": "disksalv",
+  "name": "DiskSalv",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.04"
+  },
+  "tier": "A",
+  "version": "4 (13.6)"
+}

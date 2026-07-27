@@ -1,5 +1,5 @@
 {
-  "added": "2026-07-24",
+  "added": "2026-07-27",
   "archive": {
     "mirrors": [
       "http://us.aminet.net/util/moni/Scout_os3.lha",
@@ -11,12 +11,19 @@
   },
   "category": "Utilities",
   "conflicts": [],
-  "deps": [],
-  "description": "System monitor (MUI & TCP/IP stack optional)",
+  "deps": [
+    {
+      "id": "mui38"
+    }
+  ],
+  "description": "System monitor: tasks, ports, libraries, memory, windows - everything exec knows, in one MUI window (MUI and TCP/IP optional).",
   "id": "scout",
   "name": "Scout",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.04"
+  },
   "tier": "A",
   "version": "3.6"
 }
