@@ -1,0 +1,28 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [],
+    "sha256": "6dff9007b1ce7ceb54016d68e265cbebfb3e68a74b4b57ed6f3714170363ad83",
+    "sizeBytes": 844098,
+    "url": "https://www.amigaworld.de/software/fallout1/Fallout-CE.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "ahi"
+    }
+  ],
+  "description": "Native 68k port of the Fallout 1 Community Edition engine by DJBase (amigaworld.de) - RTG via cybergraphics, AHI audio, MVE movies, optional Apollo AMMX acceleration. Ships the engine, a ReAction settings tool and dat1-extract; you supply the original Fallout game data.",
+  "id": "fallout1ce",
+  "name": "Fallout 1 CE (68k)",
+  "notes": "Early debug build (author: not fully optimised yet). Requires original Fallout 1 data files (~300 MB extracted), an RTG board with cybergraphics.library v40+, FPU, and 8-16 MB fast RAM.",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68060",
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "15"
+}

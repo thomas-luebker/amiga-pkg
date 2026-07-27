@@ -1,0 +1,28 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [],
+    "sha256": "abf84da5e0dd4ce4912b0589071e2f5b223b3db8589e9353a537053162aee9ba",
+    "sizeBytes": 1290252,
+    "url": "https://www.amigaworld.de/software/fallout2/Fallout2-CE.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "ahi"
+    }
+  ],
+  "description": "Native 68k port of the Fallout 2 Community Edition engine by DJBase (amigaworld.de) - RTG via cybergraphics, AHI audio with lipsync, MVE movies, optional Apollo AMMX acceleration. Ships the engine, a ReAction settings tool and dat2-extract; you supply the original Fallout 2 game data.",
+  "id": "fallout2ce",
+  "name": "Fallout 2 CE (68k)",
+  "notes": "Early debug build (author: not fully optimised yet). Requires original Fallout 2 data files, an RTG board with cybergraphics.library v40+, FPU, and 16-32 MB fast RAM.",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68060",
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "5"
+}
