@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/misc/Installer-43_3.lha",
+      "http://se.aminet.net/util/misc/Installer-43_3.lha"
+    ],
+    "sha256": "25da2a3ec06fa8626d1fba171ec853611035d06203c13a43f4d53713d9927aac",
+    "sizeBytes": 106550,
+    "url": "http://aminet.net/util/misc/Installer-43_3.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [],
+  "description": "The official Amiga Technologies Installer V43.3. Many classic software packages expect C:Installer or ask for it - this provides the canonical version.",
+  "id": "installer43",
+  "name": "Amiga Installer 43.3",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "43.3"
+}

@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/dev/asm/ASMPro1.22.lha",
+      "http://se.aminet.net/dev/asm/ASMPro1.22.lha"
+    ],
+    "sha256": "bcec32daafb523177e8c264c3276bcb31fc691cabbbd3c3ebfcab4d761682739",
+    "sizeBytes": 207461,
+    "url": "http://aminet.net/dev/asm/ASMPro1.22.lha"
+  },
+  "category": "Development",
+  "conflicts": [],
+  "deps": [],
+  "description": "ASM-Pro 1.22 - the integrated 680x0 assembler IDE descended from ASM-One, released as open source. Includes the SE build for plain 68000 machines.",
+  "id": "asmpro",
+  "name": "ASM-Pro",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "1.22"
+}

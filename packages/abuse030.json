@@ -1,0 +1,30 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/actio/Abuse030-1.3.lha",
+      "http://se.aminet.net/game/actio/Abuse030-1.3.lha"
+    ],
+    "sha256": "b2197c34e61cbc5abd523d6db33d46d71abd6f5f100109277086f6c69a997c9e",
+    "sizeBytes": 314010,
+    "url": "http://aminet.net/game/actio/Abuse030-1.3.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "abusebase"
+    }
+  ],
+  "description": "Abuse for 68030/EC040 Amigas with RTG or AGA. Pulls in the base data automatically.",
+  "id": "abuse030",
+  "name": "Abuse (68030/EC040)",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68030",
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "1.3"
+}

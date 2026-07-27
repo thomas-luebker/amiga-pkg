@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/disk/misc/hdinst.lha",
+      "http://se.aminet.net/disk/misc/hdinst.lha"
+    ],
+    "sha256": "b237342b5dbaff0e9ac6c77123f13c6b23381678fa3bdec26a9fdddeb91ff79d",
+    "sizeBytes": 89967,
+    "url": "http://aminet.net/disk/misc/hdinst.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [],
+  "description": "HDInstTools - partition and install hard disks on the Amiga itself; the popular free alternative to HDToolBox with filesystem property sheets.",
+  "id": "hdinst",
+  "name": "HDInstTools",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "6.9"
+}

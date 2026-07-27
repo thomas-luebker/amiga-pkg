@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/wb/AssignWedge.lha",
+      "http://se.aminet.net/util/wb/AssignWedge.lha"
+    ],
+    "sha256": "7f7754d3d6c31f026ea5e0c386dc3924cde1e46bee683cd4fb8bac7abb5b096e",
+    "sizeBytes": 19316,
+    "url": "http://aminet.net/util/wb/AssignWedge.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Turns the dreaded 'Please insert volume' requester into Assign/Mount/Deny buttons - a tiny quality-of-life classic every Workbench deserves.",
+  "id": "assignwedge",
+  "name": "AssignWedge",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "1.5"
+}

@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/disk/misc/TransADF.lha",
+      "http://se.aminet.net/disk/misc/TransADF.lha"
+    ],
+    "sha256": "8cabfceea3d29dea66872a872c0f9e3adf18d41de6290e4d81e26623cf56f79d",
+    "sizeBytes": 99304,
+    "url": "http://aminet.net/disk/misc/TransADF.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Reads and writes ADF disk images (plain or gzip/PKZip-compressed) from the Shell - floppy to file and back.",
+  "id": "transadf",
+  "name": "TransADF",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "4.0.46"
+}

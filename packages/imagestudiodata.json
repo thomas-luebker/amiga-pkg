@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/gfx/conv/ImageStudio_2.lha",
+      "http://se.aminet.net/gfx/conv/ImageStudio_2.lha"
+    ],
+    "sha256": "c05a723508379906f74e8ea584cdb243022f7c5bbf90f2c84e559b584f117d81",
+    "sizeBytes": 579067,
+    "url": "http://aminet.net/gfx/conv/ImageStudio_2.lha"
+  },
+  "category": "Graphics",
+  "conflicts": [],
+  "deps": [],
+  "description": "Part 2 of ImageStudio: the full documentation set (AmigaGuide, DVI, PostScript).",
+  "id": "imagestudiodata",
+  "name": "ImageStudio documentation",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "2.3.0"
+}

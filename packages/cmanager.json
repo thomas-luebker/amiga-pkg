@@ -1,0 +1,29 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/comm/misc/CManager.lha",
+      "http://se.aminet.net/comm/misc/CManager.lha"
+    ],
+    "sha256": "8c3b3ace9c11280c0593d6e6fe92b2e2efe88e9bf4cda3142434b54f92367a0a",
+    "sizeBytes": 595485,
+    "url": "http://aminet.net/comm/misc/CManager.lha"
+  },
+  "category": "Internet",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "mui38"
+    }
+  ],
+  "description": "Centralised system-wide address book (contacts, URLs, FTP sites) that integrates with YAM, browsers and IRC clients. MUI-based.",
+  "id": "cmanager",
+  "name": "Contact Manager",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "34.2"
+}

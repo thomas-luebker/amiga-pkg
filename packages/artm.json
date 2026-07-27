@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/moni/ARTM2_04.lha",
+      "http://se.aminet.net/util/moni/ARTM2_04.lha"
+    ],
+    "sha256": "8fa3cf67b303beeed39a683575d68181c41882d3698ce77871b7b215bb7550d3",
+    "sizeBytes": 79169,
+    "url": "http://aminet.net/util/moni/ARTM2_04.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Amiga Real Time Monitor - inspect tasks, libraries, devices, ports and resources live. The classic system monitor next to Scout.",
+  "id": "artm",
+  "name": "ARTM",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "2.04"
+}

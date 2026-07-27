@@ -1,0 +1,26 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/dev/blitz/AmiBlitz3.11.lha",
+      "http://se.aminet.net/dev/blitz/AmiBlitz3.11.lha"
+    ],
+    "sha256": "46c9e397d815804520988b82c017ab8cbbcc2bb809b90768ce81085d3af492ca",
+    "sizeBytes": 11525603,
+    "url": "http://aminet.net/dev/blitz/AmiBlitz3.11.lha"
+  },
+  "category": "Development",
+  "conflicts": [],
+  "deps": [],
+  "description": "AmiBlitz3 - the modern, open-source continuation of Blitz Basic 2 with IDE, debugger and extensive includes. Big download (~11 MB).",
+  "id": "amiblitz3",
+  "name": "AmiBlitz 3",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68020",
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "3.11"
+}

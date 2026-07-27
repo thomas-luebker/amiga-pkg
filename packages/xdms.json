@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/arc/xDMS.lha",
+      "http://se.aminet.net/util/arc/xDMS.lha"
+    ],
+    "sha256": "d8b963f4f37933db606a3d82aab9e91d5fc170994dc51f4b8fef61466dd22e38",
+    "sizeBytes": 164898,
+    "url": "http://aminet.net/util/arc/xDMS.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Portable DMS unpacker - extracts classic DiskMasher floppy images without the original DMS.",
+  "id": "xdms",
+  "name": "xDMS",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "1.3"
+}

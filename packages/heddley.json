@@ -1,0 +1,29 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/text/hyper/Heddley120beta.lha",
+      "http://se.aminet.net/text/hyper/Heddley120beta.lha"
+    ],
+    "sha256": "ab497a78dd6be40705201215b582863359e94d0412f6b8d9239fe2477dc1cc17",
+    "sizeBytes": 183612,
+    "url": "http://aminet.net/text/hyper/Heddley120beta.lha"
+  },
+  "category": "Text",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "guifrontlib"
+    }
+  ],
+  "description": "Edgar Vigdal's visual AmigaGuide editor - build proper .guide hypertext documents without hand-coding. Needs GUIFront (installed automatically).",
+  "id": "heddley",
+  "name": "Heddley",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "1.20b"
+}

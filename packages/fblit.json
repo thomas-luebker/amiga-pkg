@@ -1,0 +1,26 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/boot/fblit.lha",
+      "http://se.aminet.net/util/boot/fblit.lha"
+    ],
+    "sha256": "0666689e8dc8aaf85c167851fe43174eff0d340435c91d03ea1c8251ccce70df",
+    "sizeBytes": 172550,
+    "url": "http://aminet.net/util/boot/fblit.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [],
+  "description": "Renders blitter operations with the CPU in fast RAM - frees chip RAM and speeds up Workbench on accelerated OCS/ECS machines. An EAB/a1k perennial for A500/A600 upgrades.",
+  "id": "fblit",
+  "name": "FBlit",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68020",
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "3.79a"
+}

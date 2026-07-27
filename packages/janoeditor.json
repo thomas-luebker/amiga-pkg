@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/text/edit/JanoEditor.lha",
+      "http://se.aminet.net/text/edit/JanoEditor.lha"
+    ],
+    "sha256": "57a493f09c2bd51933fba91cf3fa0324481a4bf28b5b15399d34710c546b7a3f",
+    "sizeBytes": 297392,
+    "url": "http://aminet.net/text/edit/JanoEditor.lha"
+  },
+  "category": "Text",
+  "conflicts": [],
+  "deps": [],
+  "description": "Simple, fast GadTools text editor - a friendly notepad-class editor that runs everywhere.",
+  "id": "janoeditor",
+  "name": "Jano Editor",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "1.01d"
+}

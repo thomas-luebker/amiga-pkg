@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/actio/AbuseBase-1.3.lha",
+      "http://se.aminet.net/game/actio/AbuseBase-1.3.lha"
+    ],
+    "sha256": "64a1d283d3831d7b428f0567d13b2d2cb8823d9542a3348c5cbc99a3ce47b6ba",
+    "sizeBytes": 193234,
+    "url": "http://aminet.net/game/actio/AbuseBase-1.3.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Base data files for the Amiga port of Crack dot Com's run-and-gun classic Abuse. Install one of the CPU builds (abuse030/abuse060); this data package comes along automatically.",
+  "id": "abusebase",
+  "name": "Abuse (data)",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "1.3"
+}

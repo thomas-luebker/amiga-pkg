@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/jump/boulderdaesh.lha",
+      "http://se.aminet.net/game/jump/boulderdaesh.lha"
+    ],
+    "sha256": "b132f29bd5a2e5c6139f68e17cea7d77a0bef2a6840369e5b0e7dced2986f691",
+    "sizeBytes": 948234,
+    "url": "http://aminet.net/game/jump/boulderdaesh.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "The definitive Boulder Dash engine for Amiga - OCS/ECS/AGA or RTG, hundreds of caves, level editor included.",
+  "id": "boulderdaesh",
+  "name": "BoulderDaesh RTX",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "5.23"
+}

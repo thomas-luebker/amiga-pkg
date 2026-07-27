@@ -1,0 +1,29 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/blank/BlitzBlank260.lha",
+      "http://se.aminet.net/util/blank/BlitzBlank260.lha"
+    ],
+    "sha256": "29faa4d072342c6bcf0706dfc03f111ca726094152e4cd6922b7b06f4fcca71e",
+    "sizeBytes": 656459,
+    "url": "http://aminet.net/util/blank/BlitzBlank260.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "mui38"
+    }
+  ],
+  "description": "The ultimate modular screen blanker - dozens of effects, MUI-configurable.",
+  "id": "blitzblank",
+  "name": "BlitzBlank",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "2.60"
+}

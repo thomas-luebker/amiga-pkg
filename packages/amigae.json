@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/dev/e/amigae33a.lha",
+      "http://se.aminet.net/dev/e/amigae33a.lha"
+    ],
+    "sha256": "d0b8bb93d7dfb3c45a0125ac99d396d6c8ac6b9e55e325799facfd89bb8faa7f",
+    "sizeBytes": 1692229,
+    "url": "http://aminet.net/dev/e/amigae33a.lha"
+  },
+  "category": "Development",
+  "conflicts": [],
+  "deps": [],
+  "description": "The classic Amiga E v3.3a distribution by Wouter van Oortmerssen - compiler, modules and docs for the language much of the Amiga scene grew up on.",
+  "id": "amigae",
+  "name": "Amiga E 3.3a",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "3.3a"
+}

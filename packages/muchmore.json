@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/text/show/muchmore46.lha",
+      "http://se.aminet.net/text/show/muchmore46.lha"
+    ],
+    "sha256": "12062ff0e0f1d0cecbd36c94f8205c29e9111ec11d9d429f8b481b66e96f52b7",
+    "sizeBytes": 98888,
+    "url": "http://aminet.net/text/show/muchmore46.lha"
+  },
+  "category": "Text",
+  "conflicts": [],
+  "deps": [],
+  "description": "The classic soft-scrolling text viewer with XPK support - tiny, fast, and still the nicest way to read docs on a real Amiga.",
+  "id": "muchmore",
+  "name": "MuchMore",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "4.6"
+}

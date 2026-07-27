@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/pack/gzip124x2.lha",
+      "http://se.aminet.net/util/pack/gzip124x2.lha"
+    ],
+    "sha256": "84c925192bf51a36dda479d77552dc2421bef9524600d847ebf719c03ac48eb2",
+    "sizeBytes": 64302,
+    "url": "http://aminet.net/util/pack/gzip124x2.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "GNU gzip 1.2.4 for AmigaOS - the standard .gz (de)compressor, needed by TSGui and handy in any Shell.",
+  "id": "gzip",
+  "name": "gzip",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "1.2.4"
+}

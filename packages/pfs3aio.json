@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/disk/misc/pfs3aio.lha",
+      "http://se.aminet.net/disk/misc/pfs3aio.lha"
+    ],
+    "sha256": "4837919cfebd78a4ce70206e4e5acb5430ca35d958bfbdab524ac2d14febf104",
+    "sizeBytes": 75899,
+    "url": "http://aminet.net/disk/misc/pfs3aio.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [],
+  "description": "Professional File System 3 - the all-in-one build by Toni Wilen that runs on any Amiga from 68000/KS 1.3 up. The filesystem Amiga Imager uses for PDS3 partitions; this package brings the handler for manual setups.",
+  "id": "pfs3aio",
+  "name": "PFS3 All-In-One",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "3.1"
+}

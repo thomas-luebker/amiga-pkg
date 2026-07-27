@@ -1,0 +1,26 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/disk/misc/SFS.lha",
+      "http://se.aminet.net/disk/misc/SFS.lha"
+    ],
+    "sha256": "e6c4c3aee7bac96c7e6edded162fda8b5f9d9abf9680112b5028c5cf96b47d92",
+    "sizeBytes": 449699,
+    "url": "http://aminet.net/disk/misc/SFS.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [],
+  "description": "SFS 1.279 - fast, robust journaling-style filesystem by John Hendrikx et al. Popular alternative to FFS/PFS3 for large partitions. Read the docs before migrating data.",
+  "id": "sfs",
+  "name": "Smart Filesystem",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68020",
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "1.279"
+}

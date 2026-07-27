@@ -1,0 +1,29 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/wb/AmiStart.lha",
+      "http://se.aminet.net/util/wb/AmiStart.lha"
+    ],
+    "sha256": "400599139f65efab4b2c9f3748c497da8f2d63b4576b2c1e98740a89fd85f7bf",
+    "sizeBytes": 409179,
+    "url": "http://aminet.net/util/wb/AmiStart.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "mui38"
+    }
+  ],
+  "description": "Windows-style start menu for Workbench with drag & drop configuration. MUI-based.",
+  "id": "amistart",
+  "name": "AmiStart",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "0.64"
+}

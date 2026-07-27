@@ -1,0 +1,29 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/disk/moni/FileX-68K.lha",
+      "http://se.aminet.net/disk/moni/FileX-68K.lha"
+    ],
+    "sha256": "3b78a191c875ad560f71fee798d29d97048c4bf609af40270332cc529a66610a",
+    "sizeBytes": 533654,
+    "url": "http://aminet.net/disk/moni/FileX-68K.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "reqtools"
+    }
+  ],
+  "description": "FileX 2.7a - the classic Amiga hex editor, fixed 68k build. Optional reqtools requesters (installed automatically).",
+  "id": "filex",
+  "name": "FileX",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "2.7a"
+}

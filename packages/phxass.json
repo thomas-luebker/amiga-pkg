@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/dev/asm/PhxAss.lha",
+      "http://se.aminet.net/dev/asm/PhxAss.lha"
+    ],
+    "sha256": "3f234b7e75bdcb0b2cd765bcff62b12b3757d6ed8dd10f84885a59ca3e430fdc",
+    "sizeBytes": 154187,
+    "url": "http://aminet.net/dev/asm/PhxAss.lha"
+  },
+  "category": "Development",
+  "conflicts": [],
+  "deps": [],
+  "description": "Frank Wille's freeware 680x0 macro assembler - the standard choice for OS-friendly assembly development.",
+  "id": "phxass",
+  "name": "PhxAss",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "4.40"
+}

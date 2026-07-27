@@ -1,0 +1,32 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/disk/misc/tsgui.lha",
+      "http://se.aminet.net/disk/misc/tsgui.lha"
+    ],
+    "sha256": "22683739d139d0fbb0139596b40cbbef27b355f6f6ee6c5560e66f3746122824",
+    "sizeBytes": 84398,
+    "url": "http://aminet.net/disk/misc/tsgui.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "gzip"
+    },
+    {
+      "id": "xdms"
+    }
+  ],
+  "description": "GUI for imaging floppies to/from ADF, gzip-ADF and DMS - the comfortable way to archive your disk collection on the Amiga itself. gzip and xDMS come along automatically.",
+  "id": "tsgui",
+  "name": "TSGui",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "2.2"
+}

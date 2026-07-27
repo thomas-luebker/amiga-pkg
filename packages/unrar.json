@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/arc/UnRAR-5.80.lha",
+      "http://se.aminet.net/util/arc/UnRAR-5.80.lha"
+    ],
+    "sha256": "e010e5ed8756efde2b10fd7f943e98bf96ba2f1da8e10ca246be4bcdb90ef75d",
+    "sizeBytes": 2400050,
+    "url": "http://aminet.net/util/arc/UnRAR-5.80.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Official UnRAR 5.80 - extract RAR archives on the Amiga (68k build included in the multi-platform archive).",
+  "id": "unrar",
+  "name": "UnRAR",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "5.80"
+}

@@ -1,0 +1,30 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/actio/Abuse060-1.3.lha",
+      "http://se.aminet.net/game/actio/Abuse060-1.3.lha"
+    ],
+    "sha256": "7cd90eff0d99d6569ee866976b949707f2fd2793a6c793b1034facb3c6a06795",
+    "sizeBytes": 311598,
+    "url": "http://aminet.net/game/actio/Abuse060-1.3.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "abusebase"
+    }
+  ],
+  "description": "Abuse for 68060-class Amigas (Vampire/PiStorm too). Pulls in the base data automatically.",
+  "id": "abuse060",
+  "name": "Abuse (68060)",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68060",
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "1.3"
+}

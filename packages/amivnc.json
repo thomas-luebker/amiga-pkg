@@ -1,0 +1,26 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/comm/tcp/AmiVNC.lha",
+      "http://se.aminet.net/comm/tcp/AmiVNC.lha"
+    ],
+    "sha256": "d7c1ecd6747acf290475c6ab29ecb3796a71d155ce525f5c1ce5a338d6ffeb87",
+    "sizeBytes": 143833,
+    "url": "http://aminet.net/comm/tcp/AmiVNC.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "VNC server for the Amiga - view and control your Workbench remotely from any modern machine. Works on RTG and native screens.",
+  "id": "amivnc",
+  "name": "AmiVNC",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0",
+    "network": true
+  },
+  "tier": "A",
+  "version": "1.0.0"
+}

@@ -1,0 +1,30 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/boot/FText.lha",
+      "http://se.aminet.net/util/boot/FText.lha"
+    ],
+    "sha256": "7d6c252566d7d4e6c3868281e11799310dcfe02d01f7e2ba1b22bcebe19ac5a5",
+    "sizeBytes": 3434,
+    "url": "http://aminet.net/util/boot/FText.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "fblit"
+    }
+  ],
+  "description": "Companion to FBlit: renders console/Workbench text in fast RAM via the CPU. Install FBlit first (comes along automatically).",
+  "id": "ftext",
+  "name": "FText",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68020",
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "1.7"
+}

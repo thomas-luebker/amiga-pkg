@@ -1,0 +1,26 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/misc/emu/FrodoV4_1.lha",
+      "http://se.aminet.net/misc/emu/FrodoV4_1.lha"
+    ],
+    "sha256": "c31ee376d91a181a4d89fdab10ee2dec9cb4145d94cf5cfdb6ff9b8030d917c2",
+    "sizeBytes": 295070,
+    "url": "http://aminet.net/misc/emu/FrodoV4_1.lha"
+  },
+  "category": "Emulation",
+  "conflicts": [],
+  "deps": [],
+  "description": "Christian Bauer's classic C64 emulator, 68k build. Wants a fast Amiga: 68040 and an RTG board recommended by the author.",
+  "id": "frodov4",
+  "name": "Frodo V4.1",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68040",
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "4.1"
+}

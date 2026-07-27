@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/dev/gui/gfront12.lha",
+      "http://se.aminet.net/dev/gui/gfront12.lha"
+    ],
+    "sha256": "0a3b7ead6a75f80542675af29692c5814aead451344b1be4ec328b5be8a52fa6",
+    "sizeBytes": 296399,
+    "url": "http://aminet.net/dev/gui/gfront12.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "GadTools-based GUI layout engine library, required by Heddley and other tools.",
+  "id": "guifrontlib",
+  "name": "GUIFront library",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "1.2"
+}

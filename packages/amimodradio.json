@@ -1,0 +1,33 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/mus/play/AmiModRadio.lha",
+      "http://se.aminet.net/mus/play/AmiModRadio.lha"
+    ],
+    "sha256": "5b1927320f6894135fc9d6a0bc1eaf2e9e33f295be36494d0f83d231ad769419",
+    "sizeBytes": 4048767,
+    "url": "http://aminet.net/mus/play/AmiModRadio.lha"
+  },
+  "category": "Audio",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "mui38"
+    },
+    {
+      "id": "eagleplayer"
+    }
+  ],
+  "description": "Streams and plays tracker modules straight from Aminet and other Internet archives - Internet radio, Amiga style. Uses EaglePlayer for playback (installed automatically).",
+  "id": "amimodradio",
+  "name": "AmiModRadio",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0",
+    "network": true
+  },
+  "tier": "A",
+  "version": "1.2"
+}

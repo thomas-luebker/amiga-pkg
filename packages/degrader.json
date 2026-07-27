@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/misc/Degrader.lha",
+      "http://se.aminet.net/util/misc/Degrader.lha"
+    ],
+    "sha256": "41b977f3348cf842325a1c733bc88cffcd1ce5bcace0ed366d44653193dd0ee5",
+    "sizeBytes": 16944,
+    "url": "http://aminet.net/util/misc/Degrader.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Gets badly written old programs to run on fast machines: disables caches, maps out fast RAM, fakes a plain 68000 environment. The classic compatibility hammer for accelerated Amigas.",
+  "id": "degrader",
+  "name": "Degrader",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "1.30"
+}

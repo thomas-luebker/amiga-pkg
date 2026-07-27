@@ -1,0 +1,26 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/misc/emu/ZXAM20b.lha",
+      "http://se.aminet.net/misc/emu/ZXAM20b.lha"
+    ],
+    "sha256": "1d5dd1842125b4fa63ad963a9572415b3b5291ae8a1ebd3ea37fd702ca3f37a1",
+    "sizeBytes": 505603,
+    "url": "http://aminet.net/misc/emu/ZXAM20b.lha"
+  },
+  "category": "Emulation",
+  "conflicts": [],
+  "deps": [],
+  "description": "ZX Spectrum emulator with full AGA support and an ARexx port - the classic Speccy choice on AGA machines.",
+  "id": "zxam",
+  "name": "ZXAM Spectrum Emulator",
+  "notes": "Designed for AGA chipset machines (A1200/A4000).",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "2.0b"
+}

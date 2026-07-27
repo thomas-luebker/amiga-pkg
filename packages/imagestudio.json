@@ -1,0 +1,29 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/gfx/conv/ImageStudio_1.lha",
+      "http://se.aminet.net/gfx/conv/ImageStudio_1.lha"
+    ],
+    "sha256": "b47826148d9fb5d58d58ca835a331899567872d2eacd3c49b542d7b05e84397b",
+    "sizeBytes": 640402,
+    "url": "http://aminet.net/gfx/conv/ImageStudio_1.lha"
+  },
+  "category": "Graphics",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "imagestudiodata"
+    }
+  ],
+  "description": "Image processing and conversion suite (part 1 of 2) - loads/saves many formats, batch conversion, effects. Documentation part installs automatically.",
+  "id": "imagestudio",
+  "name": "ImageStudio",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "2.3.0"
+}

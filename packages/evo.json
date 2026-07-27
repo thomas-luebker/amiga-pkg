@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/dev/e/evo.lha",
+      "http://se.aminet.net/dev/e/evo.lha"
+    ],
+    "sha256": "a7ebb0b8de6261d63e9416f9a385ee1973a67a84228a1370b4ad6dcd4fe21230",
+    "sizeBytes": 703734,
+    "url": "http://aminet.net/dev/e/evo.lha"
+  },
+  "category": "Development",
+  "conflicts": [],
+  "deps": [],
+  "description": "E-VO - the actively maintained evolution of Wouter van Oortmerssen's Amiga E compiler, by Darren Coles. Modern language additions, still self-hosting on 68k.",
+  "id": "evo",
+  "name": "E-VO Amiga E",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "3.9.4"
+}
