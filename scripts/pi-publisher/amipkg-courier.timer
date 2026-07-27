@@ -1,0 +1,9 @@
+[Unit]
+Description=amipkg submission courier every 4 hours
+
+[Timer]
+OnCalendar=00/4:20
+Persistent=true
+
+[Install]
+WantedBy=timers.target

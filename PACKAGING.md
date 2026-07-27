@@ -256,3 +256,18 @@ image-build routing). Community entries normally omit it entirely.
   "tier": "A"
 }
 ```
+
+## Submitting straight from your Amiga
+
+Since amipkg 0.6.0 you can author a submission ON the Amiga:
+
+    amipkg submit <id> <archive-url> [description]
+
+Your machine downloads the archive, computes the SHA-256 pin locally,
+harvests `Version:`/`Short:` from the Aminet readme when present, and sends
+the draft to the submission dropbox. A courier validates it and opens a
+review branch here (`submission/<id>-...`) — a maintainer then reviews the
+license and entry exactly like a browser PR, and only after merging is it
+signed into the catalog. Limits: 5 submissions per day per address,
+`.lha`/`.adf` archives only. Invalid drafts are rejected before they ever
+reach this repository.

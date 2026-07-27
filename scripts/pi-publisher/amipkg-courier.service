@@ -1,0 +1,6 @@
+[Unit]
+Description=amipkg submission courier (dropbox -> GitHub review branch)
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh %h/amipkg-publisher/submission-courier.sh
