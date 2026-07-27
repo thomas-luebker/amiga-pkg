@@ -749,6 +749,39 @@
       "version" : "3.33"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/mus/midi/AmiPG_CLI.lha",
+          "http://se.aminet.net/mus/midi/AmiPG_CLI.lha"
+        ],
+        "sha256" : "8efeaf9d760a204360b9c7e39c4915db15b47b041a2da7c7475460bbdb92d645",
+        "sizeBytes" : 27154,
+        "url" : "http://aminet.net/mus/midi/AmiPG_CLI.lha"
+      },
+      "category" : "Audio",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Roland Alpha Juno / MKS-50 editor and librarian (CLI). Needs a MIDI interface on serial.device.",
+      "id" : "amipg",
+      "name" : "AmiPG",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+
+      },
+      "tier" : "A",
+      "version" : "4.5.0"
+    },
+    {
       "added" : "2026-07-25",
       "archive" : {
         "mirrors" : [
@@ -1444,6 +1477,40 @@
       "version" : "1.16"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/comm/tcp/CompunetReborn.lha",
+          "http://se.aminet.net/comm/tcp/CompunetReborn.lha"
+        ],
+        "sha256" : "c3bd937b560948f2b5e4da62f47529b04a1de0aa1f2f6eeeed8722eafec46f99",
+        "sizeBytes" : 123299,
+        "url" : "http://aminet.net/comm/tcp/CompunetReborn.lha"
+      },
+      "category" : "Internet",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Client for the Compunet Reborn service - the legendary 80s UK online community, revived. Needs a bsdsocket TCP/IP stack.",
+      "id" : "compunetreborn",
+      "name" : "Compunet Reborn",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.1",
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "1.1.0"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -2074,6 +2141,42 @@
       },
       "tier" : "A",
       "version" : "1.12.1.01"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/game/role/Exult_AGA.lha",
+          "http://se.aminet.net/game/role/Exult_AGA.lha"
+        ],
+        "sha256" : "93737f8b99df6fb689630c11f412ea03c218eea593c3ac6e9308b63bd0475e90",
+        "sizeBytes" : 51934704,
+        "url" : "http://aminet.net/game/role/Exult_AGA.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "ahi"
+        }
+      ],
+      "description" : "Ultima VII engine (Exult 1.6) by NovaCoder - the AGA variant for big-box Amigas without RTG. Needs 68060+, AHI, and your original U7 game data files. 50 MB download.",
+      "id" : "exultaga",
+      "name" : "Exult AGA",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68060",
+        "minKS" : "3.1"
+      },
+      "tier" : "A",
+      "version" : "1.6.0.09"
     },
     {
       "added" : "2026-07-24",
@@ -3428,7 +3531,7 @@
       "version" : "2.35"
     },
     {
-      "added" : "2026-07-24",
+      "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
           "http://us.aminet.net/misc/emu/make.lha",
@@ -3445,17 +3548,20 @@
       "deps" : [
 
       ],
-      "description" : "Fantasy 8 bit style retro machine",
+      "description" : "MAKE - a fantasy 8-bit style retro machine: build and play little games on a virtual console, right on your Amiga.",
       "id" : "make",
-      "name" : "MAKE (fantasy console)",
+      "name" : "MAKE",
       "provides" : [
 
       ],
       "requiredCapabilities" : [
 
       ],
+      "requirements" : {
+        "minKS" : "2.04"
+      },
       "tier" : "A",
-      "version" : "2.59"
+      "version" : "2.61"
     },
     {
       "added" : "2026-07-24",
@@ -3556,6 +3662,40 @@
       },
       "tier" : "A",
       "version" : "1.3"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/mus/play/MintAMP.lha",
+          "http://se.aminet.net/mus/play/MintAMP.lha"
+        ],
+        "sha256" : "043a71d19ed70577a3f3e952a73154f5c2732841f1a98ba3fd43e3e24cb712ba",
+        "sizeBytes" : 1454156,
+        "url" : "http://aminet.net/mus/play/MintAMP.lha"
+      },
+      "category" : "Audio",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Multiformat music player and net radio. 68030+; TCP/IP stack for radio streams, AmiSSL 5 for https stations.",
+      "id" : "mintamp",
+      "name" : "MintAMP",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68030",
+        "minKS" : "3.1"
+      },
+      "tier" : "A",
+      "version" : "1.0.0"
     },
     {
       "archive" : {
@@ -5334,6 +5474,78 @@
       ],
       "tier" : "B",
       "version" : "2.5.1.34"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/game/misc/ScummVM_RTG_030.lha",
+          "http://se.aminet.net/game/misc/ScummVM_RTG_030.lha"
+        ],
+        "sha256" : "b6e6913add828ca9cb7c83e28438a9c5d309660fc073905be85d70334d6bfdcf",
+        "sizeBytes" : 7047934,
+        "url" : "http://aminet.net/game/misc/ScummVM_RTG_030.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "ahi"
+        }
+      ],
+      "description" : "ScummVM 1.6 by NovaCoder for RTG Amigas from a 68020 up (no FPU needed) - the classic point-and-click engine for machines below the 68060 class. Needs AHI (v4.18 recommended) and your original game data.",
+      "id" : "scummvm030",
+      "name" : "ScummVM RTG (68020+)",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68020",
+        "minKS" : "3.1"
+      },
+      "tier" : "A",
+      "version" : "1.6.0.04"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/game/misc/ScummVM_AGA_060.lha",
+          "http://se.aminet.net/game/misc/ScummVM_AGA_060.lha"
+        ],
+        "sha256" : "fb31b39a6fe62a53208bbf9de74873503de0f52caa0266206c67ac7b9ae5e163",
+        "sizeBytes" : 58563848,
+        "url" : "http://aminet.net/game/misc/ScummVM_AGA_060.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "ahi"
+        }
+      ],
+      "description" : "ScummVM 2.5.1 by NovaCoder for AGA Amigas (PAL) with a 68060+ (PiStorm/Vampire ideal) - no RTG card needed. Needs AHI (v4.18 recommended) and your original game data. 56 MB download.",
+      "id" : "scummvmaga",
+      "name" : "ScummVM AGA (68060)",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68060",
+        "minKS" : "3.1"
+      },
+      "tier" : "A",
+      "version" : "2.5.1.33"
     },
     {
       "added" : "2026-07-24",
