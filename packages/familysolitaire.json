@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/2play/Family_Solitaire.lha",
+      "http://se.aminet.net/game/2play/Family_Solitaire.lha"
+    ],
+    "sha256": "b83ee3fed0b4ca819f4c539c1c5b7b026ef41031afebaf4d76265e9944498964",
+    "sizeBytes": 18490,
+    "url": "http://aminet.net/game/2play/Family_Solitaire.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Multi-player solitaire card game - pass-the-mouse fun in 18 KB.",
+  "id": "familysolitaire",
+  "name": "Family Solitaire",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "-"
+}

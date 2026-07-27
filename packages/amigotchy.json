@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/misc/AMIgotchy.lha",
+      "http://se.aminet.net/game/misc/AMIgotchy.lha"
+    ],
+    "sha256": "8a7d728c7abfb5d25c2d464599fca5db2e69766070a2f7f42fca8daafd49ead5",
+    "sizeBytes": 508424,
+    "url": "http://aminet.net/game/misc/AMIgotchy.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "The first virtual pet for the Amiga - feed it, or feel guilty forever.",
+  "id": "amigotchy",
+  "name": "AMIgotchy",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "1.0"
+}

@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/board/MarbleSlide.lha",
+      "http://se.aminet.net/game/board/MarbleSlide.lha"
+    ],
+    "sha256": "61c18a323b1de471c9a565bbd96df5f082b00dfb3d85cea7ea12606db88a4aa0",
+    "sizeBytes": 107811,
+    "url": "http://aminet.net/game/board/MarbleSlide.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Build marble tracks on a 10x11 board - a quiet little puzzler.",
+  "id": "marbleslide",
+  "name": "MarbleSlide",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "-"
+}
