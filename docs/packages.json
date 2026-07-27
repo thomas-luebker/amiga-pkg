@@ -3,6 +3,111 @@
   "indexVersion" : 1,
   "packages" : [
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/game/actio/Abuse030-1.3.lha",
+          "http://se.aminet.net/game/actio/Abuse030-1.3.lha"
+        ],
+        "sha256" : "b2197c34e61cbc5abd523d6db33d46d71abd6f5f100109277086f6c69a997c9e",
+        "sizeBytes" : 314010,
+        "url" : "http://aminet.net/game/actio/Abuse030-1.3.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "abusebase"
+        }
+      ],
+      "description" : "Abuse for 68030/EC040 Amigas with RTG or AGA. Pulls in the base data automatically.",
+      "id" : "abuse030",
+      "name" : "Abuse (68030/EC040)",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68030",
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "1.3"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/game/actio/Abuse060-1.3.lha",
+          "http://se.aminet.net/game/actio/Abuse060-1.3.lha"
+        ],
+        "sha256" : "7cd90eff0d99d6569ee866976b949707f2fd2793a6c793b1034facb3c6a06795",
+        "sizeBytes" : 311598,
+        "url" : "http://aminet.net/game/actio/Abuse060-1.3.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "abusebase"
+        }
+      ],
+      "description" : "Abuse for 68060-class Amigas (Vampire/PiStorm too). Pulls in the base data automatically.",
+      "id" : "abuse060",
+      "name" : "Abuse (68060)",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68060",
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "1.3"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/game/actio/AbuseBase-1.3.lha",
+          "http://se.aminet.net/game/actio/AbuseBase-1.3.lha"
+        ],
+        "sha256" : "64a1d283d3831d7b428f0567d13b2d2cb8823d9542a3348c5cbc99a3ce47b6ba",
+        "sizeBytes" : 193234,
+        "url" : "http://aminet.net/game/actio/AbuseBase-1.3.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Base data files for the Amiga port of Crack dot Com's run-and-gun classic Abuse. Install one of the CPU builds (abuse030/abuse060); this data package comes along automatically.",
+      "id" : "abusebase",
+      "name" : "Abuse (data)",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "1.3"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -639,6 +744,40 @@
       "version" : "1.0"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/dev/blitz/AmiBlitz3.11.lha",
+          "http://se.aminet.net/dev/blitz/AmiBlitz3.11.lha"
+        ],
+        "sha256" : "46c9e397d815804520988b82c017ab8cbbcc2bb809b90768ce81085d3af492ca",
+        "sizeBytes" : 11525603,
+        "url" : "http://aminet.net/dev/blitz/AmiBlitz3.11.lha"
+      },
+      "category" : "Development",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "AmiBlitz3 - the modern, open-source continuation of Blitz Basic 2 with IDE, debugger and extensive includes. Big download (~11 MB).",
+      "id" : "amiblitz3",
+      "name" : "AmiBlitz 3",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68020",
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "3.11"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -785,10 +924,43 @@
       "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
+          "http://us.aminet.net/dev/e/amigae33a.lha",
+          "http://se.aminet.net/dev/e/amigae33a.lha"
+        ],
+        "sha256" : "d0b8bb93d7dfb3c45a0125ac99d396d6c8ac6b9e55e325799facfd89bb8faa7f",
+        "sizeBytes" : 1692229,
+        "url" : "http://aminet.net/dev/e/amigae33a.lha"
+      },
+      "category" : "Development",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "The classic Amiga E v3.3a distribution by Wouter van Oortmerssen - compiler, modules and docs for the language much of the Amiga scene grew up on.",
+      "id" : "amigae",
+      "name" : "Amiga E 3.3a",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "3.3a"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
           "http://us.aminet.net/misc/antiq/AmigaShopsD.lha",
           "http://se.aminet.net/misc/antiq/AmigaShopsD.lha"
         ],
-        "sha256" : "3fd1cf54d8a5a3d9e62d62d2a2853d1db1c1c4f873a0241afa119f103c998223",
+        "sha256" : "8cfc506e3bf59c7c034a30390a4feb8278f97022802eaa05b39d4fb0580ba839",
         "sizeBytes" : 5978,
         "url" : "http://aminet.net/misc/antiq/AmigaShopsD.lha"
       },
@@ -846,6 +1018,45 @@
       },
       "tier" : "A",
       "version" : "1.0"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/mus/play/AmiModRadio.lha",
+          "http://se.aminet.net/mus/play/AmiModRadio.lha"
+        ],
+        "sha256" : "5b1927320f6894135fc9d6a0bc1eaf2e9e33f295be36494d0f83d231ad769419",
+        "sizeBytes" : 4048767,
+        "url" : "http://aminet.net/mus/play/AmiModRadio.lha"
+      },
+      "category" : "Audio",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "mui38"
+        },
+        {
+          "id" : "eagleplayer"
+        }
+      ],
+      "description" : "Streams and plays tracker modules straight from Aminet and other Internet archives - Internet radio, Amiga style. Uses EaglePlayer for playback (installed automatically).",
+      "id" : "amimodradio",
+      "name" : "AmiModRadio",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "3.0",
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "1.2"
     },
     {
       "added" : "2026-07-27",
@@ -1032,6 +1243,41 @@
       "version" : "5.27"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/wb/AmiStart.lha",
+          "http://se.aminet.net/util/wb/AmiStart.lha"
+        ],
+        "sha256" : "400599139f65efab4b2c9f3748c497da8f2d63b4576b2c1e98740a89fd85f7bf",
+        "sizeBytes" : 409179,
+        "url" : "http://aminet.net/util/wb/AmiStart.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "mui38"
+        }
+      ],
+      "description" : "Windows-style start menu for Workbench with drag & drop configuration. MUI-based.",
+      "id" : "amistart",
+      "name" : "AmiStart",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "0.64"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -1068,6 +1314,40 @@
       "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
+          "http://us.aminet.net/comm/tcp/AmiVNC.lha",
+          "http://se.aminet.net/comm/tcp/AmiVNC.lha"
+        ],
+        "sha256" : "d7c1ecd6747acf290475c6ab29ecb3796a71d155ce525f5c1ce5a338d6ffeb87",
+        "sizeBytes" : 143833,
+        "url" : "http://aminet.net/comm/tcp/AmiVNC.lha"
+      },
+      "category" : "Network",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "VNC server for the Amiga - view and control your Workbench remotely from any modern machine. Works on RTG and native screens.",
+      "id" : "amivnc",
+      "name" : "AmiVNC",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "3.0",
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "1.0.0"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
           "http://us.aminet.net/util/cdity/Arq1_83.lha",
           "http://se.aminet.net/util/cdity/Arq1_83.lha"
         ],
@@ -1096,6 +1376,105 @@
       },
       "tier" : "A",
       "version" : "1.83"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/moni/ARTM2_04.lha",
+          "http://se.aminet.net/util/moni/ARTM2_04.lha"
+        ],
+        "sha256" : "8fa3cf67b303beeed39a683575d68181c41882d3698ce77871b7b215bb7550d3",
+        "sizeBytes" : 79169,
+        "url" : "http://aminet.net/util/moni/ARTM2_04.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Amiga Real Time Monitor - inspect tasks, libraries, devices, ports and resources live. The classic system monitor next to Scout.",
+      "id" : "artm",
+      "name" : "ARTM",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "2.04"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/dev/asm/ASMPro1.22.lha",
+          "http://se.aminet.net/dev/asm/ASMPro1.22.lha"
+        ],
+        "sha256" : "bcec32daafb523177e8c264c3276bcb31fc691cabbbd3c3ebfcab4d761682739",
+        "sizeBytes" : 207461,
+        "url" : "http://aminet.net/dev/asm/ASMPro1.22.lha"
+      },
+      "category" : "Development",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "ASM-Pro 1.22 - the integrated 680x0 assembler IDE descended from ASM-One, released as open source. Includes the SE build for plain 68000 machines.",
+      "id" : "asmpro",
+      "name" : "ASM-Pro",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "1.22"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/wb/AssignWedge.lha",
+          "http://se.aminet.net/util/wb/AssignWedge.lha"
+        ],
+        "sha256" : "7f7754d3d6c31f026ea5e0c386dc3924cde1e46bee683cd4fb8bac7abb5b096e",
+        "sizeBytes" : 19316,
+        "url" : "http://aminet.net/util/wb/AssignWedge.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Turns the dreaded 'Please insert volume' requester into Assign/Mount/Deny buttons - a tiny quality-of-life classic every Workbench deserves.",
+      "id" : "assignwedge",
+      "name" : "AssignWedge",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "1.5"
     },
     {
       "archive" : {
@@ -1520,6 +1899,41 @@
       "version" : "11.16"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/blank/BlitzBlank260.lha",
+          "http://se.aminet.net/util/blank/BlitzBlank260.lha"
+        ],
+        "sha256" : "29faa4d072342c6bcf0706dfc03f111ca726094152e4cd6922b7b06f4fcca71e",
+        "sizeBytes" : 656459,
+        "url" : "http://aminet.net/util/blank/BlitzBlank260.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "mui38"
+        }
+      ],
+      "description" : "The ultimate modular screen blanker - dozens of effects, MUI-configurable.",
+      "id" : "blitzblank",
+      "name" : "BlitzBlank",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "2.60"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -1551,6 +1965,39 @@
       },
       "tier" : "A",
       "version" : "1.0"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/game/jump/boulderdaesh.lha",
+          "http://se.aminet.net/game/jump/boulderdaesh.lha"
+        ],
+        "sha256" : "b132f29bd5a2e5c6139f68e17cea7d77a0bef2a6840369e5b0e7dced2986f691",
+        "sizeBytes" : 948234,
+        "url" : "http://aminet.net/game/jump/boulderdaesh.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "The definitive Boulder Dash engine for Amiga - OCS/ECS/AGA or RTG, hundreds of caves, level editor included.",
+      "id" : "boulderdaesh",
+      "name" : "BoulderDaesh RTX",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "5.23"
     },
     {
       "added" : "2026-07-27",
@@ -1644,6 +2091,41 @@
       ],
       "tier" : "A",
       "version" : "150726"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/comm/misc/CManager.lha",
+          "http://se.aminet.net/comm/misc/CManager.lha"
+        ],
+        "sha256" : "8c3b3ace9c11280c0593d6e6fe92b2e2efe88e9bf4cda3142434b54f92367a0a",
+        "sizeBytes" : 595485,
+        "url" : "http://aminet.net/comm/misc/CManager.lha"
+      },
+      "category" : "Internet",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "mui38"
+        }
+      ],
+      "description" : "Centralised system-wide address book (contacts, URLs, FTP sites) that integrates with YAM, browsers and IRC clients. MUI-based.",
+      "id" : "cmanager",
+      "name" : "Contact Manager",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "34.2"
     },
     {
       "added" : "2026-07-24",
@@ -2013,6 +2495,39 @@
       "version" : "8.22-DEV-210726"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/misc/Degrader.lha",
+          "http://se.aminet.net/util/misc/Degrader.lha"
+        ],
+        "sha256" : "41b977f3348cf842325a1c733bc88cffcd1ce5bcace0ed366d44653193dd0ee5",
+        "sizeBytes" : 16944,
+        "url" : "http://aminet.net/util/misc/Degrader.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Gets badly written old programs to run on fast machines: disables caches, maps out fast RAM, fakes a plain 68000 environment. The classic compatibility hammer for accelerated Amigas.",
+      "id" : "degrader",
+      "name" : "Degrader",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "1.30"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -2380,6 +2895,39 @@
       "version" : "0.94"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/dev/e/evo.lha",
+          "http://se.aminet.net/dev/e/evo.lha"
+        ],
+        "sha256" : "a7ebb0b8de6261d63e9416f9a385ee1973a67a84228a1370b4ad6dcd4fe21230",
+        "sizeBytes" : 703734,
+        "url" : "http://aminet.net/dev/e/evo.lha"
+      },
+      "category" : "Development",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "E-VO - the actively maintained evolution of Wouter van Oortmerssen's Amiga E compiler, by Darren Coles. Modern language additions, still self-hosting on 68k.",
+      "id" : "evo",
+      "name" : "E-VO Amiga E",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "3.9.4"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -2548,6 +3096,40 @@
       "version" : "20260614"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/boot/fblit.lha",
+          "http://se.aminet.net/util/boot/fblit.lha"
+        ],
+        "sha256" : "0666689e8dc8aaf85c167851fe43174eff0d340435c91d03ea1c8251ccce70df",
+        "sizeBytes" : 172550,
+        "url" : "http://aminet.net/util/boot/fblit.lha"
+      },
+      "category" : "System",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Renders blitter operations with the CPU in fast RAM - frees chip RAM and speeds up Workbench on accelerated OCS/ECS machines. An EAB/a1k perennial for A500/A600 upgrades.",
+      "id" : "fblit",
+      "name" : "FBlit",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68020",
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "3.79a"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -2576,6 +3158,41 @@
       ],
       "tier" : "A",
       "version" : "2.2"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/disk/moni/FileX-68K.lha",
+          "http://se.aminet.net/disk/moni/FileX-68K.lha"
+        ],
+        "sha256" : "3b78a191c875ad560f71fee798d29d97048c4bf609af40270332cc529a66610a",
+        "sizeBytes" : 533654,
+        "url" : "http://aminet.net/disk/moni/FileX-68K.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "reqtools"
+        }
+      ],
+      "description" : "FileX 2.7a - the classic Amiga hex editor, fixed 68k build. Optional reqtools requesters (installed automatically).",
+      "id" : "filex",
+      "name" : "FileX",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "2.7a"
     },
     {
       "added" : "2026-07-24",
@@ -2735,6 +3352,76 @@
       "version" : "2.2.2"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/misc/emu/FrodoV4_1.lha",
+          "http://se.aminet.net/misc/emu/FrodoV4_1.lha"
+        ],
+        "sha256" : "c31ee376d91a181a4d89fdab10ee2dec9cb4145d94cf5cfdb6ff9b8030d917c2",
+        "sizeBytes" : 295070,
+        "url" : "http://aminet.net/misc/emu/FrodoV4_1.lha"
+      },
+      "category" : "Emulation",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Christian Bauer's classic C64 emulator, 68k build. Wants a fast Amiga: 68040 and an RTG board recommended by the author.",
+      "id" : "frodov4",
+      "name" : "Frodo V4.1",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68040",
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "4.1"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/boot/FText.lha",
+          "http://se.aminet.net/util/boot/FText.lha"
+        ],
+        "sha256" : "7d6c252566d7d4e6c3868281e11799310dcfe02d01f7e2ba1b22bcebe19ac5a5",
+        "sizeBytes" : 3434,
+        "url" : "http://aminet.net/util/boot/FText.lha"
+      },
+      "category" : "System",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "fblit"
+        }
+      ],
+      "description" : "Companion to FBlit: renders console/Workbench text in fast RAM via the CPU. Install FBlit first (comes along automatically).",
+      "id" : "ftext",
+      "name" : "FText",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68020",
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "1.7"
+    },
+    {
       "added" : "2026-07-25",
       "archive" : {
         "mirrors" : [
@@ -2866,6 +3553,39 @@
       ],
       "tier" : "B",
       "version" : "3.1"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/dev/gui/gfront12.lha",
+          "http://se.aminet.net/dev/gui/gfront12.lha"
+        ],
+        "sha256" : "0a3b7ead6a75f80542675af29692c5814aead451344b1be4ec328b5be8a52fa6",
+        "sizeBytes" : 296399,
+        "url" : "http://aminet.net/dev/gui/gfront12.lha"
+      },
+      "category" : "Libraries",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "GadTools-based GUI layout engine library, required by Heddley and other tools.",
+      "id" : "guifrontlib",
+      "name" : "GUIFront library",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "1.2"
     },
     {
       "archive" : {
@@ -3080,6 +3800,107 @@
       ],
       "tier" : "A",
       "version" : "19.2"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/pack/gzip124x2.lha",
+          "http://se.aminet.net/util/pack/gzip124x2.lha"
+        ],
+        "sha256" : "84c925192bf51a36dda479d77552dc2421bef9524600d847ebf719c03ac48eb2",
+        "sizeBytes" : 64302,
+        "url" : "http://aminet.net/util/pack/gzip124x2.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "GNU gzip 1.2.4 for AmigaOS - the standard .gz (de)compressor, needed by TSGui and handy in any Shell.",
+      "id" : "gzip",
+      "name" : "gzip",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "1.2.4"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/disk/misc/hdinst.lha",
+          "http://se.aminet.net/disk/misc/hdinst.lha"
+        ],
+        "sha256" : "b237342b5dbaff0e9ac6c77123f13c6b23381678fa3bdec26a9fdddeb91ff79d",
+        "sizeBytes" : 89967,
+        "url" : "http://aminet.net/disk/misc/hdinst.lha"
+      },
+      "category" : "System",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "HDInstTools - partition and install hard disks on the Amiga itself; the popular free alternative to HDToolBox with filesystem property sheets.",
+      "id" : "hdinst",
+      "name" : "HDInstTools",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "6.9"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/text/hyper/Heddley120beta.lha",
+          "http://se.aminet.net/text/hyper/Heddley120beta.lha"
+        ],
+        "sha256" : "ab497a78dd6be40705201215b582863359e94d0412f6b8d9239fe2477dc1cc17",
+        "sizeBytes" : 183612,
+        "url" : "http://aminet.net/text/hyper/Heddley120beta.lha"
+      },
+      "category" : "Text",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "guifrontlib"
+        }
+      ],
+      "description" : "Edgar Vigdal's visual AmigaGuide editor - build proper .guide hypertext documents without hand-coding. Needs GUIFront (installed automatically).",
+      "id" : "heddley",
+      "name" : "Heddley",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "1.20b"
     },
     {
       "archive" : {
@@ -3649,6 +4470,74 @@
       "version" : "v2.6.1"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/gfx/conv/ImageStudio_1.lha",
+          "http://se.aminet.net/gfx/conv/ImageStudio_1.lha"
+        ],
+        "sha256" : "b47826148d9fb5d58d58ca835a331899567872d2eacd3c49b542d7b05e84397b",
+        "sizeBytes" : 640402,
+        "url" : "http://aminet.net/gfx/conv/ImageStudio_1.lha"
+      },
+      "category" : "Graphics",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "imagestudiodata"
+        }
+      ],
+      "description" : "Image processing and conversion suite (part 1 of 2) - loads/saves many formats, batch conversion, effects. Documentation part installs automatically.",
+      "id" : "imagestudio",
+      "name" : "ImageStudio",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "2.3.0"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/gfx/conv/ImageStudio_2.lha",
+          "http://se.aminet.net/gfx/conv/ImageStudio_2.lha"
+        ],
+        "sha256" : "c05a723508379906f74e8ea584cdb243022f7c5bbf90f2c84e559b584f117d81",
+        "sizeBytes" : 579067,
+        "url" : "http://aminet.net/gfx/conv/ImageStudio_2.lha"
+      },
+      "category" : "Graphics",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Part 2 of ImageStudio: the full documentation set (AmigaGuide, DVI, PostScript).",
+      "id" : "imagestudiodata",
+      "name" : "ImageStudio documentation",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "2.3.0"
+    },
+    {
       "archive" : {
         "mirrors" : [
 
@@ -3758,6 +4647,39 @@
       "version" : "3.461"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/misc/Installer-43_3.lha",
+          "http://se.aminet.net/util/misc/Installer-43_3.lha"
+        ],
+        "sha256" : "25da2a3ec06fa8626d1fba171ec853611035d06203c13a43f4d53713d9927aac",
+        "sizeBytes" : 106550,
+        "url" : "http://aminet.net/util/misc/Installer-43_3.lha"
+      },
+      "category" : "System",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "The official Amiga Technologies Installer V43.3. Many classic software packages expect C:Installer or ask for it - this provides the canonical version.",
+      "id" : "installer43",
+      "name" : "Amiga Installer 43.3",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "43.3"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -3786,6 +4708,39 @@
       ],
       "tier" : "A",
       "version" : "1.0"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/text/edit/JanoEditor.lha",
+          "http://se.aminet.net/text/edit/JanoEditor.lha"
+        ],
+        "sha256" : "57a493f09c2bd51933fba91cf3fa0324481a4bf28b5b15399d34710c546b7a3f",
+        "sizeBytes" : 297392,
+        "url" : "http://aminet.net/text/edit/JanoEditor.lha"
+      },
+      "category" : "Text",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Simple, fast GadTools text editor - a friendly notepad-class editor that runs everywhere.",
+      "id" : "janoeditor",
+      "name" : "Jano Editor",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "1.01d"
     },
     {
       "added" : "2026-07-24",
@@ -4370,6 +5325,39 @@
       ],
       "tier" : "B",
       "version" : "2.4"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/text/show/muchmore46.lha",
+          "http://se.aminet.net/text/show/muchmore46.lha"
+        ],
+        "sha256" : "12062ff0e0f1d0cecbd36c94f8205c29e9111ec11d9d429f8b481b66e96f52b7",
+        "sizeBytes" : 98888,
+        "url" : "http://aminet.net/text/show/muchmore46.lha"
+      },
+      "category" : "Text",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "The classic soft-scrolling text viewer with XPK support - tiny, fast, and still the nicest way to read docs on a real Amiga.",
+      "id" : "muchmore",
+      "name" : "MuchMore",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "4.6"
     },
     {
       "archive" : {
@@ -5195,6 +6183,72 @@
       ],
       "tier" : "A",
       "version" : "2.01"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/disk/misc/pfs3aio.lha",
+          "http://se.aminet.net/disk/misc/pfs3aio.lha"
+        ],
+        "sha256" : "4837919cfebd78a4ce70206e4e5acb5430ca35d958bfbdab524ac2d14febf104",
+        "sizeBytes" : 75899,
+        "url" : "http://aminet.net/disk/misc/pfs3aio.lha"
+      },
+      "category" : "System",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Professional File System 3 - the all-in-one build by Toni Wilen that runs on any Amiga from 68000/KS 1.3 up. The filesystem Amiga Imager uses for PDS3 partitions; this package brings the handler for manual setups.",
+      "id" : "pfs3aio",
+      "name" : "PFS3 All-In-One",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+
+      },
+      "tier" : "A",
+      "version" : "3.1"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/dev/asm/PhxAss.lha",
+          "http://se.aminet.net/dev/asm/PhxAss.lha"
+        ],
+        "sha256" : "3f234b7e75bdcb0b2cd765bcff62b12b3757d6ed8dd10f84885a59ca3e430fdc",
+        "sizeBytes" : 154187,
+        "url" : "http://aminet.net/dev/asm/PhxAss.lha"
+      },
+      "category" : "Development",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Frank Wille's freeware 680x0 macro assembler - the standard choice for OS-friendly assembly development.",
+      "id" : "phxass",
+      "name" : "PhxAss",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "4.40"
     },
     {
       "archive" : {
@@ -6513,6 +7567,40 @@
       "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
+          "http://us.aminet.net/disk/misc/SFS.lha",
+          "http://se.aminet.net/disk/misc/SFS.lha"
+        ],
+        "sha256" : "e6c4c3aee7bac96c7e6edded162fda8b5f9d9abf9680112b5028c5cf96b47d92",
+        "sizeBytes" : 449699,
+        "url" : "http://aminet.net/disk/misc/SFS.lha"
+      },
+      "category" : "System",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "SFS 1.279 - fast, robust journaling-style filesystem by John Hendrikx et al. Popular alternative to FFS/PFS3 for large partitions. Read the docs before migrating data.",
+      "id" : "sfs",
+      "name" : "Smart Filesystem",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68020",
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "1.279"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
           "http://us.aminet.net/comm/tcp/smbfs-68k.lha",
           "http://se.aminet.net/comm/tcp/smbfs-68k.lha"
         ],
@@ -7433,6 +8521,77 @@
       "version" : "2.1a"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/disk/misc/TransADF.lha",
+          "http://se.aminet.net/disk/misc/TransADF.lha"
+        ],
+        "sha256" : "8cabfceea3d29dea66872a872c0f9e3adf18d41de6290e4d81e26623cf56f79d",
+        "sizeBytes" : 99304,
+        "url" : "http://aminet.net/disk/misc/TransADF.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Reads and writes ADF disk images (plain or gzip/PKZip-compressed) from the Shell - floppy to file and back.",
+      "id" : "transadf",
+      "name" : "TransADF",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "4.0.46"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/disk/misc/tsgui.lha",
+          "http://se.aminet.net/disk/misc/tsgui.lha"
+        ],
+        "sha256" : "22683739d139d0fbb0139596b40cbbef27b355f6f6ee6c5560e66f3746122824",
+        "sizeBytes" : 84398,
+        "url" : "http://aminet.net/disk/misc/tsgui.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "gzip"
+        },
+        {
+          "id" : "xdms"
+        }
+      ],
+      "description" : "GUI for imaging floppies to/from ADF, gzip-ADF and DMS - the comfortable way to archive your disk collection on the Amiga itself. gzip and xDMS come along automatically.",
+      "id" : "tsgui",
+      "name" : "TSGui",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "2.2"
+    },
+    {
       "added" : "2026-07-25",
       "archive" : {
         "mirrors" : [
@@ -7573,6 +8732,39 @@
       ],
       "tier" : "A",
       "version" : "2.2"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/arc/UnRAR-5.80.lha",
+          "http://se.aminet.net/util/arc/UnRAR-5.80.lha"
+        ],
+        "sha256" : "e010e5ed8756efde2b10fd7f943e98bf96ba2f1da8e10ca246be4bcdb90ef75d",
+        "sizeBytes" : 2400050,
+        "url" : "http://aminet.net/util/arc/UnRAR-5.80.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Official UnRAR 5.80 - extract RAR archives on the Amiga (68k build included in the multi-platform archive).",
+      "id" : "unrar",
+      "name" : "UnRAR",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "5.80"
     },
     {
       "added" : "2026-07-27",
@@ -8234,6 +9426,39 @@
       "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
+          "http://us.aminet.net/util/arc/xDMS.lha",
+          "http://se.aminet.net/util/arc/xDMS.lha"
+        ],
+        "sha256" : "d8b963f4f37933db606a3d82aab9e91d5fc170994dc51f4b8fef61466dd22e38",
+        "sizeBytes" : 164898,
+        "url" : "http://aminet.net/util/arc/xDMS.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Portable DMS unpacker - extracts classic DiskMasher floppy images without the original DMS.",
+      "id" : "xdms",
+      "name" : "xDMS",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "1.3"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
           "http://us.aminet.net/util/pack/xfdmaster.lha",
           "http://se.aminet.net/util/pack/xfdmaster.lha"
         ],
@@ -8292,6 +9517,39 @@
       ],
       "tier" : "A",
       "version" : "1.0"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/pack/xpk_User.lha",
+          "http://se.aminet.net/util/pack/xpk_User.lha"
+        ],
+        "sha256" : "ec48c2820e45e64e1c1970592f06dc32c64546a6c7d545b39c79b469012879f3",
+        "sizeBytes" : 230941,
+        "url" : "http://aminet.net/util/pack/xpk_User.lha"
+      },
+      "category" : "Libraries",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "The XPK packer framework (user edition): xpkmaster.library plus the standard compressor libraries. Enables transparent compression in editors, viewers and backup tools (MuchMore, TSGui and many more).",
+      "id" : "xpkuser",
+      "name" : "XPK compression system",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "5.2a"
     },
     {
       "added" : "2026-07-27",
@@ -8453,6 +9711,39 @@
       ],
       "tier" : "A",
       "version" : "1.3"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/misc/emu/ZXAM20b.lha",
+          "http://se.aminet.net/misc/emu/ZXAM20b.lha"
+        ],
+        "sha256" : "1d5dd1842125b4fa63ad963a9572415b3b5291ae8a1ebd3ea37fd702ca3f37a1",
+        "sizeBytes" : 505603,
+        "url" : "http://aminet.net/misc/emu/ZXAM20b.lha"
+      },
+      "category" : "Emulation",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "ZX Spectrum emulator with full AGA support and an ARexx port - the classic Speccy choice on AGA machines.",
+      "id" : "zxam",
+      "name" : "ZXAM Spectrum Emulator",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "2.0b"
     },
     {
       "added" : "2026-07-24",
