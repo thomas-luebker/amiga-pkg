@@ -1099,7 +1099,7 @@
         ],
         "sha256" : "6af14c9c5ab31eec81491065fceb572bfea24a736f620fbff8bc51ef8af0927b",
         "sizeBytes" : 543884,
-        "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/latest/download/amipkg-client.lha"
+        "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.5.6/amipkg-client.lha"
       },
       "category" : "System",
       "conflicts" : [
