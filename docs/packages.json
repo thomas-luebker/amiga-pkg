@@ -3499,6 +3499,39 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/arc/lzx121r1.lha",
+          "http://se.aminet.net/util/arc/lzx121r1.lha"
+        ],
+        "sha256" : "64d6bb56abea7fdec87dd20654a58fd1f04823bdc4339c5a9fa8edec80a67756",
+        "sizeBytes" : 198477,
+        "url" : "http://aminet.net/util/arc/lzx121r1.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "LZX 1.21R - the legendary archiver, officially released with a generic keyfile (68000 and 68020+ builds included).",
+      "id" : "lzx",
+      "name" : "LZX",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.04"
+      },
+      "tier" : "A",
+      "version" : "1.21r"
+    },
+    {
       "added" : "2026-07-25",
       "archive" : {
         "mirrors" : [
@@ -3661,6 +3694,75 @@
       },
       "tier" : "A",
       "version" : "1.1"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/cdity/MCP133b1.lha",
+          "http://se.aminet.net/util/cdity/MCP133b1.lha"
+        ],
+        "sha256" : "79ca1d2f3aaef4890611f95d3be5a1b015eb839d45bdc0247b64bffc0c428264",
+        "sizeBytes" : 529079,
+        "url" : "http://aminet.net/util/cdity/MCP133b1.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "mui38"
+        }
+      ],
+      "description" : "Master Control Program - THE Workbench enhancer: dozens of system patches and tweaks in one commodity (MUI prefs).",
+      "id" : "mcp",
+      "name" : "MCP",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68020",
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "1.33b1"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/game/misc/MegaBallAGA.lha",
+          "http://se.aminet.net/game/misc/MegaBallAGA.lha"
+        ],
+        "sha256" : "098b4adfef387e9639c46cac85b36ee81d80fee5d3028c829a4cd2efd7e6c33c",
+        "sizeBytes" : 286809,
+        "url" : "http://aminet.net/game/misc/MegaBallAGA.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "MegaBall 3.0 AGA/OCS - the classic freeware brick-breaker every Amiga owner remembers. Runs from KS 1.2 up.",
+      "id" : "megaball",
+      "name" : "MegaBall AGA",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+
+      },
+      "tier" : "A",
+      "version" : "3.0"
     },
     {
       "added" : "2026-07-24",
@@ -5614,6 +5716,40 @@
       "version" : "2.5.1.33"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/comm/tcp/smbfs-68k.lha",
+          "http://se.aminet.net/comm/tcp/smbfs-68k.lha"
+        ],
+        "sha256" : "7604d131f13d89f7bc5b928a1e3ff366b8335dad215ec16e9286c614746d8352",
+        "sizeBytes" : 146640,
+        "url" : "http://aminet.net/comm/tcp/smbfs-68k.lha"
+      },
+      "category" : "Network",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "SMB filesystem client by Olaf Barthel - mount Windows/NAS/Samba shares as Amiga volumes over your TCP/IP stack.",
+      "id" : "smbfs",
+      "name" : "smbfs",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "3.0",
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "1.74"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -6317,7 +6453,7 @@
       "version" : "1.3.9"
     },
     {
-      "added" : "2026-07-24",
+      "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
           "http://us.aminet.net/util/wb/ToolManager2_1bin.lha",
@@ -6334,7 +6470,7 @@
       "deps" : [
 
       ],
-      "description" : "ToolManager 2.1 (Binaries and Docs)",
+      "description" : "The classic Workbench docks/menus/hotkeys launcher (binaries + docs). A piece of every well-worn 3.x setup.",
       "id" : "toolmanager",
       "name" : "ToolManager",
       "provides" : [
@@ -6343,6 +6479,9 @@
       "requiredCapabilities" : [
 
       ],
+      "requirements" : {
+        "minKS" : "2.04"
+      },
       "tier" : "A",
       "version" : "2.1"
     },
@@ -6609,6 +6748,39 @@
       "version" : "2.2"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/arc/UnZIP552.lha",
+          "http://se.aminet.net/util/arc/UnZIP552.lha"
+        ],
+        "sha256" : "3dd82117d4a809d1753ce4defcc65756f9a575687b51122f50f29ecd79a8a056",
+        "sizeBytes" : 148637,
+        "url" : "http://aminet.net/util/arc/UnZIP552.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Info-ZIP UnZip 5.52 (final 68k) - extract .zip archives from the Shell. The standard companion to C:lha.",
+      "id" : "unzip",
+      "name" : "UnZip",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+
+      },
+      "tier" : "A",
+      "version" : "5.52"
+    },
+    {
       "archive" : {
         "mirrors" : [
 
@@ -6715,6 +6887,74 @@
       ],
       "tier" : "A",
       "version" : "19.7"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/text/edit/vim53bin.lha",
+          "http://se.aminet.net/text/edit/vim53bin.lha"
+        ],
+        "sha256" : "c9b2c740079b361793a9eb9bf876ec7adc203a656a6bd674c7daf76972e14ab2",
+        "sizeBytes" : 260102,
+        "url" : "http://aminet.net/text/edit/vim53bin.lha"
+      },
+      "category" : "Text",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "vimruntime"
+        }
+      ],
+      "description" : "Vi IMproved 5.3 - the classic modal editor, native 68k build. Runtime files (syntax/help) come along as a dependency.",
+      "id" : "vim",
+      "name" : "Vim",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+
+      },
+      "tier" : "A",
+      "version" : "5.3"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/text/edit/vim53rt.lha",
+          "http://se.aminet.net/text/edit/vim53rt.lha"
+        ],
+        "sha256" : "01a10bca024c7edea2b81f2b3415ba958970ccfa650bdb44ff2e0ae858aa0287",
+        "sizeBytes" : 869738,
+        "url" : "http://aminet.net/text/edit/vim53rt.lha"
+      },
+      "category" : "Text",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Runtime files (syntax, help, macros) for Vim - installed automatically with the vim package.",
+      "id" : "vimruntime",
+      "name" : "Vim runtime files",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+
+      },
+      "tier" : "A",
+      "version" : "5.3"
     },
     {
       "added" : "2026-07-25",
@@ -7137,6 +7377,44 @@
       ],
       "tier" : "A",
       "version" : "2.12"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "2df011722d29bb9a7bcb76f7176c60e85370957ca29d59d1532cdd6177054e6c",
+        "sizeBytes" : 3522661,
+        "url" : "https://github.com/jens-maus/yam/releases/latest/download/YAM29p1-AmigaOS3.lha"
+      },
+      "category" : "Internet",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "amissl"
+        },
+        {
+          "id" : "mui38"
+        }
+      ],
+      "description" : "Yet Another Mailer - THE classic MUI email client (IMAP/POP/SMTP, SSL via AmiSSL). Dependencies MUI and AmiSSL install automatically first - AmiSSL also enables this download itself.",
+      "id" : "yam",
+      "name" : "YAM",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "3.0",
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "2.9p1"
     },
     {
       "added" : "2026-07-25",
