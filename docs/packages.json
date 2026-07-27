@@ -818,6 +818,39 @@
       "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
+          "http://us.aminet.net/game/misc/AMIgotchy.lha",
+          "http://se.aminet.net/game/misc/AMIgotchy.lha"
+        ],
+        "sha256" : "8a7d728c7abfb5d25c2d464599fca5db2e69766070a2f7f42fca8daafd49ead5",
+        "sizeBytes" : 508424,
+        "url" : "http://aminet.net/game/misc/AMIgotchy.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "The first virtual pet for the Amiga - feed it, or feel guilty forever.",
+      "id" : "amigotchy",
+      "name" : "AMIgotchy",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "1.0"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
           "http://us.aminet.net/mus/midi/AmiPG_CLI.lha",
           "http://se.aminet.net/mus/midi/AmiPG_CLI.lha"
         ],
@@ -2452,6 +2485,39 @@
       "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
+          "http://us.aminet.net/game/2play/Family_Solitaire.lha",
+          "http://se.aminet.net/game/2play/Family_Solitaire.lha"
+        ],
+        "sha256" : "b83ee3fed0b4ca819f4c539c1c5b7b026ef41031afebaf4d76265e9944498964",
+        "sizeBytes" : 18490,
+        "url" : "http://aminet.net/game/2play/Family_Solitaire.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Multi-player solitaire card game - pass-the-mouse fun in 18 KB.",
+      "id" : "familysolitaire",
+      "name" : "Family Solitaire",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+
+      },
+      "tier" : "A",
+      "version" : "-"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
           "http://us.aminet.net/disk/misc/fat95.v20260614.lha",
           "http://se.aminet.net/disk/misc/fat95.v20260614.lha"
         ],
@@ -4031,6 +4097,39 @@
       },
       "tier" : "A",
       "version" : "2.61"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/game/board/MarbleSlide.lha",
+          "http://se.aminet.net/game/board/MarbleSlide.lha"
+        ],
+        "sha256" : "61c18a323b1de471c9a565bbd96df5f082b00dfb3d85cea7ea12606db88a4aa0",
+        "sizeBytes" : 107811,
+        "url" : "http://aminet.net/game/board/MarbleSlide.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Build marble tracks on a 10x11 board - a quiet little puzzler.",
+      "id" : "marbleslide",
+      "name" : "MarbleSlide",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+
+      },
+      "tier" : "A",
+      "version" : "-"
     },
     {
       "added" : "2026-07-24",
