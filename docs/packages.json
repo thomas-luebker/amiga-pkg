@@ -960,7 +960,7 @@
           "http://us.aminet.net/misc/antiq/AmigaShopsD.lha",
           "http://se.aminet.net/misc/antiq/AmigaShopsD.lha"
         ],
-        "sha256" : "8cfc506e3bf59c7c034a30390a4feb8278f97022802eaa05b39d4fb0580ba839",
+        "sha256" : "5f33bda37819086847efe4bddfd7bd166b0acbccd0bde9dc9fe0c96dbc135068",
         "sizeBytes" : 5978,
         "url" : "http://aminet.net/misc/antiq/AmigaShopsD.lha"
       },
@@ -1097,8 +1097,8 @@
         "mirrors" : [
           "http://amiga-imager.org/packages/amipkg-client.lha"
         ],
-        "sha256" : "76758f6b9b1582d77b1def23d28ad8da5aefe91a338b861136af44c88eb4e571",
-        "sizeBytes" : 540456,
+        "sha256" : "d0bcccd367193bbd8b63a833e7be8dcb1109e35614e04ae81b37100eddc1e5c9",
+        "sizeBytes" : 540804,
         "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/latest/download/amipkg-client.lha"
       },
       "category" : "System",
@@ -1169,7 +1169,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.5.1"
+      "version" : "0.5.2"
     },
     {
       "added" : "2026-07-27",
@@ -8409,8 +8409,8 @@
           "http://us.aminet.net/text/edit/tinyedit_aos.lha",
           "http://se.aminet.net/text/edit/tinyedit_aos.lha"
         ],
-        "sha256" : "3aa6571bf4b672353b90d5b528ebcd8721740c694f974fa260b35b980826c8d8",
-        "sizeBytes" : 283,
+        "sha256" : "7ba0f12095df0ebf6c7618f0baf1b1c0ec53989da0bc743f0cf7e50852cf8126",
+        "sizeBytes" : 733112,
         "url" : "http://aminet.net/text/edit/tinyedit_aos.lha"
       },
       "category" : "Text",
