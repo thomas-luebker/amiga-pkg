@@ -1,0 +1,98 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "eadf34bb2384c7c8cbfd7ef873d98cb9f8d595419711996a00d5c54ec91dd4eb",
+    "sizeBytes": 130439,
+    "url": "http://aminet.net/dev/mui/MCC_TextEditor_68k.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "MUI text editor custom class (68000 build)",
+  "id": "texteditormcc68k",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "dev/mui/MCC_TextEditor_68k.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": false
+  },
+  "name": "TextEditor.mcc (68000)",
+  "provides": [
+    "texteditor.mcc"
+  ],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs/MUI/Libs/mui",
+        "op": "copyGlob",
+        "src": "TextEditor.mcc"
+      },
+      {
+        "dest": "Programs/MUI/Libs/mui",
+        "op": "copyGlob",
+        "src": "TextEditor.mcp"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "15.28"
+}

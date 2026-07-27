@@ -1,0 +1,153 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "2b9030b932754d7916224e55310a8f81f2b8ceeb2d14947dcea5123c013d5be6",
+    "sizeBytes": 432725,
+    "url": "http://aminet.net/driver/other/PoseidonMain.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "USB stack for AmigaOS",
+  "id": "poseidon",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "driver/other/PoseidonMain.lha",
+    "md5": "5d08d274495fab2e28711414e12c8ed2",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "Poseidon USB",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs",
+        "op": "copyGlob",
+        "src": "Poseidon.info"
+      },
+      {
+        "dest": "Programs/Poseidon",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "Poseidon/*"
+      },
+      {
+        "dest": "Classes",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "Poseidon/InstallData/Classes/*"
+      },
+      {
+        "dest": "Devs/USBHardware",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "Poseidon/InstallData/Devs/USBHardware/*"
+      },
+      {
+        "dest": "Libs",
+        "op": "copyGlob",
+        "src": "Poseidon/InstallData/Libs/poseidon.library"
+      },
+      {
+        "dest": "Libs/VHI",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "Poseidon/InstallData/Libs/VHI/*"
+      },
+      {
+        "dest": "Storage/DOSDrivers",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "Poseidon/InstallData/Storage/DOSDrivers/*"
+      },
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "src": "Poseidon/InstallData/PsdStackloader"
+      },
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "src": "Poseidon/InstallData/PsdRomTag"
+      },
+      {
+        "dest": "Tools",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "Poseidon/InstallData/Tools/*"
+      },
+      {
+        "dest": "Tools",
+        "op": "copyGlob",
+        "src": "Poseidon/InstallData/Trident"
+      },
+      {
+        "dest": "Tools",
+        "op": "copyGlob",
+        "src": "Poseidon/InstallData/Trident.info"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "2.2 (30-Dec-03)"
+}

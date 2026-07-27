@@ -1,0 +1,27 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "4bf8cc22fe88ce20f85fe400ec670e08e1ef5fc85ae136a04384c0eb72abcc03",
+    "sizeBytes": 354678,
+    "url": "http://aminet.net/util/libs/mpega_library.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "MPEG audio decoder library (required by RiVA; optional for AmigaAMP). CPU variant selected at build time.",
+  "id": "mpega",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "util/libs/mpega_library.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": false
+  },
+  "name": "mpega.library",
+  "provides": [],
+  "requiredCapabilities": [
+    "host-builtin-v1"
+  ],
+  "tier": "B",
+  "version": "2.4"
+}

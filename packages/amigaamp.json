@@ -1,0 +1,35 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "cad37d708603a05f813a94e2f5ca059b4e03e20da5ec675e13efe6543b997bf1",
+    "sizeBytes": 413247,
+    "url": "http://aminet.net/mus/play/AmigaAMP3-68k.lha"
+  },
+  "category": "Multimedia",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "asyncio"
+    },
+    {
+      "id": "mpega"
+    }
+  ],
+  "description": "MPEG audio player with GUI (requires AHI and mpega.library)",
+  "id": "amigaamp",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "mus/play/AmigaAMP3-68k.lha",
+    "primaryURL": "https://www.amigaamp.de/Binaries/AmigaAMP3-68k.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "AmigaAMP",
+  "provides": [],
+  "requiredCapabilities": [
+    "host-builtin-v1"
+  ],
+  "tier": "B",
+  "version": "3.33"
+}

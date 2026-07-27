@@ -1,0 +1,93 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "3e8aa8083c3517653ee9480c5ee1436e8a6820e5d2f7312ef010686114df3099",
+    "sizeBytes": 8495,
+    "url": "http://aminet.net/util/wb/CopyIcon44.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Copy an icon from one Amiga file to another (CopyNewIcon clone, OS 3.5+)",
+  "id": "copyicon",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "util/wb/CopyIcon44.lha",
+    "md5": "63979d603baa15198ed319c7218bba3f",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "CopyIcon 44",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "rename": "CopyIcon",
+        "src": "CopyIcon44/CopyIcon"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "44"
+}

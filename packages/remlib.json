@@ -1,0 +1,105 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "be7134d1ee5d5ed0e2ed38d595d04f1b70a5bedbe17d8295535409292f3f2ddc",
+    "sizeBytes": 5609,
+    "url": "http://aminet.net/dev/debug/RemLib.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [],
+  "description": "Remove libraries from memory",
+  "id": "remlib",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "dev/debug/RemLib.lha",
+    "md5": "5a0ab50b36d1d65247e7954a735e2b4a",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "RemLib",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "rename": "RemLib",
+        "src": "RemLib"
+      },
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "rename": "RemLib",
+        "src": "remlib"
+      },
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "rename": "RemLib",
+        "src": "C/RemLib"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "1.2"
+}

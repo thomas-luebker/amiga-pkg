@@ -1,0 +1,27 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "9246547eb1e3af15598d6a1a3a27652d3eac355757d39e136c3c10a27379da1c",
+    "sizeBytes": 59414047,
+    "url": "http://aminet.net/game/misc/ScummVM_RTG_060.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Multi-platform adventure game interpreter (NovaCoder port, 68060 RTG, opens on P96 screen)",
+  "id": "scummvm",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "game/misc/ScummVM_RTG_060.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "ScummVM 2.5.1 RTG",
+  "provides": [],
+  "requiredCapabilities": [
+    "host-builtin-v1"
+  ],
+  "tier": "B",
+  "version": "2.5.1.34"
+}

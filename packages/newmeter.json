@@ -1,0 +1,100 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "8728931bcc0b2e8f7e894184502d955c87cf60b5265a13f6c7c247ad58fee28e",
+    "sizeBytes": 28542,
+    "url": "http://aminet.net/util/wb/newmeter.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "CPU, RAM and volume fill level bar graphs",
+  "id": "newmeter",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "util/wb/newmeter.lha",
+    "backupURL": "https://thomas-rapp.hier-im-netz.de/downloads/newmeter.lha",
+    "md5": "87435805d6f6bd203f6148edba9489ce",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "NewMeter",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "WBStartup/Disabled",
+        "op": "copyGlob",
+        "rename": "NewMeter",
+        "src": "NewMeter/NewMeter"
+      },
+      {
+        "dest": "WBStartup/Disabled",
+        "op": "copyGlob",
+        "rename": "NewMeter.info",
+        "src": "NewMeter/NewMeter.info"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "1.361"
+}

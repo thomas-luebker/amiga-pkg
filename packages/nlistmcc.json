@@ -1,0 +1,103 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "639e54660e1c8a83f3c030e2b383b575534a155c9087909b59300177e8adb0e7",
+    "sizeBytes": 2087426,
+    "url": "http://aminet.net/dev/mui/MCC_NList-0.128.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "NList/NListview MUI classes (68020+)",
+  "id": "nlistmcc",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "dev/mui/MCC_NList-0.128.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": false
+  },
+  "name": "NList MUI Classes",
+  "provides": [
+    "nlist.mcc"
+  ],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs/MUI/Libs/mui",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "MCC_NList/Libs/MUI/AmigaOS3/*.mcc"
+      },
+      {
+        "dest": "Programs/MUI/Libs/mui",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "MCC_NList/Libs/MUI/AmigaOS3/*.mcp"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "requirements": {
+    "minCPU": "68020"
+  },
+  "tier": "A",
+  "version": "0.128"
+}

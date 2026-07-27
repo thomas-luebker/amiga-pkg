@@ -1,0 +1,24 @@
+{
+  "category": "Games",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "scummvm"
+    }
+  ],
+  "description": "Freeware point-and-click adventure (Revolution Software, requires ScummVM; installed in the build's language where available)",
+  "id": "lure",
+  "install": {
+    "alternateMD5": [],
+    "sourceType": "scriptManaged",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "Lure of the Temptress",
+  "provides": [],
+  "requiredCapabilities": [
+    "host-builtin-v1"
+  ],
+  "tier": "B",
+  "version": "-"
+}

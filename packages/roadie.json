@@ -1,0 +1,105 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "44af5ef15b6fab4c6071f888a3307f8a0a150aa331c4e77f98020e7ff30f3fbc",
+    "sizeBytes": 55973,
+    "url": "http://aminet.net/comm/net/Roadie.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "Roadshow companion GUI/commodity",
+  "id": "roadie",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "comm/net/Roadie.lha",
+    "md5": "fd6a34d3f4840b466f180366aeffb2fc",
+    "networkStack": "roadshowDemo",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "Roadie",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs/Roadie",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "Roadie*"
+      },
+      {
+        "dest": "Programs/Roadie",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "Roadie/*"
+      },
+      {
+        "dest": "Programs",
+        "op": "copyGlob",
+        "src": "Roadie.info"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "1.3.9"
+}

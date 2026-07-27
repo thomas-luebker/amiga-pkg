@@ -1,0 +1,106 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "dcba694a5600c5cf0144b7d8f00089fde57aea1cd3a6f644ddeeceae8e006319",
+    "sizeBytes": 324015,
+    "url": "http://aminet.net/dev/mui/MCC_BetterString-11.36.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "BetterString and HotkeyString MUI classes (68020+)",
+  "id": "betterstringmcc",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "dev/mui/MCC_BetterString-11.36.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": false
+  },
+  "name": "BetterString.mcc",
+  "provides": [
+    "betterstring.mcc"
+  ],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs/MUI/Libs/mui",
+        "op": "copyGlob",
+        "src": "MCC_BetterString/Libs/MUI/AmigaOS3/BetterString.mcc"
+      },
+      {
+        "dest": "Programs/MUI/Libs/mui",
+        "op": "copyGlob",
+        "src": "MCC_BetterString/Libs/MUI/AmigaOS3/BetterString.mcp"
+      },
+      {
+        "dest": "Programs/MUI/Libs/mui",
+        "op": "copyGlob",
+        "src": "MCC_BetterString/Libs/MUI/AmigaOS3/HotkeyString.mcc"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "requirements": {
+    "minCPU": "68020"
+  },
+  "tier": "A",
+  "version": "11.36"
+}

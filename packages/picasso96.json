@@ -1,0 +1,28 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "0146d4a2aaadb82ec454dde6ca4fb33a3f646ca4c0daa46e569c025f4d9728af",
+    "sizeBytes": 596111,
+    "url": "http://aminet.net/driver/video/Picasso96.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "RTG graphics stack (shareware fallback)",
+  "id": "picasso96",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "driver/video/Picasso96.lha",
+    "md5": "16287f92ce6ddea23f5456ceb4525189",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "Picasso96 (Shareware)",
+  "provides": [],
+  "requiredCapabilities": [
+    "host-builtin-v1"
+  ],
+  "tier": "B",
+  "version": "2.0"
+}

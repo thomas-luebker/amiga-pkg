@@ -1,0 +1,92 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "91eaa0b51b8efc1d0cb35b10aeecd2ba22d773948c89ceb9fbce17b802421d07",
+    "sizeBytes": 53496,
+    "url": "http://aminet.net/dev/c/AsyncIO.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "Async I/O library (required by AmigaAMP)",
+  "id": "asyncio",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "dev/c/AsyncIO.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": false
+  },
+  "name": "asyncio.library",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Libs",
+        "op": "copyGlob",
+        "rename": "asyncio.library",
+        "src": "AsyncIO/libs/asyncio.library"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "39.2a"
+}

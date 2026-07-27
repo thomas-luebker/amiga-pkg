@@ -1,0 +1,99 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "a48a3735ecba05c2a4f20a2b136ba41a582ae18e8c5c1ef37f146d7701c89aad",
+    "sizeBytes": 55660,
+    "url": "http://aminet.net/mus/play/imp3.lha"
+  },
+  "category": "Multimedia",
+  "conflicts": [],
+  "deps": [],
+  "description": "MPEG Layer-3 audio player",
+  "id": "imp3",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "mus/play/imp3.lha",
+    "md5": "a9a0d7e7e7a733e50ccf9ca26f8c8e60",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "IMP3",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs",
+        "op": "copyGlob",
+        "rename": "IMP3",
+        "src": "imp3"
+      },
+      {
+        "dest": "Programs",
+        "op": "copyGlob",
+        "rename": "IMP3.info",
+        "src": "imp3.info"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "3.461"
+}

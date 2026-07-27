@@ -1,0 +1,24 @@
+{
+  "category": "Games",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "scummvm"
+    }
+  ],
+  "description": "Freeware point-and-click adventure (Revolution Software, requires ScummVM)",
+  "id": "bass",
+  "install": {
+    "alternateMD5": [],
+    "sourceType": "scriptManaged",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "Beneath a Steel Sky",
+  "provides": [],
+  "requiredCapabilities": [
+    "host-builtin-v1"
+  ],
+  "tier": "B",
+  "version": "-"
+}

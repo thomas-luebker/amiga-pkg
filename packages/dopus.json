@@ -1,0 +1,99 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "4e4ee907e6b2f18b9d8be234888413b2da662e52a07dd51b15156329d5eb2c5a",
+    "sizeBytes": 894119,
+    "url": "http://aminet.net/util/dopus/DOpus416JRbin.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Powerful file manager",
+  "id": "dopus",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "util/dopus/DOpus416JRbin.lha",
+    "backupURL": "http://dopus.free.fr/files/DOpus416JRbin.lha",
+    "md5": "19c6cdea1f01ebdfe8154c16e7dabf23",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "Directory Opus 4",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs",
+        "op": "copyGlob",
+        "src": "DOpus.info"
+      },
+      {
+        "dest": "Programs/DOpus",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "DOpus/*"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "4"
+}

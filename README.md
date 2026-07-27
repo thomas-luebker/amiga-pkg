@@ -74,6 +74,13 @@ Package `.lha` archives are **not** stored here. Link to a stable host — ideal
 HTTP, which is what `amipkg` on the Amiga needs). CI verifies that the archive at
 `archive.url` matches the `archive.sha256` in the entry.
 
+
+**Every package we serve is a file in [`packages/`](packages/)** — the
+published index is generated 1:1 from these manifests (plus the signing
+step). Spotted a wrong version, a better mirror, a missing dependency, or
+an outdated description? Open a pull request against that file; corrections
+are as welcome as new packages.
+
 ## Contributing
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md). In short: scaffold an entry with

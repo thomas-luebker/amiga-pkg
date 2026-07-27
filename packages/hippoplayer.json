@@ -1,0 +1,116 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "837913afd07a68168ee8f6451896268e762cc3542fb28b7e041e70841f53b387",
+    "sizeBytes": 704230,
+    "url": "http://aminet.net/mus/play/hippoplayer.lha"
+  },
+  "category": "Multimedia",
+  "conflicts": [],
+  "deps": [],
+  "description": "Module music player",
+  "id": "hippoplayer",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "mus/play/hippoplayer.lha",
+    "md5": "aa28f29175d968c4f4ccfd5a6c4f7ce4",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "HippoPlayer",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs/HippoPlayer",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "HippoPlayer/*"
+      },
+      {
+        "dest": "S",
+        "op": "copyGlob",
+        "src": "HippoPlayer/HippoPlayer.PS3M"
+      },
+      {
+        "dest": "Programs/HippoPlayer",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "HippoSupport/*"
+      },
+      {
+        "dest": "Libs",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "HippoSupport/Libs/octa*"
+      },
+      {
+        "dest": "Libs",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "HippoSupport/Libs/m*"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "2.45"
+}

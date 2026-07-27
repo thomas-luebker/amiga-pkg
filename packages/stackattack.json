@@ -1,0 +1,92 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "2574f8751d04adecd2cc9303781da8d2eb17467b0f7aac9fa08c02570cdf080a",
+    "sizeBytes": 7492,
+    "url": "http://aminet.net/util/boot/StackAttack2.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [],
+  "description": "Increase default stack size for all programs",
+  "id": "stackattack",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "util/boot/StackAttack2.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "StackAttack",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "rename": "StackAttack",
+        "src": "StackAttack"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "2.9"
+}

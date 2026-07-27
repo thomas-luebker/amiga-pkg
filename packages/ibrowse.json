@@ -1,0 +1,31 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "ae8ffb88a82050ad9bc3f29d68ce9470a6531f519bea75cf15276dd342813087",
+    "sizeBytes": 1726042,
+    "url": "https://www.ibrowse-dev.net/resources/IBrowse3.0a-OS3.lha"
+  },
+  "category": "Internet",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "amissl"
+    }
+  ],
+  "description": "Full-featured web browser",
+  "id": "ibrowse",
+  "install": {
+    "alternateMD5": [],
+    "directURL": "https://www.ibrowse-dev.net/resources/IBrowse3.0a-OS3.lha",
+    "sourceType": "direct",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "IBrowse 3.0a",
+  "provides": [],
+  "requiredCapabilities": [
+    "host-builtin-v1"
+  ],
+  "tier": "B",
+  "version": "3.0a"
+}

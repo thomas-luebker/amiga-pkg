@@ -1,0 +1,31 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "0436f0c77ca1657dc85eb09d316f8fb65b57cfd9ac94f172eb1489991ae80cda",
+    "sizeBytes": 244510,
+    "url": "http://aminet.net/gfx/show/RiVA-0.54.lha"
+  },
+  "category": "Multimedia",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "mpega"
+    }
+  ],
+  "description": "Video player supporting MPEG1/2 and AVI (requires mpega.library)",
+  "id": "riva",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "gfx/show/RiVA-0.54.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "RiVA",
+  "provides": [],
+  "requiredCapabilities": [
+    "host-builtin-v1"
+  ],
+  "tier": "B",
+  "version": "0.54"
+}

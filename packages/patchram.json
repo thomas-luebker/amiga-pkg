@@ -1,0 +1,105 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "a3b11d98f5df75a95b7984a1c642abaca551aed440ac5dc17e35ca13bbcd12a1",
+    "sizeBytes": 19037,
+    "url": "http://aminet.net/util/boot/PatchRAM.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [],
+  "description": "Speed up RAM operations",
+  "id": "patchram",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "util/boot/PatchRAM.lha",
+    "md5": "36af885b517650d8029708ac91e2bbfb",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "PatchRAM",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "rename": "PatchRAM",
+        "src": "PatchRAM"
+      },
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "rename": "PatchRAM",
+        "src": "patchram"
+      },
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "rename": "PatchRAM",
+        "src": "C/PatchRAM"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "2.01"
+}

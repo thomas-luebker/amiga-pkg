@@ -1,0 +1,160 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "eed8202c5f2b5e6ee71b7aa47cd43040e27b05beb92234e2c11f105d415bd029",
+    "sizeBytes": 308725,
+    "url": "http://aminet.net/driver/audio/ahiusr_4.18.lha"
+  },
+  "category": "Multimedia",
+  "conflicts": [],
+  "deps": [],
+  "description": "Retargetable audio interface",
+  "id": "ahi",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "driver/audio/ahiusr_4.18.lha",
+    "md5": "52131e5f771927ff5d5aaaa64fd97abc",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "AHI",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs",
+        "op": "copyGlob",
+        "src": "AHI.info"
+      },
+      {
+        "dest": "Programs/AHI",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "AHI/*"
+      },
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "AHI/User/C/*"
+      },
+      {
+        "dest": "Devs",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "AHI/User/Devs/ahi.device*"
+      },
+      {
+        "dest": "Devs/AHI",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "AHI/User/Devs/AHI/paula.audio*"
+      },
+      {
+        "dest": "Devs/AHI",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "AHI/User/Devs/AHI/filesave.audio*"
+      },
+      {
+        "dest": "Devs/AudioModes",
+        "op": "copyGlob",
+        "src": "AHI/User/Devs/AudioModes/PAULA"
+      },
+      {
+        "dest": "Devs/AudioModes",
+        "op": "copyGlob",
+        "src": "AHI/User/Devs/AudioModes/FILESAVE"
+      },
+      {
+        "dest": "Devs/DOSDrivers",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "AHI/User/Devs/DOSDrivers/*"
+      },
+      {
+        "dest": "L",
+        "op": "copyGlob",
+        "src": "AHI/User/L/AHI-Handler"
+      },
+      {
+        "dest": "Prefs",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "AHI/User/Prefs/AHI*"
+      },
+      {
+        "dest": "Catalogs",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "AHI/User/Catalogs/*"
+      },
+      {
+        "dest": "Help",
+        "op": "copyGlob",
+        "src": "AHI/User/Help/ahi.guide"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "4.18"
+}

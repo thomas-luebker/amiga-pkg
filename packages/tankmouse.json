@@ -1,0 +1,100 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "d768f89bbda4d0af3076148e0e42007ec10d97e629b4f7352275a48698f5c13f",
+    "sizeBytes": 14898,
+    "url": "http://aminet.net/driver/input/TankMouse.lha"
+  },
+  "category": "Input",
+  "conflicts": [],
+  "deps": [],
+  "description": "Scroll wheel driver for TankMouse adapter",
+  "id": "tankmouse",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "driver/input/TankMouse.lha",
+    "md5": "f3f09377220ec73b8d930d52a18713b0",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "TankMouse",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "src": "TankMouse/TankMouse.driver"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      },
+      {
+        "marker": "TankMouse",
+        "mode": "append",
+        "op": "scriptInject",
+        "overlay": "S/User-Startup_TankMouse",
+        "target": "S:User-Startup"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "script-inject-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "0.3"
+}

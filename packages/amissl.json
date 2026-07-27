@@ -1,0 +1,27 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "722476cfbf21c0caf6ff4a77e32ee8baf67d3045db0e9ff2ccce6c782bed5847",
+    "sizeBytes": 4294781,
+    "url": "https://github.com/jens-maus/amissl/releases/download/5.27/AmiSSL-5.27-OS3.lha"
+  },
+  "category": "Internet",
+  "conflicts": [],
+  "deps": [],
+  "description": "SSL/TLS library (required for HTTPS in IBrowse)",
+  "id": "amissl",
+  "install": {
+    "alternateMD5": [],
+    "directURL": "https://github.com/jens-maus/amissl/releases/download/5.27/AmiSSL-5.27-OS3.lha",
+    "sourceType": "direct",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "AmiSSL 5.27",
+  "provides": [],
+  "requiredCapabilities": [
+    "host-builtin-v1"
+  ],
+  "tier": "B",
+  "version": "5.27"
+}

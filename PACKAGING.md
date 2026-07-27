@@ -1,5 +1,8 @@
 # Package your software for amipkg — in 5 minutes
 
+> **Corrections welcome:** every entry the index serves lives in `packages/` — editing an existing file (wrong version, better mirror, missing dep) is just as valid a PR as adding a new package.
+
+
 You wrote (or love) an Amiga program and want every amipkg user to be able to
 `amipkg install` it? This is the whole process. You need: **Python 3** on any
 OS (Windows/Linux/macOS — no Amiga, no Mac, no Swift) and a GitHub account.

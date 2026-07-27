@@ -1,0 +1,118 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "964462bf7c431c86122288634c16464f1ea34cbdfa9d9439328db4f27ba83421",
+    "sizeBytes": 481756,
+    "url": "http://aminet.net/util/misc/iGame.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "mui38"
+    },
+    {
+      "id": "texteditor.mcc"
+    },
+    {
+      "id": "nlist.mcc"
+    },
+    {
+      "id": "betterstring.mcc"
+    }
+  ],
+  "description": "Frontend and launcher for WHDLoad games and demos",
+  "id": "igame",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "util/misc/iGame.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "iGame",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs/iGame",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "iGame*/*"
+      },
+      {
+        "dest": "Programs/iGame",
+        "op": "copyGlob",
+        "rename": "iGame.info",
+        "src": "iGame*/extras/icons/iGame1.info"
+      },
+      {
+        "dest": "Programs",
+        "op": "copyGlob",
+        "rename": "iGame.info",
+        "src": "iGame*/extras/icons/igame_drawer.info"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "icon-patch-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "B",
+  "version": "v2.6.1"
+}

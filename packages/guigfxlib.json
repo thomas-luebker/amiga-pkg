@@ -1,0 +1,102 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "c0be7adafd0595c094856a0434b34b7411c66daa7cb866d7b4c8c2da4cba3d35",
+    "sizeBytes": 263251,
+    "url": "http://aminet.net/dev/misc/guigfxlib.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "Graphics rendering library",
+  "id": "guigfxlib",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "dev/misc/guigfxlib.lha",
+    "md5": "aa83710882ac07bc10a7c4485372d549",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "guigfx.library",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Libs",
+        "op": "copyGlob",
+        "src": "guigfx.library"
+      },
+      {
+        "dest": "Libs",
+        "op": "copyGlob",
+        "src": "guigfxlib/guigfx.library"
+      },
+      {
+        "dest": "Libs",
+        "op": "copyGlob",
+        "src": "Libs/guigfx.library"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "20.1"
+}

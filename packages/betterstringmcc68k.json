@@ -1,0 +1,103 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "2f5b032d6494cbf0af684e4dacf82785108bc1210c8fa624ba28d09d0f0aa6b4",
+    "sizeBytes": 68264,
+    "url": "http://aminet.net/dev/mui/MCC_BetterString_68k.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "BetterString and HotkeyString MUI classes (68000 build)",
+  "id": "betterstringmcc68k",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "dev/mui/MCC_BetterString_68k.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": false
+  },
+  "name": "BetterString.mcc (68000)",
+  "provides": [
+    "betterstring.mcc"
+  ],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs/MUI/Libs/mui",
+        "op": "copyGlob",
+        "src": "BetterString.mcc"
+      },
+      {
+        "dest": "Programs/MUI/Libs/mui",
+        "op": "copyGlob",
+        "src": "BetterString.mcp"
+      },
+      {
+        "dest": "Programs/MUI/Libs/mui",
+        "op": "copyGlob",
+        "src": "HotkeyString.mcc"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "11.16"
+}

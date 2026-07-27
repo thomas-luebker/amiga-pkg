@@ -1,0 +1,27 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "b7dba0ed4f5a8deccc5c978ae5d86b2c269e129563bb3ff10cc22e55b299aeb0",
+    "sizeBytes": 51937,
+    "url": "http://aminet.net/util/wb/GoVD.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Virtual desktop / screen switcher (registration key optional)",
+  "id": "govd",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "util/wb/GoVD.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "GoVD",
+  "provides": [],
+  "requiredCapabilities": [
+    "host-builtin-v1"
+  ],
+  "tier": "B",
+  "version": "3.1"
+}

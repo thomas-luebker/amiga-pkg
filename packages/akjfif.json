@@ -1,0 +1,103 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "6981badff7b792548ed72431078a15ae79cc2558b92c4ada18366676c3ccf3dd",
+    "sizeBytes": 129274,
+    "url": "http://aminet.net/util/dtype/akJFIF-dt.lha"
+  },
+  "category": "Datatypes",
+  "conflicts": [],
+  "deps": [],
+  "description": "JPEG/JFIF image datatype (akJFIF)",
+  "id": "akjfif",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "util/dtype/akJFIF-dt.lha",
+    "md5": "7b5fcb7a557c87faaf529110f912f909",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "JPEG Datatype",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Classes/Datatypes",
+        "op": "copyGlob",
+        "src": "akJFIF-Datatype/classes/datatypes/akJFIF.datatype"
+      },
+      {
+        "dest": "Devs/Datatypes",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "akJFIF-Datatype/devs/Datatypes/*"
+      },
+      {
+        "dest": "Libs",
+        "op": "copyGlob",
+        "src": "akJFIF-Datatype/c/dtimage.library"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "45.95"
+}

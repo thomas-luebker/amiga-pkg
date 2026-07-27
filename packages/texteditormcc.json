@@ -1,0 +1,101 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "d239a8324684233c09999354399f25595996c7ba52b2f44627263eb9676abfe9",
+    "sizeBytes": 895948,
+    "url": "http://aminet.net/dev/mui/MCC_TextEditor-15.56.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "MUI text editor custom class (68020+)",
+  "id": "texteditormcc",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "dev/mui/MCC_TextEditor-15.56.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": false
+  },
+  "name": "TextEditor.mcc",
+  "provides": [
+    "texteditor.mcc"
+  ],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs/MUI/Libs/mui",
+        "op": "copyGlob",
+        "src": "MCC_TextEditor/Libs/MUI/AmigaOS3/TextEditor.mcc"
+      },
+      {
+        "dest": "Programs/MUI/Libs/mui",
+        "op": "copyGlob",
+        "src": "MCC_TextEditor/Libs/MUI/AmigaOS3/TextEditor.mcp"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "requirements": {
+    "minCPU": "68020"
+  },
+  "tier": "A",
+  "version": "15.56"
+}

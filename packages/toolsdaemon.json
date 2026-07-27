@@ -1,0 +1,110 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "32e8944006f1e655e11b9223afcf57752b49b4d2b77d38281a426408b0d360da",
+    "sizeBytes": 89558,
+    "url": "http://aminet.net/util/boot/ToolsDaemon21a.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [],
+  "description": "Add programs to Workbench Tools menu",
+  "id": "toolsdaemon",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "util/boot/ToolsDaemon21a.lha",
+    "md5": "ac84352f58beb2f564722b87c431dc20",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "ToolsDaemon",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs/ToolsDaemon",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "ToolsDaemon/*"
+      },
+      {
+        "dest": "Programs",
+        "op": "copyGlob",
+        "src": "ToolsDaemon.info"
+      },
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "rename": "ToolsDaemon",
+        "src": "C/ToolsDaemon"
+      },
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "rename": "ToolsDaemon",
+        "src": "ToolsDaemon/C/ToolsDaemon"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "2.1a"
+}

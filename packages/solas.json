@@ -1,0 +1,28 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "70877a91351b979c5828bfc917807f4ed513faad01f1c2afaefdbf6d446987b1",
+    "sizeBytes": 354413,
+    "url": "http://www.robthenerd.com/download.php?file=Solas.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [],
+  "description": "Clockport RGB LED controller and peripheral driver (by Rob the Nerd)",
+  "id": "solas",
+  "install": {
+    "alternateMD5": [],
+    "archiveName": "Solas.lha",
+    "directURL": "http://www.robthenerd.com/download.php?file=Solas.lha",
+    "sourceType": "direct",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "Solas",
+  "provides": [],
+  "requiredCapabilities": [
+    "host-builtin-v1"
+  ],
+  "tier": "B",
+  "version": "-"
+}

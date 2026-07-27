@@ -1,0 +1,99 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "e934ac1907439d992648e1b6f3c6e283b97817545ac060ce28a161c30b23f745",
+    "sizeBytes": 74148,
+    "url": "https://www.7-bit.pl/download/RysMKII/RysWheel_Installer_v0.14.2.lha"
+  },
+  "category": "Input",
+  "conflicts": [],
+  "deps": [],
+  "description": "Ry\u015b MKII USB scroll wheel adapter driver",
+  "id": "ryswheel",
+  "install": {
+    "alternateMD5": [],
+    "directURL": "https://www.7-bit.pl/download/RysMKII/RysWheel_Installer_v0.14.2.lha",
+    "sourceType": "direct",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "Ry\u015b MKII",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "src": "RysWheel_Installer/C/RysWheel"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      },
+      {
+        "marker": "RysMKII",
+        "mode": "append",
+        "op": "scriptInject",
+        "overlay": "S/User-Startup_RysMKII",
+        "target": "S:User-Startup"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "script-inject-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "0.14.2"
+}

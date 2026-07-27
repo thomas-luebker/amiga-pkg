@@ -1,0 +1,105 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "23a4e6829e2ed5477b84e4bd36a4e69a8eedce821063c4e7b31056c3eae54c90",
+    "sizeBytes": 270412,
+    "url": "http://aminet.net/util/arc/xadmaster020.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "Universal archive extraction library (68020+)",
+  "id": "xadmaster",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "util/arc/xadmaster020.lha",
+    "md5": "38c003269becbf309108bf1c86e0c688",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "XAD Master",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Libs",
+        "op": "copyGlob",
+        "rename": "xadmaster.library",
+        "src": "xad/Libs/xadmaster.library"
+      },
+      {
+        "dest": "Libs/xad",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "xad/Libs/xad/*"
+      },
+      {
+        "dest": "C",
+        "op": "copyGlob",
+        "recursive": true,
+        "src": "xad/C/*"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "12.1a"
+}

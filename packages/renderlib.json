@@ -1,0 +1,102 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "15a9af6f81deb0d44ce5e7115bd5fa42505f05fd5cfd80b49d39cb8b5a4b72e1",
+    "sizeBytes": 201959,
+    "url": "http://aminet.net/dev/misc/renderlib.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "Image rendering library",
+  "id": "renderlib",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "dev/misc/renderlib.lha",
+    "md5": "835201535b6b924fb4112bad96ab157d",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "render.library",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Libs",
+        "op": "copyGlob",
+        "src": "render.library"
+      },
+      {
+        "dest": "Libs",
+        "op": "copyGlob",
+        "src": "renderlib/render.library"
+      },
+      {
+        "dest": "Libs",
+        "op": "copyGlob",
+        "src": "Libs/render.library"
+      },
+      {
+        "op": "stripJunk"
+      },
+      {
+        "op": "mergeNested"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "C"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "L"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "S"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Devs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Prefs"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Tools"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "System"
+      },
+      {
+        "depth": 0,
+        "op": "setExec",
+        "scope": "Classes"
+      },
+      {
+        "depth": 2,
+        "op": "setExec",
+        "scope": "Programs"
+      }
+    ],
+    "recipeSchema": 1
+  },
+  "requiredCapabilities": [
+    "copy-glob-v1",
+    "merge-nested-v1",
+    "set-exec-v1",
+    "strip-junk-v1"
+  ],
+  "tier": "A",
+  "version": "40.8"
+}

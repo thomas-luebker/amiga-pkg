@@ -1,0 +1,27 @@
+{
+  "archive": {
+    "mirrors": [],
+    "sha256": "bab8e39149f5b51edad8b21f9a4396519991fd2729bb87652c4f8833b4c767db",
+    "sizeBytes": 110986,
+    "url": "http://aminet.net/comm/tcp/rc-ftpd.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "FTP server daemon for AmigaOS",
+  "id": "rcftpd",
+  "install": {
+    "alternateMD5": [],
+    "aminetPath": "comm/tcp/rc-ftpd.lha",
+    "sourceType": "aminet",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "rc-ftpd",
+  "provides": [],
+  "requiredCapabilities": [
+    "host-builtin-v1"
+  ],
+  "tier": "B",
+  "version": "2.74"
+}
