@@ -960,8 +960,8 @@
           "http://us.aminet.net/misc/antiq/AmigaShopsD.lha",
           "http://se.aminet.net/misc/antiq/AmigaShopsD.lha"
         ],
-        "sha256" : "b9599d91c402040a60d6d939f19dc9dd60c1c8a9d40020b4138e6ed391ecc54d",
-        "sizeBytes" : 5977,
+        "sha256" : "88d3af8c28423a3da642e2023fb1bf236684aebd9c9c3c0c44e0dcff2bc8d90d",
+        "sizeBytes" : 5978,
         "url" : "http://aminet.net/misc/antiq/AmigaShopsD.lha"
       },
       "category" : "Text",
@@ -1097,9 +1097,9 @@
         "mirrors" : [
           "http://amiga-imager.org/packages/amipkg-client.lha"
         ],
-        "sha256" : "36eb76d28d97f3a28df13ac491dcc93a2aa12ac02af377bb082c1806a276ff5a",
-        "sizeBytes" : 546120,
-        "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.5.9/amipkg-client.lha"
+        "sha256" : "a95713175cfc8c3627b4948c3b0273f2c4d7b85e8575859ca0abba49325a4f43",
+        "sizeBytes" : 551141,
+        "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.6.0/amipkg-client.lha"
       },
       "category" : "System",
       "conflicts" : [
@@ -1169,7 +1169,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.5.9"
+      "version" : "0.6.0"
     },
     {
       "added" : "2026-07-27",
