@@ -4,8 +4,8 @@
     "mirrors": [
       "http://amiga-imager.org/packages/amipkg-client.lha"
     ],
-    "sha256": "1e64feca8ee3bf9fde43640ec4468b6b1df493f92f15934b0e74d28627150e0f",
-    "sizeBytes": 542724,
+    "sha256": "f60d3c635346790951e16083056d17505ffa13824a799983d3b9a907b52ec1d6",
+    "sizeBytes": 542664,
     "url": "https://github.com/thomas-luebker/amiga-pkg/releases/latest/download/amipkg-client.lha"
   },
   "category": "System",
@@ -70,5 +70,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "0.5.4"
+  "version": "0.5.5"
 }
