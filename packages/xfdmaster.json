@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/pack/xfdmaster.lha",
+      "http://se.aminet.net/util/pack/xfdmaster.lha"
+    ],
+    "sha256": "4147a2b29a7d007ab5b5a5f855c2a8095c6a9d9cadcb4f238d86cd8ca1424d62",
+    "sizeBytes": 173134,
+    "url": "http://aminet.net/util/pack/xfdmaster.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "The universal decruncher library (exe/data packers) - foundation for virus scanners and archive tools.",
+  "id": "xfdmaster",
+  "name": "xfdmaster.library",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.04"
+  },
+  "tier": "A",
+  "version": "1.38"
+}

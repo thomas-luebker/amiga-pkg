@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/virus/xvslibrary.lha",
+      "http://se.aminet.net/util/virus/xvslibrary.lha"
+    ],
+    "sha256": "7642b238e8df256e3519a909682f43b607e61df383e04766b660b773713b2c0a",
+    "sizeBytes": 103129,
+    "url": "http://aminet.net/util/virus/xvslibrary.lha"
+  },
+  "category": "Libraries",
+  "conflicts": [],
+  "deps": [],
+  "description": "External Virus Scanner library - the actively maintained detection engine behind VirusZ and friends.",
+  "id": "xvslibrary",
+  "name": "xvs.library",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.04"
+  },
+  "tier": "A",
+  "version": "33.49"
+}

@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/gfx/show/PicShow.lha",
+      "http://se.aminet.net/gfx/show/PicShow.lha"
+    ],
+    "sha256": "8fc82482d5cfbef4c13a90734d3214f74d0db6bf6e70551446953e9ba0d1b0a8",
+    "sizeBytes": 606103,
+    "url": "http://aminet.net/gfx/show/PicShow.lha"
+  },
+  "category": "Graphics",
+  "conflicts": [],
+  "deps": [],
+  "description": "Datatype-based picture viewer built for directory tools - shows whatever your datatypes can decode (the ak datatypes from this catalog pair well).",
+  "id": "picshow",
+  "name": "PicShow",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "1.29"
+}

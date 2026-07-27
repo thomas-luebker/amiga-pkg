@@ -1,0 +1,38 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/virus/VirusZ.lha",
+      "http://se.aminet.net/util/virus/VirusZ.lha"
+    ],
+    "sha256": "5f28474634348047f42cc7a8c35bde6ff11dd4482806770e17c97a5b73330779",
+    "sizeBytes": 114818,
+    "url": "http://aminet.net/util/virus/VirusZ.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "xvslibrary"
+    },
+    {
+      "id": "xfdmaster"
+    },
+    {
+      "id": "reqtools"
+    },
+    {
+      "id": "xadmaster"
+    }
+  ],
+  "description": "VirusZ III - THE Amiga antivirus. Scans files, memory and boot blocks; detection engine (xvs.library), decruncher (xfdmaster), ReqTools and xadmaster install automatically.",
+  "id": "virusz",
+  "name": "VirusZ III",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.04"
+  },
+  "tier": "A",
+  "version": "1.04b"
+}

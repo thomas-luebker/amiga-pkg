@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/misc/ReportPlus.lha",
+      "http://se.aminet.net/util/misc/ReportPlus.lha"
+    ],
+    "sha256": "efeec935d057f105392cd7dae8908c7a62b2060b17364860d8626e2207f7e32a",
+    "sizeBytes": 736343,
+    "url": "http://aminet.net/util/misc/ReportPlus.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Report+ - the multipurpose utility (bug reporter, batch icon/file processing, MUI/font/locale editors and more). Needs OS 3.9+BB2 or 3.2; PNG datatype.",
+  "id": "reportplus",
+  "name": "Report+",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.9"
+  },
+  "tier": "A",
+  "version": "8.7"
+}

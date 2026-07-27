@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/disk/misc/fat95.v20260614.lha",
+      "http://se.aminet.net/disk/misc/fat95.v20260614.lha"
+    ],
+    "sha256": "94db7a16799dac7d659700095dcfa227606088fa8603962d3c03dd4f34844b9b",
+    "sizeBytes": 254618,
+    "url": "http://aminet.net/disk/misc/fat95.v20260614.lha"
+  },
+  "category": "System",
+  "conflicts": [],
+  "deps": [],
+  "description": "Win95/98-compatible FAT filesystem - mount PC-formatted USB sticks, CF and SD cards as Amiga volumes. Current community-maintained build.",
+  "id": "fat95",
+  "name": "fat95",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.04"
+  },
+  "tier": "A",
+  "version": "20260614"
+}

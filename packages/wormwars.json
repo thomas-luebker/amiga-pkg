@@ -1,0 +1,25 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/actio/WormWars.lha",
+      "http://se.aminet.net/game/actio/WormWars.lha"
+    ],
+    "sha256": "31843a6045a3bbc0fee0e882c41ff02532a17095f0c782a92f831d20769119f6",
+    "sizeBytes": 877441,
+    "url": "http://aminet.net/game/actio/WormWars.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "Advanced snake/Tron arena game by James Jacobs - still actively developed after 25+ years. OS 3.0+, 2 MB RAM.",
+  "id": "wormwars",
+  "name": "Worm Wars",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "9.36"
+}
