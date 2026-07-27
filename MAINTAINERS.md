@@ -82,6 +82,12 @@ git push          # updates BOTH endpoints: GitHub Pages + the amiga-imager.org 
   https://github.com/thomas-luebker/amiga-pkg/releases — the catalog's
   `amipkg` entry pins the client asset's sha256, so re-pin + re-sign whenever
   the release binaries change (`amipkg/dist/make-bundle.sh` prints the sha).
+  **Pin the VERSIONED asset URL** (`releases/download/vX.Y.Z/...`), never
+  `releases/latest` - latest floats while the sha pin is fixed, so any client
+  with a slightly older catalog gets a guaranteed (safe, but confusing) sha
+  refusal the moment a new release lands. Bump version + url tag + sha256 +
+  sizeBytes TOGETHER, always after a `make clean` build (the Makefile's
+  header deps force relinks, but verify all three `$VER`s anyway).
 
 ## Key hygiene
 
