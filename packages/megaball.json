@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/game/misc/MegaBallAGA.lha",
+      "http://se.aminet.net/game/misc/MegaBallAGA.lha"
+    ],
+    "sha256": "098b4adfef387e9639c46cac85b36ee81d80fee5d3028c829a4cd2efd7e6c33c",
+    "sizeBytes": 286809,
+    "url": "http://aminet.net/game/misc/MegaBallAGA.lha"
+  },
+  "category": "Games",
+  "conflicts": [],
+  "deps": [],
+  "description": "MegaBall 3.0 AGA/OCS - the classic freeware brick-breaker every Amiga owner remembers. Runs from KS 1.2 up.",
+  "id": "megaball",
+  "name": "MegaBall AGA",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "3.0"
+}

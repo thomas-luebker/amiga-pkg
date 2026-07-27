@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/text/edit/vim53rt.lha",
+      "http://se.aminet.net/text/edit/vim53rt.lha"
+    ],
+    "sha256": "01a10bca024c7edea2b81f2b3415ba958970ccfa650bdb44ff2e0ae858aa0287",
+    "sizeBytes": 869738,
+    "url": "http://aminet.net/text/edit/vim53rt.lha"
+  },
+  "category": "Text",
+  "conflicts": [],
+  "deps": [],
+  "description": "Runtime files (syntax, help, macros) for Vim - installed automatically with the vim package.",
+  "id": "vimruntime",
+  "name": "Vim runtime files",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "5.3"
+}

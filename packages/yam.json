@@ -1,0 +1,30 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [],
+    "sha256": "2df011722d29bb9a7bcb76f7176c60e85370957ca29d59d1532cdd6177054e6c",
+    "sizeBytes": 3522661,
+    "url": "https://github.com/jens-maus/yam/releases/latest/download/YAM29p1-AmigaOS3.lha"
+  },
+  "category": "Internet",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "amissl"
+    },
+    {
+      "id": "mui38"
+    }
+  ],
+  "description": "Yet Another Mailer - THE classic MUI email client (IMAP/POP/SMTP, SSL via AmiSSL). Dependencies MUI and AmiSSL install automatically first - AmiSSL also enables this download itself.",
+  "id": "yam",
+  "name": "YAM",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0",
+    "network": true
+  },
+  "tier": "A",
+  "version": "2.9p1"
+}

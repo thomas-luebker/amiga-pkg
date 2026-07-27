@@ -1,0 +1,23 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/arc/UnZIP552.lha",
+      "http://se.aminet.net/util/arc/UnZIP552.lha"
+    ],
+    "sha256": "3dd82117d4a809d1753ce4defcc65756f9a575687b51122f50f29ecd79a8a056",
+    "sizeBytes": 148637,
+    "url": "http://aminet.net/util/arc/UnZIP552.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Info-ZIP UnZip 5.52 (final 68k) - extract .zip archives from the Shell. The standard companion to C:lha.",
+  "id": "unzip",
+  "name": "UnZip",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "5.52"
+}

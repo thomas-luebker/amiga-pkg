@@ -1,0 +1,26 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/comm/tcp/smbfs-68k.lha",
+      "http://se.aminet.net/comm/tcp/smbfs-68k.lha"
+    ],
+    "sha256": "7604d131f13d89f7bc5b928a1e3ff366b8335dad215ec16e9286c614746d8352",
+    "sizeBytes": 146640,
+    "url": "http://aminet.net/comm/tcp/smbfs-68k.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "SMB filesystem client by Olaf Barthel - mount Windows/NAS/Samba shares as Amiga volumes over your TCP/IP stack.",
+  "id": "smbfs",
+  "name": "smbfs",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "3.0",
+    "network": true
+  },
+  "tier": "A",
+  "version": "1.74"
+}

@@ -1,0 +1,30 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/util/cdity/MCP133b1.lha",
+      "http://se.aminet.net/util/cdity/MCP133b1.lha"
+    ],
+    "sha256": "79ca1d2f3aaef4890611f95d3be5a1b015eb839d45bdc0247b64bffc0c428264",
+    "sizeBytes": 529079,
+    "url": "http://aminet.net/util/cdity/MCP133b1.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "mui38"
+    }
+  ],
+  "description": "Master Control Program - THE Workbench enhancer: dozens of system patches and tweaks in one commodity (MUI prefs).",
+  "id": "mcp",
+  "name": "MCP",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minCPU": "68020",
+    "minKS": "3.0"
+  },
+  "tier": "A",
+  "version": "1.33b1"
+}

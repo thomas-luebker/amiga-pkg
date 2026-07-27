@@ -1,0 +1,27 @@
+{
+  "added": "2026-07-27",
+  "archive": {
+    "mirrors": [
+      "http://us.aminet.net/text/edit/vim53bin.lha",
+      "http://se.aminet.net/text/edit/vim53bin.lha"
+    ],
+    "sha256": "c9b2c740079b361793a9eb9bf876ec7adc203a656a6bd674c7daf76972e14ab2",
+    "sizeBytes": 260102,
+    "url": "http://aminet.net/text/edit/vim53bin.lha"
+  },
+  "category": "Text",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "vimruntime"
+    }
+  ],
+  "description": "Vi IMproved 5.3 - the classic modal editor, native 68k build. Runtime files (syntax/help) come along as a dependency.",
+  "id": "vim",
+  "name": "Vim",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {},
+  "tier": "A",
+  "version": "5.3"
+}

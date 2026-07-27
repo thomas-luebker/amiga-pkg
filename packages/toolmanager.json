@@ -1,5 +1,5 @@
 {
-  "added": "2026-07-24",
+  "added": "2026-07-27",
   "archive": {
     "mirrors": [
       "http://us.aminet.net/util/wb/ToolManager2_1bin.lha",
@@ -12,11 +12,14 @@
   "category": "Utilities",
   "conflicts": [],
   "deps": [],
-  "description": "ToolManager 2.1 (Binaries and Docs)",
+  "description": "The classic Workbench docks/menus/hotkeys launcher (binaries + docs). A piece of every well-worn 3.x setup.",
   "id": "toolmanager",
   "name": "ToolManager",
   "provides": [],
   "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.04"
+  },
   "tier": "A",
   "version": "2.1"
 }
