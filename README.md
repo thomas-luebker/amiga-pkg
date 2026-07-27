@@ -79,7 +79,8 @@ HTTP, which is what `amipkg` on the Amiga needs). CI verifies that the archive a
 published index is generated 1:1 from these manifests (plus the signing
 step). Spotted a wrong version, a better mirror, a missing dependency, or
 an outdated description? Open a pull request against that file; corrections
-are as welcome as new packages.
+are as welcome as new packages. Everyone who contributes is listed in
+[`CONTRIBUTORS.md`](CONTRIBUTORS.md) - add yourself in your PR.
 
 ## Contributing
 
