@@ -4314,6 +4314,39 @@
       "version" : "2.0"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/mus/edit/OctaMEDv4.lha",
+          "http://se.aminet.net/mus/edit/OctaMEDv4.lha"
+        ],
+        "sha256" : "cf961328a435b3d17dc2436d7deadc2919eae4e907867611bce16e39c958dd24",
+        "sizeBytes" : 305822,
+        "url" : "http://aminet.net/mus/edit/OctaMEDv4.lha"
+      },
+      "category" : "Audio",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "OctaMED 4 - the legendary 8-voice music editor/tracker, officially released as freeware. A piece of Amiga music history, ready to run.",
+      "id" : "octamed",
+      "name" : "OctaMED",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+
+      },
+      "tier" : "A",
+      "version" : "4.00"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -6216,7 +6249,7 @@
       "version" : "1.7.3"
     },
     {
-      "added" : "2026-07-24",
+      "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
           "http://us.aminet.net/text/edit/tinyedit_aos.lha",
@@ -6231,9 +6264,11 @@
 
       ],
       "deps" : [
-
+        {
+          "id" : "amissl"
+        }
       ],
-      "description" : "Lightweight text editor",
+      "description" : "Lightweight text editor with modern conveniences. Uses AmiSSL for its online features (installed automatically).",
       "id" : "tinyedit",
       "name" : "TinyEdit",
       "provides" : [
@@ -6243,10 +6278,10 @@
 
       ],
       "requirements" : {
-        "amiSSL" : true
+        "minKS" : "3.1"
       },
       "tier" : "A",
-      "version" : "1.3.5"
+      "version" : "1.3.9"
     },
     {
       "added" : "2026-07-24",
