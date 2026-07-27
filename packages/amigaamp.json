@@ -1,8 +1,8 @@
 {
   "archive": {
     "mirrors": [],
-    "sha256": "cad37d708603a05f813a94e2f5ca059b4e03e20da5ec675e13efe6543b997bf1",
-    "sizeBytes": 413247,
+    "sha256": "2d931d310e3bbee467b8a6a5c652dc5a746b90a3e2e1d5a9eb5fc0493fafbdf2",
+    "sizeBytes": 412617,
     "url": "http://aminet.net/mus/play/AmigaAMP3-68k.lha"
   },
   "category": "Multimedia",
