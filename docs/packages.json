@@ -2212,6 +2212,39 @@
       "version" : "1.6.0.09"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/disk/misc/fat95.v20260614.lha",
+          "http://se.aminet.net/disk/misc/fat95.v20260614.lha"
+        ],
+        "sha256" : "94db7a16799dac7d659700095dcfa227606088fa8603962d3c03dd4f34844b9b",
+        "sizeBytes" : 254618,
+        "url" : "http://aminet.net/disk/misc/fat95.v20260614.lha"
+      },
+      "category" : "System",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Win95/98-compatible FAT filesystem - mount PC-formatted USB sticks, CF and SD cards as Amiga volumes. Current community-maintained build.",
+      "id" : "fat95",
+      "name" : "fat95",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.04"
+      },
+      "tier" : "A",
+      "version" : "20260614"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -4700,6 +4733,39 @@
       "version" : "2.0"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/gfx/show/PicShow.lha",
+          "http://se.aminet.net/gfx/show/PicShow.lha"
+        ],
+        "sha256" : "8fc82482d5cfbef4c13a90734d3214f74d0db6bf6e70551446953e9ba0d1b0a8",
+        "sizeBytes" : 606103,
+        "url" : "http://aminet.net/gfx/show/PicShow.lha"
+      },
+      "category" : "Graphics",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Datatype-based picture viewer built for directory tools - shows whatever your datatypes can decode (the ak datatypes from this catalog pair well).",
+      "id" : "picshow",
+      "name" : "PicShow",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "1.29"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -5252,6 +5318,39 @@
       ],
       "tier" : "A",
       "version" : "40.8"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/misc/ReportPlus.lha",
+          "http://se.aminet.net/util/misc/ReportPlus.lha"
+        ],
+        "sha256" : "efeec935d057f105392cd7dae8908c7a62b2060b17364860d8626e2207f7e32a",
+        "sizeBytes" : 736343,
+        "url" : "http://aminet.net/util/misc/ReportPlus.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Report+ - the multipurpose utility (bug reporter, batch icon/file processing, MUI/font/locale editors and more). Needs OS 3.9+BB2 or 3.2; PNG datatype.",
+      "id" : "reportplus",
+      "name" : "Report+",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "3.9"
+      },
+      "tier" : "A",
+      "version" : "8.7"
     },
     {
       "added" : "2026-07-24",
@@ -6957,6 +7056,50 @@
       "version" : "5.3"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/virus/VirusZ.lha",
+          "http://se.aminet.net/util/virus/VirusZ.lha"
+        ],
+        "sha256" : "5f28474634348047f42cc7a8c35bde6ff11dd4482806770e17c97a5b73330779",
+        "sizeBytes" : 114818,
+        "url" : "http://aminet.net/util/virus/VirusZ.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "xvslibrary"
+        },
+        {
+          "id" : "xfdmaster"
+        },
+        {
+          "id" : "reqtools"
+        },
+        {
+          "id" : "xadmaster"
+        }
+      ],
+      "description" : "VirusZ III - THE Amiga antivirus. Scans files, memory and boot blocks; detection engine (xvs.library), decruncher (xfdmaster), ReqTools and xadmaster install automatically.",
+      "id" : "virusz",
+      "name" : "VirusZ III",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.04"
+      },
+      "tier" : "A",
+      "version" : "1.04b"
+    },
+    {
       "added" : "2026-07-25",
       "archive" : {
         "mirrors" : [
@@ -7174,6 +7317,39 @@
       "version" : "-"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/game/actio/WormWars.lha",
+          "http://se.aminet.net/game/actio/WormWars.lha"
+        ],
+        "sha256" : "31843a6045a3bbc0fee0e882c41ff02532a17095f0c782a92f831d20769119f6",
+        "sizeBytes" : 877441,
+        "url" : "http://aminet.net/game/actio/WormWars.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Advanced snake/Tron arena game by James Jacobs - still actively developed after 25+ years. OS 3.0+, 2 MB RAM.",
+      "id" : "wormwars",
+      "name" : "Worm Wars",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "9.36"
+    },
+    {
       "archive" : {
         "mirrors" : [
 
@@ -7289,6 +7465,39 @@
       "version" : "12.1a"
     },
     {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/pack/xfdmaster.lha",
+          "http://se.aminet.net/util/pack/xfdmaster.lha"
+        ],
+        "sha256" : "4147a2b29a7d007ab5b5a5f855c2a8095c6a9d9cadcb4f238d86cd8ca1424d62",
+        "sizeBytes" : 173134,
+        "url" : "http://aminet.net/util/pack/xfdmaster.lha"
+      },
+      "category" : "Libraries",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "The universal decruncher library (exe/data packers) - foundation for virus scanners and archive tools.",
+      "id" : "xfdmaster",
+      "name" : "xfdmaster.library",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.04"
+      },
+      "tier" : "A",
+      "version" : "1.38"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -7317,6 +7526,39 @@
       ],
       "tier" : "A",
       "version" : "1.0"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+          "http://us.aminet.net/util/virus/xvslibrary.lha",
+          "http://se.aminet.net/util/virus/xvslibrary.lha"
+        ],
+        "sha256" : "7642b238e8df256e3519a909682f43b607e61df383e04766b660b773713b2c0a",
+        "sizeBytes" : 103129,
+        "url" : "http://aminet.net/util/virus/xvslibrary.lha"
+      },
+      "category" : "Libraries",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "External Virus Scanner library - the actively maintained detection engine behind VirusZ and friends.",
+      "id" : "xvslibrary",
+      "name" : "xvs.library",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.04"
+      },
+      "tier" : "A",
+      "version" : "33.49"
     },
     {
       "added" : "2026-07-24",
