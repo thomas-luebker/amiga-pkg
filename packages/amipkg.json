@@ -4,7 +4,7 @@
     "mirrors": [
       "http://amiga-imager.org/packages/amipkg-client.lha"
     ],
-    "sha256": "68e1930d5303d7b65c136137a0e1b5512cb103cd6aad16fc28638bb6bbb1398e",
+    "sha256": "1e64feca8ee3bf9fde43640ec4468b6b1df493f92f15934b0e74d28627150e0f",
     "sizeBytes": 542724,
     "url": "https://github.com/thomas-luebker/amiga-pkg/releases/latest/download/amipkg-client.lha"
   },
