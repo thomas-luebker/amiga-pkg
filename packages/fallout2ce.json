@@ -1,10 +1,12 @@
 {
   "added": "2026-07-27",
   "archive": {
-    "mirrors": [],
+    "mirrors": [
+      "https://www.amigaworld.de/software/fallout2/Fallout2-CE.lha"
+    ],
     "sha256": "abf84da5e0dd4ce4912b0589071e2f5b223b3db8589e9353a537053162aee9ba",
     "sizeBytes": 1290252,
-    "url": "https://www.amigaworld.de/software/fallout2/Fallout2-CE.lha"
+    "url": "http://www.amigaworld.de/software/fallout2/Fallout2-CE.lha"
   },
   "category": "Games",
   "conflicts": [],
