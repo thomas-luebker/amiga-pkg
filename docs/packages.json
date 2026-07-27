@@ -3033,6 +3033,76 @@
       "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
+
+        ],
+        "sha256" : "6dff9007b1ce7ceb54016d68e265cbebfb3e68a74b4b57ed6f3714170363ad83",
+        "sizeBytes" : 844098,
+        "url" : "https://www.amigaworld.de/software/fallout1/Fallout-CE.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "ahi"
+        }
+      ],
+      "description" : "Native 68k port of the Fallout 1 Community Edition engine by DJBase (amigaworld.de) - RTG via cybergraphics, AHI audio, MVE movies, optional Apollo AMMX acceleration. Ships the engine, a ReAction settings tool and dat1-extract; you supply the original Fallout game data.",
+      "id" : "fallout1ce",
+      "name" : "Fallout 1 CE (68k)",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68060",
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "15"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "abf84da5e0dd4ce4912b0589071e2f5b223b3db8589e9353a537053162aee9ba",
+        "sizeBytes" : 1290252,
+        "url" : "https://www.amigaworld.de/software/fallout2/Fallout2-CE.lha"
+      },
+      "category" : "Games",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "ahi"
+        }
+      ],
+      "description" : "Native 68k port of the Fallout 2 Community Edition engine by DJBase (amigaworld.de) - RTG via cybergraphics, AHI audio with lipsync, MVE movies, optional Apollo AMMX acceleration. Ships the engine, a ReAction settings tool and dat2-extract; you supply the original Fallout 2 game data.",
+      "id" : "fallout2ce",
+      "name" : "Fallout 2 CE (68k)",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minCPU" : "68060",
+        "minKS" : "3.0"
+      },
+      "tier" : "A",
+      "version" : "5"
+    },
+    {
+      "added" : "2026-07-27",
+      "archive" : {
+        "mirrors" : [
           "http://us.aminet.net/game/2play/Family_Solitaire.lha",
           "http://se.aminet.net/game/2play/Family_Solitaire.lha"
         ],
