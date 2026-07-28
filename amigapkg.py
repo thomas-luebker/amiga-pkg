@@ -251,11 +251,23 @@ def cmd_validate(a):
                 elif not SHA_RE.match(sha):
                     err(pid, "archive.sha256 must be 64 lower-case hex chars")
                 if a.check_archives and url and sha and SHA_RE.match(sha):
-                    try:
-                        with urllib.request.urlopen(url, timeout=60) as r:
-                            data = r.read()
-                    except Exception as ex:  # noqa: BLE001
-                        err(pid, f"archive.url not reachable: {ex}")
+                    # Explicit User-Agent: several hosts 403 the default
+                    # Python-urllib UA outright (ibrowse-dev.net; same class
+                    # as grandis' mod_qos) — any explicit UA gets 200. Try
+                    # the mirrors before declaring an entry unreachable.
+                    data = None
+                    last_ex = None
+                    for cand in [url] + list(arch.get("mirrors") or []):
+                        req = urllib.request.Request(
+                            cand, headers={"User-Agent": "amigapkg-validate/1.0"})
+                        try:
+                            with urllib.request.urlopen(req, timeout=60) as r:
+                                data = r.read()
+                            break
+                        except Exception as ex:  # noqa: BLE001
+                            last_ex = ex
+                    if data is None:
+                        err(pid, f"archive unreachable (url + mirrors): {last_ex}")
                         continue
                     got = hashlib.sha256(data).hexdigest()
                     if got != sha:
