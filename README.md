@@ -90,6 +90,20 @@ open a PR. CI checks it; a maintainer merges, signs, and publishes. The tooling 
 **pure Python 3** — no Swift or AmigaImager needed, so anyone on any OS can add a
 package.
 
+## Or run your own repository
+
+Since amipkg 0.7.0 the client installs from **multiple repositories**, so you do
+not have to go through this one. A repository is two static files on any web
+server, and signing yours gives your users the same on-Amiga verification the
+official catalog gets.
+
+**→ [HOSTING.md](https://github.com/thomas-luebker/amipkg/blob/main/HOSTING.md)**
+in the client repo walks through it, including the keypair.
+
+Submitting here is still the way to reach *everyone* by default — packages in
+this catalog are human-reviewed, signed offline, and need no setup on the user's
+machine.
+
 ## Layout
 
 ```
