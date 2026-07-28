@@ -4,9 +4,9 @@
     "mirrors": [
       "http://amiga-imager.org/packages/amipkg-client.lha"
     ],
-    "sha256": "a95713175cfc8c3627b4948c3b0273f2c4d7b85e8575859ca0abba49325a4f43",
-    "sizeBytes": 551141,
-    "url": "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.6.0/amipkg-client.lha"
+    "sha256": "e1817851a8a40dc68299e4f569290105b8cbe2d7006c00a8348d61fdb584185f",
+    "sizeBytes": 553549,
+    "url": "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.6.1/amipkg-client.lha"
   },
   "category": "System",
   "conflicts": [],
@@ -70,5 +70,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "0.6.0"
+  "version": "0.6.1"
 }
