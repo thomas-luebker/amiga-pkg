@@ -8,7 +8,8 @@ on:
     paths: ["packages/**", "schema/**", "amigapkg.py"]
   push:
     branches: [main]
-    paths: ["packages/**"]
+    paths: ["packages/**", "amigapkg.py", ".github/workflows/validate.yml"]
+  workflow_dispatch:
 
 jobs:
   validate:
