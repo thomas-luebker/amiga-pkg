@@ -53,6 +53,27 @@ for FILE in $PENDING; do
         notify "Rejected on-Amiga submission '$ID': id already exists"
         ack; continue
     fi
+    # Verify the submitted sha256 against a FRESH download on the Pi: a
+    # corrupted download on the submitter's Amiga (flaky WiFi, dying CF)
+    # would otherwise produce an entry whose pin never matches the real
+    # archive - reviewed, merged, and failing every install.
+    SUB_URL=$(python3 -c "import json;print(json.load(open('$TMP'))['archive']['url'])" 2>/dev/null)
+    SUB_SHA=$(python3 -c "import json;print(json.load(open('$TMP'))['archive']['sha256'])" 2>/dev/null)
+    ARCH="$HOME_DIR/tmp-submission-archive"
+    if ! curl -sfL --max-time 300 "$SUB_URL" -o "$ARCH"; then
+        echo "archive download failed ($SUB_URL) - rejected"
+        notify "Rejected on-Amiga submission '$ID': archive URL not fetchable"
+        ack; rm -f "$TMP" "$ARCH"; continue
+    fi
+    PI_SHA=$(sha256sum "$ARCH" | cut -d' ' -f1)
+    rm -f "$ARCH"
+    if [ "$PI_SHA" != "$SUB_SHA" ]; then
+        echo "sha mismatch: submitted $SUB_SHA, Pi got $PI_SHA - rejected"
+        notify "Rejected on-Amiga submission '$ID': sha256 mismatch (their download was likely corrupted)"
+        ack; rm -f "$TMP"; continue
+    fi
+    echo "sha verified on the Pi"
+
     BRANCH="submission/$ID-$(date -u +%Y%m%d%H%M)"
     git checkout -q -b "$BRANCH"
     cp "$TMP" "packages/$ID.json"
