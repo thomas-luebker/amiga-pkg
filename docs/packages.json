@@ -1188,7 +1188,7 @@
       "deps" : [
 
       ],
-      "description" : "SSL/TLS library (required for HTTPS in IBrowse)",
+      "description" : "SSL/TLS for AmigaOS 3.x - enables https in amipkg, IBrowse, WookieChat and friends. Installing places amisslmaster.library and the 68020+ AmiSSL core into LIBS: (the activation step the archive's manual install describes). Certificate-verification data is not installed - apps that verify server certificates can run the archive's own Install-AmiSSL for the full setup.",
       "id" : "amissl",
       "install" : {
         "alternateMD5" : [
@@ -1203,9 +1203,27 @@
       "provides" : [
 
       ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "LIBS:",
+            "op" : "placeFile",
+            "src" : "AmiSSL/Libs/AmigaOS3/amisslmaster.library"
+          },
+          {
+            "dest" : "LIBS:AmiSSL",
+            "op" : "placeFile",
+            "src" : "AmiSSL/Libs/AmigaOS3/AmiSSL/68020-40/amissl_v362.library"
+          }
+        ],
+        "recipeSchema" : 2
+      },
       "requiredCapabilities" : [
         "host-builtin-v1"
       ],
+      "requirements" : {
+        "minCPU" : "68020"
+      },
       "tier" : "B",
       "version" : "5.27"
     },
