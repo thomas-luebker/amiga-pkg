@@ -653,8 +653,8 @@
           "http://us.aminet.net/comm/www/Amelinium.lha",
           "http://se.aminet.net/comm/www/Amelinium.lha"
         ],
-        "sha256" : "18c46ed1cac9f66636d235f382a45200857752259cbd0bb807fa4fdee2560de5",
-        "sizeBytes" : 3627088,
+        "sha256" : "527e6775721cf4919e19a5d9ce15970877b7cf031fba4dce69653ab8cd7c1ce5",
+        "sizeBytes" : 3723168,
         "url" : "http://aminet.net/comm/www/Amelinium.lha"
       },
       "category" : "Internet",
@@ -677,7 +677,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.8.7"
+      "version" : "0.8.9"
     },
     {
       "added" : "2026-07-24",
@@ -960,7 +960,7 @@
           "http://us.aminet.net/misc/antiq/AmigaShopsD.lha",
           "http://se.aminet.net/misc/antiq/AmigaShopsD.lha"
         ],
-        "sha256" : "88d3af8c28423a3da642e2023fb1bf236684aebd9c9c3c0c44e0dcff2bc8d90d",
+        "sha256" : "36c9b75e28e979a08032cd4803d01a97bc72ebee2189e2e653a107ee8b09bf25",
         "sizeBytes" : 5978,
         "url" : "http://aminet.net/misc/antiq/AmigaShopsD.lha"
       },
@@ -6462,8 +6462,8 @@
           "http://us.aminet.net/game/strat/Polanie-RTG-amiga.lha",
           "http://se.aminet.net/game/strat/Polanie-RTG-amiga.lha"
         ],
-        "sha256" : "c9645ab7e75b68e8b2425895ab4f6969617103fd60d6babe1fb8c98fd9344645",
-        "sizeBytes" : 747392,
+        "sha256" : "2c4646081a8c45d49c5f0050956324b7ab54f90ff89730ec67d8fadd7f2b6095",
+        "sizeBytes" : 427037,
         "url" : "http://aminet.net/game/strat/Polanie-RTG-amiga.lha"
       },
       "category" : "Games",
@@ -6486,7 +6486,7 @@
         "minCPU" : "68030"
       },
       "tier" : "A",
-      "version" : "0.4"
+      "version" : "1.0"
     },
     {
       "archive" : {
@@ -8379,8 +8379,8 @@
           "http://us.aminet.net/comm/tcp/TheWire13.lha",
           "http://se.aminet.net/comm/tcp/TheWire13.lha"
         ],
-        "sha256" : "483e17e7a4aca49c3e674a0766061be1fb902acfc837aa08ff20cb6dc7e36f09",
-        "sizeBytes" : 143776,
+        "sha256" : "035d92f6941a0c0f179fc531039ba464a8d7d776e2e6c344819ee7833e535b16",
+        "sizeBytes" : 144696,
         "url" : "http://aminet.net/comm/tcp/TheWire13.lha"
       },
       "category" : "Internet",
@@ -8400,7 +8400,7 @@
 
       ],
       "tier" : "A",
-      "version" : "1.7.3"
+      "version" : "1.7.4"
     },
     {
       "added" : "2026-07-27",

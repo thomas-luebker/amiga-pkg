@@ -5,8 +5,8 @@
       "http://us.aminet.net/game/strat/Polanie-RTG-amiga.lha",
       "http://se.aminet.net/game/strat/Polanie-RTG-amiga.lha"
     ],
-    "sha256": "c9645ab7e75b68e8b2425895ab4f6969617103fd60d6babe1fb8c98fd9344645",
-    "sizeBytes": 747392,
+    "sha256": "2c4646081a8c45d49c5f0050956324b7ab54f90ff89730ec67d8fadd7f2b6095",
+    "sizeBytes": 427037,
     "url": "http://aminet.net/game/strat/Polanie-RTG-amiga.lha"
   },
   "category": "Games",
@@ -21,5 +21,5 @@
     "minCPU": "68030"
   },
   "tier": "A",
-  "version": "0.4"
+  "version": "1.0"
 }
