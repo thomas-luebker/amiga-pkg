@@ -957,39 +957,6 @@
       "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
-          "http://us.aminet.net/misc/antiq/AmigaShopsD.lha",
-          "http://se.aminet.net/misc/antiq/AmigaShopsD.lha"
-        ],
-        "sha256" : "36c9b75e28e979a08032cd4803d01a97bc72ebee2189e2e653a107ee8b09bf25",
-        "sizeBytes" : 5978,
-        "url" : "http://aminet.net/misc/antiq/AmigaShopsD.lha"
-      },
-      "category" : "Text",
-      "conflicts" : [
-
-      ],
-      "deps" : [
-
-      ],
-      "description" : "Guide to German Amiga dealers (in German): historic shops plus the Amiga online stores still active in Germany/Europe today. AmigaGuide format - open with MultiView.",
-      "id" : "amigashopsd",
-      "name" : "AmigaShops DE",
-      "provides" : [
-
-      ],
-      "requiredCapabilities" : [
-
-      ],
-      "requirements" : {
-
-      },
-      "tier" : "A",
-      "version" : "1.3"
-    },
-    {
-      "added" : "2026-07-27",
-      "archive" : {
-        "mirrors" : [
           "http://us.aminet.net/game/misc/AMIgotchy.lha",
           "http://se.aminet.net/game/misc/AMIgotchy.lha"
         ],
