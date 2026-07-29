@@ -1,0 +1,1 @@
+{"id":"bebbossh","name":"bebbossh","version":"-","category":"Network","description":"SSH2 suite, client/server, sftp","archive":{"url":"http://aminet.net/comm/net/bebbossh.lha","sha256":"b959b8431dd608b46a5f93ab59957bff238940d14667572143dfe47206df7e7c","sizeBytes":316908},"deps":[],"requirements":{},"tier":"A","submittedVia":"amipkg 0.7.3 on-Amiga"}
