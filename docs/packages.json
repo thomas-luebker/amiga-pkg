@@ -1064,9 +1064,9 @@
         "mirrors" : [
           "http://amiga-imager.org/packages/amipkg-client.lha"
         ],
-        "sha256" : "715ba198e8b0148011d9781061de5f1c732e2f342deab1604df04ba9d799df7d",
-        "sizeBytes" : 346746,
-        "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.7.1/amipkg-client.lha"
+        "sha256" : "70da8a7ac8280c6d5d3a8e7c2af29eb3015dfe8da2e5708b5e76ae6be4a84650",
+        "sizeBytes" : 348491,
+        "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.7.2/amipkg-client.lha"
       },
       "category" : "System",
       "conflicts" : [
@@ -1136,7 +1136,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.7.1"
+      "version" : "0.7.2"
     },
     {
       "added" : "2026-07-27",
@@ -2024,8 +2024,8 @@
           "http://us.aminet.net/util/shell/ltx-cc123.lha",
           "http://se.aminet.net/util/shell/ltx-cc123.lha"
         ],
-        "sha256" : "a220bbc2dfaf8b4c51f81e37f31c6a2444f8afe05a32fed2593e9e7d7cbd9052",
-        "sizeBytes" : 5970,
+        "sha256" : "65d0d5187c2268727f5cfcb60ffeb429c3725ad0c2ea92ad06605da002ef2c16",
+        "sizeBytes" : 4472,
         "url" : "http://aminet.net/util/shell/ltx-cc125.lha"
       },
       "category" : "Utilities",
