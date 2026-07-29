@@ -2,12 +2,12 @@
   "added": "2026-07-24",
   "archive": {
     "mirrors": [
-      "http://us.aminet.net/util/shell/ltx-cc123.lha",
-      "http://se.aminet.net/util/shell/ltx-cc123.lha"
+      "http://us.aminet.net/util/shell/ltx-ccon.lha",
+      "http://se.aminet.net/util/shell/ltx-ccon.lha"
     ],
-    "sha256": "65d0d5187c2268727f5cfcb60ffeb429c3725ad0c2ea92ad06605da002ef2c16",
-    "sizeBytes": 4472,
-    "url": "http://aminet.net/util/shell/ltx-cc125.lha"
+    "sha256": "7e7e6b3240379882620809f811c4c2c0ed7294a44d758a6754c9f43fb1c31e2f",
+    "sizeBytes": 54328,
+    "url": "http://aminet.net/util/shell/ltx-ccon.lha"
   },
   "category": "Utilities",
   "conflicts": [],
