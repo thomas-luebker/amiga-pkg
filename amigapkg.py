@@ -39,13 +39,32 @@ ID_RE = re.compile(r"^[a-z0-9][a-z0-9._-]*$")
 SHA_RE = re.compile(r"^[0-9a-f]{64}$")
 
 
+def looks_like_lha(data):
+    """LHA header: the method tag "-lh?-" sits at offset 2."""
+    return len(data) > 6 and data[2:5] == b"-lh"
+
+
 def _fetch(url, timeout=180):
-    """Download url via curl (system CA; works for http and https)."""
+    """Download url via curl (system CA; works for http and https).
+
+    --fail matters: without it curl returns the server's ERROR PAGE with exit
+    status 0, and everything downstream happily hashes it. That is exactly how
+    ccon came to be pinned to Aminet's 404 page - a 5970-byte HTML document
+    recorded as the archive, with a valid-looking sha256 (2026-07-29). A user
+    installing it would have downloaded HTML that MATCHED the pin.
+
+    For .lha URLs the payload is checked too, because a mirror can answer 200
+    with an error page and --fail would not notice."""
     import subprocess
-    p = subprocess.run(["/usr/bin/curl", "-sL", "--max-time", str(timeout), url],
+    p = subprocess.run(["/usr/bin/curl", "-sL", "--fail", "--max-time", str(timeout),
+                        "-A", "amigapkg-validate/1.0", url],
                        capture_output=True)
     if p.returncode != 0 or not p.stdout:
         raise RuntimeError("curl rc=%d" % p.returncode)
+    if url.lower().endswith(".lha") and not looks_like_lha(p.stdout):
+        head = p.stdout[:80].decode("latin-1", "replace").replace("\n", " ")
+        raise RuntimeError("not an LHA archive (%d bytes, starts %r) - "
+                           "an error page served with 200?" % (len(p.stdout), head))
     return p.stdout
 
 
