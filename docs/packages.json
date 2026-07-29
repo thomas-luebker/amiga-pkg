@@ -2024,8 +2024,8 @@
           "http://us.aminet.net/util/shell/ltx-cc123.lha",
           "http://se.aminet.net/util/shell/ltx-cc123.lha"
         ],
-        "sha256" : "ebd580d369487eba6d86950567d1e17ea74c121614ac3e17157e1cf16de552aa",
-        "sizeBytes" : 51462,
+        "sha256" : "a220bbc2dfaf8b4c51f81e37f31c6a2444f8afe05a32fed2593e9e7d7cbd9052",
+        "sizeBytes" : 5970,
         "url" : "http://aminet.net/util/shell/ltx-cc125.lha"
       },
       "category" : "Utilities",
@@ -3256,8 +3256,8 @@
           "http://us.aminet.net/comm/tcp/Fitz.lha",
           "http://se.aminet.net/comm/tcp/Fitz.lha"
         ],
-        "sha256" : "1dee400576c79ddc2061e7900fbdc1690dae5925883f189cc67248633d092289",
-        "sizeBytes" : 293730,
+        "sha256" : "1c4a4170cd71386d634c3322a86246ee9542760a68f747602a7a38783e75c86e",
+        "sizeBytes" : 294558,
         "url" : "http://aminet.net/comm/tcp/Fitz.lha"
       },
       "category" : "Internet",
@@ -3280,7 +3280,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "1.20"
+      "version" : "1.21"
     },
     {
       "added" : "2026-07-27",
@@ -3353,8 +3353,8 @@
           "http://us.aminet.net/game/strat/FreeSynd_RTG.lha",
           "http://se.aminet.net/game/strat/FreeSynd_RTG.lha"
         ],
-        "sha256" : "04624cb206d1e89e5285a31b8ebaa2fda89054d0c373d3afb7e7f8e7df67c8af",
-        "sizeBytes" : 3970255,
+        "sha256" : "ffe4c96f63a16bee337b77937fe6deca3912515c39cfa91b5a2f23868560c879",
+        "sizeBytes" : 3972645,
         "url" : "http://aminet.net/game/strat/FreeSynd_RTG.lha"
       },
       "category" : "Games",
@@ -3374,7 +3374,7 @@
 
       ],
       "tier" : "A",
-      "version" : "0.9.1.03"
+      "version" : "0.9.1.04"
     },
     {
       "added" : "2026-07-24",
@@ -8364,8 +8364,8 @@
           "http://us.aminet.net/comm/tcp/TheWire13.lha",
           "http://se.aminet.net/comm/tcp/TheWire13.lha"
         ],
-        "sha256" : "035d92f6941a0c0f179fc531039ba464a8d7d776e2e6c344819ee7833e535b16",
-        "sizeBytes" : 144696,
+        "sha256" : "243b209b06f782895381dd5bc82bfbc0501e9955f317924e17f692532be72d53",
+        "sizeBytes" : 144716,
         "url" : "http://aminet.net/comm/tcp/TheWire13.lha"
       },
       "category" : "Internet",
@@ -8385,7 +8385,7 @@
 
       ],
       "tier" : "A",
-      "version" : "1.7.4"
+      "version" : "1.8"
     },
     {
       "added" : "2026-07-27",
