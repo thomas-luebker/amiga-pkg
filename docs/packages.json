@@ -1118,18 +1118,6 @@
       "recipe" : {
         "ops" : [
           {
-            "lines" : [
-              "If Exists C:amipkg",
-              "Version >NIL: C:amipkg 0 4",
-              "If Warn",
-              "Echo \"This update needs amipkg 0.4+ - please re-download amipkg.lha once (it now lives in its own drawer).\"",
-              "Quit 20",
-              "EndIf",
-              "EndIf"
-            ],
-            "op" : "preScript"
-          },
-          {
             "dest" : "AMIPKG:",
             "op" : "placeFile",
             "src" : "amipkg"
@@ -1163,8 +1151,7 @@
         "recipeSchema" : 2
       },
       "requiredCapabilities" : [
-        "place-file-v1",
-        "pre-post-script-v1"
+        "place-file-v1"
       ],
       "requirements" : {
         "network" : true
