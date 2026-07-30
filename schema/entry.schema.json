@@ -6,7 +6,14 @@
   "type": "object",
   "required": [
     "id",
-    "name"
+    "version",
+    "name",
+    "category",
+    "description",
+    "deps",
+    "conflicts",
+    "provides",
+    "requiredCapabilities"
   ],
   "additionalProperties": false,
   "properties": {
@@ -106,7 +113,8 @@
     "archive": {
       "type": "object",
       "required": [
-        "url"
+        "url",
+        "mirrors"
       ],
       "additionalProperties": false,
       "properties": {
@@ -131,7 +139,16 @@
     },
     "recipe": {
       "description": "Portable install ops (Tier-A) so amipkg can install on-Amiga. Optional \u2014 fetch works without it. Op vocabulary: copyGlob, stripJunk, mergeNested, setExec, scriptInject, tooltypeEdit, makeAssign, placeFile, and the curated inline-AmigaDOS ops preScript / postScript / removeScript ({\"op\":\"postScript\",\"lines\":[\"...\"]}; reviewed line-by-line, capability pre-post-script-v1).",
-      "type": "object"
+      "type": "object",
+      "required": [
+        "recipeSchema",
+        "ops"
+      ],
+      "properties": {
+        "recipeSchema": {
+          "type": "integer"
+        }
+      }
     },
     "requiredCapabilities": {
       "type": "array",
@@ -165,7 +182,17 @@
     },
     "install": {
       "type": "object",
-      "description": "Host-catalog fields (used by the build engine); usually absent for community entries."
+      "description": "Host-catalog fields (used by the build engine); usually absent for community entries.",
+      "properties": {
+        "sourceType": {
+          "type": "string",
+          "enum": [
+            "aminet",
+            "direct",
+            "scriptManaged"
+          ]
+        }
+      }
     },
     "added": {
       "type": "string",

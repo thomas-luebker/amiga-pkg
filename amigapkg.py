@@ -275,6 +275,59 @@ def _collect(path):
     return [path]
 
 
+def _schema_check(doc, schema, path=""):
+    """Validate `doc` against the subset of JSON Schema this repo uses.
+
+    Deliberately dependency-free (the whole point of this tool is that anyone
+    with Python 3 can add a package), and deliberately SCHEMA-DRIVEN: the
+    ad-hoc checks below only ever rejected what somebody had thought to check,
+    so four separate mistakes reached the publisher before being noticed. The
+    schema's `required` lists mirror pkgindex's own Codable decoder, which is
+    the opinion that actually decides whether a catalog can be published.
+
+    Supports: type, required, enum, pattern, properties, items.
+    """
+    import re as _re
+    errs = []
+    t = schema.get("type")
+    types = {"object": dict, "array": list, "string": str, "integer": int,
+             "number": (int, float), "boolean": bool}
+    if t and t in types:
+        if t == "integer" and isinstance(doc, bool):
+            return ["%s: expected integer, got boolean" % (path or "<root>")]
+        if not isinstance(doc, types[t]):
+            return ["%s: expected %s, got %s" % (path or "<root>", t, type(doc).__name__)]
+
+    if isinstance(doc, dict):
+        for key in schema.get("required", []):
+            if key not in doc:
+                errs.append("%s: missing required '%s'" % (path or "<root>", key))
+        for key, sub in (schema.get("properties") or {}).items():
+            if key in doc and doc[key] is not None:
+                errs += _schema_check(doc[key], sub, "%s.%s" % (path, key) if path else key)
+    elif isinstance(doc, list):
+        item = schema.get("items")
+        if item:
+            for i, v in enumerate(doc):
+                errs += _schema_check(v, item, "%s[%d]" % (path or "<root>", i))
+
+    if "enum" in schema and doc not in schema["enum"]:
+        errs.append("%s: '%s' not one of %s" % (path, doc, ", ".join(map(str, schema["enum"]))))
+    if "pattern" in schema and isinstance(doc, str):
+        if not _re.match(schema["pattern"], doc):
+            errs.append("%s: '%s' does not match %s" % (path, doc, schema["pattern"]))
+    return errs
+
+
+def _entry_schema():
+    try:
+        here = os.path.dirname(os.path.abspath(__file__))
+        with open(os.path.join(here, "schema", "entry.schema.json"), encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:  # noqa: BLE001
+        return None
+
+
 # What pkgindex accepts in install.sourceType. Community entries omit the
 # block; it exists for host-catalog entries the build engine consumes.
 KNOWN_SOURCE_TYPES = {"aminet", "direct", "scriptManaged"}
@@ -319,6 +372,7 @@ def cmd_validate(a):
     errors = warnings = count = 0
     seen = set()
     known_arch = _known_architectures()
+    entry_schema = _entry_schema()
     known_tier = _schema_enum("properties", "tier", fallback=("A", "B", "C"))
 
     def err(pid, m):
@@ -341,6 +395,10 @@ def cmd_validate(a):
             for e in (doc if isinstance(doc, list) else [doc]):
                 count += 1
                 pid = e.get("id") or "?"
+                # Schema first: this is what pkgindex will accept or reject.
+                if entry_schema:
+                    for m in _schema_check(e, entry_schema):
+                        err(pid, m)
                 if not e.get("id"):
                     err(pid, "missing id")
                 elif not ID_RE.match(e["id"]):
