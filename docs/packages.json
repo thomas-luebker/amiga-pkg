@@ -850,8 +850,8 @@
           "http://us.aminet.net/misc/emu/Amico8.lha",
           "http://se.aminet.net/misc/emu/Amico8.lha"
         ],
-        "sha256" : "61e00be7194d37190a5d66ca01029677453ea77fd9db2738f8ca23b429330d31",
-        "sizeBytes" : 488275,
+        "sha256" : "d68d894efc698ad714ffb8e8726f5a8e042a648657385e42618b4cebf0164a0a",
+        "sizeBytes" : 491455,
         "url" : "http://aminet.net/misc/emu/Amico8.lha"
       },
       "category" : "Emulation",
@@ -875,7 +875,7 @@
         "minKS" : "2.0"
       },
       "tier" : "A",
-      "version" : "0.9.2"
+      "version" : "0.9.3"
     },
     {
       "archive" : {
