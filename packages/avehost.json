@@ -13,11 +13,6 @@
   "deps": [],
   "description": "Lightweight DNS lookup utility for classic Amiga.",
   "id": "avehost",
-  "install": {
-    "sourceType": "url",
-    "userDefined": false,
-    "userVisible": true
-  },
   "name": "AveHOST",
   "provides": [],
   "requiredCapabilities": [],

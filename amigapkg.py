@@ -275,6 +275,11 @@ def _collect(path):
     return [path]
 
 
+# What pkgindex accepts in install.sourceType. Community entries omit the
+# block; it exists for host-catalog entries the build engine consumes.
+KNOWN_SOURCE_TYPES = {"aminet", "direct", "scriptManaged"}
+
+
 def _schema_enum(*path, fallback=()):
     """Read an enum out of schema/entry.schema.json.
 
@@ -353,6 +358,16 @@ def cmd_validate(a):
                 # requirements.architecture: absent means m68k-amigaos, but a
                 # value we do not know would silently hide the package from
                 # every machine, so it is an error rather than a warning.
+                # install.sourceType: only the build engine uses this block, and
+                # pkgindex rejects the whole manifest on an unknown value - which
+                # is how an invented "url" got as far as the publisher.
+                inst = e.get("install")
+                if isinstance(inst, dict):
+                    st = inst.get("sourceType")
+                    if st is not None and st not in KNOWN_SOURCE_TYPES:
+                        err(pid, "unknown install.sourceType '%s' — allowed: %s "
+                                 "(community entries normally omit 'install' entirely)"
+                            % (st, ", ".join(sorted(KNOWN_SOURCE_TYPES))))
                 tier = e.get("tier")
                 if tier is not None and tier not in known_tier:
                     err(pid, "unknown tier '%s' — allowed: %s"

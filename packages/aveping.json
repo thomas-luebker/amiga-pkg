@@ -13,11 +13,6 @@
   "deps": [],
   "description": "ICMP ping utility measuring network connectivity and round-trip times.",
   "id": "aveping",
-  "install": {
-    "sourceType": "url",
-    "userDefined": false,
-    "userVisible": true
-  },
   "name": "AvePING",
   "provides": [],
   "requiredCapabilities": [],

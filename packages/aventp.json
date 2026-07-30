@@ -13,11 +13,6 @@
   "deps": [],
   "description": "SNTP time synchronisation client for classic Amiga.",
   "id": "aventp",
-  "install": {
-    "sourceType": "url",
-    "userDefined": false,
-    "userVisible": true
-  },
   "name": "AveNTP",
   "provides": [],
   "requiredCapabilities": [],

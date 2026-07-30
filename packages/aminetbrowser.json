@@ -13,11 +13,6 @@
   "deps": [],
   "description": "Graphical Aminet archive browser and downloader for classic Amiga. Ships 68000 and 68020 builds.",
   "id": "aminetbrowser",
-  "install": {
-    "sourceType": "url",
-    "userDefined": false,
-    "userVisible": true
-  },
   "name": "AminetBrowser",
   "provides": [],
   "requiredCapabilities": [],

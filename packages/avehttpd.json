@@ -13,11 +13,6 @@
   "deps": [],
   "description": "Lightweight HTTP/1.0-1.1 server with static file serving, CGI and basic auth.",
   "id": "avehttpd",
-  "install": {
-    "sourceType": "url",
-    "userDefined": false,
-    "userVisible": true
-  },
   "name": "AveHTTPD",
   "provides": [],
   "requiredCapabilities": [],

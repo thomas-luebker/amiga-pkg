@@ -13,11 +13,6 @@
   "deps": [],
   "description": "DOS volume handler for mounting IMP3 DISK and STASH volumes. Installs the TCP/IP variant (needs bsdsocket.library, e.g. Roadshow); IMPBOX owners without a stack should use the impbox_network variant from the archive by hand.",
   "id": "imp3handler",
-  "install": {
-    "sourceType": "url",
-    "userDefined": false,
-    "userVisible": true
-  },
   "name": "IMP3 Handler",
   "provides": [],
   "recipe": {

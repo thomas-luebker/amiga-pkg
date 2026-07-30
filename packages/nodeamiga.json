@@ -13,11 +13,6 @@
   "deps": [],
   "description": "JavaScript engine and runtime for Amiga 68k, inspired by Node.js. Ships 68000/020/040/060 builds plus examples.",
   "id": "nodeamiga",
-  "install": {
-    "sourceType": "url",
-    "userDefined": false,
-    "userVisible": true
-  },
   "name": "NodeAmiga",
   "provides": [],
   "requiredCapabilities": [],

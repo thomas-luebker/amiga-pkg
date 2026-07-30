@@ -13,11 +13,6 @@
   "deps": [],
   "description": "WHOIS client for domain and IP address lookups.",
   "id": "avewhois",
-  "install": {
-    "sourceType": "url",
-    "userDefined": false,
-    "userVisible": true
-  },
   "name": "AveWHOIS",
   "provides": [],
   "requiredCapabilities": [],
