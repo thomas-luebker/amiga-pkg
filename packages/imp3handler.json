@@ -27,7 +27,8 @@
         "op": "copyGlob",
         "src": "normal_network/DEVS/DosDrivers/*"
       }
-    ]
+    ],
+    "recipeSchema": 1
   },
   "requiredCapabilities": [],
   "requirements": {

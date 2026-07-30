@@ -361,6 +361,13 @@ def cmd_validate(a):
                 # install.sourceType: only the build engine uses this block, and
                 # pkgindex rejects the whole manifest on an unknown value - which
                 # is how an invented "url" got as far as the publisher.
+                # A recipe without recipeSchema decodes as an ERROR in pkgindex
+                # ("not a valid package Entry"), which only surfaces at publish
+                # time - so catch it here.
+                rec = e.get("recipe")
+                if isinstance(rec, dict) and "recipeSchema" not in rec:
+                    err(pid, "recipe is missing 'recipeSchema' (use 1) — "
+                             "pkgindex rejects the whole manifest without it")
                 inst = e.get("install")
                 if isinstance(inst, dict):
                     st = inst.get("sourceType")
