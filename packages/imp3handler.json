@@ -1,0 +1,44 @@
+{
+  "added": "2026-07-30",
+  "archive": {
+    "mirrors": [
+      "https://juen.in/repo/imp3handler/1.0/imp3handler.lha"
+    ],
+    "sha256": "47a42fb6e9331c79ce54340f772f6c9e5de78a2a3e501b8557628dcf4183dbb1",
+    "sizeBytes": 13762,
+    "url": "http://juen.in/repo/imp3handler/1.0/imp3handler.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "DOS volume handler for mounting IMP3 DISK and STASH volumes. Installs the TCP/IP variant (needs bsdsocket.library, e.g. Roadshow); IMPBOX owners without a stack should use the impbox_network variant from the archive by hand.",
+  "id": "imp3handler",
+  "install": {
+    "sourceType": "url",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "IMP3 Handler",
+  "provides": [],
+  "recipe": {
+    "ops": [
+      {
+        "dest": "L",
+        "op": "copyGlob",
+        "src": "normal_network/L/*"
+      },
+      {
+        "dest": "Devs/DosDrivers",
+        "op": "copyGlob",
+        "src": "normal_network/DEVS/DosDrivers/*"
+      }
+    ]
+  },
+  "requiredCapabilities": [],
+  "requirements": {
+    "architecture": "m68k-amigaos,ppc-amigaos,ppc-morphos,i386-amithlon",
+    "network": true
+  },
+  "tier": "A",
+  "version": "1.0"
+}

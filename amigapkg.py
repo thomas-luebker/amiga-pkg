@@ -305,7 +305,7 @@ def _known_architectures():
         with open(os.path.join(here, "schema", "entry.schema.json"), encoding="utf-8") as f:
             sch = json.load(f)
         return set(sch["properties"]["requirements"]["properties"]
-                      ["architecture"]["enum"])
+                      ["architecture"]["x-known-tokens"])
     except Exception:  # noqa: BLE001
         return {"m68k-amigaos"}
 
@@ -357,10 +357,16 @@ def cmd_validate(a):
                 if tier is not None and tier not in known_tier:
                     err(pid, "unknown tier '%s' — allowed: %s"
                         % (tier, ", ".join(sorted(known_tier))))
+                # May list SEVERAL, comma-separated, as Aminet readmes do.
                 pkg_arch = (e.get("requirements") or {}).get("architecture")
-                if pkg_arch is not None and pkg_arch not in known_arch:
-                    err(pid, "unknown architecture '%s' — allowed: %s"
-                        % (pkg_arch, ", ".join(sorted(known_arch))))
+                if pkg_arch is not None:
+                    toks = [t.strip() for t in str(pkg_arch).split(",") if t.strip()]
+                    if not toks:
+                        err(pid, "empty architecture")
+                    for t in toks:
+                        if t not in known_arch:
+                            err(pid, "unknown architecture '%s' — allowed: %s"
+                                % (t, ", ".join(sorted(known_arch))))
                 if "installer-script-v1" in e.get("requiredCapabilities", []):
                     warn(pid, "declares installer-script (arbitrary native code) — needs careful review")
                 if "pre-post-script-v1" in e.get("requiredCapabilities", []):

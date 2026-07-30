@@ -55,8 +55,9 @@
         },
         "architecture": {
           "type": "string",
-          "description": "Target platform, Aminet's vocabulary. Absent means m68k-amigaos: the catalog predates this field, so the default has to be the platform everything was written for. 'generic' is documentation/data that runs anywhere. Note MorphOS and AmigaOS 4 also run m68k-amigaos packages, so those are offered there too.",
-          "enum": [
+          "description": "Target platform(s), Aminet's vocabulary. COMMA-SEPARATED when a package targets several, exactly as Aminet readmes are written (\"m68k-amigaos,ppc-amigaos,ppc-morphos\"). Absent means m68k-amigaos: the catalog predates this field, so the default has to be the platform everything was written for. 'generic' is documentation or data that runs anywhere. Note MorphOS and AmigaOS 4 also run m68k-amigaos packages, so those are offered there too. Known tokens: m68k-amigaos, ppc-morphos, ppc-amigaos, i386-aros, x86_64-aros, ppc-aros, arm-aros, ppc-warpup, ppc-powerup, i386-amithlon, generic",
+          "pattern": "^[A-Za-z0-9_-]+(\\s*,\\s*[A-Za-z0-9_-]+)*$",
+          "x-known-tokens": [
             "m68k-amigaos",
             "ppc-morphos",
             "ppc-amigaos",
@@ -66,6 +67,7 @@
             "arm-aros",
             "ppc-warpup",
             "ppc-powerup",
+            "i386-amithlon",
             "generic"
           ]
         }
