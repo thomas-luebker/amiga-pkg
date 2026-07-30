@@ -1,0 +1,29 @@
+{
+  "added": "2026-07-30",
+  "archive": {
+    "mirrors": [
+      "https://juen.in/repo/nodeamiga/0.28.0/NodeAmiga.lha"
+    ],
+    "sha256": "ff049d6468b9482e639e33a770c277c7952ed0a57c86e5fd86c4bb23945187f0",
+    "sizeBytes": 1051030,
+    "url": "http://juen.in/repo/nodeamiga/0.28.0/NodeAmiga.lha"
+  },
+  "category": "Development",
+  "conflicts": [],
+  "deps": [],
+  "description": "JavaScript engine and runtime for Amiga 68k, inspired by Node.js. Ships 68000/020/040/060 builds plus examples.",
+  "id": "nodeamiga",
+  "install": {
+    "sourceType": "url",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "NodeAmiga",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.0"
+  },
+  "tier": "A",
+  "version": "0.28.0"
+}

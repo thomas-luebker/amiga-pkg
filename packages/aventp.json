@@ -1,0 +1,29 @@
+{
+  "added": "2026-07-30",
+  "archive": {
+    "mirrors": [
+      "https://juen.in/repo/aventp/1.2/AveNTP.lha"
+    ],
+    "sha256": "2341bf02b8c2950d61a0ba0d1e0a15f317cce591c35afacdc4190355b0c13cc9",
+    "sizeBytes": 22124,
+    "url": "http://juen.in/repo/aventp/1.2/AveNTP.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "SNTP time synchronisation client for classic Amiga.",
+  "id": "aventp",
+  "install": {
+    "sourceType": "url",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "AveNTP",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "network": true
+  },
+  "tier": "A",
+  "version": "1.2"
+}

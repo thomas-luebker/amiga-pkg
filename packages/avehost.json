@@ -1,0 +1,29 @@
+{
+  "added": "2026-07-30",
+  "archive": {
+    "mirrors": [
+      "https://juen.in/repo/avehost/1.1/AveHOST.lha"
+    ],
+    "sha256": "babe78fe23a260ecb721f28d327dc5bfca8835dec820de8d0b121eda77b38f34",
+    "sizeBytes": 20600,
+    "url": "http://juen.in/repo/avehost/1.1/AveHOST.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "Lightweight DNS lookup utility for classic Amiga.",
+  "id": "avehost",
+  "install": {
+    "sourceType": "url",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "AveHOST",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "network": true
+  },
+  "tier": "A",
+  "version": "1.1"
+}

@@ -1,0 +1,29 @@
+{
+  "added": "2026-07-30",
+  "archive": {
+    "mirrors": [
+      "https://juen.in/repo/avehttpd/1.1/AveHTTPD.lha"
+    ],
+    "sha256": "43fb5f2e04e88c772b4202a79a9217ddd117c7dbaa04468f25ad77eac634370b",
+    "sizeBytes": 35653,
+    "url": "http://juen.in/repo/avehttpd/1.1/AveHTTPD.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "Lightweight HTTP/1.0-1.1 server with static file serving, CGI and basic auth.",
+  "id": "avehttpd",
+  "install": {
+    "sourceType": "url",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "AveHTTPD",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "network": true
+  },
+  "tier": "A",
+  "version": "1.1"
+}

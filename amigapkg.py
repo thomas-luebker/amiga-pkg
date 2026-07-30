@@ -215,6 +215,24 @@ def _collect(path):
     return [path]
 
 
+def _schema_enum(*path, fallback=()):
+    """Read an enum out of schema/entry.schema.json.
+
+    validate is hand-rolled rather than schema-driven, so a declared enum is
+    documentation until something checks it - an invented tier ("community")
+    sailed straight through, exactly like an invented architecture did.
+    """
+    try:
+        here = os.path.dirname(os.path.abspath(__file__))
+        with open(os.path.join(here, "schema", "entry.schema.json"), encoding="utf-8") as f:
+            node = json.load(f)
+        for key in path:
+            node = node[key]
+        return set(node["enum"])
+    except Exception:  # noqa: BLE001
+        return set(fallback)
+
+
 def _known_architectures():
     """The allowed requirements.architecture values, read from the schema.
 
@@ -236,6 +254,7 @@ def cmd_validate(a):
     errors = warnings = count = 0
     seen = set()
     known_arch = _known_architectures()
+    known_tier = _schema_enum("properties", "tier", fallback=("A", "B", "C"))
 
     def err(pid, m):
         nonlocal errors
@@ -274,6 +293,10 @@ def cmd_validate(a):
                 # requirements.architecture: absent means m68k-amigaos, but a
                 # value we do not know would silently hide the package from
                 # every machine, so it is an error rather than a warning.
+                tier = e.get("tier")
+                if tier is not None and tier not in known_tier:
+                    err(pid, "unknown tier '%s' — allowed: %s"
+                        % (tier, ", ".join(sorted(known_tier))))
                 pkg_arch = (e.get("requirements") or {}).get("architecture")
                 if pkg_arch is not None and pkg_arch not in known_arch:
                     err(pid, "unknown architecture '%s' — allowed: %s"

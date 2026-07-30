@@ -1,0 +1,29 @@
+{
+  "added": "2026-07-30",
+  "archive": {
+    "mirrors": [
+      "https://juen.in/repo/aminetbrowser/1.5/AminetBrowser.lha"
+    ],
+    "sha256": "ac2a84bca533e8e8eb8e318065df5ad36b1a187fe1dc68e37d749373cc33b0bd",
+    "sizeBytes": 394969,
+    "url": "http://juen.in/repo/aminetbrowser/1.5/AminetBrowser.lha"
+  },
+  "category": "Internet",
+  "conflicts": [],
+  "deps": [],
+  "description": "Graphical Aminet archive browser and downloader for classic Amiga. Ships 68000 and 68020 builds.",
+  "id": "aminetbrowser",
+  "install": {
+    "sourceType": "url",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "AminetBrowser",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "network": true
+  },
+  "tier": "A",
+  "version": "1.5"
+}

@@ -1,0 +1,29 @@
+{
+  "added": "2026-07-30",
+  "archive": {
+    "mirrors": [
+      "https://juen.in/repo/avewhois/1.1/AveWHOIS.lha"
+    ],
+    "sha256": "8c43cdb76d6e8d9de042f36b7d32098b6fc2af15adb70682509880e7a9a842ac",
+    "sizeBytes": 18780,
+    "url": "http://juen.in/repo/avewhois/1.1/AveWHOIS.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "WHOIS client for domain and IP address lookups.",
+  "id": "avewhois",
+  "install": {
+    "sourceType": "url",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "AveWHOIS",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "network": true
+  },
+  "tier": "A",
+  "version": "1.1"
+}

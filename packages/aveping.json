@@ -1,0 +1,29 @@
+{
+  "added": "2026-07-30",
+  "archive": {
+    "mirrors": [
+      "https://juen.in/repo/aveping/1.1/AvePING.lha"
+    ],
+    "sha256": "060f893575056a96f4f5a19e58051dc688c76a66f258cc65219f78d1761a511a",
+    "sizeBytes": 19595,
+    "url": "http://juen.in/repo/aveping/1.1/AvePING.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [],
+  "description": "ICMP ping utility measuring network connectivity and round-trip times.",
+  "id": "aveping",
+  "install": {
+    "sourceType": "url",
+    "userDefined": false,
+    "userVisible": true
+  },
+  "name": "AvePING",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "network": true
+  },
+  "tier": "A",
+  "version": "1.1"
+}
