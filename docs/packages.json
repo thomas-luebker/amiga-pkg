@@ -650,12 +650,12 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "http://us.aminet.net/comm/www/Amelinium.lha",
-          "http://se.aminet.net/comm/www/Amelinium.lha"
+          "https://juen.in/repo/amelinium/0.9.0/Amelinium.lha",
+          "http://aminet.net/comm/www/Amelinium.lha"
         ],
-        "sha256" : "527e6775721cf4919e19a5d9ce15970877b7cf031fba4dce69653ab8cd7c1ce5",
-        "sizeBytes" : 3723168,
-        "url" : "http://aminet.net/comm/www/Amelinium.lha"
+        "sha256" : "ccea8f406f255c575f6bbbaaa443b2e9c1826dfcbce72f2833973422b98f47f7",
+        "sizeBytes" : 3795458,
+        "url" : "http://juen.in/repo/amelinium/0.9.0/Amelinium.lha"
       },
       "category" : "Internet",
       "conflicts" : [
@@ -677,7 +677,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.8.9"
+      "version" : "0.9.0"
     },
     {
       "added" : "2026-07-24",
@@ -847,12 +847,14 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
+          "https://juen.in/repo/amico8/0.9.3/Amico8.lha",
+          "http://aminet.net/misc/emu/Amico8.lha",
           "http://us.aminet.net/misc/emu/Amico8.lha",
           "http://se.aminet.net/misc/emu/Amico8.lha"
         ],
         "sha256" : "d68d894efc698ad714ffb8e8726f5a8e042a648657385e42618b4cebf0164a0a",
         "sizeBytes" : 491455,
-        "url" : "http://aminet.net/misc/emu/Amico8.lha"
+        "url" : "http://juen.in/repo/amico8/0.9.3/Amico8.lha"
       },
       "category" : "Emulation",
       "conflicts" : [
@@ -1024,6 +1026,38 @@
       },
       "tier" : "A",
       "version" : "1.2"
+    },
+    {
+      "added" : "2026-07-30",
+      "archive" : {
+        "mirrors" : [
+          "https://juen.in/repo/aminetbrowser/1.5/AminetBrowser.lha"
+        ],
+        "sha256" : "ac2a84bca533e8e8eb8e318065df5ad36b1a187fe1dc68e37d749373cc33b0bd",
+        "sizeBytes" : 394969,
+        "url" : "http://juen.in/repo/aminetbrowser/1.5/AminetBrowser.lha"
+      },
+      "category" : "Internet",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Graphical Aminet archive browser and downloader for classic Amiga. Ships 68000 and 68020 builds.",
+      "id" : "aminetbrowser",
+      "name" : "AminetBrowser",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "1.5"
     },
     {
       "added" : "2026-07-27",
@@ -1597,6 +1631,166 @@
       },
       "tier" : "A",
       "version" : "3.3"
+    },
+    {
+      "added" : "2026-07-30",
+      "archive" : {
+        "mirrors" : [
+          "https://juen.in/repo/avehost/1.1/AveHOST.lha"
+        ],
+        "sha256" : "babe78fe23a260ecb721f28d327dc5bfca8835dec820de8d0b121eda77b38f34",
+        "sizeBytes" : 20600,
+        "url" : "http://juen.in/repo/avehost/1.1/AveHOST.lha"
+      },
+      "category" : "Network",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Lightweight DNS lookup utility for classic Amiga.",
+      "id" : "avehost",
+      "name" : "AveHOST",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "1.1"
+    },
+    {
+      "added" : "2026-07-30",
+      "archive" : {
+        "mirrors" : [
+          "https://juen.in/repo/avehttpd/1.1/AveHTTPD.lha"
+        ],
+        "sha256" : "43fb5f2e04e88c772b4202a79a9217ddd117c7dbaa04468f25ad77eac634370b",
+        "sizeBytes" : 35653,
+        "url" : "http://juen.in/repo/avehttpd/1.1/AveHTTPD.lha"
+      },
+      "category" : "Network",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Lightweight HTTP/1.0-1.1 server with static file serving, CGI and basic auth.",
+      "id" : "avehttpd",
+      "name" : "AveHTTPD",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "1.1"
+    },
+    {
+      "added" : "2026-07-30",
+      "archive" : {
+        "mirrors" : [
+          "https://juen.in/repo/aventp/1.2/AveNTP.lha"
+        ],
+        "sha256" : "2341bf02b8c2950d61a0ba0d1e0a15f317cce591c35afacdc4190355b0c13cc9",
+        "sizeBytes" : 22124,
+        "url" : "http://juen.in/repo/aventp/1.2/AveNTP.lha"
+      },
+      "category" : "Network",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "SNTP time synchronisation client for classic Amiga.",
+      "id" : "aventp",
+      "name" : "AveNTP",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "1.2"
+    },
+    {
+      "added" : "2026-07-30",
+      "archive" : {
+        "mirrors" : [
+          "https://juen.in/repo/aveping/1.1/AvePING.lha"
+        ],
+        "sha256" : "060f893575056a96f4f5a19e58051dc688c76a66f258cc65219f78d1761a511a",
+        "sizeBytes" : 19595,
+        "url" : "http://juen.in/repo/aveping/1.1/AvePING.lha"
+      },
+      "category" : "Network",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "ICMP ping utility measuring network connectivity and round-trip times.",
+      "id" : "aveping",
+      "name" : "AvePING",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "1.1"
+    },
+    {
+      "added" : "2026-07-30",
+      "archive" : {
+        "mirrors" : [
+          "https://juen.in/repo/avewhois/1.1/AveWHOIS.lha"
+        ],
+        "sha256" : "8c43cdb76d6e8d9de042f36b7d32098b6fc2af15adb70682509880e7a9a842ac",
+        "sizeBytes" : 18780,
+        "url" : "http://juen.in/repo/avewhois/1.1/AveWHOIS.lha"
+      },
+      "category" : "Network",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "WHOIS client for domain and IP address lookups.",
+      "id" : "avewhois",
+      "name" : "AveWHOIS",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "1.1"
     },
     {
       "added" : "2026-07-24",
@@ -4595,11 +4789,12 @@
     {
       "archive" : {
         "mirrors" : [
-
+          "https://juen.in/repo/imp3/3.461/imp3.lha",
+          "http://aminet.net/mus/play/imp3.lha"
         ],
         "sha256" : "a48a3735ecba05c2a4f20a2b136ba41a582ae18e8c5c1ef37f146d7701c89aad",
         "sizeBytes" : 55660,
-        "url" : "http://aminet.net/mus/play/imp3.lha"
+        "url" : "http://juen.in/repo/imp3/3.461/imp3.lha"
       },
       "category" : "Multimedia",
       "conflicts" : [
@@ -4700,6 +4895,53 @@
       ],
       "tier" : "A",
       "version" : "3.461"
+    },
+    {
+      "added" : "2026-07-30",
+      "archive" : {
+        "mirrors" : [
+          "https://juen.in/repo/imp3handler/1.0/imp3handler.lha"
+        ],
+        "sha256" : "47a42fb6e9331c79ce54340f772f6c9e5de78a2a3e501b8557628dcf4183dbb1",
+        "sizeBytes" : 13762,
+        "url" : "http://juen.in/repo/imp3handler/1.0/imp3handler.lha"
+      },
+      "category" : "Network",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "DOS volume handler for mounting IMP3 DISK and STASH volumes. Installs the TCP/IP variant (needs bsdsocket.library, e.g. Roadshow); IMPBOX owners without a stack should use the impbox_network variant from the archive by hand.",
+      "id" : "imp3handler",
+      "name" : "IMP3 Handler",
+      "provides" : [
+
+      ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "L",
+            "op" : "copyGlob",
+            "src" : "normal_network/L/*"
+          },
+          {
+            "dest" : "Devs/DosDrivers",
+            "op" : "copyGlob",
+            "src" : "normal_network/DEVS/DosDrivers/*"
+          }
+        ],
+        "recipeSchema" : 1
+      },
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "1.0"
     },
     {
       "added" : "2026-07-27",
@@ -5992,6 +6234,38 @@
       ],
       "tier" : "A",
       "version" : "2.0"
+    },
+    {
+      "added" : "2026-07-30",
+      "archive" : {
+        "mirrors" : [
+          "https://juen.in/repo/nodeamiga/0.28.0/NodeAmiga.lha"
+        ],
+        "sha256" : "ff049d6468b9482e639e33a770c277c7952ed0a57c86e5fd86c4bb23945187f0",
+        "sizeBytes" : 1051030,
+        "url" : "http://juen.in/repo/nodeamiga/0.28.0/NodeAmiga.lha"
+      },
+      "category" : "Development",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "JavaScript engine and runtime for Amiga 68k, inspired by Node.js. Ships 68000/020/040/060 builds plus examples.",
+      "id" : "nodeamiga",
+      "name" : "NodeAmiga",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "minKS" : "2.0"
+      },
+      "tier" : "A",
+      "version" : "0.28.0"
     },
     {
       "added" : "2026-07-27",
