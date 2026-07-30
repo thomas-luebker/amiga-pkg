@@ -4938,6 +4938,7 @@
 
       ],
       "requirements" : {
+        "architecture" : "m68k-amigaos,ppc-amigaos,ppc-morphos,i386-amithlon",
         "network" : true
       },
       "tier" : "A",
