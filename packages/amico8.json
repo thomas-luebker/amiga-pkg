@@ -2,12 +2,14 @@
   "added": "2026-07-24",
   "archive": {
     "mirrors": [
+      "https://juen.in/repo/amico8/0.9.3/Amico8.lha",
+      "http://aminet.net/misc/emu/Amico8.lha",
       "http://us.aminet.net/misc/emu/Amico8.lha",
       "http://se.aminet.net/misc/emu/Amico8.lha"
     ],
     "sha256": "d68d894efc698ad714ffb8e8726f5a8e042a648657385e42618b4cebf0164a0a",
     "sizeBytes": 491455,
-    "url": "http://aminet.net/misc/emu/Amico8.lha"
+    "url": "http://juen.in/repo/amico8/0.9.3/Amico8.lha"
   },
   "category": "Emulation",
   "conflicts": [],
