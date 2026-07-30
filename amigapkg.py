@@ -132,10 +132,50 @@ def cmd_add(a):
 
 
 # ------------------------------------------------------------------------ refresh
+def _vkey(v):
+    """Sort key for a dotted version, ignoring any trailing suffix."""
+    return [int(x) for x in re.split(r"[.\-]", v.strip(".")) if x.isdigit()]
+
+
+def _probe_newer_pathversion(url):
+    """Version-in-PATH layouts: .../<name>/<version>/<File>.lha (juen.in).
+
+    Aminet URLs are unversioned, so a plain re-fetch notices new uploads. A
+    versioned PATH never changes, so without this an entry pinned to one is
+    frozen for good - which is precisely what happened when Juen's software was
+    re-pinned to his own host and stopped tracking new releases. Here the
+    VERSION DIRECTORY is enumerated instead, which needs nothing from the
+    author beyond the directory listing they already serve.
+    """
+    m = re.match(r"^(.*/)([0-9][^/]*)/([^/]+\.lha)$", url)
+    if not m:
+        return None, None
+    base, cur, fname = m.groups()
+    try:
+        listing = _fetch(base, 30).decode("latin-1", "replace")
+    except Exception:  # noqa: BLE001
+        return None, None
+    found = {v for v in re.findall(r'href="([0-9][^"/]*)/"', listing)}
+    if not found:
+        return None, None
+    best = max(found, key=_vkey)
+    if _vkey(best) <= _vkey(cur):
+        return None, None
+    cand = f"{base}{best}/{fname}"
+    try:                                  # the file must actually be there
+        _fetch(cand, 30)
+    except Exception:  # noqa: BLE001
+        return None, None
+    return cand, best
+
+
 def _probe_newer(url):
     """For version-baked URLs (Name_1.1.lha) on hosts with directory
     listings (amigaworld.de style): scan the parent listing for the
     highest-versioned sibling. Returns (new_url, new_version) or (None, None)."""
+    got = _probe_newer_pathversion(url)
+    if got[0]:
+        return got
     m = re.match(r"^(.*/)([A-Za-z0-9]+_)v?([0-9.]+)(\.lha)$", url)
     if not m:
         return None, None
@@ -144,8 +184,7 @@ def _probe_newer(url):
         listing = _fetch(base, 30).decode("latin-1", "replace")
     except Exception:
         return None, None
-    def vkey(v):
-        return [int(x) for x in v.strip(".").split(".") if x.isdigit()]
+    vkey = _vkey
     found = set(re.findall(re.escape(stem) + r"v?([0-9.]+?)" + re.escape(ext), listing))
     if not found:
         return None, None
@@ -177,6 +216,27 @@ def cmd_refresh(a):
             newer_url, newer_ver = _probe_newer(url)
             if newer_url:
                 print(f"NEWER upstream release: {pid}: {url.rsplit('/',1)[-1]} -> {newer_url.rsplit('/',1)[-1]}")
+                # Carry version-in-PATH mirrors forward with the primary.
+                # They are frozen at the old version otherwise, and a mirror
+                # that serves different bytes than the pin is worse than no
+                # mirror - it is a download that fails verification.
+                old_m = re.match(r"^(.*/)([0-9][^/]*)/([^/]+\.lha)$", url)
+                if old_m:
+                    oldver = old_m.group(2)
+                    fixed = []
+                    for mir in arch.get("mirrors", []):
+                        mm = re.match(r"^(.*/)" + re.escape(oldver) + r"/([^/]+\.lha)$", mir)
+                        if not mm:
+                            fixed.append(mir)          # floating mirror: leave alone
+                            continue
+                        cand = f"{mm.group(1)}{newer_ver}/{mm.group(2)}"
+                        try:
+                            _fetch(cand, 30)
+                            fixed.append(cand)
+                            print(f"        mirror follows: {oldver} -> {newer_ver}")
+                        except Exception:  # noqa: BLE001
+                            print(f"        mirror DROPPED (no {newer_ver}): {mir}")
+                    arch["mirrors"] = fixed
                 url = newer_url
                 arch["url"] = newer_url
                 entry["version"] = newer_ver
