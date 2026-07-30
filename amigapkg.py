@@ -215,9 +215,27 @@ def _collect(path):
     return [path]
 
 
+def _known_architectures():
+    """The allowed requirements.architecture values, read from the schema.
+
+    Kept in ONE place: hard-coding the list here would drift from
+    schema/entry.schema.json the first time either changed. Falls back to the
+    default-only case if the schema cannot be read, so validate still runs.
+    """
+    try:
+        here = os.path.dirname(os.path.abspath(__file__))
+        with open(os.path.join(here, "schema", "entry.schema.json"), encoding="utf-8") as f:
+            sch = json.load(f)
+        return set(sch["properties"]["requirements"]["properties"]
+                      ["architecture"]["enum"])
+    except Exception:  # noqa: BLE001
+        return {"m68k-amigaos"}
+
+
 def cmd_validate(a):
     errors = warnings = count = 0
     seen = set()
+    known_arch = _known_architectures()
 
     def err(pid, m):
         nonlocal errors
@@ -253,6 +271,13 @@ def cmd_validate(a):
                 for c in e.get("requiredCapabilities", []):
                     if c not in KNOWN_CAPS:
                         err(pid, f"unknown capability '{c}'")
+                # requirements.architecture: absent means m68k-amigaos, but a
+                # value we do not know would silently hide the package from
+                # every machine, so it is an error rather than a warning.
+                pkg_arch = (e.get("requirements") or {}).get("architecture")
+                if pkg_arch is not None and pkg_arch not in known_arch:
+                    err(pid, "unknown architecture '%s' — allowed: %s"
+                        % (pkg_arch, ", ".join(sorted(known_arch))))
                 if "installer-script-v1" in e.get("requiredCapabilities", []):
                     warn(pid, "declares installer-script (arbitrary native code) — needs careful review")
                 if "pre-post-script-v1" in e.get("requiredCapabilities", []):

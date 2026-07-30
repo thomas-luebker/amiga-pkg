@@ -4,50 +4,131 @@
   "title": "AmigaPKG package entry",
   "description": "One package in the amipkg index (PackageIndex.Entry). The Swift Codable type in AmigaPackageKit is authoritative; this mirrors it for editors and CI.",
   "type": "object",
-  "required": ["id", "name"],
+  "required": [
+    "id",
+    "name"
+  ],
   "additionalProperties": false,
   "properties": {
-    "id":          { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$", "description": "Unique, lower-case." },
-    "version":     { "type": "string", "description": "Display version; '-' if unknown." },
-    "sortVersion": { "type": "string", "description": "Optional override for version ordering." },
-    "name":        { "type": "string", "minLength": 1 },
-    "category":    { "type": "string", "description": "e.g. Utilities, Games, Network, Graphics." },
-    "description": { "type": "string" },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]*$",
+      "description": "Unique, lower-case."
+    },
+    "version": {
+      "type": "string",
+      "description": "Display version; '-' if unknown."
+    },
+    "sortVersion": {
+      "type": "string",
+      "description": "Optional override for version ordering."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "description": "e.g. Utilities, Games, Network, Graphics."
+    },
+    "description": {
+      "type": "string"
+    },
     "requirements": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "minKS":     { "type": "string" },
-        "minCPU":    { "type": "string" },
-        "chipRAMKB": { "type": "integer" },
-        "network":   { "type": "boolean" },
-        "amiSSL":    { "type": "boolean" }
+        "minKS": {
+          "type": "string"
+        },
+        "minCPU": {
+          "type": "string"
+        },
+        "chipRAMKB": {
+          "type": "integer"
+        },
+        "network": {
+          "type": "boolean"
+        },
+        "amiSSL": {
+          "type": "boolean"
+        },
+        "architecture": {
+          "type": "string",
+          "description": "Target platform, Aminet's vocabulary. Absent means m68k-amigaos: the catalog predates this field, so the default has to be the platform everything was written for. 'generic' is documentation/data that runs anywhere. Note MorphOS and AmigaOS 4 also run m68k-amigaos packages, so those are offered there too.",
+          "enum": [
+            "m68k-amigaos",
+            "ppc-morphos",
+            "ppc-amigaos",
+            "i386-aros",
+            "x86_64-aros",
+            "ppc-aros",
+            "arm-aros",
+            "ppc-warpup",
+            "ppc-powerup",
+            "generic"
+          ]
+        }
       }
     },
     "deps": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id"],
+        "required": [
+          "id"
+        ],
         "additionalProperties": false,
-        "properties": { "id": { "type": "string" }, "min": { "type": "string" } }
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "min": {
+            "type": "string"
+          }
+        }
       }
     },
-    "conflicts": { "type": "array", "items": { "type": "string" } },
-    "provides":  { "type": "array", "items": { "type": "string" } },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "provides": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "archive": {
       "type": "object",
-      "required": ["url"],
+      "required": [
+        "url"
+      ],
       "additionalProperties": false,
       "properties": {
-        "url":       { "type": "string", "description": "Where the .lha is hosted (Aminet preferred)." },
-        "mirrors":   { "type": "array", "items": { "type": "string" } },
-        "sha256":    { "type": "string", "pattern": "^[0-9a-f]{64}$" },
-        "sizeBytes": { "type": "integer" }
+        "url": {
+          "type": "string",
+          "description": "Where the .lha is hosted (Aminet preferred)."
+        },
+        "mirrors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "sizeBytes": {
+          "type": "integer"
+        }
       }
     },
     "recipe": {
-      "description": "Portable install ops (Tier-A) so amipkg can install on-Amiga. Optional — fetch works without it. Op vocabulary: copyGlob, stripJunk, mergeNested, setExec, scriptInject, tooltypeEdit, makeAssign, placeFile, and the curated inline-AmigaDOS ops preScript / postScript / removeScript ({\"op\":\"postScript\",\"lines\":[\"...\"]}; reviewed line-by-line, capability pre-post-script-v1).",
+      "description": "Portable install ops (Tier-A) so amipkg can install on-Amiga. Optional \u2014 fetch works without it. Op vocabulary: copyGlob, stripJunk, mergeNested, setExec, scriptInject, tooltypeEdit, makeAssign, placeFile, and the curated inline-AmigaDOS ops preScript / postScript / removeScript ({\"op\":\"postScript\",\"lines\":[\"...\"]}; reviewed line-by-line, capability pre-post-script-v1).",
       "type": "object"
     },
     "requiredCapabilities": {
@@ -55,15 +136,39 @@
       "description": "Capabilities a client needs to install this package.",
       "items": {
         "enum": [
-          "copy-glob-v1", "strip-junk-v1", "merge-nested-v1", "set-exec-v1",
-          "script-inject-v1", "tooltype-edit-v1", "make-assign-v1", "place-file-v1",
-          "icon-patch-v1", "adf-unwrap-v1", "installer-script-v1", "host-builtin-v1",
+          "copy-glob-v1",
+          "strip-junk-v1",
+          "merge-nested-v1",
+          "set-exec-v1",
+          "script-inject-v1",
+          "tooltype-edit-v1",
+          "make-assign-v1",
+          "place-file-v1",
+          "icon-patch-v1",
+          "adf-unwrap-v1",
+          "installer-script-v1",
+          "host-builtin-v1",
           "pre-post-script-v1"
         ]
       }
     },
-    "tier":    { "type": "string", "enum": ["A", "B", "C"], "description": "A = portable/on-Amiga installable." },
-    "install": { "type": "object", "description": "Host-catalog fields (used by the build engine); usually absent for community entries." },
-    "added":   { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$", "description": "Repo-added date (YYYY-MM-DD); drives newest-first sorting. amigapkg.py add stamps it." }
+    "tier": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C"
+      ],
+      "description": "A = portable/on-Amiga installable."
+    },
+    "install": {
+      "type": "object",
+      "description": "Host-catalog fields (used by the build engine); usually absent for community entries."
+    },
+    "added": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "Repo-added date (YYYY-MM-DD); drives newest-first sorting. amigapkg.py add stamps it."
+    }
   }
 }
