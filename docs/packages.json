@@ -847,14 +847,14 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amico8/0.9.3/Amico8.lha",
+          "https://juen.in/repo/amico8/0.9.4/Amico8.lha",
           "http://aminet.net/misc/emu/Amico8.lha",
           "http://us.aminet.net/misc/emu/Amico8.lha",
           "http://se.aminet.net/misc/emu/Amico8.lha"
         ],
-        "sha256" : "d68d894efc698ad714ffb8e8726f5a8e042a648657385e42618b4cebf0164a0a",
-        "sizeBytes" : 491455,
-        "url" : "http://juen.in/repo/amico8/0.9.3/Amico8.lha"
+        "sha256" : "3db92152153bbe60cc3b3a69a8dbb74a9b2777337a79c04538251850aa11d954",
+        "sizeBytes" : 493387,
+        "url" : "http://juen.in/repo/amico8/0.9.4/Amico8.lha"
       },
       "category" : "Emulation",
       "conflicts" : [
@@ -877,7 +877,7 @@
         "minKS" : "2.0"
       },
       "tier" : "A",
-      "version" : "0.9.3"
+      "version" : "0.9.4"
     },
     {
       "archive" : {
@@ -1098,9 +1098,9 @@
         "mirrors" : [
           "http://amiga-imager.org/packages/amipkg-client.lha"
         ],
-        "sha256" : "21b24ec2c82cf098253e98ef4ce316a7d77eeb1db778eb19d1baeaf7da400aba",
-        "sizeBytes" : 353840,
-        "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.7.7/amipkg-client.lha"
+        "sha256" : "662cb9cd032b56866f01cb3699646a541601f564ba5cc01534db936e781c3699",
+        "sizeBytes" : 354194,
+        "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.7.8/amipkg-client.lha"
       },
       "category" : "System",
       "conflicts" : [
@@ -1157,7 +1157,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.7.7"
+      "version" : "0.7.8"
     },
     {
       "added" : "2026-07-27",
