@@ -74,6 +74,24 @@ if [ -n "$ZIPFILE" ]; then
     esac
     PUBDATE="$(date -u '+%a, %d %b %Y %H:%M:%S +0000')"
 
+    # Localised release notes: Sparkle picks the entry matching the user's
+    # preferred language and falls back to the one WITHOUT xml:lang. The site
+    # serves the German tree on the .de host at the same path (hostname ->
+    # locale in the router), so the German URL is the English one with the
+    # host swapped. Override with NOTESURL_DE if that ever stops holding.
+    NOTESURL_DE="${NOTESURL_DE:-$(printf '%s' "$NOTESURL" | sed 's|amiga-imager\.com|amiga-imager.de|')}"
+    NOTES_DE_LINE=""
+    if [ "$NOTESURL_DE" != "$NOTESURL" ]; then
+        # Only advertise the German page if it is actually there — a 404 in the
+        # update window is worse than showing English.
+        if curl -sfL -o /dev/null --max-time 15 "$NOTESURL_DE"; then
+            NOTES_DE_LINE="
+      <sparkle:releaseNotesLink xml:lang=\"de\">$NOTESURL_DE</sparkle:releaseNotesLink>"
+        else
+            echo "NOTE: $NOTESURL_DE is not reachable — German release notes omitted."
+        fi
+    fi
+
     cat > "$XML" <<XMLDOC
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
@@ -85,7 +103,7 @@ if [ -n "$ZIPFILE" ]; then
     <item>
       <title>Version $VER</title>
       <pubDate>$PUBDATE</pubDate>
-      <sparkle:releaseNotesLink>$NOTESURL</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>$NOTESURL</sparkle:releaseNotesLink>$NOTES_DE_LINE
       <sparkle:version>$BUILD</sparkle:version>
       <sparkle:shortVersionString>$VER</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
