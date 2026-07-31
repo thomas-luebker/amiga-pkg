@@ -5,8 +5,8 @@
       "http://us.aminet.net/util/arc/avalanche.lha",
       "http://se.aminet.net/util/arc/avalanche.lha"
     ],
-    "sha256": "626af4cee72dd302486de181ea10cee9104b7e54dc98bcd144c823229d3ab35e",
-    "sizeBytes": 147159,
+    "sha256": "873710368801f395ebe5bc5fa0480889d12b1e2564257802edd2d2cd36dc7d5c",
+    "sizeBytes": 165355,
     "url": "http://aminet.net/util/arc/avalanche.lha"
   },
   "category": "Utilities",
@@ -25,5 +25,5 @@
     "minKS": "3.2"
   },
   "tier": "A",
-  "version": "3.3"
+  "version": "4.1"
 }

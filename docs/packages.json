@@ -1591,8 +1591,8 @@
           "http://us.aminet.net/util/arc/avalanche.lha",
           "http://se.aminet.net/util/arc/avalanche.lha"
         ],
-        "sha256" : "626af4cee72dd302486de181ea10cee9104b7e54dc98bcd144c823229d3ab35e",
-        "sizeBytes" : 147159,
+        "sha256" : "873710368801f395ebe5bc5fa0480889d12b1e2564257802edd2d2cd36dc7d5c",
+        "sizeBytes" : 165355,
         "url" : "http://aminet.net/util/arc/avalanche.lha"
       },
       "category" : "Utilities",
@@ -1617,7 +1617,7 @@
         "minKS" : "3.2"
       },
       "tier" : "A",
-      "version" : "3.3"
+      "version" : "4.1"
     },
     {
       "added" : "2026-07-30",
@@ -2363,8 +2363,8 @@
           "http://us.aminet.net/comm/tcp/CompunetReborn.lha",
           "http://se.aminet.net/comm/tcp/CompunetReborn.lha"
         ],
-        "sha256" : "c3bd937b560948f2b5e4da62f47529b04a1de0aa1f2f6eeeed8722eafec46f99",
-        "sizeBytes" : 123299,
+        "sha256" : "3e3cc11d7bc51be4357691e0067c5cc24eefe21a6c310e3430ec73eece361522",
+        "sizeBytes" : 124059,
         "url" : "http://aminet.net/comm/tcp/CompunetReborn.lha"
       },
       "category" : "Internet",
@@ -2388,7 +2388,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "1.1.0"
+      "version" : "1.3.0"
     },
     {
       "added" : "2026-07-24",
@@ -6645,8 +6645,8 @@
           "http://us.aminet.net/gfx/misc/PlasmaWB.lha",
           "http://se.aminet.net/gfx/misc/PlasmaWB.lha"
         ],
-        "sha256" : "911ac5ad325f31113a197f60bda32fe7c277771bc2cb596d86edb43d0419cd47",
-        "sizeBytes" : 153114,
+        "sha256" : "9abd5b44584e06cc1ea4fd8e78c06f67c509be9bf409648ecab8079223beb5a9",
+        "sizeBytes" : 210702,
         "url" : "http://aminet.net/gfx/misc/PlasmaWB.lha"
       },
       "category" : "Graphics",
@@ -6670,7 +6670,7 @@
         "minKS" : "3.1"
       },
       "tier" : "A",
-      "version" : "1.21"
+      "version" : "1.49"
     },
     {
       "added" : "2026-07-24",

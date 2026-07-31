@@ -5,8 +5,8 @@
       "http://us.aminet.net/gfx/misc/PlasmaWB.lha",
       "http://se.aminet.net/gfx/misc/PlasmaWB.lha"
     ],
-    "sha256": "911ac5ad325f31113a197f60bda32fe7c277771bc2cb596d86edb43d0419cd47",
-    "sizeBytes": 153114,
+    "sha256": "9abd5b44584e06cc1ea4fd8e78c06f67c509be9bf409648ecab8079223beb5a9",
+    "sizeBytes": 210702,
     "url": "http://aminet.net/gfx/misc/PlasmaWB.lha"
   },
   "category": "Graphics",
@@ -22,5 +22,5 @@
     "minKS": "3.1"
   },
   "tier": "A",
-  "version": "1.21"
+  "version": "1.49"
 }
