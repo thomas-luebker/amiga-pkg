@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Amiga Imager</title>
+    <link>https://thomas-luebker.github.io/amiga-pkg/appcast/amiga-imager.xml</link>
+    <description>Updates for Amiga Imager.</description>
+    <language>en</language>
+    <item>
+      <title>Version 0.99.8</title>
+      <pubDate>Fri, 31 Jul 2026 15:43:51 +0000</pubDate>
+      <sparkle:releaseNotesLink>https://amiga-imager.com/release-notes-v0.99.8/</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink xml:lang="de">https://amiga-imager.de/release-notes-v0.99.8/</sparkle:releaseNotesLink>
+      <sparkle:version>260731</sparkle:version>
+      <sparkle:shortVersionString>0.99.8</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://amiga-imager.com/Amiga-Imager-v0.99.8.zip" type="application/octet-stream" sparkle:edSignature="fC91xEwAiWlp2+xq64U+x9o9xHBCCdmwhcecW6XOlVcK7cguETwCAMryIaic+HKj3a0aCUbUXgKIaONiFz7FBw==" length="14769309" />
+    </item>
+  </channel>
+</rss>
