@@ -685,9 +685,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "9e4070c005b8c3e8a45d99b13f02dfa38d6da1bd3daab02d486e84ef650de839",
-        "sizeBytes" : 98038,
-        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.3.0/amiagent-0.3.0.lha"
+        "sha256" : "2e9617c9ea489afd4a9756ed4ab78bb3ab32964433047915a4f5f0161888c342",
+        "sizeBytes" : 98078,
+        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.3.1/amiagent-0.3.1.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -707,7 +707,8 @@
           {
             "dest" : "Programs/amiagent",
             "op" : "copyGlob",
-            "src" : "*"
+            "recursive" : true,
+            "src" : "amiagent/*"
           }
         ],
         "recipeSchema" : 1
@@ -722,7 +723,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.3.0"
+      "version" : "0.3.1"
     },
     {
       "added" : "2026-07-24",
