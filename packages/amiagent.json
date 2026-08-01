@@ -1,0 +1,35 @@
+{
+  "added": "2026-08-01",
+  "archive": {
+    "mirrors": [],
+    "sha256": "1b698fc88ebe42cb8a1a8780593ac8f1c75d487e6acf8c00b73f9b6cfc52617d",
+    "sizeBytes": 95842,
+    "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.2.0/amiagent-0.2.0.lha"
+  },
+  "category": "Utilities",
+  "conflicts": [],
+  "deps": [],
+  "description": "Remote agent that lets Claude run commands, move files, capture the screen and drive mouse/keyboard",
+  "id": "amiagent",
+  "name": "amiagent",
+  "provides": [],
+  "recipe": {
+    "recipeSchema": 1,
+    "ops": [
+      {
+        "op": "copyGlob",
+        "src": "*",
+        "dest": "Programs/amiagent"
+      }
+    ]
+  },
+  "requiredCapabilities": [],
+  "requirements": {
+    "minKS": "2.04",
+    "minCPU": "68000",
+    "network": true,
+    "architecture": "m68k-amigaos"
+  },
+  "tier": "A",
+  "version": "0.2.0"
+}
