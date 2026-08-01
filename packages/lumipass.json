@@ -2,9 +2,9 @@
   "added": "2026-07-26",
   "archive": {
     "mirrors": [],
-    "sha256": "adf4605d73e2c56eef5e214fc7273b4824d0fbad555a085d0edc156a9f5e7e6c",
-    "sizeBytes": 6324636,
-    "url": "https://www.amigaworld.de/software/lumipass/LumiPass_1.3.lha"
+    "sha256": "2d27c426a24e95c03e717dfd264fe0893e3d0c51289f277f3fabc31ac861e4ae",
+    "sizeBytes": 6345834,
+    "url": "https://www.amigaworld.de/software/lumipass/LumiPass_1.4.lha"
   },
   "category": "Utilities",
   "conflicts": [],
@@ -15,5 +15,5 @@
   "provides": [],
   "requiredCapabilities": [],
   "tier": "A",
-  "version": "1.3"
+  "version": "1.4"
 }
