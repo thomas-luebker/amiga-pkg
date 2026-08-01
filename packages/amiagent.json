@@ -2,9 +2,9 @@
   "added": "2026-08-01",
   "archive": {
     "mirrors": [],
-    "sha256": "2e9617c9ea489afd4a9756ed4ab78bb3ab32964433047915a4f5f0161888c342",
-    "sizeBytes": 98078,
-    "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.3.1/amiagent-0.3.1.lha"
+    "sha256": "5871031fef0aa5eacb7a510df453a5325ea531ba9ca692f174abeadc975502b0",
+    "sizeBytes": 98042,
+    "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.3.2/amiagent-0.3.2.lha"
   },
   "category": "Utilities",
   "conflicts": [],
@@ -17,10 +17,14 @@
     "recipeSchema": 1,
     "ops": [
       {
-        "op": "copyGlob",
-        "src": "amiagent/*",
-        "dest": "Programs/amiagent",
-        "recursive": true
+        "op": "placeFile",
+        "src": "amiagent",
+        "dest": "Programs/amiagent"
+      },
+      {
+        "op": "placeFile",
+        "src": "amiagent.020",
+        "dest": "Programs/amiagent"
       }
     ]
   },
@@ -32,5 +36,5 @@
     "architecture": "m68k-amigaos"
   },
   "tier": "A",
-  "version": "0.3.1"
+  "version": "0.3.2"
 }
