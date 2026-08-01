@@ -680,6 +680,51 @@
       "version" : "0.9.0"
     },
     {
+      "added" : "2026-08-01",
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "9e4070c005b8c3e8a45d99b13f02dfa38d6da1bd3daab02d486e84ef650de839",
+        "sizeBytes" : 98038,
+        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.3.0/amiagent-0.3.0.lha"
+      },
+      "category" : "Utilities",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Remote agent that lets Claude run commands, move files, capture the screen and drive mouse/keyboard",
+      "id" : "amiagent",
+      "name" : "amiagent",
+      "provides" : [
+
+      ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "Programs/amiagent",
+            "op" : "copyGlob",
+            "src" : "*"
+          }
+        ],
+        "recipeSchema" : 1
+      },
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "architecture" : "m68k-amigaos",
+        "minCPU" : "68000",
+        "minKS" : "2.04",
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "0.3.0"
+    },
+    {
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
@@ -847,14 +892,14 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amico8/0.9.5/Amico8.lha",
+          "https://juen.in/repo/amico8/0.9.6/Amico8.lha",
           "http://aminet.net/misc/emu/Amico8.lha",
           "http://us.aminet.net/misc/emu/Amico8.lha",
           "http://se.aminet.net/misc/emu/Amico8.lha"
         ],
-        "sha256" : "c911ce76d1e2bdfc233d7b74012c82e575904d347b0faa3ff611ada7017a9284",
-        "sizeBytes" : 497229,
-        "url" : "http://juen.in/repo/amico8/0.9.5/Amico8.lha"
+        "sha256" : "adc0bfb050cdc76e53a93ccd840251f05bbaa2dec5e465c592beefdeec93ef5c",
+        "sizeBytes" : 496911,
+        "url" : "http://juen.in/repo/amico8/0.9.6/Amico8.lha"
       },
       "category" : "Emulation",
       "conflicts" : [
@@ -877,7 +922,7 @@
         "minKS" : "2.0"
       },
       "tier" : "A",
-      "version" : "0.9.5"
+      "version" : "0.9.6"
     },
     {
       "archive" : {
