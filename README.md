@@ -104,6 +104,10 @@ Submitting here is still the way to reach *everyone* by default — packages in
 this catalog are human-reviewed, signed offline, and need no setup on the user's
 machine.
 
+Repositories other people run are listed in **[REPOSITORIES.md](REPOSITORIES.md)**
+— a phone book, not an endorsement: each one is verified against its own key, and
+listing yours is a pull request away.
+
 ## Layout
 
 ```
