@@ -5,8 +5,8 @@
       "http://us.aminet.net/comm/tcp/CompunetReborn.lha",
       "http://se.aminet.net/comm/tcp/CompunetReborn.lha"
     ],
-    "sha256": "3e3cc11d7bc51be4357691e0067c5cc24eefe21a6c310e3430ec73eece361522",
-    "sizeBytes": 124059,
+    "sha256": "860e8053e8aef68321d2103fe14f0db1e2e5a349949654214902ae61a9346304",
+    "sizeBytes": 125943,
     "url": "http://aminet.net/comm/tcp/CompunetReborn.lha"
   },
   "category": "Internet",
@@ -22,5 +22,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "1.3.0"
+  "version": "1.4.0"
 }

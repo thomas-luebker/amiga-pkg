@@ -685,9 +685,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "5871031fef0aa5eacb7a510df453a5325ea531ba9ca692f174abeadc975502b0",
-        "sizeBytes" : 98042,
-        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.3.2/amiagent-0.3.2.lha"
+        "sha256" : "27d2b47e30e177c7d4575889713d90a11012a5a664b03bcb93b82530c7512f06",
+        "sizeBytes" : 98360,
+        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.3.3/amiagent-0.3.3.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -727,7 +727,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.3.2"
+      "version" : "0.3.3"
     },
     {
       "added" : "2026-07-24",
@@ -2413,8 +2413,8 @@
           "http://us.aminet.net/comm/tcp/CompunetReborn.lha",
           "http://se.aminet.net/comm/tcp/CompunetReborn.lha"
         ],
-        "sha256" : "3e3cc11d7bc51be4357691e0067c5cc24eefe21a6c310e3430ec73eece361522",
-        "sizeBytes" : 124059,
+        "sha256" : "860e8053e8aef68321d2103fe14f0db1e2e5a349949654214902ae61a9346304",
+        "sizeBytes" : 125943,
         "url" : "http://aminet.net/comm/tcp/CompunetReborn.lha"
       },
       "category" : "Internet",
@@ -2438,7 +2438,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "1.3.0"
+      "version" : "1.4.0"
     },
     {
       "added" : "2026-07-24",
@@ -8676,8 +8676,8 @@
           "http://us.aminet.net/comm/tcp/TheWire13.lha",
           "http://se.aminet.net/comm/tcp/TheWire13.lha"
         ],
-        "sha256" : "243b209b06f782895381dd5bc82bfbc0501e9955f317924e17f692532be72d53",
-        "sizeBytes" : 144716,
+        "sha256" : "e0d8ce2cc8e625dd31fd8e229f0055f228b1d531062f17ec971a340272f5c41a",
+        "sizeBytes" : 145062,
         "url" : "http://aminet.net/comm/tcp/TheWire13.lha"
       },
       "category" : "Internet",
@@ -8697,7 +8697,7 @@
 
       ],
       "tier" : "A",
-      "version" : "1.8"
+      "version" : "1.8.1"
     },
     {
       "added" : "2026-07-27",
