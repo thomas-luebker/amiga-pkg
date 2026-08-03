@@ -5,8 +5,8 @@
       "http://us.aminet.net/comm/tcp/TheWire13.lha",
       "http://se.aminet.net/comm/tcp/TheWire13.lha"
     ],
-    "sha256": "e0d8ce2cc8e625dd31fd8e229f0055f228b1d531062f17ec971a340272f5c41a",
-    "sizeBytes": 145062,
+    "sha256": "383c6cb2a50de326e52fa0f1ddb90904936c2c8237b4bfd7fe469c32469a8e57",
+    "sizeBytes": 146107,
     "url": "http://aminet.net/comm/tcp/TheWire13.lha"
   },
   "category": "Internet",
@@ -18,5 +18,5 @@
   "provides": [],
   "requiredCapabilities": [],
   "tier": "A",
-  "version": "1.8.1"
+  "version": "1.8.2"
 }
