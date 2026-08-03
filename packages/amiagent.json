@@ -2,9 +2,9 @@
   "added": "2026-08-01",
   "archive": {
     "mirrors": [],
-    "sha256": "27d2b47e30e177c7d4575889713d90a11012a5a664b03bcb93b82530c7512f06",
-    "sizeBytes": 98360,
-    "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.3.3/amiagent-0.3.3.lha"
+    "sha256": "c229f950215d2c466841c9f591ec6c7a65cb0c7b34b7ce3c760e871234755fc5",
+    "sizeBytes": 102651,
+    "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.5.0/amiagent-0.5.0.lha"
   },
   "category": "Utilities",
   "conflicts": [],
@@ -14,27 +14,27 @@
   "name": "amiagent",
   "provides": [],
   "recipe": {
-    "recipeSchema": 1,
     "ops": [
       {
+        "dest": "Programs/amiagent",
         "op": "placeFile",
-        "src": "amiagent",
-        "dest": "Programs/amiagent"
+        "src": "amiagent"
       },
       {
+        "dest": "Programs/amiagent",
         "op": "placeFile",
-        "src": "amiagent.020",
-        "dest": "Programs/amiagent"
+        "src": "amiagent.020"
       }
-    ]
+    ],
+    "recipeSchema": 1
   },
   "requiredCapabilities": [],
   "requirements": {
-    "minKS": "2.04",
+    "architecture": "m68k-amigaos",
     "minCPU": "68000",
-    "network": true,
-    "architecture": "m68k-amigaos"
+    "minKS": "2.04",
+    "network": true
   },
   "tier": "A",
-  "version": "0.3.3"
+  "version": "0.5.0"
 }

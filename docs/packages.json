@@ -685,9 +685,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "27d2b47e30e177c7d4575889713d90a11012a5a664b03bcb93b82530c7512f06",
-        "sizeBytes" : 98360,
-        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.3.3/amiagent-0.3.3.lha"
+        "sha256" : "c229f950215d2c466841c9f591ec6c7a65cb0c7b34b7ce3c760e871234755fc5",
+        "sizeBytes" : 102651,
+        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.5.0/amiagent-0.5.0.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -727,7 +727,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.3.3"
+      "version" : "0.5.0"
     },
     {
       "added" : "2026-07-24",
@@ -8676,8 +8676,8 @@
           "http://us.aminet.net/comm/tcp/TheWire13.lha",
           "http://se.aminet.net/comm/tcp/TheWire13.lha"
         ],
-        "sha256" : "e0d8ce2cc8e625dd31fd8e229f0055f228b1d531062f17ec971a340272f5c41a",
-        "sizeBytes" : 145062,
+        "sha256" : "383c6cb2a50de326e52fa0f1ddb90904936c2c8237b4bfd7fe469c32469a8e57",
+        "sizeBytes" : 146107,
         "url" : "http://aminet.net/comm/tcp/TheWire13.lha"
       },
       "category" : "Internet",
@@ -8697,7 +8697,7 @@
 
       ],
       "tier" : "A",
-      "version" : "1.8.1"
+      "version" : "1.8.2"
     },
     {
       "added" : "2026-07-27",
