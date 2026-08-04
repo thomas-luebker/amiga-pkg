@@ -650,12 +650,12 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amelinium/0.9.0/Amelinium.lha",
+          "https://juen.in/repo/amelinium/0.9.2/Amelinium.lha",
           "http://aminet.net/comm/www/Amelinium.lha"
         ],
-        "sha256" : "ccea8f406f255c575f6bbbaaa443b2e9c1826dfcbce72f2833973422b98f47f7",
-        "sizeBytes" : 3795458,
-        "url" : "http://juen.in/repo/amelinium/0.9.0/Amelinium.lha"
+        "sha256" : "9aae53eab9adda683ed068dd3dfdb88b3704c9b942acbcda7b53dd0a6d6ab69f",
+        "sizeBytes" : 3894202,
+        "url" : "http://juen.in/repo/amelinium/0.9.2/Amelinium.lha"
       },
       "category" : "Internet",
       "conflicts" : [
@@ -677,7 +677,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.9.0"
+      "version" : "0.9.2"
     },
     {
       "added" : "2026-08-01",
@@ -897,14 +897,14 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amico8/0.9.6/Amico8.lha",
+          "https://juen.in/repo/amico8/0.9.7/Amico8.lha",
           "http://aminet.net/misc/emu/Amico8.lha",
           "http://us.aminet.net/misc/emu/Amico8.lha",
           "http://se.aminet.net/misc/emu/Amico8.lha"
         ],
-        "sha256" : "adc0bfb050cdc76e53a93ccd840251f05bbaa2dec5e465c592beefdeec93ef5c",
-        "sizeBytes" : 496911,
-        "url" : "http://juen.in/repo/amico8/0.9.6/Amico8.lha"
+        "sha256" : "66a084567c74aaf0daba951085e3be059c77fff700ad3f063f9b1a42e12e78d6",
+        "sizeBytes" : 493318,
+        "url" : "http://juen.in/repo/amico8/0.9.7/Amico8.lha"
       },
       "category" : "Emulation",
       "conflicts" : [
@@ -927,7 +927,7 @@
         "minKS" : "2.0"
       },
       "tier" : "A",
-      "version" : "0.9.6"
+      "version" : "0.9.7"
     },
     {
       "archive" : {
@@ -1148,9 +1148,9 @@
         "mirrors" : [
           "http://amiga-imager.org/packages/amipkg-client.lha"
         ],
-        "sha256" : "662cb9cd032b56866f01cb3699646a541601f564ba5cc01534db936e781c3699",
-        "sizeBytes" : 354194,
-        "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.7.8/amipkg-client.lha"
+        "sha256" : "8d9de2f33a908d2281395373357cff8b380b671c8b3d3de490f417eb4dbbcb05",
+        "sizeBytes" : 354311,
+        "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.7.9/amipkg-client.lha"
       },
       "category" : "System",
       "conflicts" : [
@@ -1207,7 +1207,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.7.8"
+      "version" : "0.7.9"
     },
     {
       "added" : "2026-07-27",
