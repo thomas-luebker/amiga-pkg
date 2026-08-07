@@ -2,14 +2,14 @@
   "added": "2026-08-01",
   "archive": {
     "mirrors": [],
-    "sha256": "45268380628f02aa1fe1e099adbe2d328f8dc98eaaa767946bd7caf5d6620736",
-    "sizeBytes": 103573,
-    "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.5.2/amiagent-0.5.2.lha"
+    "sha256": "43e320d94848f8a94a151b43b86d8530f8071ab5cdc7ac21244c8fc6ef5d32dd",
+    "sizeBytes": 103824,
+    "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.5.3/amiagent-0.5.3.lha"
   },
   "category": "Utilities",
   "conflicts": [],
   "deps": [],
-  "description": "Remote agent that lets Claude run commands, move files, capture the screen and drive mouse/keyboard",
+  "description": "Remote agent that lets an AI assistant run commands, move files, capture the screen and drive mouse/keyboard",
   "id": "amiagent",
   "name": "amiagent",
   "provides": [],
@@ -36,5 +36,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "0.5.2"
+  "version": "0.5.3"
 }

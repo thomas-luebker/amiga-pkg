@@ -650,12 +650,12 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amelinium/0.9.3/Amelinium.lha",
+          "https://juen.in/repo/amelinium/0.9.4/Amelinium.lha",
           "http://aminet.net/comm/www/Amelinium.lha"
         ],
-        "sha256" : "18e40c487e1402b0a71fbd4dd6745a5f5a12bf43ada0d03014efefd823dc83ce",
-        "sizeBytes" : 3898261,
-        "url" : "http://juen.in/repo/amelinium/0.9.3/Amelinium.lha"
+        "sha256" : "72492fa5fd263326d86173f40ce838bb6b6efe56c466700d57ba72f89ab1013c",
+        "sizeBytes" : 4020726,
+        "url" : "http://juen.in/repo/amelinium/0.9.4/Amelinium.lha"
       },
       "category" : "Internet",
       "conflicts" : [
@@ -677,7 +677,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.9.3"
+      "version" : "0.9.4"
     },
     {
       "added" : "2026-08-01",
@@ -685,9 +685,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "45268380628f02aa1fe1e099adbe2d328f8dc98eaaa767946bd7caf5d6620736",
-        "sizeBytes" : 103573,
-        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.5.2/amiagent-0.5.2.lha"
+        "sha256" : "43e320d94848f8a94a151b43b86d8530f8071ab5cdc7ac21244c8fc6ef5d32dd",
+        "sizeBytes" : 103824,
+        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.5.3/amiagent-0.5.3.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -696,7 +696,7 @@
       "deps" : [
 
       ],
-      "description" : "Remote agent that lets Claude run commands, move files, capture the screen and drive mouse/keyboard",
+      "description" : "Remote agent that lets an AI assistant run commands, move files, capture the screen and drive mouse/keyboard",
       "id" : "amiagent",
       "name" : "amiagent",
       "provides" : [
@@ -727,7 +727,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.5.2"
+      "version" : "0.5.3"
     },
     {
       "added" : "2026-07-24",
