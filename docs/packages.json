@@ -5362,8 +5362,8 @@
           "http://us.aminet.net/misc/emu/make.lha",
           "http://se.aminet.net/misc/emu/make.lha"
         ],
-        "sha256" : "31660535d3edd7759a131b813eba65dff00aeb81bc77bc406bf7494269b30984",
-        "sizeBytes" : 158246,
+        "sha256" : "8ae87cc90f8c0642b145864cacfb82dee6e78db4a8ebe77e98601c7bd9fbb701",
+        "sizeBytes" : 121549,
         "url" : "http://aminet.net/misc/emu/make.lha"
       },
       "category" : "Emulation",
@@ -5597,8 +5597,8 @@
           "http://us.aminet.net/mus/play/MintAMP.lha",
           "http://se.aminet.net/mus/play/MintAMP.lha"
         ],
-        "sha256" : "043a71d19ed70577a3f3e952a73154f5c2732841f1a98ba3fd43e3e24cb712ba",
-        "sizeBytes" : 1454156,
+        "sha256" : "5fd621db7be33bd4443cf72797da7086c15c662c09d75b31d257924c9879b35a",
+        "sizeBytes" : 2814759,
         "url" : "http://aminet.net/mus/play/MintAMP.lha"
       },
       "category" : "Audio",
@@ -5622,7 +5622,7 @@
         "minKS" : "3.1"
       },
       "tier" : "A",
-      "version" : "1.0.0"
+      "version" : "1.1.0"
     },
     {
       "archive" : {
