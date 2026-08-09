@@ -2,9 +2,9 @@
   "added": "2026-07-25",
   "archive": {
     "mirrors": [],
-    "sha256": "33a193b4c09c165d027d93ba9d566af5f93b248358aec11d02df8f40fb87e7cf",
-    "sizeBytes": 537931,
-    "url": "https://github.com/thomas-luebker/amiga-pkg/releases/latest/download/amipkg-client.lha"
+    "sha256": "1b31f40fd13af6f66aa6cbab6e56fe8163bcb34af4cbd84d63fc781b8bdf1657",
+    "sizeBytes": 354585,
+    "url": "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.7.10/amipkg-client.lha"
   },
   "category": "System",
   "conflicts": [],
@@ -68,5 +68,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "0.4.7"
+  "version": "0.7.10"
 }
