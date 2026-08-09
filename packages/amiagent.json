@@ -2,9 +2,9 @@
   "added": "2026-08-01",
   "archive": {
     "mirrors": [],
-    "sha256": "d51f7fd4b49e8264b2da0049ada27ce10a9faa82a9013d111884805ec3120f31",
-    "sizeBytes": 104183,
-    "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.5.4/amiagent-0.5.4.lha"
+    "sha256": "3dfc3964f08271125e0b2441d41f8c5243de3e8e5505087bae021b4f3431c7a9",
+    "sizeBytes": 104547,
+    "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.5.5/amiagent-0.5.5.lha"
   },
   "category": "Utilities",
   "conflicts": [],
@@ -26,7 +26,7 @@
         "src": "amiagent.020"
       },
       {
-        "dest": "Programs",
+        "dest": "Programs/amiagent",
         "op": "placeFile",
         "src": "amiagent.info"
       }
@@ -41,5 +41,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "0.5.4"
+  "version": "0.5.5"
 }
