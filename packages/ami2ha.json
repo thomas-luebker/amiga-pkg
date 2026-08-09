@@ -2,8 +2,8 @@
   "added": "2026-08-09",
   "archive": {
     "mirrors": [],
-    "sha256": "0f480d5ec4233126f1da2fa01d6565b72e9bf16fa70e898370c26c1f8e0547ce",
-    "sizeBytes": 87209,
+    "sha256": "76ffa4cd2d73a608b3c68b646f444f1d8e481687d2f2591187d4a595968c4f8b",
+    "sizeBytes": 87341,
     "url": "https://github.com/evil4dmin/ami2ha/releases/download/v0.1/ami2ha-0.1.lha"
   },
   "category": "Network",
