@@ -685,9 +685,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "d99c915714b833fe3fc44204fe36de4a904bbc7c6c8a286f13afd1763435655e",
-        "sizeBytes" : 172071,
-        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.6.1/amiagent-0.6.1.lha"
+        "sha256" : "08bce846e318060408f6b781c240f9f0bbf81e683720eb36345713971f13e8bd",
+        "sizeBytes" : 195993,
+        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.7.0/amiagent-0.7.0.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -733,6 +733,21 @@
             "dest" : "Programs/amiagent",
             "op" : "placeFile",
             "src" : "amimon.info"
+          },
+          {
+            "dest" : "Programs/amiagent",
+            "op" : "placeFile",
+            "src" : "amimon-mui"
+          },
+          {
+            "dest" : "Programs/amiagent",
+            "op" : "placeFile",
+            "src" : "amimon-mui.020"
+          },
+          {
+            "dest" : "Programs/amiagent",
+            "op" : "placeFile",
+            "src" : "amimon-mui.info"
           }
         ],
         "recipeSchema" : 1
@@ -747,7 +762,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.6.1"
+      "version" : "0.7.0"
     },
     {
       "added" : "2026-07-24",
@@ -917,14 +932,14 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amico8/0.9.10/Amico8.lha",
+          "https://juen.in/repo/amico8/0.9.11/Amico8.lha",
           "http://aminet.net/misc/emu/Amico8.lha",
           "http://us.aminet.net/misc/emu/Amico8.lha",
           "http://se.aminet.net/misc/emu/Amico8.lha"
         ],
-        "sha256" : "e1b0aea0f14679eb13d9e553d138d0ee6abd1ca2ed86f4b8adedc0cb40af0166",
-        "sizeBytes" : 528634,
-        "url" : "http://juen.in/repo/amico8/0.9.10/Amico8.lha"
+        "sha256" : "d058deef171acd01fd1242e635a077f9201a5380e07b8285c26e869da26111d3",
+        "sizeBytes" : 533769,
+        "url" : "http://juen.in/repo/amico8/0.9.11/Amico8.lha"
       },
       "category" : "Emulation",
       "conflicts" : [
@@ -947,7 +962,7 @@
         "minKS" : "2.0"
       },
       "tier" : "A",
-      "version" : "0.9.10"
+      "version" : "0.9.11"
     },
     {
       "archive" : {

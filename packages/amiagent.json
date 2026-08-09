@@ -2,9 +2,9 @@
   "added": "2026-08-01",
   "archive": {
     "mirrors": [],
-    "sha256": "d99c915714b833fe3fc44204fe36de4a904bbc7c6c8a286f13afd1763435655e",
-    "sizeBytes": 172071,
-    "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.6.1/amiagent-0.6.1.lha"
+    "sha256": "08bce846e318060408f6b781c240f9f0bbf81e683720eb36345713971f13e8bd",
+    "sizeBytes": 195993,
+    "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.7.0/amiagent-0.7.0.lha"
   },
   "category": "Utilities",
   "conflicts": [],
@@ -44,6 +44,21 @@
         "dest": "Programs/amiagent",
         "op": "placeFile",
         "src": "amimon.info"
+      },
+      {
+        "dest": "Programs/amiagent",
+        "op": "placeFile",
+        "src": "amimon-mui"
+      },
+      {
+        "dest": "Programs/amiagent",
+        "op": "placeFile",
+        "src": "amimon-mui.020"
+      },
+      {
+        "dest": "Programs/amiagent",
+        "op": "placeFile",
+        "src": "amimon-mui.info"
       }
     ],
     "recipeSchema": 1
@@ -56,5 +71,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "0.6.1"
+  "version": "0.7.0"
 }
