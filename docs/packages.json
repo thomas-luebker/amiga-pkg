@@ -680,6 +680,66 @@
       "version" : "0.9.4"
     },
     {
+      "added" : "2026-08-09",
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "76ffa4cd2d73a608b3c68b646f444f1d8e481687d2f2591187d4a595968c4f8b",
+        "sizeBytes" : 87341,
+        "url" : "https://github.com/evil4dmin/ami2ha/releases/download/v0.1/ami2ha-0.1.lha"
+      },
+      "category" : "Network",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "mui38"
+        }
+      ],
+      "description" : "Home Assistant client: read sensors and flip switches from a configurable MUI dashboard, with an ARexx port so other programs can read and control the house too",
+      "id" : "ami2ha",
+      "name" : "ami2ha",
+      "provides" : [
+
+      ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "Programs/ami2ha",
+            "op" : "copyGlob",
+            "recursive" : true,
+            "src" : "ami2ha/*"
+          },
+          {
+            "dest" : "Programs/ami2ha",
+            "op" : "copyGlob",
+            "rename" : "ami2ha",
+            "src" : "ami2ha/ami2ha.000"
+          },
+          {
+            "depth" : 2,
+            "op" : "setExec",
+            "scope" : "Programs"
+          }
+        ],
+        "recipeSchema" : 1
+      },
+      "requiredCapabilities" : [
+        "copy-glob-v1",
+        "set-exec-v1"
+      ],
+      "requirements" : {
+        "architecture" : "m68k-amigaos",
+        "minCPU" : "68000",
+        "minKS" : "3.0",
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "0.1"
+    },
+    {
       "added" : "2026-08-01",
       "archive" : {
         "mirrors" : [
@@ -1183,9 +1243,9 @@
         "mirrors" : [
           "http://amiga-imager.org/packages/amipkg-client.lha"
         ],
-        "sha256" : "8d9de2f33a908d2281395373357cff8b380b671c8b3d3de490f417eb4dbbcb05",
-        "sizeBytes" : 354311,
-        "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.7.9/amipkg-client.lha"
+        "sha256" : "1b31f40fd13af6f66aa6cbab6e56fe8163bcb34af4cbd84d63fc781b8bdf1657",
+        "sizeBytes" : 354585,
+        "url" : "https://github.com/thomas-luebker/amiga-pkg/releases/download/v0.7.10/amipkg-client.lha"
       },
       "category" : "System",
       "conflicts" : [
@@ -1242,7 +1302,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.7.9"
+      "version" : "0.7.10"
     },
     {
       "added" : "2026-07-27",
@@ -5397,8 +5457,8 @@
           "http://us.aminet.net/misc/emu/make.lha",
           "http://se.aminet.net/misc/emu/make.lha"
         ],
-        "sha256" : "8ae87cc90f8c0642b145864cacfb82dee6e78db4a8ebe77e98601c7bd9fbb701",
-        "sizeBytes" : 121549,
+        "sha256" : "a8f1b6dab34713bc8a5dc74db56eef270079005fec768c77b62b99ab89612233",
+        "sizeBytes" : 122181,
         "url" : "http://aminet.net/misc/emu/make.lha"
       },
       "category" : "Emulation",
@@ -5421,7 +5481,7 @@
         "minKS" : "2.04"
       },
       "tier" : "A",
-      "version" : "2.63"
+      "version" : "2.69"
     },
     {
       "added" : "2026-07-27",
