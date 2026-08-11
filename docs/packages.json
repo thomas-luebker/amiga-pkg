@@ -1029,8 +1029,8 @@
         "mirrors" : [
 
         ],
-        "sha256" : "2d931d310e3bbee467b8a6a5c652dc5a746b90a3e2e1d5a9eb5fc0493fafbdf2",
-        "sizeBytes" : 412617,
+        "sha256" : "9128f71ff3f57e440b59e2c47fd26bfedbafe4501657eeacc7431631bc19e4b4",
+        "sizeBytes" : 416584,
         "url" : "http://aminet.net/mus/play/AmigaAMP3-68k.lha"
       },
       "category" : "Multimedia",
@@ -1065,7 +1065,7 @@
         "host-builtin-v1"
       ],
       "tier" : "B",
-      "version" : "3.33"
+      "version" : "3.35"
     },
     {
       "added" : "2026-07-27",
@@ -1462,15 +1462,14 @@
       "version" : "-"
     },
     {
-      "added" : "2026-07-27",
+      "added" : "2026-08-11",
       "archive" : {
         "mirrors" : [
-          "http://us.aminet.net/comm/tcp/AmiVNC.lha",
-          "http://se.aminet.net/comm/tcp/AmiVNC.lha"
+
         ],
         "sha256" : "d7c1ecd6747acf290475c6ab29ecb3796a71d155ce525f5c1ce5a338d6ffeb87",
         "sizeBytes" : 143833,
-        "url" : "http://aminet.net/comm/tcp/AmiVNC.lha"
+        "url" : "https://aminet.net/comm/tcp/AmiVNC.lha"
       },
       "category" : "Network",
       "conflicts" : [
@@ -1479,17 +1478,44 @@
       "deps" : [
 
       ],
-      "description" : "VNC server for the Amiga - view and control your Workbench remotely from any modern machine. Works on RTG and native screens.",
+      "description" : "Experimental VNC server: view and control this Amiga's screen from a VNC client over TCP (RTG or planar screens)",
       "id" : "amivnc",
       "name" : "AmiVNC",
       "provides" : [
-
+        "vnc-server"
       ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "Programs/AmiVNC",
+            "op" : "placeFile",
+            "src" : "AmiVNC/Executables/RTG & Planar/AmiVNC.020"
+          },
+          {
+            "dest" : "Programs/AmiVNC",
+            "op" : "placeFile",
+            "src" : "AmiVNC/Executables/RTG & Planar/AmiVNC.060"
+          },
+          {
+            "dest" : "Programs/AmiVNC",
+            "op" : "placeFile",
+            "src" : "AmiVNC/AmiVNC.readme"
+          },
+          {
+            "dest" : "Programs/AmiVNC/Doc",
+            "op" : "placeFile",
+            "src" : "AmiVNC/Doc/AmiVNC.htm"
+          }
+        ],
+        "recipeSchema" : 1
+      },
       "requiredCapabilities" : [
 
       ],
       "requirements" : {
-        "minKS" : "3.0",
+        "architecture" : "m68k-amigaos",
+        "minCPU" : "68020",
+        "minKS" : "2.04",
         "network" : true
       },
       "tier" : "A",
