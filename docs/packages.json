@@ -2376,8 +2376,8 @@
           "http://us.aminet.net/util/shell/ltx-ccon.lha",
           "http://se.aminet.net/util/shell/ltx-ccon.lha"
         ],
-        "sha256" : "7e7e6b3240379882620809f811c4c2c0ed7294a44d758a6754c9f43fb1c31e2f",
-        "sizeBytes" : 54328,
+        "sha256" : "e96f49c552725090613ff283b8a4b86ee3cd23c648f37e72067f5ea1d25e190c",
+        "sizeBytes" : 66989,
         "url" : "http://aminet.net/util/shell/ltx-ccon.lha"
       },
       "category" : "Utilities",
@@ -2397,7 +2397,7 @@
 
       ],
       "tier" : "A",
-      "version" : "1.2.5"
+      "version" : "1.2.7"
     },
     {
       "added" : "2026-07-24",
@@ -5483,8 +5483,8 @@
           "http://us.aminet.net/misc/emu/make.lha",
           "http://se.aminet.net/misc/emu/make.lha"
         ],
-        "sha256" : "a8f1b6dab34713bc8a5dc74db56eef270079005fec768c77b62b99ab89612233",
-        "sizeBytes" : 122181,
+        "sha256" : "8379ed21f178a49872d2167bbb007cde9ad8ba980fe263a0f6a1beecacf5ebcb",
+        "sizeBytes" : 122192,
         "url" : "http://aminet.net/misc/emu/make.lha"
       },
       "category" : "Emulation",

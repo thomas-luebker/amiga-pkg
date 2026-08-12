@@ -5,8 +5,8 @@
       "http://us.aminet.net/util/shell/ltx-ccon.lha",
       "http://se.aminet.net/util/shell/ltx-ccon.lha"
     ],
-    "sha256": "7e7e6b3240379882620809f811c4c2c0ed7294a44d758a6754c9f43fb1c31e2f",
-    "sizeBytes": 54328,
+    "sha256": "e96f49c552725090613ff283b8a4b86ee3cd23c648f37e72067f5ea1d25e190c",
+    "sizeBytes": 66989,
     "url": "http://aminet.net/util/shell/ltx-ccon.lha"
   },
   "category": "Utilities",
@@ -18,5 +18,5 @@
   "provides": [],
   "requiredCapabilities": [],
   "tier": "A",
-  "version": "1.2.5"
+  "version": "1.2.7"
 }
