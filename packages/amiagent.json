@@ -2,8 +2,8 @@
   "added": "2026-08-01",
   "archive": {
     "mirrors": [],
-    "sha256": "831021a8d1da7b6817d16961e575b8d6cd161237b1fac2f5631d6f6014d42b75",
-    "sizeBytes": 204674,
+    "sha256": "3517fb321ebe0fe1a0fd684538cd0253c026f436a92293f4c2de052515d668c0",
+    "sizeBytes": 204220,
     "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.10.0/amiagent-0.10.0.lha"
   },
   "category": "Utilities",
