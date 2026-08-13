@@ -745,9 +745,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "08bce846e318060408f6b781c240f9f0bbf81e683720eb36345713971f13e8bd",
-        "sizeBytes" : 195993,
-        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.7.0/amiagent-0.7.0.lha"
+        "sha256" : "831021a8d1da7b6817d16961e575b8d6cd161237b1fac2f5631d6f6014d42b75",
+        "sizeBytes" : 204674,
+        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.10.0/amiagent-0.10.0.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -756,7 +756,7 @@
       "deps" : [
 
       ],
-      "description" : "Remote agent that lets an AI assistant run commands, move files, capture the screen and drive mouse/keyboard",
+      "description" : "Remote agent that lets an AI assistant run commands, move files, capture the screen, drive mouse/keyboard, script ARexx, and optionally speak TLS",
       "id" : "amiagent",
       "name" : "amiagent",
       "provides" : [
@@ -822,7 +822,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.7.0"
+      "version" : "0.10.0"
     },
     {
       "added" : "2026-07-24",
