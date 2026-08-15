@@ -685,9 +685,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "76ffa4cd2d73a608b3c68b646f444f1d8e481687d2f2591187d4a595968c4f8b",
-        "sizeBytes" : 87341,
-        "url" : "https://github.com/evil4dmin/ami2ha/releases/download/v0.1/ami2ha-0.1.lha"
+        "sha256" : "2824c5a52c2dac8979603e35e257c10ce76d07eba725d65cba35330e6851e4a1",
+        "sizeBytes" : 89660,
+        "url" : "https://github.com/evil4dmin/ami2ha/releases/download/v0.1.1/ami2ha-0.1.1.lha"
       },
       "category" : "Network",
       "conflicts" : [
@@ -719,6 +719,12 @@
             "src" : "ami2ha/ami2ha.000"
           },
           {
+            "dest" : "Programs/ami2ha",
+            "op" : "copyGlob",
+            "rename" : "ami2ha.info",
+            "src" : "ami2ha/icons/ami2ha.info"
+          },
+          {
             "depth" : 2,
             "op" : "setExec",
             "scope" : "Programs"
@@ -737,7 +743,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.1"
+      "version" : "0.1.1"
     },
     {
       "added" : "2026-08-01",
@@ -5269,7 +5275,7 @@
         ],
         "sha256" : "2d27c426a24e95c03e717dfd264fe0893e3d0c51289f277f3fabc31ac861e4ae",
         "sizeBytes" : 6345834,
-        "url" : "https://www.amigaworld.de/software/lumipass/LumiPass_1.4.lha"
+        "url" : "https://www.amigaworld.de/software/lumipass/LumiPass.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -5284,8 +5290,24 @@
       "provides" : [
 
       ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "Programs/LumiPass",
+            "op" : "copyTree",
+            "src" : "LumiPass"
+          },
+          {
+            "dest" : "Programs/LumiPass.info",
+            "op" : "drawerIcon",
+            "src" : "LumiPass.info"
+          }
+        ],
+        "recipeSchema" : 1
+      },
       "requiredCapabilities" : [
-
+        "copy-tree-v1",
+        "drawer-icon-v1"
       ],
       "tier" : "A",
       "version" : "1.4"
@@ -5313,8 +5335,24 @@
       "provides" : [
 
       ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "Programs/LumiReg",
+            "op" : "copyTree",
+            "src" : "LumiReg"
+          },
+          {
+            "dest" : "Programs/LumiReg.info",
+            "op" : "drawerIcon",
+            "src" : "LumiReg.info"
+          }
+        ],
+        "recipeSchema" : 1
+      },
       "requiredCapabilities" : [
-
+        "copy-tree-v1",
+        "drawer-icon-v1"
       ],
       "tier" : "A",
       "version" : "1.1"
@@ -5342,8 +5380,24 @@
       "provides" : [
 
       ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "Programs/LumiWeather",
+            "op" : "copyTree",
+            "src" : "LumiWeather"
+          },
+          {
+            "dest" : "Programs/LumiWeather.info",
+            "op" : "drawerIcon",
+            "src" : "LumiWeather.info"
+          }
+        ],
+        "recipeSchema" : 1
+      },
       "requiredCapabilities" : [
-
+        "copy-tree-v1",
+        "drawer-icon-v1"
       ],
       "tier" : "A",
       "version" : "1.1"
@@ -8181,10 +8235,26 @@
       "provides" : [
 
       ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "Programs/Solas",
+            "op" : "copyTree",
+            "src" : "Solas"
+          },
+          {
+            "dest" : "Programs/Solas.info",
+            "op" : "drawerIcon",
+            "src" : "Solas.info"
+          }
+        ],
+        "recipeSchema" : 1
+      },
       "requiredCapabilities" : [
-        "host-builtin-v1"
+        "copy-tree-v1",
+        "drawer-icon-v1"
       ],
-      "tier" : "B",
+      "tier" : "A",
       "version" : "-"
     },
     {

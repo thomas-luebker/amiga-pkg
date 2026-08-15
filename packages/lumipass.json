@@ -1,19 +1,37 @@
 {
-  "added": "2026-07-26",
-  "archive": {
-    "mirrors": [],
-    "sha256": "2d27c426a24e95c03e717dfd264fe0893e3d0c51289f277f3fabc31ac861e4ae",
-    "sizeBytes": 6345834,
-    "url": "https://www.amigaworld.de/software/lumipass/LumiPass_1.4.lha"
-  },
-  "category": "Utilities",
-  "conflicts": [],
-  "deps": [],
-  "description": "Native password manager with ChaCha20 encryption and KeePass import/export (MUI 3.8) [download needs AmiSSL - https host]",
-  "id": "lumipass",
-  "name": "LumiPass",
-  "provides": [],
-  "requiredCapabilities": [],
-  "tier": "A",
-  "version": "1.4"
+ "added": "2026-07-26",
+ "archive": {
+  "mirrors": [],
+  "sha256": "2d27c426a24e95c03e717dfd264fe0893e3d0c51289f277f3fabc31ac861e4ae",
+  "sizeBytes": 6345834,
+  "url": "https://www.amigaworld.de/software/lumipass/LumiPass.lha"
+ },
+ "category": "Utilities",
+ "conflicts": [],
+ "deps": [],
+ "description": "Native password manager with ChaCha20 encryption and KeePass import/export (MUI 3.8) [download needs AmiSSL - https host]",
+ "id": "lumipass",
+ "name": "LumiPass",
+ "provides": [],
+ "requiredCapabilities": [
+  "copy-tree-v1",
+  "drawer-icon-v1"
+ ],
+ "tier": "A",
+ "version": "1.4",
+ "recipe": {
+  "ops": [
+   {
+    "dest": "Programs/LumiPass",
+    "op": "copyTree",
+    "src": "LumiPass"
+   },
+   {
+    "dest": "Programs/LumiPass.info",
+    "op": "drawerIcon",
+    "src": "LumiPass.info"
+   }
+  ],
+  "recipeSchema": 1
+ }
 }

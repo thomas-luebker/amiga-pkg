@@ -13,7 +13,25 @@
   "id": "lumiweather",
   "name": "LumiWeather",
   "provides": [],
-  "requiredCapabilities": [],
+  "requiredCapabilities": [
+    "copy-tree-v1",
+    "drawer-icon-v1"
+  ],
   "tier": "A",
-  "version": "1.1"
+  "version": "1.1",
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs/LumiWeather",
+        "op": "copyTree",
+        "src": "LumiWeather"
+      },
+      {
+        "dest": "Programs/LumiWeather.info",
+        "op": "drawerIcon",
+        "src": "LumiWeather.info"
+      }
+    ],
+    "recipeSchema": 1
+  }
 }

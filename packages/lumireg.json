@@ -13,7 +13,25 @@
   "id": "lumireg",
   "name": "LumiReg",
   "provides": [],
-  "requiredCapabilities": [],
+  "requiredCapabilities": [
+    "copy-tree-v1",
+    "drawer-icon-v1"
+  ],
   "tier": "A",
-  "version": "-"
+  "version": "-",
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs/LumiReg",
+        "op": "copyTree",
+        "src": "LumiReg"
+      },
+      {
+        "dest": "Programs/LumiReg.info",
+        "op": "drawerIcon",
+        "src": "LumiReg.info"
+      }
+    ],
+    "recipeSchema": 1
+  }
 }

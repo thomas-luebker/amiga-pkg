@@ -30,8 +30,9 @@ import urllib.request
 # Capability vocabulary (mirror of PackageIndex.RecipeCapability). Tier-A =
 # portable/on-Amiga-installable; the rest are build-only / escape-hatch.
 KNOWN_CAPS = {
-    "copy-glob-v1", "strip-junk-v1", "merge-nested-v1", "set-exec-v1",
+    "copy-glob-v1", "copy-tree-v1", "strip-junk-v1", "merge-nested-v1", "set-exec-v1",
     "script-inject-v1", "tooltype-edit-v1", "make-assign-v1", "place-file-v1",
+    "drawer-icon-v1",
     "icon-patch-v1", "adf-unwrap-v1", "installer-script-v1", "host-builtin-v1",
     "pre-post-script-v1",
 }

@@ -21,8 +21,24 @@
   "name": "Solas",
   "provides": [],
   "requiredCapabilities": [
-    "host-builtin-v1"
+    "copy-tree-v1",
+    "drawer-icon-v1"
   ],
-  "tier": "B",
-  "version": "-"
+  "tier": "A",
+  "version": "-",
+  "recipe": {
+    "ops": [
+      {
+        "dest": "Programs/Solas",
+        "op": "copyTree",
+        "src": "Solas"
+      },
+      {
+        "dest": "Programs/Solas.info",
+        "op": "drawerIcon",
+        "src": "Solas.info"
+      }
+    ],
+    "recipeSchema": 1
+  }
 }
