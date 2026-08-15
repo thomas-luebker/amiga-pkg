@@ -2,14 +2,14 @@
   "added": "2026-08-01",
   "archive": {
     "mirrors": [],
-    "sha256": "3517fb321ebe0fe1a0fd684538cd0253c026f436a92293f4c2de052515d668c0",
-    "sizeBytes": 204220,
-    "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.10.0/amiagent-0.10.0.lha"
+    "sha256": "2691436bbd470d4c7d6256744a06003cb95aaca2c23058bce57d8faac3202e0c",
+    "sizeBytes": 218180,
+    "url": "https://github.com/thomas-luebker/amimcp/releases/download/v0.11.0/amiagent-0.11.0.lha"
   },
   "category": "Utilities",
   "conflicts": [],
   "deps": [],
-  "description": "Remote agent that lets an AI assistant run commands, move files, capture the screen, drive mouse/keyboard, script ARexx, and optionally speak TLS",
+  "description": "Remote agent that lets an AI assistant run commands, move files, capture the screen, drive mouse/keyboard, script ARexx, and optionally speak TLS; 0.11 adds a local AMIAGENT ARexx port for your own tooling",
   "id": "amiagent",
   "name": "amiagent",
   "provides": [],
@@ -59,6 +59,16 @@
         "dest": "Programs/amiagent",
         "op": "placeFile",
         "src": "amimon-mui.info"
+      },
+      {
+        "dest": "Programs/amiagent",
+        "op": "placeFile",
+        "src": "README.txt"
+      },
+      {
+        "dest": "Programs/amiagent",
+        "op": "placeFile",
+        "src": "PROTOCOL.md"
       }
     ],
     "recipeSchema": 1
@@ -71,5 +81,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "0.10.0"
+  "version": "0.11.0"
 }
