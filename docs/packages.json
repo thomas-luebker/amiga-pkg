@@ -1067,10 +1067,27 @@
       "provides" : [
 
       ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "Programs/AmigaAMP",
+            "op" : "copyTree",
+            "src" : "AmigaAMP3"
+          },
+          {
+            "dest" : "Programs",
+            "op" : "copyGlob",
+            "rename" : "AmigaAMP.info",
+            "src" : "AmigaAMP3.info"
+          }
+        ],
+        "recipeSchema" : 1
+      },
       "requiredCapabilities" : [
-        "host-builtin-v1"
+        "copy-glob-v1",
+        "copy-tree-v1"
       ],
-      "tier" : "B",
+      "tier" : "A",
       "version" : "3.35"
     },
     {
@@ -3961,10 +3978,26 @@
       "provides" : [
 
       ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "Programs/GoVD",
+            "op" : "copyTree",
+            "src" : "GoVD"
+          },
+          {
+            "dest" : "Programs",
+            "op" : "placeFile",
+            "src" : "GoVD.info"
+          }
+        ],
+        "recipeSchema" : 1
+      },
       "requiredCapabilities" : [
-        "host-builtin-v1"
+        "copy-tree-v1",
+        "place-file-v1"
       ],
-      "tier" : "B",
+      "tier" : "A",
       "version" : "3.1"
     },
     {
@@ -7217,10 +7250,36 @@
       "provides" : [
 
       ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "Programs/RCFTPd",
+            "op" : "copyTree",
+            "src" : "RCFTPd"
+          },
+          {
+            "dest" : "Programs",
+            "op" : "placeFile",
+            "src" : "RCFTPd.info"
+          },
+          {
+            "dest" : "Libs",
+            "op" : "placeFile",
+            "src" : "RCFTPd/libs/taglist.library"
+          },
+          {
+            "dest" : "Prefs/Env-Archive/Sys",
+            "op" : "placeFile",
+            "src" : "RCFTPd/ENVARC/Sys/def_rc-ftpd.info"
+          }
+        ],
+        "recipeSchema" : 1
+      },
       "requiredCapabilities" : [
-        "host-builtin-v1"
+        "copy-tree-v1",
+        "place-file-v1"
       ],
-      "tier" : "B",
+      "tier" : "A",
       "version" : "2.74"
     },
     {

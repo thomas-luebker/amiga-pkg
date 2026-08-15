@@ -1,35 +1,52 @@
 {
-  "archive": {
-    "mirrors": [],
-    "sha256": "9128f71ff3f57e440b59e2c47fd26bfedbafe4501657eeacc7431631bc19e4b4",
-    "sizeBytes": 416584,
-    "url": "http://aminet.net/mus/play/AmigaAMP3-68k.lha"
+ "archive": {
+  "mirrors": [],
+  "sha256": "9128f71ff3f57e440b59e2c47fd26bfedbafe4501657eeacc7431631bc19e4b4",
+  "sizeBytes": 416584,
+  "url": "http://aminet.net/mus/play/AmigaAMP3-68k.lha"
+ },
+ "category": "Multimedia",
+ "conflicts": [],
+ "deps": [
+  {
+   "id": "asyncio"
   },
-  "category": "Multimedia",
-  "conflicts": [],
-  "deps": [
-    {
-      "id": "asyncio"
-    },
-    {
-      "id": "mpega"
-    }
+  {
+   "id": "mpega"
+  }
+ ],
+ "description": "MPEG audio player with GUI (requires AHI and mpega.library)",
+ "id": "amigaamp",
+ "install": {
+  "alternateMD5": [],
+  "aminetPath": "mus/play/AmigaAMP3-68k.lha",
+  "primaryURL": "https://www.amigaamp.de/Binaries/AmigaAMP3-68k.lha",
+  "sourceType": "aminet",
+  "userDefined": false,
+  "userVisible": true
+ },
+ "name": "AmigaAMP",
+ "provides": [],
+ "requiredCapabilities": [
+  "copy-glob-v1",
+  "copy-tree-v1"
+ ],
+ "tier": "A",
+ "version": "3.35",
+ "recipe": {
+  "ops": [
+   {
+    "dest": "Programs/AmigaAMP",
+    "op": "copyTree",
+    "src": "AmigaAMP3"
+   },
+   {
+    "dest": "Programs",
+    "op": "copyGlob",
+    "rename": "AmigaAMP.info",
+    "src": "AmigaAMP3.info"
+   }
   ],
-  "description": "MPEG audio player with GUI (requires AHI and mpega.library)",
-  "id": "amigaamp",
-  "install": {
-    "alternateMD5": [],
-    "aminetPath": "mus/play/AmigaAMP3-68k.lha",
-    "primaryURL": "https://www.amigaamp.de/Binaries/AmigaAMP3-68k.lha",
-    "sourceType": "aminet",
-    "userDefined": false,
-    "userVisible": true
-  },
-  "name": "AmigaAMP",
-  "provides": [],
-  "requiredCapabilities": [
-    "host-builtin-v1"
-  ],
-  "tier": "B",
-  "version": "3.35"
+  "recipeSchema": 1
+ }
 }
