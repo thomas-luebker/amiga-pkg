@@ -159,6 +159,22 @@ Ops run in order. The vocabulary (each op lists its JSON keys):
   matching the wildcard at that path depth. Case-insensitive, matched
   relative to the extract root. With an exact (starless) `src`, `rename`
   gives the file a new name at `dest`.
+- **`copyTree`** `{ "op": "copyTree", "src": "YourApp", "dest": "Programs/YourApp" }`
+  — recursively copy an archive subtree PRESERVING structure: every file under
+  `src` (the `<appName>` drawer, or the extract root when absent) → `dest/<relative>`,
+  junk-stripped exactly like the build's `copyTreeFiltered` (drops `.DS_Store`,
+  `._*`, `__MACOSX`, `*.info.txt`, `.keep*`, `_UAEFSDB.___` — but KEEPS bundled
+  `Install` scripts). This is the whole-drawer app copy; distinct from the
+  depth-matched, flat-dest `copyGlob`.
+- **`cpuPlaceFile`** `{ "op": "cpuPlaceFile", "cpu040": "<68040+ build>",
+  "cpu020": "<68020/030 build>", "dest": "Libs", "rename": "yourlib.library" }`
+  — place ONE of two CPU-class library builds, chosen at install time from
+  `AttnFlags` (68040/68060 → `cpu040`; 68020/68030 → `cpu020`; 68000 → skipped),
+  renamed under `dest`. For libraries shipped as per-CPU builds (e.g. mpega).
+- **`drawerIcon`** `{ "op": "drawerIcon", "dest": "Programs/YourApp.info",
+  "src": "<optional archive-relative fallback .info>" }` — install a standard
+  Workbench drawer icon at `dest`: copy the system default (`ENVARC:Sys/def_drawer.info`,
+  else the archive `src` fallback), then force `do_Type=WBDRAWER` + `NO_ICON_POSITION`.
 - **`stripJunk`** `{ "op": "stripJunk" }` — explicit junk pass (the generic
   installer does this implicitly; in a recipe you decide).
 - **`mergeNested`** `{ "op": "mergeNested" }` — fold the `Foo/Foo/…` double
@@ -207,7 +223,10 @@ client refuses cleanly instead of half-installing:
 | Capability | Needed for |
 |---|---|
 | `place-file-v1` | `placeFile` |
+| `place-file-cpu-v1` | `cpuPlaceFile` |
 | `copy-glob-v1` | `copyGlob` |
+| `copy-tree-v1` | `copyTree` |
+| `drawer-icon-v1` | `drawerIcon` |
 | `strip-junk-v1` / `merge-nested-v1` / `set-exec-v1` | the matching op |
 | `script-inject-v1` | `scriptInject` |
 | `tooltype-edit-v1` | `tooltypeEdit` |
