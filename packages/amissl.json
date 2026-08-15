@@ -1,45 +1,84 @@
 {
-  "archive": {
-    "mirrors": [],
-    "sha256": "722476cfbf21c0caf6ff4a77e32ee8baf67d3045db0e9ff2ccce6c782bed5847",
-    "sizeBytes": 4294781,
-    "url": "https://github.com/jens-maus/amissl/releases/download/5.27/AmiSSL-5.27-OS3.lha"
-  },
-  "category": "Internet",
-  "conflicts": [],
-  "deps": [],
-  "description": "SSL/TLS for AmigaOS 3.x - enables https in amipkg, IBrowse, WookieChat and friends. Installing places amisslmaster.library and the 68020+ AmiSSL core into LIBS: (the activation step the archive's manual install describes). Certificate-verification data is not installed - apps that verify server certificates can run the archive's own Install-AmiSSL for the full setup.",
-  "id": "amissl",
-  "install": {
-    "alternateMD5": [],
-    "directURL": "https://github.com/jens-maus/amissl/releases/download/5.27/AmiSSL-5.27-OS3.lha",
-    "sourceType": "direct",
-    "userDefined": false,
-    "userVisible": true
-  },
-  "name": "AmiSSL 5.27",
-  "provides": [],
-  "recipe": {
-    "ops": [
-      {
-        "dest": "LIBS:",
-        "op": "placeFile",
-        "src": "AmiSSL/Libs/AmigaOS3/amisslmaster.library"
-      },
-      {
-        "dest": "LIBS:AmiSSL",
-        "op": "placeFile",
-        "src": "AmiSSL/Libs/AmigaOS3/AmiSSL/68020-40/amissl_v362.library"
-      }
-    ],
-    "recipeSchema": 2
-  },
-  "requiredCapabilities": [
-    "host-builtin-v1"
+ "archive": {
+  "mirrors": [],
+  "sha256": "722476cfbf21c0caf6ff4a77e32ee8baf67d3045db0e9ff2ccce6c782bed5847",
+  "sizeBytes": 4294781,
+  "url": "https://github.com/jens-maus/amissl/releases/download/5.27/AmiSSL-5.27-OS3.lha"
+ },
+ "category": "Internet",
+ "conflicts": [],
+ "deps": [],
+ "description": "SSL/TLS for AmigaOS 3.x - enables https in amipkg, IBrowse, WookieChat and friends. Installing places amisslmaster.library and the 68020+ AmiSSL core into LIBS: (the activation step the archive's manual install describes). Certificate-verification data is not installed - apps that verify server certificates can run the archive's own Install-AmiSSL for the full setup.",
+ "id": "amissl",
+ "install": {
+  "alternateMD5": [],
+  "directURL": "https://github.com/jens-maus/amissl/releases/download/5.27/AmiSSL-5.27-OS3.lha",
+  "sourceType": "direct",
+  "userDefined": false,
+  "userVisible": true
+ },
+ "name": "AmiSSL 5.27",
+ "provides": [],
+ "recipe": {
+  "ops": [
+   {
+    "dest": "Programs/AmiSSL/Libs",
+    "op": "placeFile",
+    "src": "AmiSSL/Libs/AmigaOS3/amisslmaster.library"
+   },
+   {
+    "dest": "Libs",
+    "op": "placeFile",
+    "src": "AmiSSL/Libs/AmigaOS3/amisslmaster.library"
+   },
+   {
+    "dest": "Programs/AmiSSL/Libs/AmiSSL",
+    "op": "copyGlob",
+    "src": "AmiSSL/Libs/AmigaOS3/AmiSSL/68020-40/*.library"
+   },
+   {
+    "dest": "Libs/AmiSSL",
+    "op": "copyGlob",
+    "src": "AmiSSL/Libs/AmigaOS3/AmiSSL/68020-40/*.library"
+   },
+   {
+    "dest": "Libs/AmiSSL",
+    "op": "copyGlob",
+    "rename": "amissl_v5.library",
+    "src": "AmiSSL/Libs/AmigaOS3/AmiSSL/68020-40/amissl_v362.library"
+   },
+   {
+    "dest": "Programs/AmiSSL/Libs/AmiSSL",
+    "op": "copyGlob",
+    "rename": "amissl_v5.library",
+    "src": "AmiSSL/Libs/AmigaOS3/AmiSSL/68020-40/amissl_v362.library"
+   },
+   {
+    "dest": "Programs/AmiSSL/Certs",
+    "op": "copyTree",
+    "src": "AmiSSL/Certs"
+   },
+   {
+    "dest": "C",
+    "op": "placeFile",
+    "src": "AmiSSL/C/AmigaOS3/OpenSSL"
+   },
+   {
+    "dest": "Programs",
+    "op": "placeFile",
+    "src": "AmiSSL.info"
+   }
   ],
-  "requirements": {
-    "minCPU": "68020"
-  },
-  "tier": "B",
-  "version": "5.27"
+  "recipeSchema": 1
+ },
+ "requiredCapabilities": [
+  "copy-glob-v1",
+  "copy-tree-v1",
+  "place-file-v1"
+ ],
+ "requirements": {
+  "minCPU": "68020"
+ },
+ "tier": "A",
+ "version": "5.27"
 }

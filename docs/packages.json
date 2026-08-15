@@ -1395,25 +1395,64 @@
       "recipe" : {
         "ops" : [
           {
-            "dest" : "LIBS:",
+            "dest" : "Programs/AmiSSL/Libs",
             "op" : "placeFile",
             "src" : "AmiSSL/Libs/AmigaOS3/amisslmaster.library"
           },
           {
-            "dest" : "LIBS:AmiSSL",
+            "dest" : "Libs",
             "op" : "placeFile",
+            "src" : "AmiSSL/Libs/AmigaOS3/amisslmaster.library"
+          },
+          {
+            "dest" : "Programs/AmiSSL/Libs/AmiSSL",
+            "op" : "copyGlob",
+            "src" : "AmiSSL/Libs/AmigaOS3/AmiSSL/68020-40/*.library"
+          },
+          {
+            "dest" : "Libs/AmiSSL",
+            "op" : "copyGlob",
+            "src" : "AmiSSL/Libs/AmigaOS3/AmiSSL/68020-40/*.library"
+          },
+          {
+            "dest" : "Libs/AmiSSL",
+            "op" : "copyGlob",
+            "rename" : "amissl_v5.library",
             "src" : "AmiSSL/Libs/AmigaOS3/AmiSSL/68020-40/amissl_v362.library"
+          },
+          {
+            "dest" : "Programs/AmiSSL/Libs/AmiSSL",
+            "op" : "copyGlob",
+            "rename" : "amissl_v5.library",
+            "src" : "AmiSSL/Libs/AmigaOS3/AmiSSL/68020-40/amissl_v362.library"
+          },
+          {
+            "dest" : "Programs/AmiSSL/Certs",
+            "op" : "copyTree",
+            "src" : "AmiSSL/Certs"
+          },
+          {
+            "dest" : "C",
+            "op" : "placeFile",
+            "src" : "AmiSSL/C/AmigaOS3/OpenSSL"
+          },
+          {
+            "dest" : "Programs",
+            "op" : "placeFile",
+            "src" : "AmiSSL.info"
           }
         ],
-        "recipeSchema" : 2
+        "recipeSchema" : 1
       },
       "requiredCapabilities" : [
-        "host-builtin-v1"
+        "copy-glob-v1",
+        "copy-tree-v1",
+        "place-file-v1"
       ],
       "requirements" : {
         "minCPU" : "68020"
       },
-      "tier" : "B",
+      "tier" : "A",
       "version" : "5.27"
     },
     {
