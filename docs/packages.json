@@ -5902,10 +5902,22 @@
       "provides" : [
 
       ],
+      "recipe" : {
+        "ops" : [
+          {
+            "cpu020" : "mpega_library/libs/mpega020.library",
+            "cpu040" : "mpega_library/libs/mpega040FPU.library",
+            "dest" : "Libs",
+            "op" : "cpuPlaceFile",
+            "rename" : "mpega.library"
+          }
+        ],
+        "recipeSchema" : 1
+      },
       "requiredCapabilities" : [
-        "host-builtin-v1"
+        "place-file-cpu-v1"
       ],
-      "tier" : "B",
+      "tier" : "A",
       "version" : "2.4"
     },
     {

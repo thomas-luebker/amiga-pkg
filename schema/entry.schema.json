@@ -138,7 +138,7 @@
       }
     },
     "recipe": {
-      "description": "Portable install ops (Tier-A) so amipkg can install on-Amiga. Optional \u2014 fetch works without it. Op vocabulary: copyGlob, copyTree, stripJunk, mergeNested, setExec, scriptInject, tooltypeEdit, makeAssign, placeFile, drawerIcon, and the curated inline-AmigaDOS ops preScript / postScript / removeScript ({\"op\":\"postScript\",\"lines\":[\"...\"]}; reviewed line-by-line, capability pre-post-script-v1).",
+      "description": "Portable install ops (Tier-A) so amipkg can install on-Amiga. Optional \u2014 fetch works without it. Op vocabulary: copyGlob, copyTree, stripJunk, mergeNested, setExec, scriptInject, tooltypeEdit, makeAssign, placeFile, cpuPlaceFile, drawerIcon, and the curated inline-AmigaDOS ops preScript / postScript / removeScript ({\"op\":\"postScript\",\"lines\":[\"...\"]}; reviewed line-by-line, capability pre-post-script-v1).",
       "type": "object",
       "required": [
         "recipeSchema",
@@ -164,6 +164,7 @@
           "tooltype-edit-v1",
           "make-assign-v1",
           "place-file-v1",
+          "place-file-cpu-v1",
           "drawer-icon-v1",
           "icon-patch-v1",
           "adf-unwrap-v1",
