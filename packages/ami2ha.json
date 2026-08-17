@@ -2,11 +2,11 @@
   "added": "2026-08-09",
   "archive": {
     "mirrors": [
-      "https://github.com/evil4dmin/ami2ha/releases/download/v0.1.1/ami2ha-0.1.1.lha"
+      "https://github.com/evil4dmin/ami2ha/releases/download/v0.2/ami2ha-0.2.lha"
     ],
-    "sha256": "2824c5a52c2dac8979603e35e257c10ce76d07eba725d65cba35330e6851e4a1",
-    "sizeBytes": 89660,
-    "url": "http://aminet.net/comm/tcp/ami2ha-0.1.1.lha"
+    "sha256": "b4baa3f476d94025d75e68eb45f445b0429fec36303da3e6c70abfd68543c25d",
+    "sizeBytes": 96595,
+    "url": "http://aminet.net/comm/tcp/ami2ha-0.2.lha"
   },
   "category": "Network",
   "conflicts": [],
@@ -15,7 +15,7 @@
       "id": "mui38"
     }
   ],
-  "description": "Home Assistant client: read sensors and flip switches from a configurable MUI dashboard, with an ARexx port so other programs can read and control the house too",
+  "description": "Home Assistant client: read sensors and flip switches from a configurable MUI dashboard, with an ARexx port so other programs can read and control the house too. Optional https via AmiSSL",
   "id": "ami2ha",
   "name": "ami2ha",
   "provides": [],
@@ -58,5 +58,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "0.1.1"
+  "version": "0.2"
 }
