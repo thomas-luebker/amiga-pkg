@@ -5,8 +5,8 @@
       "http://us.aminet.net/util/misc/ReportPlus.lha",
       "http://se.aminet.net/util/misc/ReportPlus.lha"
     ],
-    "sha256": "efeec935d057f105392cd7dae8908c7a62b2060b17364860d8626e2207f7e32a",
-    "sizeBytes": 736343,
+    "sha256": "3ac05a2004de894a31676c873c7ca1b89199eda0487fd1b728e810bc28d9de1d",
+    "sizeBytes": 737201,
     "url": "http://aminet.net/util/misc/ReportPlus.lha"
   },
   "category": "Utilities",
@@ -21,5 +21,5 @@
     "minKS": "3.9"
   },
   "tier": "A",
-  "version": "8.7"
+  "version": "8.71"
 }
