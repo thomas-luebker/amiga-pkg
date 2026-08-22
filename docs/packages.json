@@ -650,12 +650,12 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amelinium/0.9.5/Amelinium.lha",
+          "https://juen.in/repo/amelinium/0.9.7/Amelinium.lha",
           "http://aminet.net/comm/www/Amelinium.lha"
         ],
-        "sha256" : "fdd8987a219c876f91583ecf220140d2eb66e62ee5a91c830364c72aebeccbbf",
-        "sizeBytes" : 4175444,
-        "url" : "http://juen.in/repo/amelinium/0.9.5/Amelinium.lha"
+        "sha256" : "454b0c0bc683983dd44b3b1d0c919866e1ee7523abe30babbe1486edadc8e736",
+        "sizeBytes" : 4733548,
+        "url" : "http://juen.in/repo/amelinium/0.9.7/Amelinium.lha"
       },
       "category" : "Internet",
       "conflicts" : [
@@ -677,7 +677,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.9.5"
+      "version" : "0.9.7"
     },
     {
       "added" : "2026-08-09",
@@ -751,9 +751,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "467ad4241e63ed660b9f3d40cb15fa89a303659356dd9d26f803beea33b59dca",
-        "sizeBytes" : 220402,
-        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.12.0/amiagent-0.12.0.lha"
+        "sha256" : "159e3c2a3fc4499144c5397ec4ab21e30b0de849923964bda0e77496490ee717",
+        "sizeBytes" : 205563,
+        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.13.0/amiagent-0.13.0.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -762,7 +762,7 @@
       "deps" : [
 
       ],
-      "description" : "Remote agent that lets an AI assistant run commands, move files, capture the screen, drive mouse/keyboard, script ARexx, and optionally speak TLS; 0.11 adds a local AMIAGENT ARexx port for your own tooling",
+      "description" : "Remote agent that lets an AI assistant run commands, move files, capture the screen, drive mouse/keyboard, script ARexx, and optionally speak TLS; a local AMIAGENT ARexx port for your own tooling, and from 0.13 it starts from its icon with the token set in the icon's tool types",
       "id" : "amiagent",
       "name" : "amiagent",
       "provides" : [
@@ -838,7 +838,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.12.0"
+      "version" : "0.13.0"
     },
     {
       "added" : "2026-07-24",
@@ -3212,8 +3212,8 @@
           "http://us.aminet.net/game/strat/DuneLegacy_RTG.lha",
           "http://se.aminet.net/game/strat/DuneLegacy_RTG.lha"
         ],
-        "sha256" : "3ad813d480229cf236d1c074e162ade2c1ba900d667fc13d351409bad4ae32aa",
-        "sizeBytes" : 14746510,
+        "sha256" : "3f76a166abfd87ff0463d99231b29cbbb4a31fb420dda91ec542a75d00943633",
+        "sizeBytes" : 14746275,
         "url" : "http://aminet.net/game/strat/DuneLegacy_RTG.lha"
       },
       "category" : "Games",
@@ -3233,7 +3233,7 @@
 
       ],
       "tier" : "A",
-      "version" : "0.96.4.06"
+      "version" : "0.96.4.07"
     },
     {
       "added" : "2026-07-24",
@@ -3373,8 +3373,8 @@
           "http://us.aminet.net/game/role/Exult_RTG.lha",
           "http://se.aminet.net/game/role/Exult_RTG.lha"
         ],
-        "sha256" : "7feb09b84070f2bf6375b6db5570060c27452128127f9eba1b4a0c903393ecd3",
-        "sizeBytes" : 80565733,
+        "sha256" : "3097b2b00f1233f451505b34b5dff81759becd0b439a32a9719bed169b77abc5",
+        "sizeBytes" : 80566102,
         "url" : "http://aminet.net/game/role/Exult_RTG.lha"
       },
       "category" : "Games",
@@ -3400,7 +3400,7 @@
         "minKS" : "3.1"
       },
       "tier" : "A",
-      "version" : "1.12.1.01"
+      "version" : "1.12.1.02"
     },
     {
       "added" : "2026-07-27",
@@ -3680,8 +3680,8 @@
           "http://us.aminet.net/comm/tcp/Fitz.lha",
           "http://se.aminet.net/comm/tcp/Fitz.lha"
         ],
-        "sha256" : "1c4a4170cd71386d634c3322a86246ee9542760a68f747602a7a38783e75c86e",
-        "sizeBytes" : 294558,
+        "sha256" : "d4f95a056c9790efd49e9a1225ce3d1c8bc1dfc6d6ef70d8e79f0b597179bab7",
+        "sizeBytes" : 294511,
         "url" : "http://aminet.net/comm/tcp/Fitz.lha"
       },
       "category" : "Internet",
@@ -3704,7 +3704,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "1.21"
+      "version" : "1.21r1"
     },
     {
       "added" : "2026-07-27",
@@ -3777,8 +3777,8 @@
           "http://us.aminet.net/game/strat/FreeSynd_RTG.lha",
           "http://se.aminet.net/game/strat/FreeSynd_RTG.lha"
         ],
-        "sha256" : "ffe4c96f63a16bee337b77937fe6deca3912515c39cfa91b5a2f23868560c879",
-        "sizeBytes" : 3972645,
+        "sha256" : "d1c8358c809f94bef5c8fc71157e4c9da9a25b670d4445822dd314a3dd858536",
+        "sizeBytes" : 4031712,
         "url" : "http://aminet.net/game/strat/FreeSynd_RTG.lha"
       },
       "category" : "Games",
@@ -3798,7 +3798,7 @@
 
       ],
       "tier" : "A",
-      "version" : "0.9.1.04"
+      "version" : "0.9.1.05"
     },
     {
       "added" : "2026-07-24",
@@ -5619,8 +5619,8 @@
           "http://us.aminet.net/misc/emu/make.lha",
           "http://se.aminet.net/misc/emu/make.lha"
         ],
-        "sha256" : "fd12976d5a736ced84edafd7107adcc4918acd2d2954da8ef71d80b06ad94e4f",
-        "sizeBytes" : 122192,
+        "sha256" : "6a303f019ea470d14387a81305d5ca62d618c5b042a2fcd3960eedff7ecfdf98",
+        "sizeBytes" : 122210,
         "url" : "http://aminet.net/misc/emu/make.lha"
       },
       "category" : "Emulation",
@@ -7643,8 +7643,8 @@
           "http://us.aminet.net/util/misc/ReportPlus.lha",
           "http://se.aminet.net/util/misc/ReportPlus.lha"
         ],
-        "sha256" : "efeec935d057f105392cd7dae8908c7a62b2060b17364860d8626e2207f7e32a",
-        "sizeBytes" : 736343,
+        "sha256" : "3ac05a2004de894a31676c873c7ca1b89199eda0487fd1b728e810bc28d9de1d",
+        "sizeBytes" : 737201,
         "url" : "http://aminet.net/util/misc/ReportPlus.lha"
       },
       "category" : "Utilities",
@@ -7667,7 +7667,7 @@
         "minKS" : "3.9"
       },
       "tier" : "A",
-      "version" : "8.7"
+      "version" : "8.71"
     },
     {
       "added" : "2026-07-24",
