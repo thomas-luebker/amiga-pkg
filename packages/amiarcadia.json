@@ -5,8 +5,8 @@
       "http://us.aminet.net/misc/emu/AmiArcadia.lha",
       "http://se.aminet.net/misc/emu/AmiArcadia.lha"
     ],
-    "sha256": "17477ad04fb1f2fce20b2258e6e8babd47a5736cfdb492921c07cb2893d4d0d4",
-    "sizeBytes": 10980879,
+    "sha256": "f078d06dbe63ec55082c639eca28d0ee52b5d28113b5dc4d48a26c9d4556c033",
+    "sizeBytes": 10920482,
     "url": "http://aminet.net/misc/emu/AmiArcadia.lha"
   },
   "category": "Emulation",
@@ -22,5 +22,5 @@
     "minKS": "3.2"
   },
   "tier": "A",
-  "version": "36.6"
+  "version": "36.61"
 }
