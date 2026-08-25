@@ -5,8 +5,8 @@
       "http://us.aminet.net/game/misc/ScummVM_RTG_030.lha",
       "http://se.aminet.net/game/misc/ScummVM_RTG_030.lha"
     ],
-    "sha256": "b6e6913add828ca9cb7c83e28438a9c5d309660fc073905be85d70334d6bfdcf",
-    "sizeBytes": 7047934,
+    "sha256": "309b710317fea807309973f24ff5bd3156b8b62556e3a9f4a8c71c0f87116b71",
+    "sizeBytes": 7739576,
     "url": "http://aminet.net/game/misc/ScummVM_RTG_030.lha"
   },
   "category": "Games",
@@ -26,5 +26,5 @@
     "minKS": "3.1"
   },
   "tier": "A",
-  "version": "1.6.0.04"
+  "version": "1.6.0.05"
 }

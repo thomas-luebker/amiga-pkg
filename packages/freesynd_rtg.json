@@ -5,8 +5,8 @@
       "http://us.aminet.net/game/strat/FreeSynd_RTG.lha",
       "http://se.aminet.net/game/strat/FreeSynd_RTG.lha"
     ],
-    "sha256": "d1c8358c809f94bef5c8fc71157e4c9da9a25b670d4445822dd314a3dd858536",
-    "sizeBytes": 4031712,
+    "sha256": "8ed87f24c1194826c4ae91fae026ffbec4d38307d7692fd05f2468805f25c416",
+    "sizeBytes": 4033292,
     "url": "http://aminet.net/game/strat/FreeSynd_RTG.lha"
   },
   "category": "Games",
@@ -18,5 +18,5 @@
   "provides": [],
   "requiredCapabilities": [],
   "tier": "A",
-  "version": "0.9.1.05"
+  "version": "0.9.1.06"
 }
