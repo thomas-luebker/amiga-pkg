@@ -5,8 +5,8 @@
       "http://us.aminet.net/game/role/Exult_RTG.lha",
       "http://se.aminet.net/game/role/Exult_RTG.lha"
     ],
-    "sha256": "3097b2b00f1233f451505b34b5dff81759becd0b439a32a9719bed169b77abc5",
-    "sizeBytes": 80566102,
+    "sha256": "6546a4f5a37710681dfda6d48a2150df52d1315ea920d9cc55bc20f5aa780ab8",
+    "sizeBytes": 80565865,
     "url": "http://aminet.net/game/role/Exult_RTG.lha"
   },
   "category": "Games",
@@ -26,5 +26,5 @@
     "minKS": "3.1"
   },
   "tier": "A",
-  "version": "1.12.1.02"
+  "version": "1.12.1.03"
 }
