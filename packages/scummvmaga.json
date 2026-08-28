@@ -5,8 +5,8 @@
       "http://us.aminet.net/game/misc/ScummVM_AGA_060.lha",
       "http://se.aminet.net/game/misc/ScummVM_AGA_060.lha"
     ],
-    "sha256": "fb31b39a6fe62a53208bbf9de74873503de0f52caa0266206c67ac7b9ae5e163",
-    "sizeBytes": 58563848,
+    "sha256": "741c8e0916f8d93b1e7faae2a319baf855604d4875d9edbba9bfb4ab301afe3e",
+    "sizeBytes": 58559867,
     "url": "http://aminet.net/game/misc/ScummVM_AGA_060.lha"
   },
   "category": "Games",
@@ -26,5 +26,5 @@
     "minKS": "3.1"
   },
   "tier": "A",
-  "version": "2.5.1.33"
+  "version": "2.5.1.36"
 }
