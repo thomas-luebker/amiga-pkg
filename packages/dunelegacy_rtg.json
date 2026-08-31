@@ -5,8 +5,8 @@
       "http://us.aminet.net/game/strat/DuneLegacy_RTG.lha",
       "http://se.aminet.net/game/strat/DuneLegacy_RTG.lha"
     ],
-    "sha256": "3f76a166abfd87ff0463d99231b29cbbb4a31fb420dda91ec542a75d00943633",
-    "sizeBytes": 14746275,
+    "sha256": "397e0af8028a1923263cfe8ec972e2213e5a5b4b6eace66e640f741bf9becaae",
+    "sizeBytes": 14746636,
     "url": "http://aminet.net/game/strat/DuneLegacy_RTG.lha"
   },
   "category": "Games",
@@ -18,5 +18,5 @@
   "provides": [],
   "requiredCapabilities": [],
   "tier": "A",
-  "version": "0.96.4.07"
+  "version": "0.96.4.08"
 }
