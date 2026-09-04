@@ -1,8 +1,8 @@
 {
   "archive": {
     "mirrors": [],
-    "sha256": "44af5ef15b6fab4c6071f888a3307f8a0a150aa331c4e77f98020e7ff30f3fbc",
-    "sizeBytes": 55973,
+    "sha256": "9431eafe1696e576a53a036c415810e07f5c57ff079f9bdf4853ad866cd76abf",
+    "sizeBytes": 56797,
     "url": "http://aminet.net/comm/net/Roadie.lha"
   },
   "category": "Network",
@@ -101,5 +101,5 @@
     "strip-junk-v1"
   ],
   "tier": "A",
-  "version": "1.3.9"
+  "version": "1.4"
 }
