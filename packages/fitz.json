@@ -5,8 +5,8 @@
       "http://us.aminet.net/comm/tcp/Fitz.lha",
       "http://se.aminet.net/comm/tcp/Fitz.lha"
     ],
-    "sha256": "d4f95a056c9790efd49e9a1225ce3d1c8bc1dfc6d6ef70d8e79f0b597179bab7",
-    "sizeBytes": 294511,
+    "sha256": "f87170ffdd0f97ff8137e1dfd9077cf3eb03badcf4a3526572e943d0cbaa399b",
+    "sizeBytes": 294422,
     "url": "http://aminet.net/comm/tcp/Fitz.lha"
   },
   "category": "Internet",
@@ -21,5 +21,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "1.21r1"
+  "version": "1.22"
 }
