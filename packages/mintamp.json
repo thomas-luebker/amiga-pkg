@@ -5,8 +5,8 @@
       "http://us.aminet.net/mus/play/MintAMP.lha",
       "http://se.aminet.net/mus/play/MintAMP.lha"
     ],
-    "sha256": "3587ce6200133fee2170dd0c940f02d27ca2901c315285cdcc1d5c80884de412",
-    "sizeBytes": 2829474,
+    "sha256": "5416bb414032753e7a17abe4436d2fe141e392423f49c3428dccf1790133f4b9",
+    "sizeBytes": 2836174,
     "url": "http://aminet.net/mus/play/MintAMP.lha"
   },
   "category": "Audio",
@@ -22,5 +22,5 @@
     "minKS": "3.1"
   },
   "tier": "A",
-  "version": "1.2.0"
+  "version": "1.3.0"
 }
