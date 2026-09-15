@@ -5,8 +5,8 @@
       "http://us.aminet.net/comm/tcp/TelegramAmiga.lha",
       "http://se.aminet.net/comm/tcp/TelegramAmiga.lha"
     ],
-    "sha256": "e9fb3243210fa200e37766c0aa144cc1360cd33c58f5aa8d688e77298853fb07",
-    "sizeBytes": 360897,
+    "sha256": "7411b667602a5742fcd45a03affc52952cdc884914610c4d2a4d1c66b4eb4a5e",
+    "sizeBytes": 360762,
     "url": "http://aminet.net/comm/tcp/TelegramAmiga.lha"
   },
   "category": "Internet",
@@ -22,5 +22,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "0.0.9"
+  "version": "0.0.93"
 }
