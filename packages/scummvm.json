@@ -1,8 +1,8 @@
 {
   "archive": {
     "mirrors": [],
-    "sha256": "9246547eb1e3af15598d6a1a3a27652d3eac355757d39e136c3c10a27379da1c",
-    "sizeBytes": 59414047,
+    "sha256": "0b8fc9d8c2600999ba66da34a0460437022f4a5d5299e9878966cda8c27888f9",
+    "sizeBytes": 59415569,
     "url": "http://aminet.net/game/misc/ScummVM_RTG_060.lha"
   },
   "category": "Games",
@@ -23,5 +23,5 @@
     "host-builtin-v1"
   ],
   "tier": "B",
-  "version": "2.5.1.34"
+  "version": "2.5.1.40"
 }
