@@ -5,8 +5,8 @@
       "http://us.aminet.net/game/actio/WormWars.lha",
       "http://se.aminet.net/game/actio/WormWars.lha"
     ],
-    "sha256": "31843a6045a3bbc0fee0e882c41ff02532a17095f0c782a92f831d20769119f6",
-    "sizeBytes": 877441,
+    "sha256": "1438944acc025ae2469dcf91122d56fb9b6f5af3e8531821c8240f0d0a1c98e9",
+    "sizeBytes": 877952,
     "url": "http://aminet.net/game/actio/WormWars.lha"
   },
   "category": "Games",
@@ -21,5 +21,5 @@
     "minKS": "3.0"
   },
   "tier": "A",
-  "version": "9.36"
+  "version": "9.37"
 }
