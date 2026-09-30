@@ -1,0 +1,29 @@
+{
+  "added": "2026-09-30",
+  "archive": {
+    "mirrors": [],
+    "sha256": "92eb8453873ff9e3189c6b0f16ff8b584a19c7609beb4e4e00098e1c867edea3",
+    "sizeBytes": 277567,
+    "url": "https://github.com/thomas-luebker/amifleet68/releases/download/v0.5.0/amifleet68-0.5.0.lha"
+  },
+  "category": "Network",
+  "conflicts": [],
+  "deps": [
+    {
+      "id": "mui38"
+    }
+  ],
+  "description": "MUI console for every Amiga running amiagent: fleet board, remote AmigaDOS shell, two-pane file copy between Amigas, live screen with mouse and keyboard, and a VNC client for AmiVNC",
+  "id": "amifleet68",
+  "name": "amifleet68",
+  "provides": [],
+  "requiredCapabilities": [],
+  "requirements": {
+    "architecture": "m68k-amigaos",
+    "minCPU": "68000",
+    "minKS": "3.0",
+    "network": true
+  },
+  "tier": "A",
+  "version": "0.5.0"
+}
