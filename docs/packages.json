@@ -650,12 +650,12 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amelinium/0.9.7/Amelinium.lha",
+          "https://juen.in/repo/amelinium/1.2.9/Amelinium.lha",
           "http://aminet.net/comm/www/Amelinium.lha"
         ],
-        "sha256" : "454b0c0bc683983dd44b3b1d0c919866e1ee7523abe30babbe1486edadc8e736",
-        "sizeBytes" : 4733548,
-        "url" : "http://juen.in/repo/amelinium/0.9.7/Amelinium.lha"
+        "sha256" : "4badeceebe3648c58bd6cd8fef0f5a86945681e2bde7cd03020835743c839aab",
+        "sizeBytes" : 31972393,
+        "url" : "http://juen.in/repo/amelinium/1.2.9/Amelinium.lha"
       },
       "category" : "Internet",
       "conflicts" : [
@@ -677,7 +677,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.9.7"
+      "version" : "1.2.9"
     },
     {
       "added" : "2026-08-09",
@@ -847,8 +847,8 @@
           "http://us.aminet.net/misc/emu/AmiArcadia.lha",
           "http://se.aminet.net/misc/emu/AmiArcadia.lha"
         ],
-        "sha256" : "17477ad04fb1f2fce20b2258e6e8babd47a5736cfdb492921c07cb2893d4d0d4",
-        "sizeBytes" : 10980879,
+        "sha256" : "d39902d6d06aad5b5fcd19bccba2c4475272e0948807949ef71b977a2fb5a715",
+        "sizeBytes" : 10952819,
         "url" : "http://aminet.net/misc/emu/AmiArcadia.lha"
       },
       "category" : "Emulation",
@@ -872,7 +872,7 @@
         "minKS" : "3.2"
       },
       "tier" : "A",
-      "version" : "36.6"
+      "version" : "36.7"
     },
     {
       "added" : "2026-07-24",
@@ -1039,6 +1039,43 @@
       },
       "tier" : "A",
       "version" : "1.0"
+    },
+    {
+      "added" : "2026-09-30",
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "92eb8453873ff9e3189c6b0f16ff8b584a19c7609beb4e4e00098e1c867edea3",
+        "sizeBytes" : 277567,
+        "url" : "https://github.com/thomas-luebker/amifleet68/releases/download/v0.5.0/amifleet68-0.5.0.lha"
+      },
+      "category" : "Network",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+        {
+          "id" : "mui38"
+        }
+      ],
+      "description" : "MUI console for every Amiga running amiagent: fleet board, remote AmigaDOS shell, two-pane file copy between Amigas, live screen with mouse and keyboard, and a VNC client for AmiVNC",
+      "id" : "amifleet68",
+      "name" : "amifleet68",
+      "provides" : [
+
+      ],
+      "requiredCapabilities" : [
+
+      ],
+      "requirements" : {
+        "architecture" : "m68k-amigaos",
+        "minCPU" : "68000",
+        "minKS" : "3.0",
+        "network" : true
+      },
+      "tier" : "A",
+      "version" : "0.5.0"
     },
     {
       "archive" : {
@@ -1507,8 +1544,8 @@
           "http://us.aminet.net/misc/emu/AmiVms.lha",
           "http://se.aminet.net/misc/emu/AmiVms.lha"
         ],
-        "sha256" : "ba4bd5bdfe3a85b842a93c17ccc75e68bd20ef400b72d8f525ce26c0eb921d28",
-        "sizeBytes" : 4120279,
+        "sha256" : "352d5a7c194778f510f1f82392120d9c228c5901d5614d554275d05f8f0b1492",
+        "sizeBytes" : 4109756,
         "url" : "http://aminet.net/misc/emu/AmiVms.lha"
       },
       "category" : "Emulation",
@@ -3212,8 +3249,8 @@
           "http://us.aminet.net/game/strat/DuneLegacy_RTG.lha",
           "http://se.aminet.net/game/strat/DuneLegacy_RTG.lha"
         ],
-        "sha256" : "3f76a166abfd87ff0463d99231b29cbbb4a31fb420dda91ec542a75d00943633",
-        "sizeBytes" : 14746275,
+        "sha256" : "397e0af8028a1923263cfe8ec972e2213e5a5b4b6eace66e640f741bf9becaae",
+        "sizeBytes" : 14746636,
         "url" : "http://aminet.net/game/strat/DuneLegacy_RTG.lha"
       },
       "category" : "Games",
@@ -3233,7 +3270,7 @@
 
       ],
       "tier" : "A",
-      "version" : "0.96.4.07"
+      "version" : "0.96.4.08"
     },
     {
       "added" : "2026-07-24",
@@ -3373,8 +3410,8 @@
           "http://us.aminet.net/game/role/Exult_RTG.lha",
           "http://se.aminet.net/game/role/Exult_RTG.lha"
         ],
-        "sha256" : "3097b2b00f1233f451505b34b5dff81759becd0b439a32a9719bed169b77abc5",
-        "sizeBytes" : 80566102,
+        "sha256" : "6546a4f5a37710681dfda6d48a2150df52d1315ea920d9cc55bc20f5aa780ab8",
+        "sizeBytes" : 80565865,
         "url" : "http://aminet.net/game/role/Exult_RTG.lha"
       },
       "category" : "Games",
@@ -3400,7 +3437,7 @@
         "minKS" : "3.1"
       },
       "tier" : "A",
-      "version" : "1.12.1.02"
+      "version" : "1.12.1.03"
     },
     {
       "added" : "2026-07-27",
@@ -3680,8 +3717,8 @@
           "http://us.aminet.net/comm/tcp/Fitz.lha",
           "http://se.aminet.net/comm/tcp/Fitz.lha"
         ],
-        "sha256" : "d4f95a056c9790efd49e9a1225ce3d1c8bc1dfc6d6ef70d8e79f0b597179bab7",
-        "sizeBytes" : 294511,
+        "sha256" : "f87170ffdd0f97ff8137e1dfd9077cf3eb03badcf4a3526572e943d0cbaa399b",
+        "sizeBytes" : 294422,
         "url" : "http://aminet.net/comm/tcp/Fitz.lha"
       },
       "category" : "Internet",
@@ -3704,7 +3741,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "1.21r1"
+      "version" : "1.22"
     },
     {
       "added" : "2026-07-27",
@@ -3777,8 +3814,8 @@
           "http://us.aminet.net/game/strat/FreeSynd_RTG.lha",
           "http://se.aminet.net/game/strat/FreeSynd_RTG.lha"
         ],
-        "sha256" : "d1c8358c809f94bef5c8fc71157e4c9da9a25b670d4445822dd314a3dd858536",
-        "sizeBytes" : 4031712,
+        "sha256" : "8ed87f24c1194826c4ae91fae026ffbec4d38307d7692fd05f2468805f25c416",
+        "sizeBytes" : 4033292,
         "url" : "http://aminet.net/game/strat/FreeSynd_RTG.lha"
       },
       "category" : "Games",
@@ -3798,7 +3835,7 @@
 
       ],
       "tier" : "A",
-      "version" : "0.9.1.05"
+      "version" : "0.9.1.06"
     },
     {
       "added" : "2026-07-24",
@@ -5355,8 +5392,8 @@
         "mirrors" : [
 
         ],
-        "sha256" : "2d27c426a24e95c03e717dfd264fe0893e3d0c51289f277f3fabc31ac861e4ae",
-        "sizeBytes" : 6345834,
+        "sha256" : "e37bb4fa79d67450f3dcda47d57c7705efcc84f59ba71605bd2e43dce70512cd",
+        "sizeBytes" : 6434471,
         "url" : "https://www.amigaworld.de/software/lumipass/LumiPass.lha"
       },
       "category" : "Utilities",
@@ -5619,8 +5656,8 @@
           "http://us.aminet.net/misc/emu/make.lha",
           "http://se.aminet.net/misc/emu/make.lha"
         ],
-        "sha256" : "6a303f019ea470d14387a81305d5ca62d618c5b042a2fcd3960eedff7ecfdf98",
-        "sizeBytes" : 122210,
+        "sha256" : "835df844ab3fbf0bd93d564c2870f1c91cbcd79fcb2d44c9ba420b77a86121d0",
+        "sizeBytes" : 124391,
         "url" : "http://aminet.net/misc/emu/make.lha"
       },
       "category" : "Emulation",
@@ -5643,7 +5680,7 @@
         "minKS" : "2.04"
       },
       "tier" : "A",
-      "version" : "2.69"
+      "version" : "2.81"
     },
     {
       "added" : "2026-07-27",
@@ -5854,8 +5891,8 @@
           "http://us.aminet.net/mus/play/MintAMP.lha",
           "http://se.aminet.net/mus/play/MintAMP.lha"
         ],
-        "sha256" : "3587ce6200133fee2170dd0c940f02d27ca2901c315285cdcc1d5c80884de412",
-        "sizeBytes" : 2829474,
+        "sha256" : "622e3ec31a76b3a1b649071249298db39af2901aedc73e76f79090841fa550ac",
+        "sizeBytes" : 2950165,
         "url" : "http://aminet.net/mus/play/MintAMP.lha"
       },
       "category" : "Audio",
@@ -5879,7 +5916,7 @@
         "minKS" : "3.1"
       },
       "tier" : "A",
-      "version" : "1.2.0"
+      "version" : "1.3.2"
     },
     {
       "archive" : {
@@ -7350,8 +7387,8 @@
           "http://us.aminet.net/dev/misc/REDPILLGameCreator.lha",
           "http://se.aminet.net/dev/misc/REDPILLGameCreator.lha"
         ],
-        "sha256" : "7e78c073d0a05231aac408a8b4a5604d055d2868b81d7e934f41d4a82343b3ee",
-        "sizeBytes" : 9121443,
+        "sha256" : "c4b53701318fd1749b2d66114a19247763ae655615ea643428de24dba99a7f7c",
+        "sizeBytes" : 9127082,
         "url" : "http://aminet.net/dev/misc/REDPILLGameCreator.lha"
       },
       "category" : "Development",
@@ -7374,7 +7411,7 @@
         "minKS" : "3.0"
       },
       "tier" : "A",
-      "version" : "0.9.72"
+      "version" : "0.9.73"
     },
     {
       "added" : "2026-07-27",
@@ -7832,8 +7869,8 @@
         "mirrors" : [
 
         ],
-        "sha256" : "44af5ef15b6fab4c6071f888a3307f8a0a150aa331c4e77f98020e7ff30f3fbc",
-        "sizeBytes" : 55973,
+        "sha256" : "9431eafe1696e576a53a036c415810e07f5c57ff079f9bdf4853ad866cd76abf",
+        "sizeBytes" : 56797,
         "url" : "http://aminet.net/comm/net/Roadie.lha"
       },
       "category" : "Network",
@@ -7940,7 +7977,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "1.3.9"
+      "version" : "1.4"
     },
     {
       "added" : "2026-07-24",
@@ -8121,8 +8158,8 @@
         "mirrors" : [
 
         ],
-        "sha256" : "9246547eb1e3af15598d6a1a3a27652d3eac355757d39e136c3c10a27379da1c",
-        "sizeBytes" : 59414047,
+        "sha256" : "0b8fc9d8c2600999ba66da34a0460437022f4a5d5299e9878966cda8c27888f9",
+        "sizeBytes" : 59415569,
         "url" : "http://aminet.net/game/misc/ScummVM_RTG_060.lha"
       },
       "category" : "Games",
@@ -8151,7 +8188,7 @@
         "host-builtin-v1"
       ],
       "tier" : "B",
-      "version" : "2.5.1.34"
+      "version" : "2.5.1.40"
     },
     {
       "added" : "2026-07-27",
@@ -8160,8 +8197,8 @@
           "http://us.aminet.net/game/misc/ScummVM_RTG_030.lha",
           "http://se.aminet.net/game/misc/ScummVM_RTG_030.lha"
         ],
-        "sha256" : "b6e6913add828ca9cb7c83e28438a9c5d309660fc073905be85d70334d6bfdcf",
-        "sizeBytes" : 7047934,
+        "sha256" : "b6c8dd88ca5a5b3271415ee935452db1a27e961b0c66604ebcb3c9f206fb75ee",
+        "sizeBytes" : 7739446,
         "url" : "http://aminet.net/game/misc/ScummVM_RTG_030.lha"
       },
       "category" : "Games",
@@ -8187,7 +8224,7 @@
         "minKS" : "3.1"
       },
       "tier" : "A",
-      "version" : "1.6.0.04"
+      "version" : "1.6.0.06"
     },
     {
       "added" : "2026-07-27",
@@ -8196,8 +8233,8 @@
           "http://us.aminet.net/game/misc/ScummVM_AGA_060.lha",
           "http://se.aminet.net/game/misc/ScummVM_AGA_060.lha"
         ],
-        "sha256" : "fb31b39a6fe62a53208bbf9de74873503de0f52caa0266206c67ac7b9ae5e163",
-        "sizeBytes" : 58563848,
+        "sha256" : "f7b6c81fd8788b4c3ff2cb6b9ccd9f66924df1181deaa0eb6c55632fe99725d6",
+        "sizeBytes" : 58560356,
         "url" : "http://aminet.net/game/misc/ScummVM_AGA_060.lha"
       },
       "category" : "Games",
@@ -8223,7 +8260,7 @@
         "minKS" : "3.1"
       },
       "tier" : "A",
-      "version" : "2.5.1.33"
+      "version" : "2.5.1.40"
     },
     {
       "added" : "2026-07-27",
@@ -8738,8 +8775,8 @@
           "http://us.aminet.net/comm/tcp/TelegramAmiga.lha",
           "http://se.aminet.net/comm/tcp/TelegramAmiga.lha"
         ],
-        "sha256" : "e9fb3243210fa200e37766c0aa144cc1360cd33c58f5aa8d688e77298853fb07",
-        "sizeBytes" : 360897,
+        "sha256" : "a53317777e9dd5c9af7302872bba5ce16b011ef78f67f94a68271239a90d27d9",
+        "sizeBytes" : 365127,
         "url" : "http://aminet.net/comm/tcp/TelegramAmiga.lha"
       },
       "category" : "Internet",
@@ -8763,7 +8800,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.0.9"
+      "version" : "0.0.94"
     },
     {
       "archive" : {
@@ -9959,8 +9996,8 @@
           "http://us.aminet.net/game/actio/WormWars.lha",
           "http://se.aminet.net/game/actio/WormWars.lha"
         ],
-        "sha256" : "31843a6045a3bbc0fee0e882c41ff02532a17095f0c782a92f831d20769119f6",
-        "sizeBytes" : 877441,
+        "sha256" : "1438944acc025ae2469dcf91122d56fb9b6f5af3e8531821c8240f0d0a1c98e9",
+        "sizeBytes" : 877952,
         "url" : "http://aminet.net/game/actio/WormWars.lha"
       },
       "category" : "Games",
@@ -9983,7 +10020,7 @@
         "minKS" : "3.0"
       },
       "tier" : "A",
-      "version" : "9.36"
+      "version" : "9.37"
     },
     {
       "archive" : {
