@@ -1065,8 +1065,24 @@
       "provides" : [
 
       ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "Programs/amifleet68",
+            "op" : "copyTree",
+            "src" : "amifleet68"
+          },
+          {
+            "dest" : "Programs",
+            "op" : "placeFile",
+            "src" : "amifleet68.info"
+          }
+        ],
+        "recipeSchema" : 1
+      },
       "requiredCapabilities" : [
-
+        "copy-tree-v1",
+        "place-file-v1"
       ],
       "requirements" : {
         "architecture" : "m68k-amigaos",
