@@ -6,14 +6,14 @@
     <description>Updates for Amiga Imager.</description>
     <language>en</language>
     <item>
-      <title>Version 0.99.11</title>
-      <pubDate>Wed, 26 Aug 2026 19:43:59 +0000</pubDate>
-      <sparkle:releaseNotesLink>https://amiga-imager.com/release-notes-v0.99.11/</sparkle:releaseNotesLink>
-      <sparkle:releaseNotesLink xml:lang="de">https://amiga-imager.de/release-notes-v0.99.11/</sparkle:releaseNotesLink>
-      <sparkle:version>260817</sparkle:version>
-      <sparkle:shortVersionString>0.99.11</sparkle:shortVersionString>
+      <title>Version 0.99.12</title>
+      <pubDate>Sat, 03 Oct 2026 11:19:57 +0000</pubDate>
+      <sparkle:releaseNotesLink>https://amiga-imager.com/release-notes-v0.99.12/</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink xml:lang="de">https://amiga-imager.de/release-notes-v0.99.12/</sparkle:releaseNotesLink>
+      <sparkle:version>261003</sparkle:version>
+      <sparkle:shortVersionString>0.99.12</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://amiga-imager.com/Amiga-Imager-v0.99.11.zip" type="application/octet-stream" sparkle:edSignature="mszawib2SLrIp/hgJMt9yyAt4IJEtaG6ObdS0YeDCdYDKHek4FMr5CGOqq+s9cdft73md/ycDxBPpwEsALFUCQ==" length="15500803" />
+      <enclosure url="https://amiga-imager.com/Amiga-Imager-v0.99.12.zip" type="application/octet-stream" sparkle:edSignature="VYVeu3e1JA1HoMMJV8FyvchzIP9jM3uJ6+Avvmiuexvkm9YC/d7k92TroW9sKpiC7U+PRj6PjwoEX2og6fnYAg==" length="15588370" />
     </item>
   </channel>
 </rss>
