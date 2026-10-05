@@ -54,13 +54,25 @@ PYEOF
 KEYTMP=$(mktemp)
 trap 'rm -f "$KEYTMP"' EXIT
 awk '/privateKey:/ {print $2}' "$KEY" > "$KEYTMP"
-"$HOME_DIR/pkgindex" generate \
+if ! "$HOME_DIR/pkgindex" generate \
     --rules "$HOME_DIR/ListofPackagestoInstall.CSV" \
     --extra packages/ \
     --archives "$HOME_DIR/PackageCache" \
     --versions versions.json \
     --sign "@$KEYTMP" --public-key "$PUBKEY" \
-    --out docs/packages.json
+    --out docs/packages.json; then
+    rm -f "$KEYTMP"
+    # FAIL-SOFT: never serve a half-written catalog. Discard any working-tree
+    # changes and keep serving the git-committed docs. The usual cause is a
+    # pkgindex built from an older AmigaBuildKit than the entries in packages/
+    # (it cannot decode newer fields) — rebuild it: sync ~/amipkg-src from the
+    # Mac and run setup-pi.sh step 2. This went unnoticed from 2026-08 to
+    # 2026-10-05, so it notifies every night it happens.
+    git checkout -q -- packages/ versions.json docs/ 2>/dev/null || true
+    echo "pkgindex failed - kept committed catalog, no publish (rebuild pkgindex: setup-pi.sh step 2)"
+    notify "nightly FAILED: pkgindex could not generate the catalog - nothing published. Rebuild pkgindex (setup-pi.sh step 2)."
+    exit 0
+fi
 rm -f "$KEYTMP"
 
 # 5. publish only when CONTENT changed. Ed25519 signatures here are
