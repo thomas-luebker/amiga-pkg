@@ -3265,8 +3265,8 @@
           "http://us.aminet.net/game/strat/DuneLegacy_RTG.lha",
           "http://se.aminet.net/game/strat/DuneLegacy_RTG.lha"
         ],
-        "sha256" : "397e0af8028a1923263cfe8ec972e2213e5a5b4b6eace66e640f741bf9becaae",
-        "sizeBytes" : 14746636,
+        "sha256" : "407d1e44fba989efd50a10ba425ca5941d8050cd5cfcadaeac68eefc15b0d2cb",
+        "sizeBytes" : 14729000,
         "url" : "http://aminet.net/game/strat/DuneLegacy_RTG.lha"
       },
       "category" : "Games",
@@ -3286,7 +3286,7 @@
 
       ],
       "tier" : "A",
-      "version" : "0.96.4.08"
+      "version" : "0.96.4.09"
     },
     {
       "added" : "2026-07-24",
@@ -3426,8 +3426,8 @@
           "http://us.aminet.net/game/role/Exult_RTG.lha",
           "http://se.aminet.net/game/role/Exult_RTG.lha"
         ],
-        "sha256" : "6546a4f5a37710681dfda6d48a2150df52d1315ea920d9cc55bc20f5aa780ab8",
-        "sizeBytes" : 80565865,
+        "sha256" : "1ca7aad0437fe1f334e2088d59f88220571fef593a14cefec63714a5b5d3609e",
+        "sizeBytes" : 62726215,
         "url" : "http://aminet.net/game/role/Exult_RTG.lha"
       },
       "category" : "Games",
@@ -3453,7 +3453,7 @@
         "minKS" : "3.1"
       },
       "tier" : "A",
-      "version" : "1.12.1.03"
+      "version" : "1.12.1.04"
     },
     {
       "added" : "2026-07-27",
@@ -3830,8 +3830,8 @@
           "http://us.aminet.net/game/strat/FreeSynd_RTG.lha",
           "http://se.aminet.net/game/strat/FreeSynd_RTG.lha"
         ],
-        "sha256" : "8ed87f24c1194826c4ae91fae026ffbec4d38307d7692fd05f2468805f25c416",
-        "sizeBytes" : 4033292,
+        "sha256" : "83d772a12c09510a2bdcadd450e8b29bad6c8aa568b39c51a4dad7b6a8146603",
+        "sizeBytes" : 4029350,
         "url" : "http://aminet.net/game/strat/FreeSynd_RTG.lha"
       },
       "category" : "Games",
@@ -3851,7 +3851,7 @@
 
       ],
       "tier" : "A",
-      "version" : "0.9.1.06"
+      "version" : "0.9.1.09"
     },
     {
       "added" : "2026-07-24",
@@ -5672,8 +5672,8 @@
           "http://us.aminet.net/misc/emu/make.lha",
           "http://se.aminet.net/misc/emu/make.lha"
         ],
-        "sha256" : "835df844ab3fbf0bd93d564c2870f1c91cbcd79fcb2d44c9ba420b77a86121d0",
-        "sizeBytes" : 124391,
+        "sha256" : "bbd077259145318d14844cfd5930135d3df3ac14feb0f2fafb7f6c2a0ad45310",
+        "sizeBytes" : 236056,
         "url" : "http://aminet.net/misc/emu/make.lha"
       },
       "category" : "Emulation",
@@ -5696,7 +5696,7 @@
         "minKS" : "2.04"
       },
       "tier" : "A",
-      "version" : "2.81"
+      "version" : "3.05"
     },
     {
       "added" : "2026-07-27",
@@ -7112,9 +7112,7 @@
         "mirrors" : [
 
         ],
-        "sha256" : "2b9030b932754d7916224e55310a8f81f2b8ceeb2d14947dcea5123c013d5be6",
-        "sizeBytes" : 432725,
-        "url" : "http://aminet.net/driver/other/PoseidonMain.lha"
+        "url" : "https://wiki.icomp.de/w/images/4/40/PoseidonV4.lha"
       },
       "category" : "Libraries",
       "conflicts" : [
@@ -7123,15 +7121,15 @@
       "deps" : [
 
       ],
-      "description" : "USB stack for AmigaOS",
+      "description" : "USB stack for AmigaOS (Poseidon 4.5)",
       "id" : "poseidon",
       "install" : {
         "alternateMD5" : [
 
         ],
-        "aminetPath" : "driver/other/PoseidonMain.lha",
-        "md5" : "5d08d274495fab2e28711414e12c8ed2",
-        "sourceType" : "aminet",
+        "directURL" : "https://wiki.icomp.de/w/images/4/40/PoseidonV4.lha",
+        "md5" : "4209d5940a7fcd2f2744a80f1472d672",
+        "sourceType" : "direct",
         "userDefined" : false,
         "userVisible" : true
       },
@@ -7142,70 +7140,54 @@
       "recipe" : {
         "ops" : [
           {
-            "dest" : "Programs",
-            "op" : "copyGlob",
-            "src" : "Poseidon.info"
-          },
-          {
-            "dest" : "Programs/Poseidon",
-            "op" : "copyGlob",
-            "recursive" : true,
-            "src" : "Poseidon/*"
-          },
-          {
-            "dest" : "Classes",
-            "op" : "copyGlob",
-            "recursive" : true,
-            "src" : "Poseidon/InstallData/Classes/*"
-          },
-          {
-            "dest" : "Devs/USBHardware",
-            "op" : "copyGlob",
-            "recursive" : true,
-            "src" : "Poseidon/InstallData/Devs/USBHardware/*"
-          },
-          {
             "dest" : "Libs",
             "op" : "copyGlob",
-            "src" : "Poseidon/InstallData/Libs/poseidon.library"
+            "src" : "PoseidonV4/InstallData/Libs/poseidon.library"
           },
           {
             "dest" : "Libs/VHI",
             "op" : "copyGlob",
             "recursive" : true,
-            "src" : "Poseidon/InstallData/Libs/VHI/*"
+            "src" : "PoseidonV4/InstallData/Libs/VHI/*"
+          },
+          {
+            "dest" : "Classes",
+            "op" : "copyGlob",
+            "recursive" : true,
+            "src" : "PoseidonV4/InstallData/Classes/*"
           },
           {
             "dest" : "Storage/DOSDrivers",
             "op" : "copyGlob",
             "recursive" : true,
-            "src" : "Poseidon/InstallData/Storage/DOSDrivers/*"
+            "src" : "PoseidonV4/InstallData/Storage/DOSDrivers/*"
           },
           {
             "dest" : "C",
             "op" : "copyGlob",
-            "src" : "Poseidon/InstallData/PsdStackloader"
+            "src" : "PoseidonV4/InstallData/PsdStackloader"
           },
           {
             "dest" : "C",
             "op" : "copyGlob",
-            "src" : "Poseidon/InstallData/PsdRomTag"
+            "src" : "PoseidonV4/InstallData/PsdRomTag"
           },
           {
             "dest" : "Tools",
             "op" : "copyGlob",
             "recursive" : true,
-            "src" : "Poseidon/InstallData/Tools/*"
+            "src" : "PoseidonV4/InstallData/Tools/*"
           },
           {
-            "dest" : "Tools",
+            "dest" : "Prefs",
             "op" : "copyGlob",
-            "src" : "Poseidon/InstallData/Trident"
+            "src" : "PoseidonV4/InstallData/Prefs/Trident"
           },
           {
-            "dest" : "Tools",
+            "dest" : "Prefs/Presets",
             "op" : "copyGlob",
-            "src" : "Poseidon/InstallData/Trident.info"
+            "recursive" : true,
+            "src" : "PoseidonV4/InstallData/Prefs/Presets/*"
           },
           {
             "op" : "stripJunk"
@@ -7268,7 +7250,119 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "2.2 (30-Dec-03)"
+      "version" : "4.5"
+    },
+    {
+      "archive" : {
+        "mirrors" : [
+
+        ],
+        "sha256" : "2b9030b932754d7916224e55310a8f81f2b8ceeb2d14947dcea5123c013d5be6",
+        "sizeBytes" : 432725,
+        "url" : "http://aminet.net/driver/other/PoseidonMain.lha"
+      },
+      "category" : "Libraries",
+      "conflicts" : [
+
+      ],
+      "deps" : [
+
+      ],
+      "description" : "Subway, Highway and Algor host-controller drivers for Poseidon",
+      "id" : "poseidondrivers",
+      "install" : {
+        "alternateMD5" : [
+
+        ],
+        "aminetPath" : "driver/other/PoseidonMain.lha",
+        "md5" : "5d08d274495fab2e28711414e12c8ed2",
+        "sourceType" : "aminet",
+        "userDefined" : false,
+        "userVisible" : false
+      },
+      "name" : "Poseidon Classic USB drivers",
+      "provides" : [
+
+      ],
+      "recipe" : {
+        "ops" : [
+          {
+            "dest" : "Devs/USBHardware",
+            "op" : "copyGlob",
+            "src" : "Poseidon/InstallData/Devs/USBHardware/subwayusb.device"
+          },
+          {
+            "dest" : "Devs/USBHardware",
+            "op" : "copyGlob",
+            "src" : "Poseidon/InstallData/Devs/USBHardware/highwayusb.device"
+          },
+          {
+            "dest" : "Devs/USBHardware",
+            "op" : "copyGlob",
+            "src" : "Poseidon/InstallData/Devs/USBHardware/algorusb.device"
+          },
+          {
+            "op" : "stripJunk"
+          },
+          {
+            "op" : "mergeNested"
+          },
+          {
+            "depth" : 0,
+            "op" : "setExec",
+            "scope" : "C"
+          },
+          {
+            "depth" : 0,
+            "op" : "setExec",
+            "scope" : "L"
+          },
+          {
+            "depth" : 0,
+            "op" : "setExec",
+            "scope" : "S"
+          },
+          {
+            "depth" : 0,
+            "op" : "setExec",
+            "scope" : "Devs"
+          },
+          {
+            "depth" : 0,
+            "op" : "setExec",
+            "scope" : "Prefs"
+          },
+          {
+            "depth" : 0,
+            "op" : "setExec",
+            "scope" : "Tools"
+          },
+          {
+            "depth" : 0,
+            "op" : "setExec",
+            "scope" : "System"
+          },
+          {
+            "depth" : 0,
+            "op" : "setExec",
+            "scope" : "Classes"
+          },
+          {
+            "depth" : 2,
+            "op" : "setExec",
+            "scope" : "Programs"
+          }
+        ],
+        "recipeSchema" : 1
+      },
+      "requiredCapabilities" : [
+        "copy-glob-v1",
+        "merge-nested-v1",
+        "set-exec-v1",
+        "strip-junk-v1"
+      ],
+      "tier" : "A",
+      "version" : "-"
     },
     {
       "added" : "2026-07-24",
