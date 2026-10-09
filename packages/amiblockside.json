@@ -2,24 +2,24 @@
   "added": "2026-07-24",
   "archive": {
     "mirrors": [
-      "http://us.aminet.net/dev/c/AmiBlocksIDE.lha",
-      "http://se.aminet.net/dev/c/AmiBlocksIDE.lha"
+      "http://us.aminet.net/dev/c/AmiBlocks-AmiCC23-free.lha",
+      "http://se.aminet.net/dev/c/AmiBlocks-AmiCC23-free.lha"
     ],
-    "sha256": "78a6276c4ba795c5ddbc57058fd95fde973a404e49ef64fc665f6600d7ecfac7",
-    "sizeBytes": 161419,
-    "url": "http://aminet.net/dev/c/AmiBlocksIDE.lha"
+    "sha256": "9ef125a21b1176be154cae106713140e570091d57063bcb6c6696c4cb6852cff",
+    "sizeBytes": 1116946,
+    "url": "http://aminet.net/dev/c/AmiBlocks-AmiCC23-free.lha"
   },
   "category": "Development",
   "conflicts": [],
   "deps": [],
-  "description": "Code::Blocks-inspired native IDE",
+  "description": "Native Amiga IDE with integrated C23 toolchain (AmiCC23) and debugger (AmiDBG) - Free edition",
   "id": "amiblockside",
-  "name": "AmiBlocks IDE",
+  "name": "AmiBlocks",
   "provides": [],
   "requiredCapabilities": [],
   "requirements": {
     "minCPU": "68020"
   },
   "tier": "A",
-  "version": "1.0.0 RC2"
+  "version": "1.0"
 }
