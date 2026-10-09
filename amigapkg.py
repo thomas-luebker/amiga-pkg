@@ -195,6 +195,80 @@ def _probe_newer(url):
     return f"{base}{stem}{best}{ext}", best
 
 
+def _aminet_series(path):
+    """'disk/misc/fat95.v20260614.lha' -> ('disk/misc', 'fat95'): the Aminet
+    directory plus the name's leading word, which is what a re-upload keeps."""
+    d, _, name = path.rpartition("/")
+    m = re.match(r"[A-Za-z][A-Za-z0-9]*", name)
+    return (d.lower(), m.group(0).lower()) if m else (d.lower(), name.lower())
+
+
+def _probe_aminet_replacement(url):
+    """An Aminet file that went 404 was usually REPLACED by a new upload
+    (curl-8.22.0-DEV-210726 -> curl-8.22.0, fat95.v20260614 -> v20261007),
+    and the new upload says so in its readme's Replaces: line. Search Aminet
+    for the name, read each hit's readme, and take the file that replaces ours.
+
+    A dated series (fat95.vYYYYMMDD) replaces only its direct predecessor, and
+    those predecessors are deleted, so the chain can't be walked. A hit whose
+    Replaces: names the SAME series (same directory, same leading word) counts
+    too - but only when exactly one hit does; anything ambiguous is reported,
+    never guessed. Returns (new_url, new_version) or (None, None)."""
+    import fnmatch
+    m = re.match(r"^https?://(?:[a-z]+\.)?aminet\.net/(?:pub/aminet/)?(.+\.lha)$", url, re.I)
+    if not m:
+        return None, None
+    old = m.group(1)
+    old_dir, stem = _aminet_series(old)
+    try:
+        page = _fetch("https://aminet.net/search?query=" + stem, 30).decode("latin-1", "replace")
+    except Exception:  # noqa: BLE001
+        return None, None
+    hits = sorted({h for h in re.findall(r'href="/package/([^"]+)"', page)
+                   if h.lower().rpartition("/")[0] == old_dir})
+    exact, series = [], []
+    for h in hits:
+        try:
+            text = _fetch(f"http://aminet.net/{h}.readme", 30).decode("latin-1", "replace")
+        except Exception:  # noqa: BLE001
+            continue
+        repl = []
+        for line in re.findall(r"(?im)^Replaces:\s*(.+)$", text):
+            repl += line.split()
+        for r in repl:
+            r = r.strip().lower()
+            if fnmatch.fnmatch(old.lower(), r) or fnmatch.fnmatch(old.lower()[:-4], r):
+                exact.append(h)
+                break
+            if _aminet_series(r) == (old_dir, stem):
+                series.append(h)
+                break
+    pick = exact if exact else series
+    if len(set(pick)) != 1:
+        if pick:
+            print(f"        ambiguous Aminet replacement for {old}: {', '.join(sorted(set(pick)))}")
+        return None, None
+    new = f"http://aminet.net/{pick[0]}.lha"
+    return new, _readme_version(new)
+
+
+def _unversioned_sibling(url):
+    """Name_1.1.lha gone, Name.lha listed next to it: the author switched to
+    unversioned names (amigaworld.de's Lumi apps, 2026-10). Returns the
+    sibling URL, or None."""
+    m = re.match(r"^(.*/)([A-Za-z0-9]+)_v?[0-9.]+(\.lha)$", url)
+    if not m:
+        return None
+    base, stem, ext = m.groups()
+    try:
+        listing = _fetch(base, 30).decode("latin-1", "replace")
+    except Exception:  # noqa: BLE001
+        return None
+    if re.search(r'href="(?:\./)?' + re.escape(stem + ext) + '"', listing, re.I):
+        return base + stem + ext
+    return None
+
+
 def cmd_refresh(a):
     """Re-scan each entry's archive: recompute sha256/size, read the current
     Aminet version, and update the entry when the upstream file changed (a new
@@ -244,8 +318,27 @@ def cmd_refresh(a):
             try:
                 data = _fetch(url)
             except Exception as e:  # noqa: BLE001
-                print(f"WARN {pid}: fetch failed ({e})")
-                continue
+                repl_url, repl_ver = _probe_aminet_replacement(url)
+                if not repl_url:
+                    print(f"WARN {pid}: fetch failed ({e})")
+                    hint = _unversioned_sibling(url)
+                    if hint:
+                        print(f"        {hint} is there instead - re-pin by hand "
+                              "(its version can't be read from a listing)")
+                    continue
+                print(f"REPLACED on Aminet: {pid}: {url.rsplit('/',1)[-1]} -> {repl_url.rsplit('/',1)[-1]}")
+                old_name, new_tail = url.rsplit("/", 1)[-1], repl_url.split("aminet.net/", 1)[1]
+                # Mirrors carry the same Aminet path, each in its own layout.
+                arch["mirrors"] = [re.sub(r"(aminet\.net/(?:pub/aminet/)?).*$", lambda mm: mm.group(1) + new_tail, mir)
+                                   if mir.rsplit("/", 1)[-1] == old_name and "aminet.net/" in mir else mir
+                                   for mir in arch.get("mirrors", [])]
+                url = arch["url"] = repl_url
+                newer_ver = repl_ver
+                try:
+                    data = _fetch(url)
+                except Exception as e2:  # noqa: BLE001
+                    print(f"WARN {pid}: replacement fetch failed ({e2})")
+                    continue
             new_sha = hashlib.sha256(data).hexdigest()
             if new_sha == arch.get("sha256"):
                 print(f"ok      {pid} (unchanged)")
