@@ -5,8 +5,8 @@
       "http://us.aminet.net/comm/tcp/MiniFTP.lha",
       "http://se.aminet.net/comm/tcp/MiniFTP.lha"
     ],
-    "sha256": "4e7555581ca01a15a1bef036c8f80daf85a401ac32f0642d6ddf183b87c7d5ea",
-    "sizeBytes": 28032,
+    "sha256": "8be0e4f62565bf927fb4132320af689af6b7f66b5c5b345d4e4573f3ed90332a",
+    "sizeBytes": 33078,
     "url": "http://aminet.net/comm/tcp/MiniFTP.lha"
   },
   "category": "Internet",
@@ -22,5 +22,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "1.4"
+  "version": "1.5"
 }
