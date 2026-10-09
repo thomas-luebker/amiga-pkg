@@ -2,12 +2,12 @@
   "added": "2026-07-24",
   "archive": {
     "mirrors": [
-      "http://us.aminet.net/comm/tcp/curl-8.22.0-DEV-210726.lha",
-      "http://se.aminet.net/comm/tcp/curl-8.22.0-DEV-210726.lha"
+      "http://us.aminet.net/comm/tcp/curl-8.22.0.lha",
+      "http://se.aminet.net/comm/tcp/curl-8.22.0.lha"
     ],
-    "sha256": "95d38d4e6c7a9046147bfc1c88615b95be9fb0b2a62ae42d0b40318802f5232f",
-    "sizeBytes": 4704106,
-    "url": "http://aminet.net/comm/tcp/curl-8.22.0-DEV-210726.lha"
+    "sha256": "5db571a72d4e96663dbf0a41c146f8ca44fef0f3446b248a0d94d0e004f8b34f",
+    "sizeBytes": 4989968,
+    "url": "http://aminet.net/comm/tcp/curl-8.22.0.lha"
   },
   "category": "Internet",
   "conflicts": [],
@@ -22,5 +22,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "8.22-DEV-210726"
+  "version": "8.22.0"
 }

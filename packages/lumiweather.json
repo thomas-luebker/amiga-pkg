@@ -2,9 +2,9 @@
   "added": "2026-07-26",
   "archive": {
     "mirrors": [],
-    "sha256": "70d3169a31fd4826036bbae6c429198d49ac0a10d58b8e04eca94ab73526147f",
-    "sizeBytes": 423821,
-    "url": "https://www.amigaworld.de/software/lumiweather/LumiWeather_1.1.lha"
+    "sha256": "b4c89a8bb2ccc699d036323780ceb399baeb1f2cd19b87930f719db322d6ea2a",
+    "sizeBytes": 473156,
+    "url": "https://www.amigaworld.de/software/lumiweather/LumiWeather.lha"
   },
   "category": "Network",
   "conflicts": [],
@@ -18,7 +18,7 @@
     "drawer-icon-v1"
   ],
   "tier": "A",
-  "version": "1.1",
+  "version": "1.3",
   "recipe": {
     "ops": [
       {

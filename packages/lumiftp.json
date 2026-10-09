@@ -2,12 +2,12 @@
   "added": "2026-07-26",
   "archive": {
     "mirrors": [
-      "http://aminet.net/comm/tcp/LumiFTP_1.1.lha",
-      "http://us.aminet.net/comm/tcp/LumiFTP_1.1.lha"
+      "http://aminet.net/comm/tcp/LumiFTP.lha",
+      "http://us.aminet.net/comm/tcp/LumiFTP.lha"
     ],
-    "sha256": "60907c57f94b0d836803552e207f4c382182039ff31bd2cca11ace5b3cc59b09",
-    "sizeBytes": 330017,
-    "url": "https://www.amigaworld.de/software/lumiftp/LumiFTP_1.1.lha"
+    "sha256": "7729dbd04d368def3e2d64700a486abac24e2035e02f091c14b0185f6cce6075",
+    "sizeBytes": 565189,
+    "url": "https://www.amigaworld.de/software/lumiftp/LumiFTP.lha"
   },
   "category": "Network",
   "conflicts": [],
@@ -19,5 +19,5 @@
   "requiredCapabilities": [],
   "requirements": {},
   "tier": "A",
-  "version": "1.1"
+  "version": "1.2"
 }
