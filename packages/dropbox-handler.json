@@ -5,8 +5,8 @@
       "http://us.aminet.net/comm/net/DropBox-Handler.lha",
       "http://se.aminet.net/comm/net/DropBox-Handler.lha"
     ],
-    "sha256": "5713ccb7a17dcd4129f21d22c0489c2cdabbdda0ae69d2b7a3c459720625016f",
-    "sizeBytes": 138598,
+    "sha256": "13ef562d022d4527f32a982436f60fd6c72e9dd60c84147173f8824e538d2d4b",
+    "sizeBytes": 116548,
     "url": "http://aminet.net/comm/net/DropBox-Handler.lha"
   },
   "category": "Internet",
@@ -27,5 +27,5 @@
     "network": true
   },
   "tier": "A",
-  "version": "1.0"
+  "version": "2.0"
 }

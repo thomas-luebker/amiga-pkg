@@ -2,8 +2,8 @@
   "added": "2026-07-26",
   "archive": {
     "mirrors": [],
-    "sha256": "b4c89a8bb2ccc699d036323780ceb399baeb1f2cd19b87930f719db322d6ea2a",
-    "sizeBytes": 473156,
+    "sha256": "47c590a467a22d5d5193fdcf308dea42d5683cefc5fa84eddbd27b6f340b1d34",
+    "sizeBytes": 477033,
     "url": "https://www.amigaworld.de/software/lumiweather/LumiWeather.lha"
   },
   "category": "Network",
@@ -13,12 +13,6 @@
   "id": "lumiweather",
   "name": "LumiWeather",
   "provides": [],
-  "requiredCapabilities": [
-    "copy-tree-v1",
-    "drawer-icon-v1"
-  ],
-  "tier": "A",
-  "version": "1.3",
   "recipe": {
     "ops": [
       {
@@ -33,5 +27,11 @@
       }
     ],
     "recipeSchema": 1
-  }
+  },
+  "requiredCapabilities": [
+    "copy-tree-v1",
+    "drawer-icon-v1"
+  ],
+  "tier": "A",
+  "version": "1.3"
 }

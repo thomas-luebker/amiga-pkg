@@ -5,8 +5,8 @@
       "http://us.aminet.net/dev/misc/REDPILLGameCreator.lha",
       "http://se.aminet.net/dev/misc/REDPILLGameCreator.lha"
     ],
-    "sha256": "c4b53701318fd1749b2d66114a19247763ae655615ea643428de24dba99a7f7c",
-    "sizeBytes": 9127082,
+    "sha256": "4b35f33ae902e56694c29331a3fa333d2eaef9daec9ebe3403fd7caf68effe75",
+    "sizeBytes": 9130144,
     "url": "http://aminet.net/dev/misc/REDPILLGameCreator.lha"
   },
   "category": "Development",
@@ -21,5 +21,5 @@
     "minKS": "3.0"
   },
   "tier": "A",
-  "version": "0.9.73"
+  "version": "0.9.74"
 }
