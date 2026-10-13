@@ -5,8 +5,8 @@
       "http://us.aminet.net/misc/emu/make.lha",
       "http://se.aminet.net/misc/emu/make.lha"
     ],
-    "sha256": "bbd077259145318d14844cfd5930135d3df3ac14feb0f2fafb7f6c2a0ad45310",
-    "sizeBytes": 236056,
+    "sha256": "f102a8d29c84459c1ca98fe77eb817da4aa6ae6376f7e8eb6a363dbcdfabcb23",
+    "sizeBytes": 236029,
     "url": "http://aminet.net/misc/emu/make.lha"
   },
   "category": "Emulation",
@@ -21,5 +21,5 @@
     "minKS": "2.04"
   },
   "tier": "A",
-  "version": "3.05"
+  "version": "3.06"
 }

@@ -2498,12 +2498,12 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "http://us.aminet.net/game/board/CFish.lha",
-          "http://se.aminet.net/game/board/CFish.lha"
+          "http://us.aminet.net/game/board/CFish_OS4.lha",
+          "http://se.aminet.net/game/board/CFish_OS4.lha"
         ],
-        "sha256" : "40a47de2bd15c92feab84607d1063cc8cbcef5fd3f04a52ff93bd41d1987e7e1",
-        "sizeBytes" : 374425,
-        "url" : "http://aminet.net/game/board/CFish.lha"
+        "sha256" : "b1042b5b11bdc763562eaf03243ee452d4a7f304c0f722b17c5e00110a8284a4",
+        "sizeBytes" : 374625,
+        "url" : "http://aminet.net/game/board/CFish_OS4.lha"
       },
       "category" : "Games",
       "conflicts" : [
@@ -5552,8 +5552,8 @@
           "http://us.aminet.net/misc/emu/make.lha",
           "http://se.aminet.net/misc/emu/make.lha"
         ],
-        "sha256" : "bbd077259145318d14844cfd5930135d3df3ac14feb0f2fafb7f6c2a0ad45310",
-        "sizeBytes" : 236056,
+        "sha256" : "f102a8d29c84459c1ca98fe77eb817da4aa6ae6376f7e8eb6a363dbcdfabcb23",
+        "sizeBytes" : 236029,
         "url" : "http://aminet.net/misc/emu/make.lha"
       },
       "category" : "Emulation",
@@ -5576,7 +5576,7 @@
         "minKS" : "2.04"
       },
       "tier" : "A",
-      "version" : "3.05"
+      "version" : "3.06"
     },
     {
       "added" : "2026-07-27",
