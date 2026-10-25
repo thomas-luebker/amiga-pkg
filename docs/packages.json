@@ -650,12 +650,12 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amelinium/1.4.2/Amelinium.lha",
+          "https://juen.in/repo/amelinium/1.4.3/Amelinium.lha",
           "http://aminet.net/comm/www/Amelinium.lha"
         ],
-        "sha256" : "77563b6ef5fbd2c14bb162b07b48502d3747175601dd95ac9f937ef2409a14df",
-        "sizeBytes" : 40978164,
-        "url" : "http://juen.in/repo/amelinium/1.4.2/Amelinium.lha"
+        "sha256" : "5b0db43a42223ba704408adaa2370a95160fa77ba8eed8ad4b26ead232f29a66",
+        "sizeBytes" : 41269525,
+        "url" : "http://juen.in/repo/amelinium/1.4.3/Amelinium.lha"
       },
       "category" : "Internet",
       "conflicts" : [
@@ -677,7 +677,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "1.4.2"
+      "version" : "1.4.3"
     },
     {
       "added" : "2026-08-09",
@@ -7379,8 +7379,8 @@
           "http://us.aminet.net/dev/misc/REDPILLGameCreator.lha",
           "http://se.aminet.net/dev/misc/REDPILLGameCreator.lha"
         ],
-        "sha256" : "4b35f33ae902e56694c29331a3fa333d2eaef9daec9ebe3403fd7caf68effe75",
-        "sizeBytes" : 9130144,
+        "sha256" : "52060fecfc0d20b7bb983bcd11c6927ee1b5407b95d887f06f16a2f89dc3b78a",
+        "sizeBytes" : 9167573,
         "url" : "http://aminet.net/dev/misc/REDPILLGameCreator.lha"
       },
       "category" : "Development",
@@ -7403,7 +7403,7 @@
         "minKS" : "3.0"
       },
       "tier" : "A",
-      "version" : "0.9.74"
+      "version" : "0.9.75"
     },
     {
       "added" : "2026-07-27",
