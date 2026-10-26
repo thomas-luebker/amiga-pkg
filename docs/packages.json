@@ -650,12 +650,12 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amelinium/1.4.3/Amelinium.lha",
+          "https://juen.in/repo/amelinium/1.5.0/Amelinium.lha",
           "http://aminet.net/comm/www/Amelinium.lha"
         ],
-        "sha256" : "5b0db43a42223ba704408adaa2370a95160fa77ba8eed8ad4b26ead232f29a66",
-        "sizeBytes" : 41269525,
-        "url" : "http://juen.in/repo/amelinium/1.4.3/Amelinium.lha"
+        "sha256" : "750fa0dacc9a194cb8861806261a5455605cc211f68656d56ef213a195e6cb25",
+        "sizeBytes" : 41701508,
+        "url" : "http://juen.in/repo/amelinium/1.5.0/Amelinium.lha"
       },
       "category" : "Internet",
       "conflicts" : [
@@ -677,7 +677,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "1.4.3"
+      "version" : "1.5.0"
     },
     {
       "added" : "2026-08-09",
@@ -4703,8 +4703,8 @@
         "mirrors" : [
 
         ],
-        "sha256" : "428b48959867d02da04d4cb8154d4d15c0ec053d5c5d0e4d437782bb4e136d37",
-        "sizeBytes" : 2212853,
+        "sha256" : "53447816e12ebc2dbf1314462a94c5e889cd4cecf037f54d91762acf386d16b1",
+        "sizeBytes" : 2282965,
         "url" : "http://aminet.net/util/libs/IconLib_46.4.lha"
       },
       "category" : "Libraries",
@@ -4799,7 +4799,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "46.4"
+      "version" : "46.4.604"
     },
     {
       "archive" : {
