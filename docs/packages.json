@@ -650,12 +650,12 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amelinium/1.5.0/Amelinium.lha",
+          "https://juen.in/repo/amelinium/1.5.4/Amelinium.lha",
           "http://aminet.net/comm/www/Amelinium.lha"
         ],
-        "sha256" : "750fa0dacc9a194cb8861806261a5455605cc211f68656d56ef213a195e6cb25",
-        "sizeBytes" : 41701508,
-        "url" : "http://juen.in/repo/amelinium/1.5.0/Amelinium.lha"
+        "sha256" : "5c7064bf23c927912cd079645adffda310a122c47fda47eb421c8b0483c4b356",
+        "sizeBytes" : 42711962,
+        "url" : "http://juen.in/repo/amelinium/1.5.4/Amelinium.lha"
       },
       "category" : "Internet",
       "conflicts" : [
@@ -677,7 +677,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "1.5.0"
+      "version" : "1.5.4"
     },
     {
       "added" : "2026-08-09",
@@ -847,8 +847,8 @@
           "http://us.aminet.net/misc/emu/AmiArcadia.lha",
           "http://se.aminet.net/misc/emu/AmiArcadia.lha"
         ],
-        "sha256" : "33b5eb6dd543e15e9baa40aa931574fa39f8330fc1ff8fac5dcd19124208620f",
-        "sizeBytes" : 10958103,
+        "sha256" : "e57be67ade8ba2b2c65ec098d2d937df89dda0c7ad9e826b04c62362ce464406",
+        "sizeBytes" : 10967204,
         "url" : "http://aminet.net/misc/emu/AmiArcadia.lha"
       },
       "category" : "Emulation",
@@ -872,7 +872,7 @@
         "minKS" : "3.2"
       },
       "tier" : "A",
-      "version" : "36.73"
+      "version" : "36.74"
     },
     {
       "added" : "2026-07-24",
@@ -8767,8 +8767,8 @@
           "http://us.aminet.net/comm/tcp/TelegramAmiga.lha",
           "http://se.aminet.net/comm/tcp/TelegramAmiga.lha"
         ],
-        "sha256" : "a5ebfddf2c360cd4041e6fcc74145b7f09bf74d17ee8e01257bc9815196a0c74",
-        "sizeBytes" : 432873,
+        "sha256" : "32375d6aad6f0cca255b919d1abcb10aa9be5d3adae5e7e4d1d0a8fb4f9e4d6f",
+        "sizeBytes" : 490789,
         "url" : "http://aminet.net/comm/tcp/TelegramAmiga.lha"
       },
       "category" : "Internet",
@@ -8792,7 +8792,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.0.97"
+      "version" : "0.0.98"
     },
     {
       "archive" : {
