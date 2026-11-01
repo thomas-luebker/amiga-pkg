@@ -650,12 +650,12 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amelinium/1.5.4/Amelinium.lha",
+          "https://juen.in/repo/amelinium/1.5.5/Amelinium.lha",
           "http://aminet.net/comm/www/Amelinium.lha"
         ],
-        "sha256" : "5c7064bf23c927912cd079645adffda310a122c47fda47eb421c8b0483c4b356",
-        "sizeBytes" : 42711962,
-        "url" : "http://juen.in/repo/amelinium/1.5.4/Amelinium.lha"
+        "sha256" : "964c688f34a189dae6cf3194420dbaf477710091181b439719c137fbb82aa714",
+        "sizeBytes" : 42965794,
+        "url" : "http://juen.in/repo/amelinium/1.5.5/Amelinium.lha"
       },
       "category" : "Internet",
       "conflicts" : [
@@ -677,7 +677,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "1.5.4"
+      "version" : "1.5.5"
     },
     {
       "added" : "2026-08-09",
@@ -7672,8 +7672,8 @@
           "http://us.aminet.net/util/misc/ReportPlus.lha",
           "http://se.aminet.net/util/misc/ReportPlus.lha"
         ],
-        "sha256" : "3ac05a2004de894a31676c873c7ca1b89199eda0487fd1b728e810bc28d9de1d",
-        "sizeBytes" : 737201,
+        "sha256" : "d9c05019daef0ac489e5ecd69c82a19df1c776119c48bcb0132adf69a8f37274",
+        "sizeBytes" : 740261,
         "url" : "http://aminet.net/util/misc/ReportPlus.lha"
       },
       "category" : "Utilities",
@@ -7696,7 +7696,7 @@
         "minKS" : "3.9"
       },
       "tier" : "A",
-      "version" : "8.71"
+      "version" : "8.72"
     },
     {
       "added" : "2026-07-24",
