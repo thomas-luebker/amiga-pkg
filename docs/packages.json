@@ -650,12 +650,12 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amelinium/1.5.6/Amelinium.lha",
+          "https://juen.in/repo/amelinium/1.5.7/Amelinium.lha",
           "http://aminet.net/comm/www/Amelinium.lha"
         ],
-        "sha256" : "731a46563f2e6e5f6440689ea0e75e64c4da43906168e35fb9c52b9cb5de98b2",
-        "sizeBytes" : 43920190,
-        "url" : "http://juen.in/repo/amelinium/1.5.6/Amelinium.lha"
+        "sha256" : "715e07bee167ad76d1dc544fc6a076a6da32a91eb1a60a1e21938e57c91954b0",
+        "sizeBytes" : 44399812,
+        "url" : "http://juen.in/repo/amelinium/1.5.7/Amelinium.lha"
       },
       "category" : "Internet",
       "conflicts" : [
@@ -677,7 +677,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "1.5.6"
+      "version" : "1.5.7"
     },
     {
       "added" : "2026-08-09",
@@ -8767,8 +8767,8 @@
           "http://us.aminet.net/comm/tcp/TelegramAmiga.lha",
           "http://se.aminet.net/comm/tcp/TelegramAmiga.lha"
         ],
-        "sha256" : "32375d6aad6f0cca255b919d1abcb10aa9be5d3adae5e7e4d1d0a8fb4f9e4d6f",
-        "sizeBytes" : 490789,
+        "sha256" : "cd3ad236b7dd97b77efcab6e5091b4f2587c00f1aa6ee1119daaac441ab83105",
+        "sizeBytes" : 504290,
         "url" : "http://aminet.net/comm/tcp/TelegramAmiga.lha"
       },
       "category" : "Internet",
@@ -8792,7 +8792,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.0.98"
+      "version" : "0.0.99"
     },
     {
       "archive" : {
