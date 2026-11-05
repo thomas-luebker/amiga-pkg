@@ -751,9 +751,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "d893cabeb50e49678f47bbad192a0c921bde0ee410d61ee65b1724b05430fae3",
-        "sizeBytes" : 207778,
-        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.13.2/amiagent-0.13.2.lha"
+        "sha256" : "cd5a36b8beafe2ba6c0808fdd2ee7a0e25021dce3a5647b1645ff3e237748095",
+        "sizeBytes" : 212724,
+        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.14.0/amiagent-0.14.0.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -762,7 +762,7 @@
       "deps" : [
 
       ],
-      "description" : "Remote agent that lets an AI assistant run commands, move files, capture the screen, drive mouse/keyboard, script ARexx, and optionally speak TLS; a local AMIAGENT ARexx port for your own tooling, and from 0.13 it starts from its icon with the token set in the icon's tool types",
+      "description" : "Remote agent that lets an AI assistant run commands, move files, capture the screen, drive mouse/keyboard, script ARexx, and optionally speak TLS; a local AMIAGENT ARexx port for your own tooling, from 0.13 it starts from its icon with the token set in the icon's tool types, and from 0.14 it can image a disk over the network (read-only)",
       "id" : "amiagent",
       "name" : "amiagent",
       "provides" : [
@@ -838,7 +838,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.13.2"
+      "version" : "0.14.0"
     },
     {
       "added" : "2026-07-24",
