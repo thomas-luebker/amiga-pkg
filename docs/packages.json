@@ -650,12 +650,12 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amelinium/1.5.9/Amelinium.lha",
+          "https://juen.in/repo/amelinium/1.6.1/Amelinium.lha",
           "http://aminet.net/comm/www/Amelinium.lha"
         ],
-        "sha256" : "ca3a57a4edb772dd34a5aef99f43d33b7aab9fd7fcd9c4f9445f047e7ffd8f4c",
-        "sizeBytes" : 45210902,
-        "url" : "http://juen.in/repo/amelinium/1.5.9/Amelinium.lha"
+        "sha256" : "64ab8c52a02a4b01d3210c2856f6b9395f758cfe9ca03dbb4cf8e2a4f376bb45",
+        "sizeBytes" : 45920283,
+        "url" : "http://juen.in/repo/amelinium/1.6.1/Amelinium.lha"
       },
       "category" : "Internet",
       "conflicts" : [
@@ -677,7 +677,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "1.5.9"
+      "version" : "1.6.1"
     },
     {
       "added" : "2026-08-09",
@@ -3205,8 +3205,8 @@
           "http://us.aminet.net/game/strat/DuneLegacy_RTG.lha",
           "http://se.aminet.net/game/strat/DuneLegacy_RTG.lha"
         ],
-        "sha256" : "407d1e44fba989efd50a10ba425ca5941d8050cd5cfcadaeac68eefc15b0d2cb",
-        "sizeBytes" : 14729000,
+        "sha256" : "98409628e018f1cf92a1d3b1886bb2e3fd22f2044dc6306a9766826628dab87b",
+        "sizeBytes" : 14758854,
         "url" : "http://aminet.net/game/strat/DuneLegacy_RTG.lha"
       },
       "category" : "Games",
@@ -3226,7 +3226,7 @@
 
       ],
       "tier" : "A",
-      "version" : "0.96.4.09"
+      "version" : "0.96.4.10"
     },
     {
       "added" : "2026-07-24",
