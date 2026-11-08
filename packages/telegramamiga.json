@@ -2,12 +2,12 @@
   "added": "2026-07-24",
   "archive": {
     "mirrors": [
-      "http://us.aminet.net/comm/tcp/TelegramAmiga.lha",
-      "http://se.aminet.net/comm/tcp/TelegramAmiga.lha"
+      "http://us.aminet.net/comm/tcp/TelegramAmiga-68000.lha",
+      "http://se.aminet.net/comm/tcp/TelegramAmiga-68000.lha"
     ],
-    "sha256": "cd3ad236b7dd97b77efcab6e5091b4f2587c00f1aa6ee1119daaac441ab83105",
-    "sizeBytes": 504290,
-    "url": "http://aminet.net/comm/tcp/TelegramAmiga.lha"
+    "sha256": "8d8bfde76f5efb1dd93cb21293b08f1b411927cdf3eb20ee752acbb83cab67b9",
+    "sizeBytes": 304231,
+    "url": "http://aminet.net/comm/tcp/TelegramAmiga-68000.lha"
   },
   "category": "Internet",
   "conflicts": [],
