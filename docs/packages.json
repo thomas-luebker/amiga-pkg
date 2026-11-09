@@ -751,9 +751,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "cd5a36b8beafe2ba6c0808fdd2ee7a0e25021dce3a5647b1645ff3e237748095",
-        "sizeBytes" : 212724,
-        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.14.0/amiagent-0.14.0.lha"
+        "sha256" : "b6df9217060f0844f36c915c4a42241e102b87d771ae3d61414fdee5be22d7c6",
+        "sizeBytes" : 214279,
+        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.15.0/amiagent-0.15.0.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -838,7 +838,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.14.0"
+      "version" : "0.15.0"
     },
     {
       "added" : "2026-07-24",
@@ -7379,8 +7379,8 @@
           "http://us.aminet.net/dev/misc/REDPILLGameCreator.lha",
           "http://se.aminet.net/dev/misc/REDPILLGameCreator.lha"
         ],
-        "sha256" : "52060fecfc0d20b7bb983bcd11c6927ee1b5407b95d887f06f16a2f89dc3b78a",
-        "sizeBytes" : 9167573,
+        "sha256" : "123ef4a317a0b6a5c794f02e1fa692eb272048fa11165328803625e601199313",
+        "sizeBytes" : 12702320,
         "url" : "http://aminet.net/dev/misc/REDPILLGameCreator.lha"
       },
       "category" : "Development",
@@ -7403,7 +7403,7 @@
         "minKS" : "3.0"
       },
       "tier" : "A",
-      "version" : "0.9.75"
+      "version" : "0.9.76"
     },
     {
       "added" : "2026-07-27",
