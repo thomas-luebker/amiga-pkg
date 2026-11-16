@@ -2,12 +2,12 @@
   "added": "2026-07-27",
   "archive": {
     "mirrors": [
-      "http://us.aminet.net/disk/misc/fat95.v20261007.lha",
-      "http://se.aminet.net/disk/misc/fat95.v20261007.lha"
+      "http://us.aminet.net/disk/misc/fat95.v20261115.lha",
+      "http://se.aminet.net/disk/misc/fat95.v20261115.lha"
     ],
-    "sha256": "606604c1d772660ba22a19e4ebeb7dda3595ebfc3cc4fcb9078aae82f8ef6084",
-    "sizeBytes": 336002,
-    "url": "http://aminet.net/disk/misc/fat95.v20261007.lha"
+    "sha256": "0493cea074caccda415716ff0035fad06ee88a86e61a1e48419f89afed36e758",
+    "sizeBytes": 341663,
+    "url": "http://aminet.net/disk/misc/fat95.v20261115.lha"
   },
   "category": "System",
   "conflicts": [],
@@ -21,5 +21,5 @@
     "minKS": "2.04"
   },
   "tier": "A",
-  "version": "20261007"
+  "version": "20261115"
 }
