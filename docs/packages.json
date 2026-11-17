@@ -650,12 +650,12 @@
       "added" : "2026-07-24",
       "archive" : {
         "mirrors" : [
-          "https://juen.in/repo/amelinium/1.7.5/Amelinium.lha",
+          "https://juen.in/repo/amelinium/1.7.6/Amelinium.lha",
           "http://aminet.net/comm/www/Amelinium.lha"
         ],
-        "sha256" : "61446c2c78399abbe837a798fb82466333b220db0c31b83586a0e4df2edfb19d",
-        "sizeBytes" : 49268468,
-        "url" : "http://juen.in/repo/amelinium/1.7.5/Amelinium.lha"
+        "sha256" : "8cf73d572a8abef1e86100c2ed17e06ee39cde974b6f0a0eff21149971c327ee",
+        "sizeBytes" : 49348397,
+        "url" : "http://juen.in/repo/amelinium/1.7.6/Amelinium.lha"
       },
       "category" : "Internet",
       "conflicts" : [
@@ -677,7 +677,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "1.7.5"
+      "version" : "1.7.6"
     },
     {
       "added" : "2026-08-09",
