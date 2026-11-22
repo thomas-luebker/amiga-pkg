@@ -1,8 +1,8 @@
 {
   "archive": {
     "mirrors": [],
-    "sha256": "53447816e12ebc2dbf1314462a94c5e889cd4cecf037f54d91762acf386d16b1",
-    "sizeBytes": 2282965,
+    "sha256": "dcddb440a59ca41c6ca5f573ad83e968231b2e052697700f5a1798763b8c0baf",
+    "sizeBytes": 2318240,
     "url": "http://aminet.net/util/libs/IconLib_46.4.lha"
   },
   "category": "Libraries",
@@ -89,5 +89,5 @@
     "strip-junk-v1"
   ],
   "tier": "A",
-  "version": "46.4.604"
+  "version": "46.4.605"
 }

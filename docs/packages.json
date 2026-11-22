@@ -751,9 +751,9 @@
         "mirrors" : [
 
         ],
-        "sha256" : "b6df9217060f0844f36c915c4a42241e102b87d771ae3d61414fdee5be22d7c6",
-        "sizeBytes" : 214279,
-        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.15.0/amiagent-0.15.0.lha"
+        "sha256" : "bb6c891b25c6d2e14a55b2246af90712723b23afb3f84702a468100f1fb582c5",
+        "sizeBytes" : 217183,
+        "url" : "https://github.com/thomas-luebker/amimcp/releases/download/v0.16.0/amiagent-0.16.0.lha"
       },
       "category" : "Utilities",
       "conflicts" : [
@@ -762,7 +762,7 @@
       "deps" : [
 
       ],
-      "description" : "Remote agent that lets an AI assistant run commands, move files, capture the screen, drive mouse/keyboard, script ARexx, and optionally speak TLS; a local AMIAGENT ARexx port for your own tooling, from 0.13 it starts from its icon with the token set in the icon's tool types, and from 0.14 it can image a disk over the network (read-only)",
+      "description" : "Remote agent that lets an AI assistant run commands, move files, capture the screen, drive mouse/keyboard, script ARexx, and optionally speak TLS; a local AMIAGENT ARexx port for your own tooling, from 0.13 it starts from its icon with the token set in the icon's tool types, and from 0.14 it can image a disk over the network (read-only), and from 0.16 it takes uploads of any size in checksummed pieces",
       "id" : "amiagent",
       "name" : "amiagent",
       "provides" : [
@@ -838,7 +838,7 @@
         "network" : true
       },
       "tier" : "A",
-      "version" : "0.15.0"
+      "version" : "0.16.0"
     },
     {
       "added" : "2026-07-24",
@@ -4703,8 +4703,8 @@
         "mirrors" : [
 
         ],
-        "sha256" : "53447816e12ebc2dbf1314462a94c5e889cd4cecf037f54d91762acf386d16b1",
-        "sizeBytes" : 2282965,
+        "sha256" : "dcddb440a59ca41c6ca5f573ad83e968231b2e052697700f5a1798763b8c0baf",
+        "sizeBytes" : 2318240,
         "url" : "http://aminet.net/util/libs/IconLib_46.4.lha"
       },
       "category" : "Libraries",
@@ -4799,7 +4799,7 @@
         "strip-junk-v1"
       ],
       "tier" : "A",
-      "version" : "46.4.604"
+      "version" : "46.4.605"
     },
     {
       "archive" : {
