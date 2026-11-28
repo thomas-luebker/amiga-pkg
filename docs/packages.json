@@ -2471,8 +2471,8 @@
           "http://us.aminet.net/util/shell/ltx-ccon.lha",
           "http://se.aminet.net/util/shell/ltx-ccon.lha"
         ],
-        "sha256" : "dcd5da6e31f7c5e6d1cf1148e12605e2d3d289a2eac10d5c363d3c74d3eab0e4",
-        "sizeBytes" : 104063,
+        "sha256" : "80b4e85dc6d5c0aa54669c5f5b2a6a9db53d85348eb5771d5ea8e52915b5823a",
+        "sizeBytes" : 104190,
         "url" : "http://aminet.net/util/shell/ltx-ccon.lha"
       },
       "category" : "Utilities",
@@ -2492,7 +2492,7 @@
 
       ],
       "tier" : "A",
-      "version" : "1.3.1"
+      "version" : "1.3.2"
     },
     {
       "added" : "2026-07-24",
@@ -3538,12 +3538,12 @@
       "added" : "2026-07-27",
       "archive" : {
         "mirrors" : [
-          "http://us.aminet.net/disk/misc/fat95.v20261115.lha",
-          "http://se.aminet.net/disk/misc/fat95.v20261115.lha"
+          "http://us.aminet.net/disk/misc/fat95.v20261127.lha",
+          "http://se.aminet.net/disk/misc/fat95.v20261127.lha"
         ],
-        "sha256" : "0493cea074caccda415716ff0035fad06ee88a86e61a1e48419f89afed36e758",
-        "sizeBytes" : 341663,
-        "url" : "http://aminet.net/disk/misc/fat95.v20261115.lha"
+        "sha256" : "6a4ff3d0f49709f1e9a9b07059add87ca58e43cd2df6adbdc698c1edf0b07306",
+        "sizeBytes" : 368300,
+        "url" : "http://aminet.net/disk/misc/fat95.v20261127.lha"
       },
       "category" : "System",
       "conflicts" : [
@@ -3565,7 +3565,7 @@
         "minKS" : "2.04"
       },
       "tier" : "A",
-      "version" : "20261115"
+      "version" : "20261127"
     },
     {
       "added" : "2026-07-27",
